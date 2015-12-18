@@ -1,244 +1,112 @@
-# ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
-#
-#      _____ _ __          _____      __  __  _
-#     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
-#     \__ \/ / __/ _ \    \__ \/ _ \/ __/ __/ / __ \/ __ `/ ___/
-#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  )
-#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/
-#                                                 /____/
-#
-# Title of your website
-title: "Feeling Responsive"
+### GENERAL SETTINGS ###
 
+# Site settings
+title:
+description: "Shotcut is a free, open source, cross-platform video editor for Windows, Mac and Linux"
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "http://yourdomain.com"
 
-# The slogan describes your website and is used on homepage in <title> and other important places
-slogan: "A Flexible Theme for Jekyll"
-
-
-# The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette."
-
-# Main author of the website
-# See > authors.yml
-author: phlow
-
-# This URL is the main address for absolute links. Don't include a slash at the end.
-#
-url: 'http://videomi.github.io/shotcut_web/'
-baseurl: ''
-
-# This is for the editing function in _/includes/improve_content
-# Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/videomi/shotcut_web/edit/gh-pages
-
-# This URL points directly to the images directory making
-# things easier to link to images in posts and templates. It needs a slash at the end.
-#
-# Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
-# Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
-#
-urlimg: 'https://videomi.github.io/shotcut_web/images/'
-
-
-# Logo size is 600x80 pixels
-logo: "logo.png"
-
-
-#       ____              _             __  _
-#      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____
-#     / /_/ / __ `/ __ `/ / __ \/ __ `/ __/ / __ \/ __ \
-#    / ____/ /_/ / /_/ / / / / / /_/ / /_/ / /_/ / / / /
-#   /_/    \__,_/\__, /_/_/ /_/\__,_/\__/_/\____/_/ /_/
-#               /____/
-#
-gems: [jekyll-paginate]
-paginate: 5                      # Paginates all X entries
-paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
-
-
-
-
-# Theme works best with Kramdown (using the table of contents function)
+# Build settings
 markdown: kramdown
-permalink: /:categories/:title/
-highlight: rouge
-excerpt_separator: "<!--more-->"
-include: ['.htaccess']
-# Exclude these files from your production _site
-exclude:
-    - .sass-cache
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
-    - INSTALL.md
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#19667f" #original color "#00b3fe" #"#F70031" shotcut teal #"#1c7a99" #"#1c7a99"
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  secondary: "#091F31" #"#33004D"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+  
+  
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: dribbble
+    url:
+  - title: facebook
+    url:
+  - title: twitter
+    url: 
+  - title: instagram
+    url: 
+  - title: tumblr
+    url: 
+    
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines: 
+    - Adress,
+    - City, State, Zip
+    - United States
+email: dan@dennedy.org
+tel: (000) 000-0000
 
 
-# The language setting is used in /includes/header.html for html-settings
-language: "en"
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+    
+# Members information. Shown on About page.
+members:
+  - name: Dan Dennedy
+    position: Lead Developer
+    text: Bio or Description Here
+    img: team01.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Paul Jameson
+    position: Lead Designer
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team02.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Laura Sommers
+    position: Lead Developer
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team03.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Martin Blunt
+    position: Marketing
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+    
+# Clients information. Shown on Home and About pages.
+clients:
+  - name: dribbble
+    img: client01.png
+  - name: Code is Poetry
+    img: client02.png
+  - name: Vimeo
+    img: client03.png
+  - name: VimeoPro
+    img: client04.png
+    
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "Shotcut is a free, open source, cross-platform video editor for Windows, Mac and Linux. Major features include support for a wide range of formats; no import required meaning native timeline editing; Blackmagic Design support for input and preview monitoring; and resolution support to 4k."
 
+#Short text on homepage describing available tutorials.
+tutorials: Test
 
-# Used › default.html front-matter and compress.html
-# Options › http://jch.penibelst.de
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  profile: false
-  ignore:
-    envs: [development]
-
-
-#
-#       ____       ____            ____
-#      / __ \___  / __/___ ___  __/ / /_
-#     / / / / _ \/ /_/ __ `/ / / / / __/
-#    / /_/ /  __/ __/ /_/ / /_/ / / /_
-#   /_____/\___/_/  \__,_/\__,_/_/\__/
-#
-# Default Settings
-
-defaults:
-  -
-    scope:
-      path: "" 				# an empty string here means all files in the project
-      type: "pages"
-    values:
-      show_meta: false 	# Hide metadata for all pages
-      # sidebar:    		# Possible values › left, right › by default there will be no sidebar
-      comments: false
-      author: phlow     # Default author for pages
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      show_meta: true   # Show metadata for all posts
-      # sidebar:        # Possible values › left, right › by default there will be no sidebar
-      comments: false
-      author: phlow     # Default author for posts
-
-
-
-#       _   __            _             __  _
-#      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
-#     /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
-#    / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
-#   /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/
-#                       /____/
-#
-#  Open _data/navigation.yml to adjust the left and right topbar navigation
-#
-
-
-
-#     _____ __________
-#    / ___// ____/ __ \
-#    \__ \/ __/ / / / /
-#   ___/ / /___/ /_/ /
-#  /____/_____/\____/    Verify Website to Webmaster Tools
-
-google_author:             "https://plus.google.com/u/0/118311555303973066167"
-google_site_verification:  "Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ"
-bing_webmastertools_id:    "0FB4C028ABCF07C908C54386ABD2D97F"
-# alexa_verify_id:         ""
-
-
-
-#       ______            _
-#      / ____/___ __   __(_)________  ____  _____
-#     / /_  / __ `/ | / / / ___/ __ \/ __ \/ ___/
-#    / __/ / /_/ /| |/ / / /__/ /_/ / / / (__  )
-#   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
-#                                                 More information » https://mathiasbynens.be/notes/touch-icons
-
-favicon-32x32:                          "favicon-32x32.png"
-touch-icon-192x192:                     "touch-icon-192x192.png"
-apple-touch-icon-180x180-precomposed:   "apple-touch-icon-180x180-precomposed.png"
-apple-touch-icon-152x152-precomposed:   "apple-touch-icon-152x152-precomposed.png"
-apple-touch-icon-144x144-precomposed:   "apple-touch-icon-144x144-precomposed.png"
-apple-touch-icon-120x120-precomposed:   "apple-touch-icon-120x120-precomposed.png"
-apple-touch-icon-114x114-precomposed:   "apple-touch-icon-114x114-precomposed.png"
-apple-touch-icon-76x76-precomposed:     "apple-touch-icon-76x76-precomposed.png"
-apple-touch-icon-72x72-precomposed:     "apple-touch-icon-72x72-precomposed.png"
-apple-touch-icon-precomposed:           "apple-touch-icon-precomposed.png"
-msapplication_tileimage:                "msapplication_tileimage.png"               # Size 144x144
-msapplication_tilecolor:                "#fabb00"
-
-
-#       ______                __                __
-#      / ____/___ _________  / /_  ____  ____  / /__
-#     / /_  / __ `/ ___/ _ \/ __ \/ __ \/ __ \/ //_/
-#    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
-#   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
-
-og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
-og_locale:                          "en_EN"
-og_type:                            "website"
-og_title:                           "Feeling Responsive – A Responsive Theme for Jekyll"
-og_description:                     "Feeling Responsive is built on the fabulous Foundation Framework and comes with lots of features to show your content right."
-# og_url:                           ""
-# og_site_name:                     ""
-
-
-#      _____            _       __   __  ___         ___
-#     / ___/____  _____(_)___ _/ /  /  |/  /__  ____/ (_)___ _
-#     \__ \/ __ \/ ___/ / __ `/ /  / /|_/ / _ \/ __  / / __ `/
-#    ___/ / /_/ / /__/ / /_/ / /  / /  / /  __/ /_/ / / /_/ /
-#   /____/\____/\___/_/\__,_/_/  /_/  /_/\___/\__,_/_/\__,_/
-#
-#  Open _data/socialmedia.yml to adjust the left and right topbar navigation
-#
-
-
-#        ____  _
-#       / __ \(_)________ ___  _______
-#      / / / / / ___/ __ `/ / / / ___/
-#     / /_/ / (__  ) /_/ / /_/ (__  )
-#    /_____/_/____/\__, /\__,_/____/
-#                    /_/
-#
-# used in _includes/comments
-
-disqus_shortname: feelingresponsive
-
-
-#      _____
-#     / ___/____ ___________
-#     \__ \/ __ `/ ___/ ___/
-#    ___/ / /_/ (__  |__  )     More › http://sass-lang.com/
-#   /____/\__,_/____/____/      More › http://jekyllrb.com/docs/assets/#sassscss
-#
-
-sass:
-    sass_dir: _sass
-    style: :compressed
-
-
-#       ___                __      __  _
-#      /   |  ____  ____ _/ /_  __/ /_(_)_________
-#     / /| | / __ \/ __ `/ / / / / __/ / ___/ ___/
-#    / ___ |/ / / / /_/ / / /_/ / /_/ / /__(__  )
-#   /_/  |_/_/ /_/\__,_/_/\__, /\__/_/\___/____/      https://www.google.com/analytics/
-#                        /____/
-#
-# used in _includes/footer_scripts
-
-google_analytics_tracking_id: UA-60112281-1
-
-
-
-#   _                 _     _
-#  | |_ __ ___      _| | __| |_ ___
-#  | __/ _` \ \ /\ / / |/ /| __/ _ \
-#  | || (_| |\ V  V /|   < | || (_) |
-#   \__\__,_| \_/\_/ |_|\_(_)__\___/     More › https://www.tawk.to/knowledgebase/
-#
-#  tawk.to is a free live chat app that lets you monitor and chat
-#  with visitors on your website or from a free customizable page
-#
-#  To load the script add tawkto: true in front matter of each page
-#
-# used in _includes/footer_scripts
-
-# tawkto_embed_uri:
+# Testimonial content. Shown on Home and About page. 
+testimonial:
+    message: "Shotcut was conceived in November, 2004 by Charlie Yates, an MLT co-founder and the original lead developer (see the original website here). The current version of Shotcut is a complete rewrite by Dan Dennedy, another MLT co-founder and its current lead. Dan wanted to create a new editor based on MLT and he chose to reuse the Shotcut name since he liked it so much. The current Shotcut originated from the MLT BuildOnMe project created in January, 2011, which was an example project of how to use MLT in a cross-platform Qt 4 project. Later Dan sought to replace the aging Melted GTK+ client, Rugen, with a cross-platform version and needed an app to test the cross-platform compatibility of new MLT features such as WebVfx and Movit, which led him to fork BuildOnMe and start Shotcut."
+    author: Dan Dennedy
+    position: Lead Developer - Shotcut & MLT

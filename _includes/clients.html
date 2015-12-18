@@ -1,0 +1,13 @@
+<div id="cwrap">
+    <div class="container">
+        <div class="row centered">
+            <h3 style="margin-bottom: .5em;">Some of the Software Projects used in Shotcut</h3>
+            <div class="hline" style="margin-bottom: 2em;"></div>
+            {% for client in site.clients %}
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <img src="{{ "/assets/img/clients/" | prepend: site.baseurl }}{{ client.img }}" class="img-responsive">
+                </div>
+            {% endfor %}
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/cwrap -->
