@@ -1,0 +1,431 @@
+---
+layout: question
+title: Frequently Asked Questions
+permalink: /FAQ/
+---
+
+&lt;script type="text/javascript"&gt; &lt;/script&gt; &lt;script
+type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show\_ads.js"&gt;
+&lt;/script&gt;
+
+Why does it crash on Windows upon launch?
+-----------------------------------------
+
+(The conflict with the Jahshaka application was fixed in version
+14.10.03.)
+
+One Windows 8.1 one user reported he needed to change the following in
+the Compatibility tab of the Properties for the Shotcut icon/exe: Run in
+compatibility mode for "Windows XP (Service Pack 2)", and "Run this
+program as administrator." However, not every one needs to do that, and
+we are not sure why he needed it.
+
+While some systems have a video adapter driver with at least version 2.1
+OpenGL, there may be some incompatibility between the OpenGL code in
+Shotcut or Qt and the driver that causes a crash. There is really no fix
+for that even though we do make some checks and try to show an error
+message. You can try to upgrade to the latest driver for your hardware,
+but if you use Windows Update, then you probably already have the
+latest. Sometimes, the chip maker (e.g. Intel, AMD, NVIDIA) has a newer
+driver that is not yet Microsoft certified. That might work. The Shotcut
+developers have made decisions about technologies to use that make
+cross-platform development and delivery easier and that also provides a
+nice user experience on recent or compatible hardware/drivers. However,
+that may not provide the most compatiblity. Quite simply, we do not
+target the lowest common denominator. As of version 15.09, Shotcut for
+Windows can also use DirectX when GPU processing is not enabled.
+
+Of course, there can still be other reasons we have not yet discovered.
+If you believe none of the reasons above applies to you, then you can
+locate your shotcut-log.txt file in AppData (see other question below
+for more information) and paste it into a [bug
+report](https://github.com/mltframework/shotcut/issues).
+
+I have trimmed my video and/or created my project, now how do I save or share it?
+---------------------------------------------------------------------------------
+
+If you just want to save your changes to re-open it later in Shotcut,
+you can save your project as a MLT XML file by clicking **Save** on the
+toolbar at the top of the window. If you want to upload the video to a
+web site or somehow share the result with someone as separate video
+file, then click **Encode** on the toolbar, which opens or raises the
+Encode panel. In the Encode panel, there are 3 basic steps:
+
+1 choose and click a **Preset**, 1 click **Reload** to load the current
+video settings, and 1 click **Encode File** at the bottom of the panel.
+If you have made a playlist **Encode** uses the **Playlist** unless you
+have put something into the **Timeline**, in which case, it uses the
+timeline. Otherwise, it will encode the clip or live source (stream,
+device, screen, etc.).
+
+Which Encode preset should I use?
+---------------------------------
+
+It all depends; that is why there are so many of them! But here are some
+suggestions:
+
+-   Upload to a video-sharing web site: H.264 Main Profile
+-   Extract the audio: Ogg Vorbis or MP3
+-   Save to an intermediate file to use with another tool: DNxHD or
+    lossless/ProRes - really depends on what the other tool accepts
+-   Put onto my own web site: WebM and/or H.264 Main Profile
+-   Screen recording (Linux only): lossless/MJPEG
+-   Capture from SDI/HDMI: lossless/ProRes if your system can handle it,
+    otherwise lossless/MPEG-2
+
+How do I add text? Is there a titler?
+-------------------------------------
+
+You must apply a filter to your clip or track. There are 3 suitable
+filters at this time: **3D Text**, **Overlay HTML**, and **Text**. If
+you just want to use a simple background, you can use an image file, or
+to use a solid color choose **File &gt; Open Other &gt; Color**.
+
+See the [video tutorial](TutorialVideos) for more information about the
+Overlay HTML filter. Shotcut includes a simply WYSIWYG (i.e. visual)
+HTML editor accessible through the **Edit** button on this filter's
+control panel.
+
+You can also create text with an external program as an image with an
+alpha channel and composite it. To composite, you add a video track to
+the Timeline to use as a layer. Make sure the **C** button in the new
+track's header is "on" to enable compositing. Finally, you open an
+image, set its Properties to adjust duration or enable an image
+sequence, add it to the new video track, and further adjust its position
+and duration as-needed. You might also want to apply the **Size &
+Position** filter to the image clip. The image file formats that support
+an alpha channel are PNG, SVG, and TGA. You can also use Quicktime
+Animation format. There are many tools that can create images with alpha
+channels for this purpose. Some of them include GIMP, Inkscape, Krita,
+Paint.NET, Photoshop, etc. For animation, consider Blender and Synfig.
+
+Why is seeking so slow?
+-----------------------
+
+Some formats and compression methods simply make it take longer. In the
+**Settings** menu set **Interpolation** to **Nearest Neighbor**. This
+setting not only affects the quality of image scaling but also the
+accuracy of seeking. Please be aware that this setting may cause seeking
+to become less accurate resulting in some frames repeating when stepping
+frame-by-frame backwards or the first several frames in the forward
+direction immediately after a seek.
+
+Why is stepping frame-by-frame repeating the same frame?
+--------------------------------------------------------
+
+In the **Settings** menu set **Interpolation** to something other than
+**Nearest Neighbor** - **Bilinear** is recommended. When the
+interpolation level is set to nearest neighbor it relaxes the accuracy
+of seeking to make the responsiveness of the video player faster.
+
+Are there keyboard shortcuts for editing?
+-----------------------------------------
+
+&lt;span style="background-color: transparent;"&gt;There is now a [page
+wih all of the keyboard shortcuts](KeyboardShortcuts).&lt;br /&gt;These
+shortcuts are available without holding Ctrl, Alt, or Command (OS X)
+unless otherwise noted:&lt;/span&gt;
+
+-   **i** and **o** set the in and out points respectively (when a clip
+    is open in the player)
+-   **Esc** switches the player between the player between the
+    source (clip) and program (playlist or timeline) views
+
+**Playlist**
+
+-   **Shift+X**, **del** or **backspace** removes the selected item
+-   **Shift+C** appends a clip to the playlist
+-   **Shit+V** inserts a clip before the selected playlist item; appends
+    if no item is selected
+-   **Shift+B** updates the selected item with the clip in the player
+-   **Enter** opens the playlist in the player and seeks to the selected
+    cut
+-   **Up** and D**own** changes the current/selected item
+-   **Ctrl+Up** and **Ctrl+Down** moves the selected item up or down
+-   **1** through **0** selects the Nth item ( **0** is ten)
+
+**Timeline**
+
+-   **z**, **Del** or **Backspace** *lifts* the selected shot from the
+    timeline without affecting the positions of the other shots on the
+    track
+-   **x**, **Shift+Del** or **Shift+Backspace** removes the selected
+    shot in a ripple fashion such that following shots on the track
+    shift to the left
+-   **c** appends a clip to the current track
+-   **v** &lt;span style="background-color: transparent;"&gt; inserts a
+    clip at the playhead position on the current track, splitting the
+    shot under the playhead if necessary, and acts in a ripple fashion
+    shifting all shots following the play head to shift to the
+    right&lt;/span&gt;
+-   **b** &lt;span style="background-color: transparent;"&gt;
+    over-writes on the current track with the clip in the player without
+    affecting the positions of any shots following the duration of the
+    clip&lt;/span&gt;
+-   **Up** &lt;span style="background-color: transparent;"&gt; and
+    &lt;/span&gt; **Down** &lt;span style="background-color:
+    transparent;"&gt; changes the current track&lt;/span&gt;
+-   **0, -, =**&lt;span style="background-color:
+    transparent;"&gt;adjusts the zoom level of the timeline (0 resets to
+    default, center position on slider; = zooms in and is the same key
+    as + without needing to press shift)&lt;/span&gt;
+
+Just like j, k, and l for playback transport control, the bare i, o, x,
+v, b are very common shortcuts use by other professional video editing
+software from Apple, Avid, Lightworks, and others.
+
+P.S. While it is rather obvious to use cursor left and right keys for
+single frame stepping, there is another technique so you do not have to
+remove your fingers from the JKL: while holding down K, tap J to step
+left or tap L to step right.
+
+The keyboard shortcuts do not seem to be working.
+-------------------------------------------------
+
+Sometimes the keyboard "focus" might be captured by something in the GUI
+causing the shortcuts to not function. In that case, click the video
+preview region to return focus to the player. The timeline zoom
+shortcuts require that the timeline window has focus.
+
+Shotcut will not start on Linux...
+----------------------------------
+
+Some file managers do not like the launcher icon provided with the
+binary download from this site. The launcher icon was tested
+successfully on GNOME Nautilus and KDE Dolphin. 1 open a
+terminal/console window 1 cd to the location where you have extracted
+Shotcut 1 enter `Shotcut.app/shotcut` &lt;br /&gt;Please do not try to
+run bin/shotcut; always use the wrapper script in the Shotcut.app
+folder! If it still does not start, then it should report that some
+libraries could not be loaded.
+
+What are the minimum system requirements?
+-----------------------------------------
+
+Operating system: 64-bit Windows 7 - 10, Apple OS X 10.8 - 10.10, or
+64-bit Linux with at least glibc 2.13.
+
+CPU: x86-64 Intel or AMD; at least one 2 GHz core for SD, 2 cores for
+HD, and 4 cores for 4K.
+
+GPU: OpenGL 2.0 that works correctly and is compatible. On Windows, you
+can also use a card with good, compatible DirectX 9 or 11 drivers. We do
+not have a list.
+
+RAM: At least 4 GB for SD, 8 GB for HD, and 16 GB for 4K.
+
+Hard drive: yes, get one; the bigger, the better :-)
+
+Network: Shotcut does NOT require access to the network to activate,
+check a subscription, or send usage analytics. However, some links in
+the Help menu do link out to this web site. If you have files on a fast
+(at least 1 Gb/s) network share you can access them from there through
+your operating system.
+
+All I see is white or green instead of video, and I know there is video in this file....
+----------------------------------------------------------------------------------------
+
+First, use **Properties** to see if the **Video** tab is disabled. If it
+is disabled, then Shotcut is not compatible with this format or codec.
+If the video tab is enabled, more than likely OpenGL (or also DirectX on
+Windows) is not working on your system, or it is too old. First, make
+sure **GPU Processing** is disabled in **Settings**. GPU processing
+requires OpenGL version 3.2. When it is disabled, you only need OpenGL
+version 2.0 (or also DirectX on Windows). If you are on Windows, after
+ensuring GPU processing is disabled, try forcing the usage of DirectX by
+choosing **Settings &gt; Display Method &gt; DirectX (ANGLE)**.
+
+Can I have multiple versions installed at the same time?
+--------------------------------------------------------
+
+Yes. Simply rename your existing program folder to put the version
+number in it or move it out-of-the-way to another location. You see, on
+Windows, the installer is mostly just a fancy zip extractor that also
+adds a start menu item. So, you can install the new version to a
+different location, or rename the existing folder to prevent it from
+being overwritten. Then, you can just navigate to whichever program
+folder you want in Explorer and run shotcut.exe. On Mac OS X, you do not
+need to copy Shotcut to the /Applications folder - that is merely a
+suggestion. Simply drag Shotcut out of the .dmg to wherever you like and
+rename the app bundle to put the version number into it. Or, rename the
+existing version to move it out of the way before copying Shotcut from
+the .dmg. The same concepts apply to Linux, where Shotcut is simply
+delivered as a compressed tar archive. However, on Linux, it is
+important to understand that the launch icon always looks in
+Shotcut.app; so, either version the folder containing the launch icon or
+have multiple, versioned Shotcot.app folders and run the launch *script*
+that is inside of it.
+
+How do I cut or trim a clip without encoding or transcoding it?
+---------------------------------------------------------------
+
+This is not supported, and there are currently no plans to support it.
+We recommend that you use VirtualDub or Avidemux for that.
+
+Why do I not have the *\_\_* filter?
+------------------------------------
+
+-   By design, we do not make all LADSPA and frei0r filters available
+    through the UI. We do not want to present a confusing generic
+    interface to all available plugins and overwhelm users with so many,
+    often redundant, options. Also, the Shotcut team wants to better
+    understand the filters we are providing and ensure each one is
+    operating as intended with MLT. If you are manually authoring XML,
+    then you can add any filter you want.
+-   Sometimes a MLT plugin may fail to load due to a missing or
+    incompatible library. Shotcut downloads provide all dependencies for
+    Windows and OS X, but it may rely upon some libraries provided by
+    distribution packages on Linux.
+
+Shotcut for *Windows* crashes when GPU Processing is enabled.
+-------------------------------------------------------------
+
+If your system is using a hybrid GPU such as NVIDIA Optimus, then you
+can try [using the control panel to force Shotcut to use the discrete
+GPU](http://superuser.com/questions/484962/how-to-force-my-laptop-to-use-the-discrete-gpu).
+As of version 15.08, this should no longer be required as the executable
+contains a hint to tell the drivers to do this automatically.
+
+Where can I get more transitions?
+---------------------------------
+
+16-bit grayscale PGMs give the best results.
+
+-   [Kdenlive
+    Git](http://quickgit.kde.org/?p=kdenlive.git&a=tree&f=lumas)
+-   [KDE Files](http://kde-files.org/index.php?xcontentmode=683)
+-   [Kino
+    CVS](https://sourceforge.net/p/kino/code/HEAD/tree/trunk/kino/src/timfx/lumas/)
+
+What are some sources of royalty-free images?
+---------------------------------------------
+
+-   [Lost & Taken Textures](http://lostandtaken.com/gallery)
+-   [Image After](http://www.imageafter.com/)
+-   [Blue Vertigo](http://www.bluevertigo.com.ar/bluevertigo.htm)
+-   [morgueFile](http://www.morguefile.com/)
+-   [bittbox](http://www.bittbox.com/)
+-   [Grunge Textures](http://www.grungetextures.com/)
+-   [Texture King](http://www.textureking.com/)
+-   [texturez.com](http://texturez.com/)
+
+What are some sources of royalty-free videos?
+---------------------------------------------
+
+-   [IgniteMotion.com Free Motion
+    Backgrounds](http://www.ignitemotion.com/)
+
+What are some sources of royalty-free music?
+--------------------------------------------
+
+-   [Creative Commons](http://creativecommons.org/legalmusicforvideos)
+-   [Music for Video](http://music-for-video.com/)
+-   [Vimeo Music Store (Creative Commons in addition
+    to commercial)](http://vimeo.com/musicstore)
+-   [YouTube Audio Library](https://www.youtube.com/audiolibrary)
+
+Where are the log, presets, database, and settings stored?
+----------------------------------------------------------
+
+Currently, the database is used to store thumbnail and waveform data,
+but it will likely grow to include more things over time.
+
+**Windows**
+
+The log, database, and presets are stored in
+%APPDATA%\\Meltytech\\Shotcut\\. In the Explorer location bar, enter
+"%APPDATA%" and press Enter. T&lt;span style="background-color:
+transparent;"&gt;hen look for Meltytech\\Shotcut. Sometimes, you need to
+go to the APPDATA parent, choose Local or Remote, and then look for
+Meltytech.&lt;/span&gt;
+
+&lt;span style="background-color: transparent;"&gt;The settings are
+stored in the registry at key
+HKEY\_CURRENT\_USER\\Software\\Meltytech\\Shotcut\\.&lt;/span&gt;
+
+**Linux**
+
+The log, database, and presets are stored in
+\~/.local/share/Meltytech/Shotcut/ where '\~' is your home directory, of
+course.
+
+The settings are stored in \~/.config/Meltytech/Shotcut.conf, which is a
+text file in INI format.
+
+**OS X**
+
+The log, database, and presets are stored in \~/Library/Application
+Support/Meltytech/Shotcut/, where '\~' is your home directory, of
+course.
+
+The settings are stored in
+\~/Library/Preferences/com.Meltytech.Shotcut.plist, which is a [binary
+plist](https://developer.apple.com/library/mac/documentation/Darwin/Reference/Manpages/man5/plist.5.html)
+file.
+
+What is the history of Shotcut?
+-------------------------------
+
+Shotcut was originally
+[announced](http://permalink.gmane.org/gmane.comp.lib.fltk.general/2397)
+in November, 2004! You can read more about it from a [backup of its
+original
+website](https://web.archive.org/web/20050401015503/http://users.pandora.be/acp/shotcut/).
+The current version of Shotcut is a complete rewrite with none of the
+original requirements in mind. The original Shotcut was created by
+Charlie Yates, a MLT co-founder and original lead developer. Since Dan
+Dennedy, another MLT co-founder and its current lead, wanted to create a
+new editor based on MLT, he simply chose to [reuse the
+name](http://mltframework.blogspot.com/2011/12/end-of-2011-update.html)
+since he liked it so much. The current Shotcut had its origins as the
+[MLT BuildOnMe project](https://github.com/mltframework/BuildOnMe).
+BuildOnMe was created in January, 2011 as a minimal, example project of
+how to use MLT in a cross-platform Qt 4 project. Eventually, Dan sought
+to replace the aging Melted GTK+ client, Rugen, with a cross-platform
+replacement and needed an app on which to easily test the cross-platform
+compatibility of new MLT features such as WebVfx and Movit. That led him
+to fork BuildOnMe and start Shotcut.
+
+How do I make subtitles?
+------------------------
+
+If you are strictly asking about subtitles or closed captions, Shotcut
+does not read, make, edit, or pass-through subtitles. There is planned
+the ability to read, show, pass-through, and burn-in subtitles, but
+there is no estimated time of arrival. We recommend that you try the
+free, open source, cross-platform subtitle editor
+[Aegisub](http://www.aegisub.org/).
+
+However, if you are just asking about the ability to put/overlay text in
+your video, use the **Text**, **3D Text**, or **Overlay HTML** filter.
+Since it is a filter, that means you need something to which to apply
+it. If you just want a solid color, choose **File &gt; Open Other &gt;
+Color**. You can also use a picture/photograph just like a video clip by
+opening it and adding it to your playlist or timeline.
+
+How do I change the speed of the video?
+---------------------------------------
+
+This is implemented as of version 16.01. With a clip open in the source
+player or selected in the timeline, choose **Properties** and look for
+the **Speed** field. Shotcut only provides simple frame dropping or
+duplicating. However, if the frame rate of your source footage is higher
+than the Video Mode (under Settings menu), then you can achieve a fairly
+smooth slow motion. If you are looking for more sophisticated results
+using more advanced optical flow techniques, we recommend you try the
+free, open source, cross-platform tool
+[slowMoVideo](http://slowmovideo.granjow.net/).
+
+How can I edit the audio at the wave/sample level?
+--------------------------------------------------
+
+Shotcut does not offer that, but we recommend to try the free, open
+source, cross-platform tool [Audacity](http://audacityteam.org/).
+
+&lt;script type="text/javascript"&gt; &lt;/script&gt; &lt;script
+type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show\_ads.js"&gt;
+&lt;/script&gt;
+
+***Related topics:*** HowToCategory
