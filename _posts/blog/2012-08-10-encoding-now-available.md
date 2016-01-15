@@ -2,7 +2,8 @@
 layout: post
 title: Encoding now available!
 date: 2012-08-10 13:15:00
-author: Dan Dennedy 
+author: Dan Dennedy
+tags:
 categories:
 - blog
 ---
