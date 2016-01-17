@@ -11,7 +11,7 @@ Getting Started
 ---------------
 
 <iframe width="640" height="360"
-src="//www.youtube.com/embed/zbeuUvkn\_Gc" frameborder="0"
+src="//www.youtube.com/embed/zbeuUvkn_Gc" frameborder="0"
 allowfullscreen="1"></iframe>
 
 Mulitrack Timeline Basics
