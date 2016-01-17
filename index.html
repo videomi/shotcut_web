@@ -37,8 +37,8 @@ permalink: /
         <div class="col-md-4">
             <h4>Latest News</h4>
             <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:8 %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+            {% for post in site.categories['blog'] limit:6 %} 
+                <p style="line-height: 1.25em;"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
             {% endfor %} 
         </div>
              

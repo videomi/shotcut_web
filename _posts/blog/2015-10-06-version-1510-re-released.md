@@ -8,4 +8,4 @@ categories:
 - blog
 ---
 
-We found a major regression with GPU processing in v15.10 release (15.10.01 in Help &gt; About). Now, this is an experimental feature, but some people are using it or like to give it a try. Therefore, I just uploaded a new version 15.10.06 with no new features over .01.
+We found a major regression with GPU processing in v15.10 release (15.10.01 in Help > About). Now, this is an experimental feature, but some people are using it or like to give it a try. Therefore, I just uploaded a new version 15.10.06 with no new features over .01.

@@ -4,10 +4,10 @@ title: Frequently Asked Questions
 permalink: /FAQ/
 ---
 
-&lt;script type="text/javascript"&gt; &lt;/script&gt; &lt;script
+<script type="text/javascript"> </script> <script
 type="text/javascript"
-src="//pagead2.googlesyndication.com/pagead/show\_ads.js"&gt;
-&lt;/script&gt;
+src="//pagead2.googlesyndication.com/pagead/show\_ads.js">
+</script>
 
 Why does it crash on Windows upon launch?
 -----------------------------------------
@@ -80,7 +80,7 @@ How do I add text? Is there a titler?
 You must apply a filter to your clip or track. There are 3 suitable
 filters at this time: **3D Text**, **Overlay HTML**, and **Text**. If
 you just want to use a simple background, you can use an image file, or
-to use a solid color choose **File &gt; Open Other &gt; Color**.
+to use a solid color choose **File > Open Other > Color**.
 
 See the [video tutorial](TutorialVideos) for more information about the
 Overlay HTML filter. Shotcut includes a simply WYSIWYG (i.e. visual)
@@ -122,10 +122,10 @@ of seeking to make the responsiveness of the video player faster.
 Are there keyboard shortcuts for editing?
 -----------------------------------------
 
-&lt;span style="background-color: transparent;"&gt;There is now a [page
-wih all of the keyboard shortcuts](KeyboardShortcuts).&lt;br /&gt;These
+<span style="background-color: transparent;">There is now a [page
+wih all of the keyboard shortcuts](KeyboardShortcuts).<br />These
 shortcuts are available without holding Ctrl, Alt, or Command (OS X)
-unless otherwise noted:&lt;/span&gt;
+unless otherwise noted:</span>
 
 -   **i** and **o** set the in and out points respectively (when a clip
     is open in the player)
@@ -154,22 +154,22 @@ unless otherwise noted:&lt;/span&gt;
     shot in a ripple fashion such that following shots on the track
     shift to the left
 -   **c** appends a clip to the current track
--   **v** &lt;span style="background-color: transparent;"&gt; inserts a
+-   **v** <span style="background-color: transparent;"> inserts a
     clip at the playhead position on the current track, splitting the
     shot under the playhead if necessary, and acts in a ripple fashion
     shifting all shots following the play head to shift to the
-    right&lt;/span&gt;
--   **b** &lt;span style="background-color: transparent;"&gt;
+    right</span>
+-   **b** <span style="background-color: transparent;">
     over-writes on the current track with the clip in the player without
     affecting the positions of any shots following the duration of the
-    clip&lt;/span&gt;
--   **Up** &lt;span style="background-color: transparent;"&gt; and
-    &lt;/span&gt; **Down** &lt;span style="background-color:
-    transparent;"&gt; changes the current track&lt;/span&gt;
--   **0, -, =**&lt;span style="background-color:
-    transparent;"&gt;adjusts the zoom level of the timeline (0 resets to
+    clip</span>
+-   **Up** <span style="background-color: transparent;"> and
+    </span> **Down** <span style="background-color:
+    transparent;"> changes the current track</span>
+-   **0, -, =**<span style="background-color:
+    transparent;">adjusts the zoom level of the timeline (0 resets to
     default, center position on slider; = zooms in and is the same key
-    as + without needing to press shift)&lt;/span&gt;
+    as + without needing to press shift)</span>
 
 Just like j, k, and l for playback transport control, the bare i, o, x,
 v, b are very common shortcuts use by other professional video editing
@@ -195,7 +195,7 @@ Some file managers do not like the launcher icon provided with the
 binary download from this site. The launcher icon was tested
 successfully on GNOME Nautilus and KDE Dolphin. 1 open a
 terminal/console window 1 cd to the location where you have extracted
-Shotcut 1 enter `Shotcut.app/shotcut` &lt;br /&gt;Please do not try to
+Shotcut 1 enter `Shotcut.app/shotcut` <br />Please do not try to
 run bin/shotcut; always use the wrapper script in the Shotcut.app
 folder! If it still does not start, then it should report that some
 libraries could not be loaded.
@@ -234,7 +234,7 @@ sure **GPU Processing** is disabled in **Settings**. GPU processing
 requires OpenGL version 3.2. When it is disabled, you only need OpenGL
 version 2.0 (or also DirectX on Windows). If you are on Windows, after
 ensuring GPU processing is disabled, try forcing the usage of DirectX by
-choosing **Settings &gt; Display Method &gt; DirectX (ANGLE)**.
+choosing **Settings > Display Method > DirectX (ANGLE)**.
 
 Can I have multiple versions installed at the same time?
 --------------------------------------------------------
@@ -335,14 +335,14 @@ but it will likely grow to include more things over time.
 
 The log, database, and presets are stored in
 %APPDATA%\\Meltytech\\Shotcut\\. In the Explorer location bar, enter
-"%APPDATA%" and press Enter. T&lt;span style="background-color:
-transparent;"&gt;hen look for Meltytech\\Shotcut. Sometimes, you need to
+"%APPDATA%" and press Enter. T<span style="background-color:
+transparent;">hen look for Meltytech\\Shotcut. Sometimes, you need to
 go to the APPDATA parent, choose Local or Remote, and then look for
-Meltytech.&lt;/span&gt;
+Meltytech.</span>
 
-&lt;span style="background-color: transparent;"&gt;The settings are
+<span style="background-color: transparent;">The settings are
 stored in the registry at key
-HKEY\_CURRENT\_USER\\Software\\Meltytech\\Shotcut\\.&lt;/span&gt;
+HKEY\_CURRENT\_USER\\Software\\Meltytech\\Shotcut\\.</span>
 
 **Linux**
 
@@ -400,7 +400,7 @@ free, open source, cross-platform subtitle editor
 However, if you are just asking about the ability to put/overlay text in
 your video, use the **Text**, **3D Text**, or **Overlay HTML** filter.
 Since it is a filter, that means you need something to which to apply
-it. If you just want a solid color, choose **File &gt; Open Other &gt;
+it. If you just want a solid color, choose **File > Open Other >
 Color**. You can also use a picture/photograph just like a video clip by
 opening it and adding it to your playlist or timeline.
 
@@ -423,9 +423,9 @@ How can I edit the audio at the wave/sample level?
 Shotcut does not offer that, but we recommend to try the free, open
 source, cross-platform tool [Audacity](http://audacityteam.org/).
 
-&lt;script type="text/javascript"&gt; &lt;/script&gt; &lt;script
+<script type="text/javascript"> </script> <script
 type="text/javascript"
-src="//pagead2.googlesyndication.com/pagead/show\_ads.js"&gt;
-&lt;/script&gt;
+src="//pagead2.googlesyndication.com/pagead/show\_ads.js">
+</script>
 
 ***Related topics:*** HowToCategory
