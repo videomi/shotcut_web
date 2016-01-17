@@ -37,16 +37,27 @@ permalink: /
         <div class="col-md-4">
             <h4>Latest News</h4>
             <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:6 %} 
-                <p style="line-height: 1.25em;"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+            {% for post in site.categories['blog'] limit:9 %} 
+                <p style="line-height: 1.5em;"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
             {% endfor %} 
         </div>
              
         <div class="col-lg-4">
-            <h4>Quick Start Video Tutorials</h4>
+            <h4>Quickstart</h4>
             <div class="hline"></div>
-            <p>{{ site.tutorials }}</p>
-            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
+            <p>{{ site.tutorials }}<ul><li>You open files by drag-n-drop in addition to the usual menu and
+    toolbar methods.</li>
+<li>MLT XML files can be opened as a clip; so, you can use Shotcut to
+    test your XML.</li>
+<li>Tap J, K, L to control playback speed and direction. Tap J or L
+    repeatedly to go faster.</li>
+<li>Tap I or O to set the in and out points.</li>
+<li>Press left or right cursor keys to step frame-by-frame.</li>
+<li>Press page up or down to step one second at-a-time.</li>
+<li>Press alt+left or alt+right to jump between start, in, out, and end.</li>
+<li>Version is based on date. You can choose to update whenever you like
+    and keep multiple versions (new versions are available monthly).</li></ul></p>
+            <p><a href="{{ "/tutorials/" | prepend: site.baseurl }}" class="btn btn-theme">Video Tutorials</a></p>
         </div>
 
         <div class="col-md-4">
