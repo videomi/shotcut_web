@@ -1,12 +1,11 @@
 ---
-layout: features
+layout: post
 title:  
 date:   2014-04-25 16:54:46
 author: Dan Dennedy
 categories:
 - features
 ---
-
 ####These are all currently implemented features. See the [Roadmap]() for planned features.
 
 -   supports oodles of audio and video formats and codecs thanks to

@@ -1,35 +1,13 @@
 ---
-layout: features
+layout: page
 title: Features
 permalink: /features/
 ---
-
-<div class="container mtb">
-    <div class="row">
-        <div class="col-lg-6">
-            <img class="img-responsive" src="{{ "/assets/img/about.jpg" | prepend: site.baseurl }}" alt="">
-        </div>
-        <div class="col-lg-6">
-            <h4>Shotcut Features</h4>
-            <p>Lorem Ipsum is simply dummy text. A summary of key features would go here and underneath would be a two column list of all features. Under that a list of the roadmap of featuers.</p>
-            <p></p>
-            <p></p>
-            <p><br/><a href="" class="btn btn-theme">Updating?</a></p>
-            
-            {% for post in site.categories['features-list'] %}
-                <! -- Blog Post -->
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                <! -- <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}" -->
-                </a>    
-                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
-                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+   {% for post in site.categories['features'] %}
+                <! -- Full Feature List -->
+            <h3 class="ctitle">{{ post.title }}</h3>
                 {{ post.excerpt }}
-                <p><a href="{{ post.url | prepend: site.baseurl }}"><! -- [Read More] --></a></p>
+                <a href="{{ post.url | prepend: site.baseurl }}"><! -- [Read More] --></a>
                 <div class="hline"></div>
-
-                <div class="spacing"></div>
             {% endfor %}
-            
-        </div>
-    </div><! --/row -->
-</div><! --/container -->
+        
