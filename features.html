@@ -14,7 +14,22 @@ permalink: /features/
             <p>Lorem Ipsum is simply dummy text. A summary of key features would go here and underneath would be a two column list of all features. Under that a list of the roadmap of featuers.</p>
             <p></p>
             <p></p>
-            <p><br/><a href="" class="btn btn-theme">Download</a></p>
+            <p><br/><a href="" class="btn btn-theme">Updating?</a></p>
+            
+            {% for post in site.categories['features-list'] %}
+                <! -- Blog Post -->
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                <! -- <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}" -->
+                </a>    
+                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+                {{ post.excerpt }}
+                <p><a href="{{ post.url | prepend: site.baseurl }}"><! -- [Read More] --></a></p>
+                <div class="hline"></div>
+
+                <div class="spacing"></div>
+            {% endfor %}
+            
         </div>
     </div><! --/row -->
 </div><! --/container -->

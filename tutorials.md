@@ -40,6 +40,6 @@ allowfullscreen="1"></iframe>
 See Also
 --------
 
--   [Mini Tutorial Videos](/minitutorials/)
+-   [Mini Tutorial Videos](minitutorials/)
 -   [Ein Video-Tutorial Serie auf
     Deutsch](https://www.youtube.com/playlist?list=PLFwM71NcKmpCyI1rXGrQVYa8tw8zuRYkp)

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mini Tutorials
-permalink: /minitutorials/
+permalink: /tutorials/minitutorials/
 ---
 
 Mini Tutorials
@@ -11,14 +11,21 @@ Mini Tutorials
 <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show\_ads.js">
 </script>
 
-<video src="/assets/videos/addingVideoFilter.mp4" controls="1"
-width="600" height="400"></video>   
-<video src="/assets/videos/addAudioTrack.mp4" controls="1" width="600"
-height="400"></video>   
-<video src="/assets/videos/clipVolume.mp4" controls="1" width="600"
-height="400"></video>  
-<video src="/assets/videos/pictureInPicture.mp4" controls="1" width="600"
-height="400"></video>  
+<video width="600" height="400" controls="controls">
+  <source src="/shotcut_web/assets/videos/addingVideoFilter.mp4" type="video/mp4">
+</video><br>
+
+<video width="600" height="400" controls="controls">
+  <source src="/shotcut_web/assets/videos/addAudioTrack.mp4" type="video/mp4">
+</video><br>
+
+<video width="600" height="400" controls="controls">
+  <source src="/shotcut_web/assets/videos/clipVolume.mp4" type="video/mp4">
+</video><br>
+
+<video width="600" height="400" controls="controls">
+  <source src="/shotcut_web/assets/videos/pictureInPicture.mp4" type="video/mp4">
+</video><br>
 
 <script type="text/javascript"> </script> <script
 type="text/javascript"

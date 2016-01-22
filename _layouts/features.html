@@ -1,9 +1,30 @@
 ---
 layout: default
+wrap_title: ''
 ---
+
 {% include wrap.html %}
 
-    {{ content }}
+<div class="container mtb">
+    <div class="row">
+        <! -- SINGLE POST -->
+        <div class="col-lg-8">
+            <! -- Blog Post  -->
+         
 
+            {{ content }}
 
-{% include clients.html %}
+            <div class="spacing"></div>
+            <!-- <h6>SHARE:</h6>
+            <p class="share">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-tumblr"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>		 		
+            </p> -->
+        </div><! --/col-lg-8 -->
+        
+        {% include sidebar.html %}
+
+    </div><! --/row -->
+</div><! --/container -->

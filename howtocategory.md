@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mini Tutorials
-permalink:
+permalink: /tutorials/howtocategory/
 ---
 
 How Tos
