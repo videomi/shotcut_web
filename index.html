@@ -63,7 +63,7 @@ permalink: /
         <div class="col-md-4">
             <h4>Full Feature List</h4>
             <div class="hline"></div>
-            {% for post in site.categories['/features/'] %} 
+            {% for post in site.categories['/features'] %} 
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
             {% endfor %}
         </div>
