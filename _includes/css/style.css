@@ -514,3 +514,9 @@ a.anchor{
     top: -80px; 
     visibility: hidden;
 }
+
+@media (max-width: 767px) {
+#headerwrap h3, h5 {
+    padding-top: 30px;
+    }
+}
