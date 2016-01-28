@@ -3,11 +3,7 @@ layout: page
 title: Road Map
 permalink: /roadmap/
 ---
-<<<<<<< HEAD
-<script type="text/javascript">
-</script>
-<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show\_ads.js">
-=======
+
 <div>
 <script type="text/javascript">
 google_ad_client = "ca-pub-1305424236533187";
@@ -16,7 +12,6 @@ google_ad_width = 728;
 google_ad_height = 90;
 </script> 
 <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
->>>>>>> 9f6b974717d42cea473e5913cd9259bea480b3a2
 </script>
 </div>
 
