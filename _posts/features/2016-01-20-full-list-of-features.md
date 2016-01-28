@@ -6,7 +6,7 @@ author: Dan Dennedy
 categories:
 - features
 ---
-####These are all currently implemented features. See the [Roadmap](/shotcut_web/roadmap/) for planned features.
+####These are all currently implemented features. See the [Roadmap](/roadmap/) for planned features.
 
 -   supports oodles of audio and video formats and codecs thanks to
     [FFmpeg](http://www.ffmpeg.org/general.html)
