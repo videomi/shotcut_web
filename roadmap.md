@@ -3,9 +3,9 @@ layout: page
 title: Road Map
 permalink: /roadmap/
 ---
-<script type="text/javascript"> </script> <script
-type="text/javascript"
-src="//pagead2.googlesyndication.com/pagead/show\_ads.js">
+<script type="text/javascript">
+</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show\_ads.js">
 </script>
 
 Road Map
