@@ -3,6 +3,10 @@ layout: page
 title: Road Map
 permalink: /roadmap/
 ---
+<<<<<<< HEAD
+=======
+
+>>>>>>> 799f8640c1d85750d5ef7afaac14b02f44afe6cf
 <div>
 <script type="text/javascript">
 google_ad_client = "ca-pub-1305424236533187";
