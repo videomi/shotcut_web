@@ -422,4 +422,4 @@ this time.
     file (downloads deleted since high visibility crash)
 -   13.10.08: add search field to Recent panel
 -   13.10.02 - 13.10.07: writes incorrect playlist
--   13.09.21: best known version before Qt 5 upgrade
+-   13.09.21: Best known version before Qt 5 upgrade
