@@ -58,7 +58,7 @@ archive](https://github.com/mltframework/shotcut/releases/download/v16.01/shotcu
 
 * * *
 
-###[Click for Release Notes](/download/releasenotes/)
+###[Click for Release Notes](/shotcut_web/download/releasenotes/)
 
 * * *
 
