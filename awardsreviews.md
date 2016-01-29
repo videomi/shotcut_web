@@ -35,9 +35,8 @@ Reviews
 Here is a YouTube playlist of some video reviews, starting with one from
 GameTechSuperSham
 
-<iframe width="640" height="360"
-src="//www.youtube.com/embed/zbeuUvkn_Gcwww.youtube-nocookie.com/embed/-ZiAgwIzBGc?list=PLy7k-GJ461uvIDBD0qpEy4E5ixfSfryJW" frameborder="0"
-allowfullscreen="1"></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/zbeuUvkn_Gcwww.youtube-nocookie.com/embed/-ZiAgwIzBGc?list=PLy7k-GJ461uvIDBD0qpEy4E5ixfSfryJW" frameborder="0" allowfullscreen="1">
+</iframe>
 
 Software Collections
 ====================
@@ -51,10 +50,7 @@ Software Collections
     | [OS X](http://mac.softpedia.com/get/Multimedia/Shotcut.shtml) |
     [Linux](http://linux.softpedia.com/get/Multimedia/Video/Shotcut-103754.shtml)
 
-<span class="twiki-macro X"></span> Warning: we do not officially
-endorse any of these organizations, and some of them may host downloads
-of Shotcut that are old or have been bundled with other unknown
-software.
+Warning: we do not officially endorse any of these organizations, and some of them may host downloads of Shotcut that are old or have been bundled with other unknown software.
 
 <script type="text/javascript"><!--
 google_ad_client = "ca-pub-1305424236533187";
