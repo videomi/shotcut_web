@@ -56,7 +56,11 @@ X](https://github.com/mltframework/shotcut/releases/download/v16.01/shotcut-osx-
 archive](https://github.com/mltframework/shotcut/releases/download/v16.01/shotcut-src-160102.tar.bz2)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
-[Release Notes](ReleaseNotes)
+* * *
+
+###[Click for Release Notes](/download/releasenotes/)
+
+* * *
 
 **OS X users**: since the application is not signed, you need to
 control-click the app icon and choose **Open** from the context menu the
