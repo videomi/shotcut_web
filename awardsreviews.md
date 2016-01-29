@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Awards & Rreview
+title: Awards & Reviews
 permalink: /awardsreviews/
 ---
 Awards
