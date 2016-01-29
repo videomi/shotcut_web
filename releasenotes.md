@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Release Notes
-permalink: /download/releasenotes/
+permalink: /shotcut_web/download/releasenotes/
 ---
 
 <script type="text/javascript"> google_ad_client = "ca-pub-1305424236533187";
