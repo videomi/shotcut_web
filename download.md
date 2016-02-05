@@ -39,7 +39,7 @@ border="0" /> </form>
 Download
 --------
 
-###64-bit Only
+### 64-bit Only
 
 [Linux](https://github.com/mltframework/shotcut/releases/download/v16.01/shotcut-debian7-x86_64-160102.tar.bz2)
 <small>(Mint 12+, Ubuntu 12.04+, Debian 7+, Fedora 15+, openSUSE
