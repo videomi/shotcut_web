@@ -12,7 +12,7 @@ src="//pagead2.googlesyndication.com/pagead/show\_ads.js">
 * Will be replaced with the ToC
 {:toc}
 
-##Why does it crash on Windows upon launch?
+## Why does it crash on Windows upon launch?
 
 (The conflict with the Jahshaka application was fixed in version
 14.10.03.)
@@ -46,7 +46,7 @@ report](https://github.com/mltframework/shotcut/issues).
 
 * * *
 
-##I have trimmed my video and/or created my project, now how do I save or share it?
+## I have trimmed my video and/or created my project, now how do I save or share it?
 
 If you just want to save your changes to re-open it later in Shotcut,
 you can save your project as a MLT XML file by clicking **Save** on the
@@ -64,7 +64,7 @@ device, screen, etc.).
 
 * * *
 
-##Which Encode preset should I use?
+## Which Encode preset should I use?
 
 It all depends; that is why there are so many of them! But here are some
 suggestions:
@@ -80,7 +80,7 @@ suggestions:
 
 * * *
 
-##How do I add text? Is there a titler?
+## How do I add text? Is there a titler?
 
 You must apply a filter to your clip or track. There are 3 suitable
 filters at this time: **3D Text**, **Overlay HTML**, and **Text**. If
@@ -107,7 +107,7 @@ Paint.NET, Photoshop, etc. For animation, consider Blender and Synfig.
 
 * * *
 
-##Why is seeking so slow?
+## Why is seeking so slow?
 
 Some formats and compression methods simply make it take longer. In the
 **Settings** menu set **Interpolation** to **Nearest Neighbor**. This
@@ -119,7 +119,7 @@ direction immediately after a seek.
 
 * * *
 
-##Why is stepping frame-by-frame repeating the same frame?
+## Why is stepping frame-by-frame repeating the same frame?
 
 In the **Settings** menu set **Interpolation** to something other than
 **Nearest Neighbor** - **Bilinear** is recommended. When the
@@ -128,7 +128,7 @@ of seeking to make the responsiveness of the video player faster.
 
 * * *
 
-##Are there keyboard shortcuts for editing?
+## Are there keyboard shortcuts for editing?
 
 <span style="background-color: transparent;">There is now a [page
 wih all of the keyboard shortcuts](KeyboardShortcuts).<br />These
@@ -190,7 +190,7 @@ left or tap L to step right.
 
 * * *
 
-##The keyboard shortcuts do not seem to be working.
+## The keyboard shortcuts do not seem to be working.
 
 Sometimes the keyboard "focus" might be captured by something in the GUI
 causing the shortcuts to not function. In that case, click the video
@@ -199,7 +199,7 @@ shortcuts require that the timeline window has focus.
 
 * * *
 
-##Shotcut will not start on Linux...
+## Shotcut will not start on Linux...
 
 Some file managers do not like the launcher icon provided with the
 binary download from this site. The launcher icon was tested
@@ -212,7 +212,7 @@ libraries could not be loaded.
 
 * * *
 
-##What are the minimum system requirements?
+## What are the minimum system requirements?
 
 Operating system: 64-bit Windows 7 - 10, Apple OS X 10.8 - 10.10, or
 64-bit Linux with at least glibc 2.13.
@@ -236,7 +236,7 @@ your operating system.
 
 * * *
 
-##All I see is white or green instead of video, and I know there is video in this file....
+## All I see is white or green instead of video, and I know there is video in this file....
 
 First, use **Properties** to see if the **Video** tab is disabled. If it
 is disabled, then Shotcut is not compatible with this format or codec.
@@ -250,7 +250,7 @@ choosing **Settings > Display Method > DirectX (ANGLE)**.
 
 * * *
 
-##Can I have multiple versions installed at the same time?
+## Can I have multiple versions installed at the same time?
 
 Yes. Simply rename your existing program folder to put the version
 number in it or move it out-of-the-way to another location. You see, on
@@ -272,14 +272,14 @@ that is inside of it.
 
 * * *
 
-##How do I cut or trim a clip without encoding or transcoding it?
+## How do I cut or trim a clip without encoding or transcoding it?
 
 This is not supported, and there are currently no plans to support it.
 We recommend that you use VirtualDub or Avidemux for that.
 
 * * *
 
-##Why do I not have the *\_\_* filter?
+## Why do I not have the *\_\_* filter?
 
 -   By design, we do not make all LADSPA and frei0r filters available
     through the UI. We do not want to present a confusing generic
@@ -295,7 +295,7 @@ We recommend that you use VirtualDub or Avidemux for that.
 
 * * *
 
-##Shotcut for *Windows* crashes when GPU Processing is enabled.
+## Shotcut for *Windows* crashes when GPU Processing is enabled.
 
 If your system is using a hybrid GPU such as NVIDIA Optimus, then you
 can try [using the control panel to force Shotcut to use the discrete
@@ -305,7 +305,7 @@ contains a hint to tell the drivers to do this automatically.
 
 * * *
 
-##Where can I get more transitions?
+## Where can I get more transitions?
 
 16-bit grayscale PGMs give the best results.
 
@@ -317,7 +317,7 @@ contains a hint to tell the drivers to do this automatically.
 
 * * *
 
-##What are some sources of royalty-free images?
+## What are some sources of royalty-free images?
 
 -   [Lost & Taken Textures](http://lostandtaken.com/gallery)
 -   [Image After](http://www.imageafter.com/)
@@ -330,14 +330,14 @@ contains a hint to tell the drivers to do this automatically.
 
 * * *
 
-##What are some sources of royalty-free videos?
+## What are some sources of royalty-free videos?
 
 -   [IgniteMotion.com Free Motion
     Backgrounds](http://www.ignitemotion.com/)
 
 * * *
 
-##What are some sources of royalty-free music?
+## What are some sources of royalty-free music?
 
 -   [Creative Commons](http://creativecommons.org/legalmusicforvideos)
 -   [Music for Video](http://music-for-video.com/)
@@ -347,7 +347,7 @@ contains a hint to tell the drivers to do this automatically.
 
 * * *
 
-##Where are the log, presets, database, and settings stored?
+## Where are the log, presets, database, and settings stored?
 
 Currently, the database is used to store thumbnail and waveform data,
 but it will likely grow to include more things over time.
@@ -387,7 +387,7 @@ file.
 
 * * *
 
-##What is the history of Shotcut?
+## What is the history of Shotcut?
 
 Shotcut was originally
 [announced](http://permalink.gmane.org/gmane.comp.lib.fltk.general/2397)
@@ -411,7 +411,7 @@ to fork BuildOnMe and start Shotcut.
 
 * * *
 
-##How do I make subtitles?
+## How do I make subtitles?
 
 If you are strictly asking about subtitles or closed captions, Shotcut
 does not read, make, edit, or pass-through subtitles. There is planned
@@ -429,7 +429,7 @@ opening it and adding it to your playlist or timeline.
 
 * * *
 
-##How do I change the speed of the video?
+## How do I change the speed of the video?
 
 This is implemented as of version 16.01. With a clip open in the source
 player or selected in the timeline, choose **Properties** and look for
@@ -443,7 +443,7 @@ free, open source, cross-platform tool
 
 * * *
 
-##How can I edit the audio at the wave/sample level?
+## How can I edit the audio at the wave/sample level?
 
 Shotcut does not offer that, but we recommend to try the free, open
 source, cross-platform tool [Audacity](http://audacityteam.org/).
