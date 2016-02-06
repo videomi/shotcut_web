@@ -525,6 +525,6 @@ a.anchor{
     }
   .navbar-collapse {
       max-height: auto;
-      overflow-x: auto;
+      overflow-y: auto
    }
 }
