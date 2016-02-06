@@ -22,6 +22,13 @@ the [blog](http://shotcutapp.blogspot.com/) or [git
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 16.02
+
+-   Audio waveforms on timeline are updated incrementally as progress is made.
+-   Allow dual pass encoding for CBR.
+-   Added Show Video Thumbnails option to the timeline menu.
+-   Added Rebuild Audio Waveform to a timeline clip's context menu.
+
 ##### Release 16.01
 
 -   Added **Speed** parameter to Properties for an audio/video clip.
