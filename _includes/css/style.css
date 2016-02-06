@@ -524,7 +524,7 @@ a.anchor{
     padding-top: 0px;
     }
   .navbar-collapse {
-      max-height: auto;
-      overflow-y: auto
+      max-height: 100%;
+      overflow-y: scroll !important; 
    }
 }
