@@ -523,4 +523,8 @@ a.anchor{
 .navbar-default .navbar-nav > li > a {
     padding-top: 0px;
     }
+.navbar-collapse {
+    max-height: 100%;
+    overflow-y: scroll;
+ }
 }
