@@ -519,4 +519,8 @@ a.anchor{
 #headerwrap h3, h5 {
     padding-top: 30px;
     }
+    
+.navbar-default .navbar-nav > li > a {
+    padding-top: 5px;
+    }
 }
