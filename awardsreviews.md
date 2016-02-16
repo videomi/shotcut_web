@@ -6,8 +6,8 @@ permalink: /reviews/
 Awards
 ======
 
-<img width="100" alt="" src="http://www.giga.de/static/badges/img/2375875_software.png" height="100" />
-<br />
+<img width="100" alt="" src="http://www.giga.de/static/badges/img/2375875_software.png" height="100">
+<br>
 [Shotcut - 5 stars @ GIGA](http://www.giga.de/downloads/shotcut/#utm_source=PS&utm_medium=BL&utm_campaign=Badge)
 
 Articles

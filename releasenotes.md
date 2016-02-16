@@ -266,10 +266,10 @@ this time.
 -   On OS X, when using System theme, stack the display volume and mute
     toggles so these widgets do not appear so wide.
 -   Workaround for the Stabilize filter's analysis job crashing on
-    Windows.<br />The analysis job still crashes at the end, but
+    Windows.<br>The analysis job still crashes at the end, but
     the data is still created and usable. So, go ahead and try to use
     the data regardless of the job's failure.
--   Make adjusting image duration on timeline easier.<br />Now,
+-   Make adjusting image duration on timeline easier.<br>Now,
     the Duration field in Properties adjusts the out point, and the
     actual duration is 10 minutes. This lets you add just a few seconds
     to the Timeline by default but then stretch or shrink the image clip
@@ -351,7 +351,7 @@ this time.
     -   new video stabilization (
         [faster](http://public.hronopik.de/vid.stab/)) and audio
         normalization ( [EBU R128](https://tech.ebu.ch/loudness))
-        filters <br />(video stabilization still crashes on
+        filters <br>(video stabilization still crashes on
         Windows 8, but works for us on Windows 7 and other OS)
 -   14.02.08: rework integration of playlist and timeline and change
     player tabs to Source / Program

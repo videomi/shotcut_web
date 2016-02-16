@@ -18,7 +18,7 @@ to download.
 **Here is how you can help:**
 
 [Purchase a Shotcut T-shirt, mug, or laptop
-sticker.](http://www.cafepress.com/meltytech)<img width="55" alt="CafePress Logo" src="http://www.shotcut.org/pub/Shotcut/Download/CafePressLogo.png" style="vertical-align: middle; margin-left: 1em;" height="36" />
+sticker.](http://www.cafepress.com/meltytech)<img width="55" alt="CafePress Logo" src="http://www.shotcut.org/pub/Shotcut/Download/CafePressLogo.png" style="vertical-align: middle; margin-left: 1em;" height="36">
 
 <form action="<https://www.paypal.com/cgi-bin/webscr>" method="post"
 target="\_top"> <input type="hidden" name="cmd"
@@ -34,7 +34,7 @@ name="currency\_code" value="USD"> <input type="image"
 src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif"
 border="0" name="submit" alt="PayPal - The safer, easier way to pay
 online"><img width="1" alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" height="1"
-border="0" /> </form>
+border="0"> </form>
 
 Download
 --------
@@ -82,6 +82,6 @@ available for download.
 <a href="https://www.jetbrains.com/teamcity/"><img
 width="250" alt="TeamCity logo"
 src="http://www.shotcut.org/pub/Shotcut/Download/logo_teamcity.png"
-style="border: 0px; vertical-align: middle" title="JetBrains TeamCity" height="50" /></a>
+style="border: 0px; vertical-align: middle" title="JetBrains TeamCity" height="50"></a>
 
 These builds are made possible by a <a href="https://www.jetbrains.com/teamcity/">TeamCity</a> server license generously donated by JetBrains.

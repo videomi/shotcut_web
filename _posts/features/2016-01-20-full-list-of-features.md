@@ -51,14 +51,14 @@ categories:
     per color component
 -   multi-core parallel image processing (when not using GPU and
     frame-dropping is disabled)
--   video filters:<br />Alpha Channel: Adjust, Alpha Channel:
+-   video filters:<br>Alpha Channel: Adjust, Alpha Channel:
     View, Blur, Chroma Key: Advanced, Chroma Key: Simple, Color Grading,
     Crop, Diffusion, Glow, Invert Colors, Key Spill: Advanced, Key
     Spill: Simple, Mirror, Old Film: Dust, Old Film: Grain, Old Film:
     Projector, Old Film: Scratches, Old Film: Technocolor, Opacity,
     Rotate, Rutt-Etra-Izer, Saturation, Sepia Tone, Sharpen, Size and
     Position, Stabilize, Text, Vignette, Wave, White Balance
--   audio filters:<br />Balance, Bass & Treble, Band Pass,
+-   audio filters:<br>Balance, Bass & Treble, Band Pass,
     Compressor, Copy Channel, Delay, Downmix, Expander, Gain, High Pass,
     Limiter, Low Pass, Normlize, Notch, Pan, Reverb, Swap Channels
 -   3-way (shadows, mids, highlights) color wheels for color correction

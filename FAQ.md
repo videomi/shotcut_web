@@ -131,7 +131,7 @@ of seeking to make the responsiveness of the video player faster.
 ## Are there keyboard shortcuts for editing?
 
 <span style="background-color: transparent;">There is now a [page
-wih all of the keyboard shortcuts](KeyboardShortcuts).<br />These
+wih all of the keyboard shortcuts](KeyboardShortcuts).<br>These
 shortcuts are available without holding Ctrl, Alt, or Command (OS X)
 unless otherwise noted:</span>
 
@@ -205,7 +205,7 @@ Some file managers do not like the launcher icon provided with the
 binary download from this site. The launcher icon was tested
 successfully on GNOME Nautilus and KDE Dolphin. 1 open a
 terminal/console window 1 cd to the location where you have extracted
-Shotcut 1 enter `Shotcut.app/shotcut` <br />Please do not try to
+Shotcut 1 enter `Shotcut.app/shotcut` <br>Please do not try to
 run bin/shotcut; always use the wrapper script in the Shotcut.app
 folder! If it still does not start, then it should report that some
 libraries could not be loaded.
