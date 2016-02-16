@@ -173,13 +173,15 @@ a:focus {
     .navbar-nav {
         float: none!important;
 		margin-top: 7.5px;
+        margin-bottom: 7.5px;
 	}
 	.navbar-nav>li {
         float: none;
     }
     .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: -10px;
     }
     .collapse.in{
   		display:block !important;
