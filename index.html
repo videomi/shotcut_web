@@ -59,13 +59,5 @@ permalink: /
     and keep multiple versions (new versions are available monthly).</li></ul></p>
             <p><a href="{{ "/tutorials/" | prepend: site.baseurl }}" class="btn btn-theme">Video Tutorials</a></p>
         </div>
-
-        <div class="col-md-4">
-            <h4>Full Feature List</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['features'] %}
-            <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            {% endfor %}
-        </div>
     </div><!-- /row -->
 </div><!-- /container -->
