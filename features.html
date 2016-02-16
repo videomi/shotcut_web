@@ -13,9 +13,9 @@ google_ad_height = 90;
 <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script></div>
    {% for post in site.categories['features'] %}
-                <! -- Full Feature List -->
+                <!--  Full Feature List -->
             <h3 class="ctitle">{{ post.title }}</h3>
                 {{ post.excerpt }}
-                <a href="{{ post.url | prepend: site.baseurl }}"><! -- [Read More] --></a>
+                <a href="{{ post.url | prepend: site.baseurl }}"><!--  [Read More] --></a>
                 <div class="hline"></div>
             {% endfor %}
