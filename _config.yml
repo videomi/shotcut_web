@@ -26,16 +26,12 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
+  - title: google-plus
+    url: https://plus.google.com/+ShotcutApp
   - title: facebook
-    url:
+    url: https://www.facebook.com/shotcutapp/
   - title: twitter
-    url: 
-  - title: instagram
-    url: 
-  - title: tumblr
-    url: 
+    url: https://twitter.com/shotcutapp
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
