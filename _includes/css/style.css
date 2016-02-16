@@ -200,9 +200,9 @@ a:focus {
 }
 
 .btn-theme {
-  color: {{ site.colors.background }};
-  background-color: {{ site.colors.primary }};
-  border-color: {{ site.colors.primary }};
+  color: {{ site.colors.secondary }};
+  background-color: {{ site.colors.alternatebg }};
+  border-color: {{ site.colors.alternatebg }};
   margin: 4px;
 }
 .btn-theme:hover,
@@ -306,7 +306,7 @@ a:focus {
 }
 
 #service i {
-    color: {{ site.colors.alternatebg }};
+    color: {{ site.colors.primary }};
 	font-size: 60px;
 	padding: 15px;
 }
@@ -393,7 +393,7 @@ a:focus {
 
 #twrap i {
 	font-size: 50px;
-	color: {{ site.colors.secondary }};
+	color: {{ site.colors.primary }};
 	margin-bottom: 25px;
 }
 
