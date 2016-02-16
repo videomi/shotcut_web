@@ -101,12 +101,3 @@ clients:
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Shotcut is a free, open source, cross-platform video editor for Windows, Mac and Linux. Major features include support for a wide range of formats; no import required meaning native timeline editing; Blackmagic Design support for input and preview monitoring; and resolution support to 4k."
-
-#Short text on homepage describing available tutorials.
-tutorials:
-
-# Testimonial content. Shown on Home and About page. 
-testimonial:
-    message: "Shotcut was conceived in November, 2004 by Charlie Yates, an MLT co-founder and the original lead developer (see the original website here). The current version of Shotcut is a complete rewrite by Dan Dennedy, another MLT co-founder and its current lead. Dan wanted to create a new editor based on MLT and he chose to reuse the Shotcut name since he liked it so much. The current Shotcut originated from the MLT BuildOnMe project created in January, 2011, which was an example project of how to use MLT in a cross-platform Qt 4 project. Later Dan sought to replace the aging Melted GTK+ client, Rugen, with a cross-platform version and needed an app to test the cross-platform compatibility of new MLT features such as WebVfx and Movit, which led him to fork BuildOnMe and start Shotcut."
-    author: Dan Dennedy
-    position: Lead Developer - Shotcut & MLT
