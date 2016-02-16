@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mini Tutorials
+title: How Tos
 permalink: /tutorials/howtocategory/
 ---
 

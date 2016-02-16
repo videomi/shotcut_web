@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Awards & Reviews
-permalink: /awardsreviews/
+title: Reviews
+permalink: /reviews/
 ---
 Awards
 ======

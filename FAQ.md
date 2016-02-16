@@ -1,6 +1,6 @@
 ---
 layout: question
-title: Frequently Asked Questions
+title: FAQ
 permalink: /FAQ/
 ---
 {::options auto_ids="true" /}
