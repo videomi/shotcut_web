@@ -21,9 +21,9 @@ colors:  #in hex code if not noted else
   alternatebg: "#ddd"
   accent: "#c80000"
   link: "#115c77"
-  link_hover: "#115c77"
-  footer_heading: "#000"
-  footer_content: "#000"
+  link_hover: "#c80000"
+  footer_heading: "#fff"
+  footer_content: "#ddd"
   
   
 ### CONTACT SETTINGS ###

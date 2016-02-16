@@ -200,9 +200,9 @@ a:focus {
 }
 
 .btn-theme {
-  color: #fff;
-  background-color: {{ site.colors.secondary }};
-  border-color: {{ site.colors.secondary }};
+  color: {{ site.colors.background }};
+  background-color: {{ site.colors.primary }};
+  border-color: {{ site.colors.primary }};
   margin: 4px;
 }
 .btn-theme:hover,
@@ -210,9 +210,9 @@ a:focus {
 .btn-theme:active,
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
-  color: #fff;
-  background-color: {{ site.colors.primary }};
-  border-color: {{ site.colors.primary }};
+  color: {{ site.colors.background }};
+  background-color: {{ site.colors.accent }};
+  border-color: {{ site.colors.accent }};
 }
 
 .dmbutton:hover,
@@ -306,8 +306,7 @@ a:focus {
 }
 
 #service i {
-	/*color: {{ site.colors.primary }};*/
-    color: #C90000;
+    color: {{ site.colors.alternatebg }};
 	font-size: 60px;
 	padding: 15px;
 }
@@ -421,7 +420,7 @@ a:focus {
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: {{ site.colors.alternatebg }};
+	background: {{ site.colors.primary }};
 }
 
 #footerwrap p {
@@ -439,7 +438,7 @@ a:focus {
 }
 
 #footerwrap i:hover {
-	color: {{ site.colors.primary }}
+	color: {{ site.colors.link_hover }}
 }
 
 /* ################################################################
