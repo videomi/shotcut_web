@@ -291,7 +291,7 @@ a:focus {
 	margin-bottom: 25px;
 }
 
-#headerwrap a > h4 {
+#headerwrap a > h2 {
     color: {{ site.colors.accent }}
 }
 
