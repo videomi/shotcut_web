@@ -4,19 +4,14 @@ title: Road Map
 permalink: /roadmap/
 ---
 
-<div>
-<script type="text/javascript">
-google_ad_client = "ca-pub-1305424236533187";
-google_ad_slot = "1157645159";
-google_ad_width = 728;
-google_ad_height = 90;
-</script> 
-<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+<!-- Shotcut leaderboard -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-1305424236533187"
+     data-ad-slot="1157645159"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-</div>
-
-Road Map
------------------
 
 1. keyframable filter parameters
 2. undo/redo support for filters

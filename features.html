@@ -3,16 +3,16 @@ layout: page
 title: Features
 permalink: /features/
 ---
-<div><script type="text/javascript"> 
-google_ad_client = "ca-pub-1305424236533187";
-/* Shotcut leaderboard */
-google_ad_slot = "1157645159";
-google_ad_width = 728;
-google_ad_height = 90;
+<!-- Shotcut leaderboard -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-1305424236533187"
+     data-ad-slot="1157645159"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script></div>
-   {% for post in site.categories['features'] %}
+
+{% for post in site.categories['features'] %}
                 <!--  Full Feature List -->
             <h3 class="ctitle">{{ post.title }}</h3>
                 {{ post.excerpt }}

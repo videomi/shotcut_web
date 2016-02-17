@@ -4,18 +4,14 @@ title: Release Notes
 permalink: /download/releasenotes/
 ---
 
-<script type="text/javascript"> google_ad_client = "ca-pub-1305424236533187";
-/* Shotcut leaderboard */
-google_ad_slot = "1157645159";
-google_ad_width = 728;
-google_ad_height = 90;
-<script type="text/javascript">
-</script> <script
-type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show\_ads.js">
+<!-- Shotcut leaderboard -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-1305424236533187"
+     data-ad-slot="1157645159"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
-Release Notes
-=============
 
 These are brief notes about known problems and feature additions. See
 the [blog](http://shotcutapp.blogspot.com/) or [git

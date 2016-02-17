@@ -52,11 +52,11 @@ Software Collections
 
 Warning: we do not officially endorse any of these organizations, and some of them may host downloads of Shotcut that are old or have been bundled with other unknown software.
 
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-1305424236533187";
-/* Shotcut leaderboard */
-google_ad_slot = "1157645159";
-google_ad_width = 728;
-google_ad_height = 90;
-//--> </script> <script type="text/javascript"
-src="//pagead2.googlesyndication.com/pagead/show_ads.js"> </script>
+<!-- Shotcut leaderboard -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-1305424236533187"
+     data-ad-slot="1157645159"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
