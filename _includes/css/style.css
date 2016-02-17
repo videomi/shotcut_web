@@ -249,8 +249,8 @@ a:focus {
 }
 
 .mtb {
-	margin-top: 80px;
-	margin-bottom: 80px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .mb {
@@ -449,7 +449,7 @@ a:focus {
 #titlewrap {
 	background: {{ site.colors.alternatebg }};
     margin-top: 45px;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 	padding-top: 25px;
 	padding-bottom: 0px;
 }

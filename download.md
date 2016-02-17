@@ -4,9 +4,6 @@ title: Download
 permalink: /download/
 ---
 
-Shotcut Downloads
-=================
-
 Please support this project's service of frequently updated free
 downloads by purchasing an item in a store or making a donation. In
 exchange, we guarantee that our downloads are always free of malware,
@@ -36,8 +33,8 @@ border="0" name="submit" alt="PayPal - The safer, easier way to pay
 online"><img width="1" alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" height="1"
 border="0"> </form>
 
-Download
---------
+Downloads
+---------
 
 ### 64-bit Only
 
