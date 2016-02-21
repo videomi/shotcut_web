@@ -41,7 +41,6 @@ TIFF as well as image sequences</li>
 <li>Support for 4K resolutions</li>
 <li>Network stream playback (HTTP, HLS, RTMP, RTSP, MMS, UDP)</li>
 <li>Frei0r video generator plugins (e.g. color bars and plasma)</li></ul>
-            <p><br><a href="/shotcut_web/download/" class="btn btn-theme">Download</a></p>
         </div>
     </div><!-- /row -->
 </div><!-- /container -->
