@@ -115,7 +115,7 @@ a:focus {
 	width: 335px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
     .navbar-header .navbar-brand {
         width: 250px;
     }
@@ -166,7 +166,7 @@ a:focus {
 }
 
 /*Change Navbar collapse break-point*/
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
     .navbar-header {
         float: none;
     }
