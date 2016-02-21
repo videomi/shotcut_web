@@ -8,14 +8,15 @@ permalink: /features/
 
 <a name="format support"></a>
 <div class="container mtb" align="center">
-<!-- Shotcut leaderboard -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-1305424236533187"
-     data-ad-slot="1157645159"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+    <!-- Shotcut Responsive -->
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-1305424236533187"
+        data-ad-slot="3403753557"
+        data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 </div>
 <hr>
 <div class="container mtb">

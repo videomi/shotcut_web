@@ -4,15 +4,6 @@ title: Discussion Forum
 permalink: /discussionforum/
 ---
 
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-1305424236533187";
-/* Shotcut leaderboard */
-google_ad_slot = "1157645159";
-google_ad_width = 728;
-google_ad_height = 90;
-//--> </script> <script type="text/javascript"
-src="//pagead2.googlesyndication.com/pagead/show_ads.js"> </script>
-
 Discussion Forums
 =================
 

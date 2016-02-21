@@ -4,9 +4,15 @@ title: Frequently Asked Questions
 permalink: /FAQ/
 ---
 {::options auto_ids="true" /}
-<script type="text/javascript"> </script> <script
-type="text/javascript"
-src="//pagead2.googlesyndication.com/pagead/show\_ads.js">
+
+<!-- Shotcut Responsive -->
+<ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-1305424236533187"
+    data-ad-slot="3403753557"
+    data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
 * Will be replaced with the ToC
@@ -447,10 +453,5 @@ free, open source, cross-platform tool
 
 Shotcut does not offer that, but we recommend to try the free, open
 source, cross-platform tool [Audacity](http://audacityteam.org/).
-
-<script type="text/javascript"> </script> <script
-type="text/javascript"
-src="//pagead2.googlesyndication.com/pagead/show\_ads.js">
-</script>
 
 ***Related topics:*** HowToCategory

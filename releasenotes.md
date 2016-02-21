@@ -4,11 +4,12 @@ title: Release Notes
 permalink: /download/releasenotes/
 ---
 
-<!-- Shotcut leaderboard -->
+<!-- Shotcut Responsive -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-1305424236533187"
-     data-ad-slot="1157645159"></ins>
+    style="display:block"
+    data-ad-client="ca-pub-1305424236533187"
+    data-ad-slot="3403753557"
+    data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
