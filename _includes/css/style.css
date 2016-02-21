@@ -148,6 +148,23 @@ a:focus {
     border-top-width: 3px;
 }
 
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: {{ site.colors.primary }} !important;
+    color: #A1A1A1;
+}
+
+.dropdown-menu {
+    background-color: {{ site.colors.primary }} !important;
+    border: none;
+    right: -45px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    background-color: {{ site.colors.primary }};
+}
+
 /*Change Navbar collapse break-point*/
 @media (max-width: 1000px) {
     .navbar-header {
@@ -162,6 +179,7 @@ a:focus {
     .navbar-collapse {
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        overflow-y: hidden !important;
     }
     .navbar-fixed-top {
 		top: 0;
@@ -178,14 +196,19 @@ a:focus {
 	.navbar-nav>li {
         float: none;
     }
+    
     .navbar-nav>li>a {
         padding-top: 0px;
         padding-bottom: 0px;
-        margin-top: -10px;
+        margin-top: 0px;
     }
     .collapse.in{
   		display:block !important;
 	}
+
+	.navbar-default .navbar-nav > li > a {
+        padding-top: 20px;
+    }
 }
 /*End Change Navbar collapse break-point*/
 
@@ -572,9 +595,16 @@ a.anchor{
     #headerwrap h3, h5 {
         padding-top: 30px;
     }
-
-    .navbar-default .navbar-nav > li > a {
-        padding-top: 0px;
+    
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: {{ site.colors.background }};
+    }
+}
+    
+@media (min-width: 768px) {
+    .navbar-right .dropdown-menu {
+        right: 0;
+        left: 40px;
     }
 
     .navbar-collapse {

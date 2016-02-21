@@ -8,30 +8,24 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">{{ site.title }}</a>
+      <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}"></a>
     </div>
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
         <li {% if page.title == "News" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">NEWS</a></li>
         <li {% if page.title == "Download" %}class="active"{% endif %}><a href="{{"/download/" | prepend: site.baseurl }}">DOWNLOAD</a></li>
-       
-        <li {% if page.title == "Tutorials" %}class="dropdown"{% endif %}><a href="{{"/tutorials/" | prepend: site.baseurl }}" class="dropdown-toggle" data-toggle="dropdown">TUTORIALS<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-                  <li><a href="/shotcut_web/tutorials/minitutorials/">MINI-TUTORIALS</a></li></ul>
-          
-          <li {% if page.title == "Frequently Asked Questions" %}class="active"{% endif %}><a href="{{"/FAQ/" | prepend: site.baseurl }}">FAQ</a></li>
-        <li {% if page.title == "Features" %}class="active"{% endif %}><a href="{{"/features/" | prepend: site.baseurl }}">FEATURES</a></li>
+        
+          <li class="dropdown"><a href="{{"/tutorials/" | prepend: site.baseurl }}" data-toggle="dropdown" class="dropdown-toggle">TUTORIALS <b class="caret"></b></a><ul class="dropdown-menu">
+        <li><a href="/shotcut_web/tutorials/">Full Tutorials</a></li>
+        <li><a href="/shotcut_web/tutorials/minitutorials/">Mini-Tutorials</a></li>
+            </ul>
+          </li>
+        <li {% if page.title == "Frequently Asked Questions" %}class="active"{% endif %}><a href="{{"/FAQ/" | prepend: site.baseurl }}">FAQ</a></li>
+        <li {% if page.title == "Full List of Features" %}class="active"{% endif %}><a href="{{"/features/" | prepend: site.baseurl }}">FEATURES</a></li>
+        <li {% if page.title == "Discussion Forum" %}class="active"{% endif %}><a href="{{"/discussionforum/" | prepend: site.baseurl }}">FORUM</a></li>
         <li {% if page.title == "Reviews" %}class="active"{% endif %}><a href="{{"/reviews/" | prepend: site.baseurl }}">REVIEWS</a></li>
-          
-          
-          
-          <li class="dropdown">
-              <a href="{{"/tutorials/" | prepend: site.baseurl }}" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                  <li><a href="/shotcut_web/resources/">Mailing List</a></li></ul>
+      </ul>
     </div><!--/.nav-collapse -->
   </div>
 </div>
-
-<!-- class="dropdown-toggle" data-toggle="dropdown" -->
