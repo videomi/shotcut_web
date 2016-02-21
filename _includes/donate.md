@@ -8,7 +8,7 @@
 * There is no advertising within the forum.
 * Pay month-by-month as-needed or when upgrading, or setup a monthly recurring subscription.
 * Your e-mail address is only used to send you system notifications or to contact you about your account/membership.
-* Credit card information is secured by [[https://stripe.com/][Stripe]] - one of the largest credit card payment processing services on the Internet.
+* Credit card information is secured by [Stripe](https://stripe.com/) - one of the largest credit card payment processing services on the Internet.
 * Membership does not provide any guarantees to fix your problem or make your feature request. This is about prioritization and influence as the lead developer still does not work on Shotcut full time.
 
 <script type="text/javascript">
