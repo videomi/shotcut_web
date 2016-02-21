@@ -3,18 +3,9 @@ layout: page
 title: Discussion Forum
 permalink: /discussionforum/
 ---
+{% include donate.md %}
 
-Discussion Forums
-=================
+### Already a Member? Go Directly to [forum.shotcut.org](https://forum.shotcut.org/)
 
-A discussion forum is available as a **[Google+
-Community](https://plus.google.com/communities/111984976401772983232)**.
-
-A member of the user community has created a reddit.com
-**[subreddit](https://www.reddit.com/r/shotcut/)**. However, please be
-aware that the developers do not visit that frequently.
-
-Also, you can **[report a
-bug](https://github.com/mltframework/shotcut/issues)** (defects only,
-feature requests will be rejected) on
-[GitHub](https://github.com/mltframework/shotcut/issues).
+Also, you can **[report a bug](https://github.com/mltframework/shotcut/issues)**
+(defects only, feature requests will be rejected) on GitHub.
