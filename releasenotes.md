@@ -15,7 +15,7 @@ permalink: /download/releasenotes/
 </script>
 
 These are brief notes about known problems and feature additions. See
-the [blog](http://shotcutapp.blogspot.com/) or [git
+[News]({{ "/blog" | prepend:site.baseurl }}) or the [git
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
