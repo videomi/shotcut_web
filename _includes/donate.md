@@ -5,11 +5,18 @@
 * Influence the direction of Shotcut's features.
 * At least one new video tutorial a month.
 * This will become a searchable knowledge-base of authoritative information about Shotcut.
-* There is no advertising within the forum.
-* Pay month-by-month as-needed or when upgrading, or setup a monthly recurring subscription.
-* Your e-mail address is only used to send you system notifications or to contact you about your account/membership.
-* Credit card information is secured by [Stripe](https://stripe.com/) - one of the largest credit card payment processing services on the Internet.
-* Membership does not provide any guarantees to fix your problem or make your feature request. This is about prioritization and influence as the lead developer still does not work on Shotcut full time.
+
+<a href="#more-info" class="btn btn-theme" data-toggle="collapse">More Info</a>
+<div id="more-info" class="collapse col-sm-12">
+  <ul>    
+    <li>There is no advertising within the forum.</li>
+    <li>Pay month-by-month as-needed or when upgrading, or setup a monthly recurring subscription.</li>
+    <li>Your e-mail address is only used to send you system notifications or to contact you about your account/membership.</li>
+    <li>Credit card information is secured by <a href="https://stripe.com/">Stripe</a> - one of the largest credit card payment processing services on the Internet.</li>
+    <li>Membership does not provide any guarantees to fix your problem or make your feature request.<br>
+    This is about prioritization and influence as the lead developer still does not work on Shotcut full time.</li>
+  </ul>
+</div>
 
 <script type="text/javascript">
   window.MemberfulOptions = {site: "https://meltytech.memberful.com"};
@@ -24,16 +31,25 @@
   })();
 </script>
 
-**<a href="https://meltytech.memberful.com/checkout?plan=11430">Donate $7 and receive a one month subscription.</a>**
+<a class="btn btn-theme" href="https://meltytech.memberful.com/checkout?plan=11430">
+  Donate $7 and receive a one month subscription.</a>
+<a class="btn btn-theme" href="https://meltytech.memberful.com/checkout?plan=11406">
+  Donate $7 monthly to subscribe until you cancel.</a>
 
-**<a href="https://meltytech.memberful.com/checkout?plan=11406">Donate $7 monthly to subscribe until you cancel.</a>**
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-  <input type="hidden" name="cmd" value="_s-xclick">
-  <input type="hidden" name="hosted_button_id" value="2NY4DR344NG34">
-  <input type="hidden" name="on0" value="Contribute">
-  <input type="hidden" name="os0" value="Level 1">
-  <input type="hidden" name="currency_code" value="USD">
-  <span style="float:left; width: 70%">If you prefer PayPal, you can also subscribe for one month for $10. Because that option must be managed manually, it may take up to 24 hours for you to log in.</span>
-  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> <img width="1" alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" height="1" border="0" />
-</form>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+        If you prefer PayPal, you can also subscribe for one month for $10. Because that option must be managed manually, it may take up to 24 hours for you to log in.
+        </div>
+        <div class="col-md-4">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="2NY4DR344NG34">
+          <input type="hidden" name="on0" value="Contribute">
+          <input type="hidden" name="os0" value="Level 1">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="image" src="{{ "/assets/img/paypal.png" | prepend: site.baseurl }}" width="239" height="62" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        </form>
+        </div>
+    </div>
+</div>
