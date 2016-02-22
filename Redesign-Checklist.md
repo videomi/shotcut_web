@@ -16,21 +16,20 @@
 ### Changes to Spec Layout
 ----
 * Modify main page screenshot (done)
-* Change logo to better match Shotcut Branding
+* Change logo to better match Shotcut Branding (done)
 1. Create version with usage like on current website (done)
-2. Create version with header bar light gray 
+2. Create version with header bar light gray (skip/nix)
 3. When using icons from font awesome make them red (done)
-4. Replace light blue background color with light gray throughout site
-5. Change footer info to include Meltytech info and link
+4. Replace light blue background color with light gray throughout site (done)
+5. Add videomi credit to footer
 6. Create blog/news categories as follows:
-* News
-* FAQ
-* How To's
-* Tech Notes
-7. Add Search capability using Google Search
-8. Insert advertising javascript (tested and existing code works, just have to determine sidebar placement and use) 
-
-
-
-
-
+  * News (done)
+  * FAQ (done)
+  * How To's (in progress)
+  * Tech Notes (other misc pages like CrossCompile, LinuxDistroPackages,
+    MLTXMLAnnotations, SetupWindowsDev, SupportUpload, UserInterfaceConventions)
+7. Add Search capability using Google Search (done)
+8. Insert advertising javascript (done) 
+9. Add Credits page
+10. Add Merchandise page
+11. Add site map page to link to these misc pages such as tech notes
