@@ -30,5 +30,7 @@ permalink: /tutorials/minitutorials/
   <source src="/shotcut_web/assets/videos/pictureInPicture.mp4" type="video/mp4">
 </video><br>
 
-***Related topics:***<br>
-[How Tos](/howtocategory)
+See Also
+--------
+- [Tutorial Videos]({{ "/tutorials/" | prepend: site.baseurl }})
+- [How To Articles]({{ "/howtos/" | prepend: site.baseurl }})
