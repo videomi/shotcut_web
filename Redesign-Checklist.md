@@ -29,6 +29,6 @@
   * Tech Notes (done)
 7. Add Search capability using Google Search (done)
 8. Insert advertising javascript (done) 
-9. Add Credits page
+9. Add Credits page (done)
 10. Add Merchandise page
 11. Add site map page to link to these misc pages such as tech notes
