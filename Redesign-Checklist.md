@@ -25,9 +25,8 @@
 6. Create blog/news categories as follows:
   * News (done)
   * FAQ (done)
-  * How To's (in progress)
-  * Tech Notes (other misc pages like CrossCompile, LinuxDistroPackages,
-    MLTXMLAnnotations, SetupWindowsDev, SupportUpload, UserInterfaceConventions)
+  * How To's (done)
+  * Tech Notes (done)
 7. Add Search capability using Google Search (done)
 8. Insert advertising javascript (done) 
 9. Add Credits page
