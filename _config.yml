@@ -5,7 +5,7 @@ title: Shotcut
 description: "Shotcut is a free, open source, cross-platform video editor for Windows, Mac and Linux"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/shotcut_web" #important: start with /
-url: "https://www.shotcut.org/"
+url: "https://www.shotcut.org"
 timezone: "America/Los_Angeles"
 
 gems: ["jekyll-paginate"]
