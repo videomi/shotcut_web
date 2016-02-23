@@ -58,8 +58,10 @@ web site or somehow share the result with someone as separate video
 file, then click **Encode** on the toolbar, which opens or raises the
 Encode panel. In the Encode panel, there are 3 basic steps:
 
-1 choose and click a **Preset**, 1 click **Reload** to load the current
-video settings, and 1 click **Encode File** at the bottom of the panel.
+1. choose and click a **Preset**, 
+2. click **Reload** to load the current
+video settings, and
+3. click **Encode File** at the bottom of the panel.
 If you have made a playlist **Encode** uses the **Playlist** unless you
 have put something into the **Timeline**, in which case, it uses the
 timeline. Otherwise, it will encode the clip or live source (stream,
@@ -90,7 +92,7 @@ filters at this time: **3D Text**, **Overlay HTML**, and **Text**. If
 you just want to use a simple background, you can use an image file, or
 to use a solid color choose **File > Open Other > Color**.
 
-See the [video tutorial](TutorialVideos) for more information about the
+See the [video tutorials]( {{ "/tutorials/" | prepend: site.baseurl }} ) for more information about the
 Overlay HTML filter. Shotcut includes a simply WYSIWYG (i.e. visual)
 HTML editor accessible through the **Edit** button on this filter's
 control panel.
@@ -133,10 +135,9 @@ of seeking to make the responsiveness of the video player faster.
 
 ## Are there keyboard shortcuts for editing?
 
-<span style="background-color: transparent;">There is now a [page
-wih all of the keyboard shortcuts](KeyboardShortcuts).<br>These
-shortcuts are available without holding Ctrl, Alt, or Command (OS X)
-unless otherwise noted:</span>
+There is now a [page with all of the keyboard shortcuts]( {{ "/tutorials/" | prepend: site.baseurl }} ).\\
+These shortcuts are available without holding Ctrl, Alt, or Command (OS X)
+unless otherwise noted:
 
 -   **i** and **o** set the in and out points respectively (when a clip
     is open in the player)
@@ -206,10 +207,12 @@ shortcuts require that the timeline window has focus.
 
 Some file managers do not like the launcher icon provided with the
 binary download from this site. The launcher icon was tested
-successfully on GNOME Nautilus and KDE Dolphin. 1 open a
-terminal/console window 1 cd to the location where you have extracted
-Shotcut 1 enter `Shotcut.app/shotcut` <br>Please do not try to
-run bin/shotcut; always use the wrapper script in the Shotcut.app
+successfully on GNOME Nautilus and KDE Dolphin.
+
+1. open a terminal/console window
+2. cd to the location where you have extracted Shotcut
+3. enter `Shotcut.app/shotcut`\\
+Please do not try to run bin/shotcut; always use the wrapper script in the Shotcut.app
 folder! If it still does not start, then it should report that some
 libraries could not be loaded.
 
@@ -256,21 +259,26 @@ choosing **Settings > Display Method > DirectX (ANGLE)**.
 ## Can I have multiple versions installed at the same time?
 
 Yes. Simply rename your existing program folder to put the version
-number in it or move it out-of-the-way to another location. You see, on
-Windows, the installer is mostly just a fancy zip extractor that also
+number in it or move it out-of-the-way to another location. 
+
+On **Windows**, the installer is mostly just a fancy zip extractor that also
 adds a start menu item. So, you can install the new version to a
 different location, or rename the existing folder to prevent it from
 being overwritten. Then, you can just navigate to whichever program
-folder you want in Explorer and run shotcut.exe. On Mac OS X, you do not
+folder you want in Explorer and run shotcut.exe.
+
+On **Mac OS X**, you do not
 need to copy Shotcut to the /Applications folder - that is merely a
 suggestion. Simply drag Shotcut out of the .dmg to wherever you like and
 rename the app bundle to put the version number into it. Or, rename the
 existing version to move it out of the way before copying Shotcut from
-the .dmg. The same concepts apply to Linux, where Shotcut is simply
+the .dmg.
+
+The same concepts apply to **Linux**, where Shotcut is simply
 delivered as a compressed tar archive. However, on Linux, it is
 important to understand that the launch icon always looks in
 Shotcut.app; so, either version the folder containing the launch icon or
-have multiple, versioned Shotcot.app folders and run the launch *script*
+have multiple, versioned Shotcut.app folders and run the launch *script*
 that is inside of it.
 
 * * *
@@ -282,7 +290,7 @@ We recommend that you use VirtualDub or Avidemux for that.
 
 * * *
 
-## Why do I not have the *\_\_* filter?
+## Why do I not have the \_\_ filter?
 
 -   By design, we do not make all LADSPA and frei0r filters available
     through the UI. We do not want to present a confusing generic
@@ -298,7 +306,7 @@ We recommend that you use VirtualDub or Avidemux for that.
 
 * * *
 
-## Shotcut for *Windows* crashes when GPU Processing is enabled.
+## Shotcut for Windows crashes when GPU Processing is enabled.
 
 If your system is using a hybrid GPU such as NVIDIA Optimus, then you
 can try [using the control panel to force Shotcut to use the discrete
@@ -450,5 +458,3 @@ free, open source, cross-platform tool
 
 Shotcut does not offer that, but we recommend to try the free, open
 source, cross-platform tool [Audacity](http://audacityteam.org/).
-
-***Related topics:*** HowToCategory

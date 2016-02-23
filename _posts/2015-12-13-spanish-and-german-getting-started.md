@@ -8,4 +8,4 @@ categories:
 - blog
 ---
 
-A user has contributed some <a href="http://www.shotcut.org/bin/view/Shotcut/GettingStarted">Getting Started Guides</a> in PDF format in Spanish and Deutsch (German). Thanks go to&nbsp;Daniel Schar!<br><br>
+A user has contributed some <a href="/shotcut_web/howtos/getting-started/">Getting Started Guides</a> in PDF format in Spanish and Deutsch (German). Thanks go to&nbsp;Daniel Schar!<br><br>
