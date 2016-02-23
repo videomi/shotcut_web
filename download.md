@@ -31,7 +31,7 @@ X](https://github.com/mltframework/shotcut/releases/download/v16.01/shotcut-osx-
 archive](https://github.com/mltframework/shotcut/releases/download/v16.01/shotcut-src-160102.tar.bz2)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
-[Release Notes](/shotcut_web/download/releasenotes/)
+[Release Notes]({{ "/download/releasenotes/" | prepend: site.baseurl }})
 
 **OS X users**: since the application is not signed, you need to
 control-click the app icon and choose **Open** from the context menu the
@@ -44,7 +44,7 @@ Shotcut, open Shotcut.app, and try double-clicking the shotcut shell
 script. Do not try to run bin/shotcut directly. You may need to install
 the following dependencies from their distribution (the exact names may
 vary): SDL, libexif, and JACK plus whatever LADSPA plugins you want.
-[Here is a page](LinuxDistroPackages) that lists some required packages
+[Here is a page]({{ "/notes/linux-dependencies/" | prepend: site.baseurl }}) that lists some required packages
 for specific distributions.
 
 [Older versions](https://github.com/mltframework/shotcut/releases/) are

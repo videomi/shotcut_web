@@ -15,19 +15,19 @@ permalink: /tutorials/minitutorials/
 </script>
 
 <video width="600" height="400" controls="controls">
-  <source src="/shotcut_web/assets/videos/addingVideoFilter.mp4" type="video/mp4">
+  <source src="{{ "/assets/videos/addingVideoFilter.mp4" | prepend: site.baseurl }}" type="video/mp4">
 </video><br>
 
 <video width="600" height="400" controls="controls">
-  <source src="/shotcut_web/assets/videos/addAudioTrack.mp4" type="video/mp4">
+  <source src="{{ "/assets/videos/addAudioTrack.mp4" | prepend: site.baseurl }}" type="video/mp4">
 </video><br>
 
 <video width="600" height="400" controls="controls">
-  <source src="/shotcut_web/assets/videos/clipVolume.mp4" type="video/mp4">
+  <source src="{{ "/assets/videos/clipVolume.mp4" | prepend: site.baseurl }}" type="video/mp4">
 </video><br>
 
 <video width="600" height="400" controls="controls">
-  <source src="/shotcut_web/assets/videos/pictureInPicture.mp4" type="video/mp4">
+  <source src="{{ "/assets/videos/pictureInPicture.mp4" | prepend: site.baseurl }}" type="video/mp4">
 </video><br>
 
 See Also

@@ -17,8 +17,8 @@
         <li {% if page.title == "Download" %}class="active"{% endif %}><a href="{{"/download/" | prepend: site.baseurl }}">DOWNLOAD</a></li>
         
           <li class="dropdown"><a href="{{"/tutorials/" | prepend: site.baseurl }}" data-toggle="dropdown" class="dropdown-toggle">TUTORIALS <b class="caret"></b></a><ul class="dropdown-menu">
-        <li><a href="/shotcut_web/tutorials/">Full Tutorials</a></li>
-        <li><a href="/shotcut_web/tutorials/minitutorials/">Mini-Tutorials</a></li>
+        <li><a href="{{ "/tutorials/" | prepend: site.baseurl }}">Full Tutorials</a></li>
+        <li><a href="{{ "/tutorials/minitutorials/" | prepend: site.baseurl }}">Mini-Tutorials</a></li>
             </ul>
           </li>
         <li {% if page.title == "Frequently Asked Questions" %}class="active"{% endif %}><a href="{{"/FAQ/" | prepend: site.baseurl }}">FAQ</a></li>
