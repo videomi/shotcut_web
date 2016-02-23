@@ -20,9 +20,6 @@ permalink: /FAQ/
 
 ## Why does it crash on Windows upon launch?
 
-(The conflict with the Jahshaka application was fixed in version
-14.10.03.)
-
 One Windows 8.1 one user reported he needed to change the following in
 the Compatibility tab of the Properties for the Shotcut icon/exe: Run in
 compatibility mode for "Windows XP (Service Pack 2)", and "Run this
