@@ -1,6 +1,6 @@
 ---
 layout: siteindex
-wrap_title: 'Site Index'
+title: Site Map
 permalink: /siteindex/
 ---
 <!-- Shotcut Responsive -->
@@ -53,7 +53,7 @@ permalink: /siteindex/
 
 [Release Notes](../download/releasenotes/)
 
-[Reviews](../reviews/)
+[Reviews and Awards](../reviews/)
 
 [Road Map](../roadmap/)
 
