@@ -14,12 +14,12 @@ title: Technical Notes
 
 These pages are here primarily for the Shotcut developers.
 
-#### [How To Cross Compile Shotcut for Windows on Linux](cross-compile/)
+[How To Cross Compile Shotcut for Windows on Linux](cross-compile/)
 
-#### [Linux Distro Packages](linux-dependencies/)
+[Linux Distro Packages](linux-dependencies/)
 
-#### [MLT XML Annotations](mltxml-annotations/)
+[MLT XML Annotations](mltxml-annotations/)
 
-#### [Support Upload to MediaFire](support-upload/)
+[Support Upload to MediaFire](support-upload/)
 
-#### [User Interface Conventions](ui-conventions/)
+[User Interface Conventions](ui-conventions/)

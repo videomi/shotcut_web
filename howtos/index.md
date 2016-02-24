@@ -13,14 +13,14 @@ title: How To Articles
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-#### [Frequently Asked Questions](../FAQ/)
+[Frequently Asked Questions](../FAQ/)
 
-#### [Non-English Getting Started Guides](getting-started/)
+[Non-English Getting Started Guides](getting-started/)
 
-#### [Keyboard Shortcut Reference](keyboard-shortcuts/)
+[Keyboard Shortcut Reference](keyboard-shortcuts/)
 
-#### [How To Integrate Tumult Hype Animations](tumult-hype/)
+[How To Integrate Tumult Hype Animations](tumult-hype/)
 
-#### [How To Use the Contour ShuttlePRO with Shotcut](contour-shuttle/)
+[How To Use the Contour ShuttlePRO with Shotcut](contour-shuttle/)
 
-#### [How To Use Leap Motion](leap-motion/)
+[How To Use Leap Motion](leap-motion/)
