@@ -18,6 +18,9 @@ permalink: /FAQ/
 * Will be replaced with the ToC
 {:toc}
 
+## See Also
+[How To Articles](../howtos/)
+
 ## Why does it crash on Windows upon launch?
 
 One Windows 8.1 one user reported he needed to change the following in
@@ -402,9 +405,8 @@ file.
 
 Shotcut was originally
 [announced](http://permalink.gmane.org/gmane.comp.lib.fltk.general/2397)
-in November, 2004! You can read more about it from a [backup of its
-original
-website](https://web.archive.org/web/20050401015503/http://users.pandora.be/acp/shotcut/).
+in November, 2004! You can read more about it from a
+[backup of its original website](https://web.archive.org/web/20050401015503/http://users.pandora.be/acp/shotcut/).
 The current version of Shotcut is a complete rewrite with none of the
 original requirements in mind. The original Shotcut was created by
 Charlie Yates, a MLT co-founder and original lead developer. Since Dan
@@ -417,8 +419,10 @@ BuildOnMe was created in January, 2011 as a minimal, example project of
 how to use MLT in a cross-platform Qt 4 project. Eventually, Dan sought
 to replace the aging Melted GTK+ client, Rugen, with a cross-platform
 replacement and needed an app on which to easily test the cross-platform
-compatibility of new MLT features such as WebVfx and Movit. That led him
-to fork BuildOnMe and start Shotcut.
+compatibility of new MLT features such as
+[WebVfx](https://github.com/mltframework/webvfx#readme) and
+[Movit](https://movit.sesse.net/).
+That led him to fork BuildOnMe and start Shotcut.
 
 * * *
 
