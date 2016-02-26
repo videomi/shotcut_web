@@ -175,6 +175,7 @@ a:focus {
     }
     .navbar-toggle {
         display: block;
+        margin-top: 15px;
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
@@ -209,8 +210,44 @@ a:focus {
 	.navbar-default .navbar-nav > li > a {
         padding-top: 20px;
     }
+    
+    .navbar-fixed-top .navbar-collapse, 
+    .navbar-fixed-bottom .navbar-collapse {
+    max-height: 100%;
+}
 }
 /*End Change Navbar collapse break-point*/
+
+/*Force Collasped Navbar to show dropdowns */
+
+@media only screen and (max-width:737px) {
+    .dropdown-menu{
+        display: block;
+        position: static;
+        background-color:transparent;
+        border:0 none;
+        box-shadow:none;
+        margin-top:0;
+        position:static;
+        width:100%;
+    }
+    .navbar-nav .dropdown-menu > li > a, 
+    .navbar-nav .dropdown-menu .dropdown-header {
+        padding:5px 15px 5px 25px;
+    }
+    .navbar-nav .dropdown-menu > li > a {
+        line-height:20px;
+    }
+    .navbar-default .navbar-nav .dropdown-menu > li > a {
+    }
+    a.dropdown-toggle .caret {
+        display: none;
+    }
+    .dropdown a.dropdown-toggle {
+        display:none;
+    }
+}
+/* End Force Collasped Navbar to show dropdowns */
 
 .dropdown-menu {
 	background: {{ site.colors.secondary }};
