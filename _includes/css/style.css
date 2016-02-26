@@ -236,7 +236,7 @@ a:focus {
         padding:5px 15px 5px 25px;
     }
     .navbar-nav .dropdown-menu > li > a {
-        line-height:20px;
+        line-height: 30px;
     }
     .navbar-default .navbar-nav .dropdown-menu > li > a {
     }
@@ -256,6 +256,7 @@ a:focus {
 	color: white;
 	font-weight: 700;
 	font-size: 12px;
+    line-height: 30px;
 }
 
 .btn-theme {
@@ -632,15 +633,15 @@ a.anchor{
         padding-top: 30px;
     }
     
-.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: {{ site.colors.background }};
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: {{ site.colors.background }};
+        line-height: 30px;
     }
 }
     
 @media (min-width: 768px) {
     .navbar-right .dropdown-menu {
-        right: 0;
-        left: 40px;
+        left: 0px;
     }
 
     .navbar-collapse {
