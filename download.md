@@ -51,6 +51,10 @@ for specific distributions.
 [Older versions](https://github.com/mltframework/shotcut/releases/) are
 available for download.
 
+`This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE.`
+
 <a href="https://www.jetbrains.com/teamcity/"><img
 width="250" alt="TeamCity logo"
 src="http://www.shotcut.org/pub/Shotcut/Download/logo_teamcity.png"
