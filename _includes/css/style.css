@@ -213,8 +213,8 @@ a:focus {
     
     .navbar-fixed-top .navbar-collapse, 
     .navbar-fixed-bottom .navbar-collapse {
-    max-height: 100%;
-}
+        max-height: 100%;
+    }
 }
 /*End Change Navbar collapse break-point*/
 
@@ -244,7 +244,6 @@ a:focus {
         display: none;
     }
     .dropdown a.dropdown-toggle {
-        display:none;
     }
 }
 /* End Force Collasped Navbar to show dropdowns */
