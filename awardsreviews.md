@@ -2,6 +2,7 @@
 layout: page
 title: Reviews
 permalink: /reviews/
+category: about
 ---
 Awards
 ======

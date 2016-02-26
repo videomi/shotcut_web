@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Keyboard Shortcut Reference
+category: help
 ---
 
 <!-- Shotcut Responsive -->

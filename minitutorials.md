@@ -2,6 +2,7 @@
 layout: page
 title: Mini Tutorials
 permalink: /tutorials/minitutorials/
+category: help
 ---
 
 <!-- Shotcut Responsive -->

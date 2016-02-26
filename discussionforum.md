@@ -2,6 +2,7 @@
 layout: page
 title: Discussion Forum
 permalink: /discussionforum/
+category: other
 ---
 {% include donate.md %}
 

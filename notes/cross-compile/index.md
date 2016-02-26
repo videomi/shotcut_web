@@ -1,6 +1,7 @@
 ---
 layout: page
 title: How To Cross Compile Shotcut for Windows on Linux
+category: notes
 ---
 
 WARNING: Some of this information is out-of-date.

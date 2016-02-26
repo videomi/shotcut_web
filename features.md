@@ -2,6 +2,7 @@
 layout: about
 title: Full List of Features
 permalink: /features/
+category: about
 ---
 
 <!-- Row 1-->

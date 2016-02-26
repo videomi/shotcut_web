@@ -1,0 +1,64 @@
+---
+layout: siteindex
+title: Site Map
+permalink: /siteindex/
+---
+
+<div class="row">
+  <div class="col-lg-8">
+    <!-- Shotcut Responsive -->
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-1305424236533187"
+        data-ad-slot="3403753557"
+        data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div><!-- /col-lg-8 -->
+</div><!-- /row -->
+
+<div class="row">
+  <div class="col-md-6">
+    <h5>About</h5>
+      {% for page in site.pages sort_by="title" %}
+        {% if page.category == 'about' %}
+          <p><a href="{{ site.baseurl }}/{{ page.url }}">{{ page.title }}</a></p>
+        {% endif %}
+      {% endfor %}
+      <a href="{{ site.baseurl }}/blog/">News (Blog)</a><br>
+    <div class="spacing"></div>
+  </div><!-- /col-md-6 -->
+
+  <div class="col-md-6">
+    <h5>Help</h5>
+      {% for page in site.pages %}
+        {% if page.category == 'help' %}
+          <p><a href="{{ site.baseurl }}/{{ page.url }}">{{ page.title }}</a></p>
+        {% endif %}
+      {% endfor %}
+    <div class="spacing"></div>
+  </div><!-- /col-md-6 -->
+</div><!-- /row -->
+
+<div class="row">
+  <div class="col-md-6">
+    <h5>Technical Notes</h5>
+      {% for page in site.pages %}
+        {% if page.category == 'notes' %}
+          <p><a href="{{ site.baseurl }}/{{ page.url }}">{{ page.title }}</a></p>
+        {% endif %}
+      {% endfor %}
+    <div class="spacing"></div>
+  </div><!-- /col-md-6 -->
+
+  <div class="col-md-6">
+    <h5>Other</h5>
+      {% for page in site.pages %}
+        {% if page.category == 'other' %}
+          <p><a href="{{ site.baseurl }}/{{ page.url }}">{{ page.title }}</a></p>
+        {% endif %}
+      {% endfor %}
+    <div class="spacing"></div>
+  </div><!-- /col-md-6 -->
+</div><!-- /row -->

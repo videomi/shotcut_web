@@ -2,6 +2,7 @@
 layout: question
 title: Frequently Asked Questions
 permalink: /FAQ/
+category: help
 ---
 {::options auto_ids="true" /}
 

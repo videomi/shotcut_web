@@ -2,6 +2,7 @@
 layout: page
 title: Credits
 permalink: /credits/
+category: about
 ---
 
 This program proudly uses the following Free/open source software

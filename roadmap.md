@@ -2,6 +2,7 @@
 layout: page
 title: Road Map
 permalink: /roadmap/
+category: other
 ---
 
 <!-- Shotcut Responsive -->

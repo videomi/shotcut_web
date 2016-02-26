@@ -2,6 +2,7 @@
 layout: page
 title: Release Notes
 permalink: /download/releasenotes/
+category: other
 ---
 
 <!-- Shotcut Responsive -->

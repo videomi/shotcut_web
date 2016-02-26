@@ -2,6 +2,7 @@
 layout: page
 title: Tutorial Videos
 permalink: /tutorials/
+category: help
 ---
 
 Getting Started

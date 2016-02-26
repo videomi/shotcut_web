@@ -1,6 +1,7 @@
 ---
 layout: page
 title: How To Use the Contour ShuttlePRO with Shotcut
+category: help
 ---
 
 The [Contour ShuttlePRO](http://www.amazon.com/gp/product/B00027X2YM/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00027X2YM&linkCode=as2&tag=shotvideedit-20&linkId=NH7YGQ27CG4JCFEQ)

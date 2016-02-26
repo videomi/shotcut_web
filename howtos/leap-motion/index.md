@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Using the Leap Motion Controller
+category: help
 ---
 
 The [Leap Motion](http://www.amazon.com/gp/product/B00HVYBWQO/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00HVYBWQO&linkCode=as2&tag=shotvideedit-20&linkId=4B2DQYALS6V3IHSB)

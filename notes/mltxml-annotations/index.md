@@ -1,6 +1,7 @@
 ---
 layout: nosidebar
 title: MLT XML Annotations
+category: notes
 ---
 
 Shotcut adds several XML elements and attributes to the MLT XML it generates. Also, currently it needs many of these to properly map MLT objects into the Shotcut UI.

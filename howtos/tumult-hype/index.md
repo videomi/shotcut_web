@@ -1,6 +1,7 @@
 ---
 layout: page
 title: How To Integrate Tumult Hype Animations
+category: help
 ---
 <!-- Shotcut Responsive -->
 <ins class="adsbygoogle"

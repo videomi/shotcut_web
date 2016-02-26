@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Non-English Getting Started Guides
+category: help
 ---
 User Daniel Schär has created some PDF guides in Spanish, German, and French.
 

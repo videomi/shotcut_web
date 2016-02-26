@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Linux Distro Package Dependencies
+category: notes
 ---
 
 Ubuntu 14.04

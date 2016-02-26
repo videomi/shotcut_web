@@ -2,6 +2,7 @@
 layout: page
 title: Download
 permalink: /download/
+category: about
 ---
 {% include donate.md %}
 

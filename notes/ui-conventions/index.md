@@ -1,6 +1,7 @@
 ---
 layout: page
 title: User Interface Conventions
+category: notes
 ---
 
 1. Use GridLayout with 3 columns. First column for label, 3rd column for
