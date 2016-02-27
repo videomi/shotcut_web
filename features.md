@@ -78,10 +78,10 @@ TIFF as well as image sequences</li>
 <div class="container mtb">    
 <div class="row">
     <div class="col-lg-6">
-            <img class="img-responsive" src="{{ "/assets/img/shotcut_mac_monitor.png" | prepend: site.baseurl }}" alt="">
+            <img class="img-responsive" style="" src="{{ "/assets/img/shotcut_mac_monitor.png" | prepend: site.baseurl }}" alt="">
         </div>
         <div class="col-lg-6">
-            <h3>Editing Features</h3>
+            <h3 style="margin-top: 5px;">Editing Features</h3>
 <ul><li>Video compositing across video tracks</li>
 <li>Trimming on source clip player or timeline with ripple option</li>
 <li>Append, insert, overwrite, lift, and ripple delete editing on the
@@ -95,7 +95,25 @@ TIFF as well as image sequences</li>
     Screen, Overlay, Darken, Dodge, Burn, Hard Light, Soft Light,
     Difference, Exclusion, HSL Hue, HSL Saturation, HSL Color,
     HSL Luminosity.</li>
-<li>Speed effect for audio/video clips</li></ul>
+<li>Video Filters: Alpha Channel: Adjust, Alpha Channel: View, Blur, Chroma Key: Advanced, Chroma Key: Simple, Color Grading, Crop, Diffusion, Glow, Invert Colors, Key Spill: Advanced, Key Spill: Simple, Mirror, Old Film: Dust, Old Film: Grain, Old Film: Projector, Old Film: Scratches, Old Film: Technocolor, Opacity, Rotate, Rutt-Etra-Izer, Saturation, Sepia Tone, Sharpen, Size and Position, Stabilize, Text, Vignette, Wave, White Balance</li>
+<li>Speed effect for audio/video clips</li>
+<li>Drag-n-drop files from file manager</li>
+<li>Scrubbing and transport control</li></ul></div>
+<div class="col-lg-12" style="height:30px;"></div>
+<div class="col-lg-6">
+<ul><li>HTML5 (sans audio and video) as video source and filters</li>
+<li>3-way (shadows, mids, highlights) color wheels for color correction and grading</li>
+<li>Multitrack timeline with thumbnails and waveforms</li>
+<li>Unlimited undo and redo for playlist edits including a history view</li>
+<li>Create, play, edit, save, load, encode, and stream MLT XML projects (with auto-save)</li>
+<li>Edit Melted playlists including suport for undo/redo</li>
+<li>Save and load trimmed clip as MLT XML file</li>
+<li>Load and play complex MLT XML file as a clip</li>
+<li>Eye dropper tool to pick neutral color for white balancing</li>
+<li>Deinterlacing</li></ul>
+        </div>
+<div class="col-lg-6">
+            <img class="img-responsive" style="" src="{{ "/assets/img/editing-group.jpg" | prepend: site.baseurl }}" alt="">
         </div>
     </div>
     </div>
@@ -113,7 +131,11 @@ TIFF as well as image sequences</li>
 <li>Can run as a portable app from external drive</li>
 <li>UI translations: Catalan, Chinese, Czech, Danish, Dutch, English,
     French, German, Greek, Italian, Polish, Portugese, Russian, Slovak,
-    Spanish (not all 100%, but you can <a href="https://www.transifex.com/projects/p/shotcut/">help</a></li></ul></div>
+    Spanish (not all 100%, but you can <a href="https://www.transifex.com/projects/p/shotcut/">help</a></li>
+    <li>Batch encoding with job control</li>
+    <li>Encode/transcode to a variety of formats and codecs thanks to FFmpeg (or libav as-built)</li>
+    <li>Stream (encode to IP) files and any capture source</li>
+    <li>Video quality measurement (PSNR and SSIM)</li></ul></div>
       <div class="col-lg-6">
             <img class="img-responsive" src="{{ "/assets/img/os-platforms.png" | prepend: site.baseurl }}" alt="">
 <a name="interface"></a>
@@ -130,16 +152,17 @@ TIFF as well as image sequences</li>
             <img class="img-responsive" src="{{ "/assets/img/external-monitoring.png" | prepend: site.baseurl }}" alt="">
         </div>
         <div class="col-lg-6">
-            <h3>Display and Monitoring</h3>
+            <h3 style="margin-top: -5px;">Display and Monitoring</h3>
 <ul>
 <li>External monitoring via Blackmagic Decklink card on NTSC monitor</li>
+<li>External monitoring on an extra system display/monitor</li>
 <li>UI themes/skins: native-OS look and custom dark and light</li>
 <li>Control video zoom in the player: fit viewable area (default), 50%,
     original (100%), and 200%</li>
-<li>DeckLink SDI keyer output</li>
-<li>OpenGL GPU-based image processing with 16-bit floating point linear
-    per color component</li>
-<li>Flexible UI through dock-able panels</li></ul>
+<li>Flexible UI through dock-able panels</li>
+<li>Detailed media properties panel</li>
+<li>Recent files panel with search</li>
+<li>Thumbnail and waveform caching between sessions</li></ul>
 <a name="device support"></a>
         </div>
     </div><!-- /row -->
@@ -160,7 +183,11 @@ TIFF as well as image sequences</li>
 <li>Capture (record) SDI, HDMI, webcam (V4L2), JACK audio, PulseAudio,
     IP stream, X11 screen, and Windows DirectShow devices</li>
 <li>Connect to Melted servers over MVCP TCP protocol</li>
-<li>Control the transport playback of Melted units</li></ul></div>
+<li>Control the transport playback of Melted units</li>
+<li>Multi-core parallel image processing (when not using GPU and frame-dropping is disabled)</li>
+<li>DeckLink SDI keyer output</li>
+<li>OpenGL GPU-based image processing with 16-bit floating point linear
+    per color component</li></ul></div>
       <div class="col-lg-6">
             <img class="img-responsive" src="{{ "/assets/img/decklink-leapmotion.png" | prepend: site.baseurl }}" alt="" max-height="" width="">
        </div>
