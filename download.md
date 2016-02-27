@@ -15,7 +15,7 @@ unrelated to Shotcut such as browser toolbars or download managers.
 However, we can only provide that guarantee if you come to this website
 to download.
 
-#### 64-bit Only
+#### Current Version: 16.02 -- 64-bit Only
 
 [Linux](https://github.com/mltframework/shotcut/releases/download/v16.01/shotcut-debian7-x86_64-160102.tar.bz2)
 <small>(Mint 12+, Ubuntu 12.04+, Debian 7+, Fedora 15+, openSUSE
