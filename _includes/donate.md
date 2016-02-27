@@ -32,24 +32,18 @@
 </script>
 
 <a class="btn btn-theme" href="https://meltytech.memberful.com/checkout?plan=11430">
-  Donate $7 and receive a one month subscription.</a>
+  Donate $5 for a one month subscription.</a>
 <a class="btn btn-theme" href="https://meltytech.memberful.com/checkout?plan=11406">
-  Donate $7 monthly to subscribe until you cancel.</a>
+  Donate $5 monthly to subscribe until you cancel.</a>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-4">
-        If you prefer PayPal, you can also subscribe for one month for $10. Because that option must be managed manually, it may take up to 24 hours for you to log in.
-        </div>
-        <div class="col-md-4">
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-          <input type="hidden" name="cmd" value="_s-xclick">
-          <input type="hidden" name="hosted_button_id" value="2NY4DR344NG34">
-          <input type="hidden" name="on0" value="Contribute">
-          <input type="hidden" name="os0" value="Level 1">
-          <input type="hidden" name="currency_code" value="USD">
-          <input type="image" src="{{ "/assets/img/paypal.png" | prepend: site.baseurl }}" width="239" height="62" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        </form>
-        </div>
-    </div>
-</div>
+<form id="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="2NY4DR344NG34">
+    <input type="hidden" name="on0" value="Contribute">
+    <input type="hidden" name="os0" value="Level 2">
+    <input type="hidden" name="currency_code" value="USD">
+    You can also
+    <input class="btn btn-theme" style="vertical-align:baseline; overflow:visible; font-size:1em; display:inline; margin:0; padding:3px 6px; border:0; cursor:pointer;"
+    name="Submit" type="submit" value="Donate $5 with PayPal"> (less preferred).
+    Because that must be managed manually, it may take up to 24 hours for you to log in.
+</form>
