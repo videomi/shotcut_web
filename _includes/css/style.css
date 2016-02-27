@@ -487,6 +487,14 @@ a:focus {
 	color: {{ site.colors.footer_content }};
 }
 
+#footerwrap a {
+    color: {{ site.colors.footer_heading }};
+}
+
+#footerwrap a:hover {
+    color: {{ site.colors.accent }};
+}
+
 #footerwrap h4 {
 	color: {{ site.colors.footer_heading }};
 }
