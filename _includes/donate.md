@@ -1,22 +1,21 @@
 ## Donate To Become a Member of the Shotcut Patron Forum!
 
-* Communicate directly with the developers.
-* Report problems and get usage help.
-* Influence the direction of Shotcut's features.
-* At least one new video tutorial a month.
-* This will become a searchable knowledge-base of authoritative information about Shotcut.
-
-<a href="#more-info" class="btn btn-theme" data-toggle="collapse">More Info</a>
+<ul>
+<li>Communicate directly with the developers.</li>
+<li>Report problems and get usage help.</li>
+<li>Influence the direction of Shotcut's features.</li>
+<li>At least one new video tutorial a month.</li>
+<li>This will become a searchable knowledge-base of authoritative information about Shotcut.</li>
+<li><a href="#more-info" data-toggle="collapse"><strong>More Info</strong></a></li>
 <div id="more-info" class="collapse col-sm-12">
-  <ul>    
     <li>There is no advertising within the forum.</li>
     <li>Pay month-by-month as-needed or when upgrading, or setup a monthly recurring subscription.</li>
     <li>Your e-mail address is only used to send you system notifications or to contact you about your account/membership.</li>
     <li>Credit card information is secured by <a href="https://stripe.com/">Stripe</a> - one of the largest credit card payment processing services on the Internet.</li>
     <li>Membership does not provide any guarantees to fix your problem or make your feature request.
     This is about prioritization and influence as the lead developer still does not work on Shotcut full time.</li>
-  </ul>
 </div>
+</ul>
 
 <script type="text/javascript">
   window.MemberfulOptions = {site: "https://meltytech.memberful.com"};
