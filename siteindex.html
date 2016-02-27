@@ -3,6 +3,7 @@ layout: siteindex
 title: Site Map
 permalink: /siteindex/
 ---
+{% assign sorted_pages = site.pages | sort:"title" %}
 
 <div class="row">
   <div class="col-lg-8">
@@ -21,7 +22,7 @@ permalink: /siteindex/
 <div class="row">
   <div class="col-md-6">
     <h5>About</h5>
-      {% for page in site.pages sort_by="title" %}
+      {% for page in sorted_pages %}
         {% if page.category == 'about' %}
           <p><a href="{{ site.baseurl }}/{{ page.url }}">{{ page.title }}</a></p>
         {% endif %}
@@ -32,7 +33,7 @@ permalink: /siteindex/
 
   <div class="col-md-6">
     <h5>Help</h5>
-      {% for page in site.pages %}
+      {% for page in sorted_pages %}
         {% if page.category == 'help' %}
           <p><a href="{{ site.baseurl }}/{{ page.url }}">{{ page.title }}</a></p>
         {% endif %}
@@ -44,7 +45,7 @@ permalink: /siteindex/
 <div class="row">
   <div class="col-md-6">
     <h5>Technical Notes</h5>
-      {% for page in site.pages %}
+      {% for page in sorted_pages %}
         {% if page.category == 'notes' %}
           <p><a href="{{ site.baseurl }}/{{ page.url }}">{{ page.title }}</a></p>
         {% endif %}
@@ -54,7 +55,7 @@ permalink: /siteindex/
 
   <div class="col-md-6">
     <h5>Other</h5>
-      {% for page in site.pages %}
+      {% for page in sorted_pages %}
         {% if page.category == 'other' %}
           <p><a href="{{ site.baseurl }}/{{ page.url }}">{{ page.title }}</a></p>
         {% endif %}
