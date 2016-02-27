@@ -19,8 +19,7 @@ category: help
 * Will be replaced with the ToC
 {:toc}
 
-## See Also
-[How To Articles](../howtos/)
+**See Also: [How To Articles](../howtos/)**
 
 ## Why does it crash on Windows upon launch?
 

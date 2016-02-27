@@ -13,7 +13,7 @@
     <li>Pay month-by-month as-needed or when upgrading, or setup a monthly recurring subscription.</li>
     <li>Your e-mail address is only used to send you system notifications or to contact you about your account/membership.</li>
     <li>Credit card information is secured by <a href="https://stripe.com/">Stripe</a> - one of the largest credit card payment processing services on the Internet.</li>
-    <li>Membership does not provide any guarantees to fix your problem or make your feature request.<br>
+    <li>Membership does not provide any guarantees to fix your problem or make your feature request.
     This is about prioritization and influence as the lead developer still does not work on Shotcut full time.</li>
   </ul>
 </div>
