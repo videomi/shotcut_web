@@ -39,7 +39,7 @@ category: other
             <h4>Latest News</h4>
             <div class="hline"></div>
             {% for post in site.categories['blog'] limit:9 %} 
-                <p style="line-height: 1.5em;"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+                <p style="line-height: 1.5em;"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
             {% endfor %} 
         </div>
 
