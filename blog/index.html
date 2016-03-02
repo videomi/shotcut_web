@@ -24,9 +24,7 @@ title: News
                 <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
                 <p><csmall>{{ post.date | date: "%b %-d, %Y" }}</csmall></p>
                 {{ post.excerpt }}
-                <p><a href="{{ post.url | prepend: site.baseurl }}"><!-- [Read More] --></a></p>
                 <div class="hline"></div>
-
                 <div class="spacing"></div>
             {% endfor %}
 
