@@ -85,6 +85,7 @@ category: help
 | Select Item N         | 1 2 3 4 5 6 7 8 9 0                  |
 | Open Selected         | Enter or double-click                |
 | Goto/Seek             | Shift+Enter or Shift+double-click    |
+{:.withborders}
 
 ### Other Notes
 

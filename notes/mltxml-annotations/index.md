@@ -25,6 +25,7 @@ Shotcut adds several XML elements and attributes to the MLT XML it generates. Al
 | producer | shotcut_resource | //producer[property/@name = 'mlt_service' and (property/text() = 'qimage' or property/text() = 'pixbuf')]/property[@name='shotcut_resource'] | When working with image sequences, this stores the image file that the user selected since Shotcut will set the MLT resource property to something suitable for image sequences. |
 | producer | shotcut:caption | //producer/property[@name = 'shotcut:caption'] | Used to provide a friendly name for a producer to be used for display to the user |
 | producer | shotcut:detail | //producer/property[@name = 'shotcut:detail'] | Used to provide a more detailed description for the producer than the caption. For example if the caption is the file name, the detail could be the full file path |
+{:.withborders}
 
 **Warning**: All of these are subject to change as Shotcut is still in early development.
 
