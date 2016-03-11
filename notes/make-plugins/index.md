@@ -95,7 +95,7 @@ Here are all of the Metadata properties available:
 | needsGPU | bool | Wether this filter requires GPU processing - only available for Shotcut's branch of Movit. (default false) |
 | qml | string | The relative file name of the UI QML for the filter panel. |
 | vui | string | The relative file name of the UI QML for the video preview. |
-| isAudio | bool | True if this is an audio video, otherwise video. (default false) |
+| isAudio | bool | True if this is an audio plugin, otherwise video. (default false) |
 | isHidden | bool | True to make this hidden from the filter menu. This is useful to keep a legacy frontend for existing projects but make a new implementation for new projects. (default false) |
 | isFavorite | bool | True to make it appear in the favorites menu by default. (default false) |
 | gpuAlt | string | Prevent a CPU-based filter from appearing when GPU processing is enabled by setting this to the name (mlt_service if not objectName) of the GPU alternative for this filter. |
