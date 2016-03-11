@@ -23,26 +23,28 @@ category: help
 
 ## Why does it crash on Windows upon launch?
 
-One Windows 8.1 one user reported he needed to change the following in
+Is this a new - for the first time ever - installation of Shotcut?
+If NOT, and it used to work, then you may need to delete your Shotcut
+registry entries and try again. The registry keys are stored at
+HKEY_CURRENT_USER\Software\Meltytech\Shotcut\.
+
+One Windows 8.1 user reported he needed to change the following in
 the Compatibility tab of the Properties for the Shotcut icon/exe: Run in
 compatibility mode for "Windows XP (Service Pack 2)", and "Run this
 program as administrator." However, not every one needs to do that, and
 we are not sure why he needed it.
 
+* * *
+
+## Why does it frequently crash on Windows?
+
 While some systems have a video adapter driver with at least version 2.1
 OpenGL, there may be some incompatibility between the OpenGL code in
-Shotcut or Qt and the driver that causes a crash. There is really no fix
-for that even though we do make some checks and try to show an error
-message. You can try to upgrade to the latest driver for your hardware,
-but if you use Windows Update, then you probably already have the
-latest. Sometimes, the chip maker (e.g. Intel, AMD, NVIDIA) has a newer
-driver that is not yet Microsoft certified. That might work. The Shotcut
-developers have made decisions about technologies to use that make
-cross-platform development and delivery easier and that also provides a
-nice user experience on recent or compatible hardware/drivers. However,
-that may not provide the most compatiblity. Quite simply, we do not
-target the lowest common denominator. As of version 15.09, Shotcut for
-Windows can also use DirectX when GPU processing is not enabled.
+Shotcut or Qt and the driver that causes a crash. You can try to upgrade to
+the latest driver for your hardware.
+Versions 15.09 and higher can also use **DirectX** when GPU processing is not
+enabled, and that should improve compatibility. Try the different options under
+**Settings > Display Method: OpenGL or DirectX**.
 
 Of course, there can still be other reasons we have not yet discovered.
 If you believe none of the reasons above applies to you, then you can
@@ -201,8 +203,7 @@ left or tap L to step right.
 
 Sometimes the keyboard "focus" might be captured by something in the GUI
 causing the shortcuts to not function. In that case, click the video
-preview region to return focus to the player. The timeline zoom
-shortcuts require that the timeline window has focus.
+preview region to return focus to the player.
 
 * * *
 
@@ -306,16 +307,6 @@ We recommend that you use VirtualDub or Avidemux for that.
     incompatible library. Shotcut downloads provide all dependencies for
     Windows and OS X, but it may rely upon some libraries provided by
     distribution packages on Linux.
-
-* * *
-
-## Shotcut for Windows crashes when GPU Processing is enabled.
-
-If your system is using a hybrid GPU such as NVIDIA Optimus, then you
-can try [using the control panel to force Shotcut to use the discrete
-GPU](http://superuser.com/questions/484962/how-to-force-my-laptop-to-use-the-discrete-gpu).
-As of version 15.08, this should no longer be required as the executable
-contains a hint to tell the drivers to do this automatically.
 
 * * *
 
