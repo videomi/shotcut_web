@@ -20,6 +20,24 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 16.04
+
+* Fixed frequently reported problem with black video on Export.
+* Fixed a few crashing bugs.
+* Added an option to Windows installer to remove registry settings to help people with new crash-on-launch problems.
+* Reduced memory usage when exporting a playlist or mulitrack project.
+* Added **Normalize: One Pass** audio filter (existing Normalize renamed **Normalize: Two Pass**.
+* Added **Audio Loudness** to View > Scopes.
+* Added **Brightness** video filter for CPU and GPU.
+* Added **Contrast** video filter for CPU and GPU.
+* Added **Reduce Noise** video filter for CPU only.
+* Install ffplay and ffprobe executables.
+* Improved visual feedback about what is selected in **Timeline**, **Properties**, and **Filters** views.
+* Added **More Information** to clip Properties overflow-menu.
+* Added **Start Integrity Check Job** to clip Properties overflow-menu.
+* Added auto-rotate for video clips with orientation metadata.
+* Added a Ukranian translation.
+
 ##### Release 16.03
 
 * Changed player tab Program to **Project**.
