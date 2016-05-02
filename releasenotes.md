@@ -20,6 +20,32 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 16.06
+
+* Show red outline on scrub bar of **Source** player to indicate selection.
+* Added **Cut**, **Copy**, and **Paste** to Edit menu and Timeline tool bar.
+* Changed double-click on **Timeline clip** to select+seek instead of copying to **Source** player.
+* Changed Timeline keyboard shortcut **A** to append.
+* Changed Timeline keyboard shortcut **C** to copy.
+* Changed Timeline keyboard shortcut **Enter** to seek to start of clip.
+* Added **Peak** and **True Peak** meters to the **Audio Loudness** scope.
+* Added version/upgrade-checker.
+* Added check for missing files when opening .mlt XML project file.
+* Added dialog to locate and resolve (relink) missing files in project file.
+* For clips with speed changed, added support for saving and loading relative path and file names.
+* Added **Export EDL** to the **File** menu.
+* Added **YouTube** preset to **Export** (which does the same thing as not changing any export settings, not selecting an export preset, or clicking Reset).
+* Updated Blackmagic Design SDI/HDMI output to work with recent driver updates.
+
+##### Release 16.05
+
+* Mostly just fixes.
+* Added **Remove** to **Jobs** panel.
+* Added **25%** option to player's **Zoom** button-menu.
+* Improved application logging.
+* Moved status messages front and central and removed status bar.
+
+
 ##### Release 16.04
 
 * Fixed frequently reported problem with black video on Export.

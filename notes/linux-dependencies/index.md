@@ -4,13 +4,11 @@ title: Linux Distro Package Dependencies
 category: notes
 ---
 
-Ubuntu 14.04
-------------
+Ubuntu 14.04 - 16.04
+--------------------
 
 required: libsox2, libsdl1.2debian, libjack0, libfftw3-3,
-libgstreamer-plugins-base0.10
-
-optional: LADSPA plugins (apt-cache search plugins | grep LADSPA)
+libgstreamer-plugins-base0.10, swh-plugins
 
 Ubuntu 12.04
 ------------

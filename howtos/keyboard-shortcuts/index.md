@@ -48,10 +48,13 @@ category: help
 | Seek Previous Edit    | Alt+Left                             |
 | Switch Source/Program | Esc                                  |
 | ***Timeline***        |                                      |
+| Cut                   | Ctrl+X                               | Cmd+X
+| Copy                  | Ctrl+C or C                          | Cmd+X or C
+| Paste                 | Ctrl+V                               | Cmd+V
 | Add Audio Track       | Ctrl+U                               | Cmd+U
 | Add Video Track       | Ctrl+Y                               | Cmd+Y
 | Close                 | Ctrl+W                               | Cmd+W
-| Append                | C                                    |
+| Append                | A                                    |
 | Ripple Delete         | X or Shift+Del or Shift+Backspace    |
 | Lift                  | Z or Del or Backspace                |
 | Insert                | V                                    |
@@ -71,7 +74,7 @@ category: help
 | Move selection up     | Ctrl+Up                              | Cmd+Up
 | Move selection down   | Ctrl+Down                            | Cmd+Down
 | Deselect All          | Ctrl+D                               | Cmd+D
-| Open As Clip          | Enter                                |
+| Seek start of selected| Enter or double-click          |
 | Toggle Mute track     | Ctrl+M                               |
 | Toggle Hide track     | Ctrl+H                               |
 | Toggle Lock track     | Ctrl+L                               |
@@ -91,7 +94,7 @@ category: help
 
 #### Player
 
-Press and hold **Shift** to **skim** - scrub/seek using the horizonal
+Press and hold **Shift** to **skim** - scrub/seek using the horizontal
 position of the mouse cursor without clicking and dragging.
 
 #### Timeline
@@ -100,7 +103,7 @@ While dragging shot or trimming, press and hold **Alt** to temporarily
 **suspend snapping**. On Linux, pressing Alt before dragging will
 usually move the app window; so, press Alt after you start dragging.
 
-Press and hold **Shift** to **skim** - scrub/seek using the horizonal
+Press and hold **Shift** to **skim** - scrub/seek using the horizontal
 position of the mouse cursor without clicking and dragging.
 
 #### Entering Time Values

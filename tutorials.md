@@ -44,3 +44,7 @@ See Also
 - [Ein Video-Tutorial Serie auf
     Deutsch](https://www.youtube.com/playlist?list=PLFwM71NcKmpCyI1rXGrQVYa8tw8zuRYkp)
 - [How To Articles]({{ "/howtos/" | prepend: site.baseurl }})
+
+James Woo has created a wonderful 25+ [video course on how to use Shotcut](http://betterbusiness.teachable.com/courses/video-editing-course-free-shotcut?product_id=86700&coupon_code=DAN20OFF&preview=logged_out)
+at <a href="http://betterbusiness.teachable.com/courses/video-editing-course-free-shotcut?product_id=86700&coupon_code=DAN20OFF&preview=logged_out">
+<img src="{{ "/assets/img/blog/teachable.jpeg" | prepend: site.baseurl | prepend: site.url }}" border="0" width="200" height="128"></a>
