@@ -1,2 +1,7 @@
 _site
 .DS_Store
+shotcut_web.config
+shotcut_web.creator
+shotcut_web.creator.user
+shotcut_web.files
+shotcut_web.includes
