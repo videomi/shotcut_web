@@ -60,6 +60,10 @@ category: help
 | Insert                | V                                    |
 | Overwrite             | B                                    |
 | Split                 | S                                    |
+| Trim clip in          | I                                    |
+| Ripple trim clip in   | Shift+I                              |
+| Trim clip out         | O                                    |
+| Ripple trim clip out  | Shift+O                              |
 | Select Track Below    | Down                                 |
 | Select Track Above    | Up                                   |
 | Zoom In               | =                                    |
@@ -74,7 +78,7 @@ category: help
 | Move selection up     | Ctrl+Up                              | Cmd+Up
 | Move selection down   | Ctrl+Down                            | Cmd+Down
 | Deselect All          | Ctrl+D                               | Cmd+D
-| Seek start of selected| Enter or double-click          |
+| Seek start of selected| Enter or double-click                |
 | Toggle Mute track     | Ctrl+M                               |
 | Toggle Hide track     | Ctrl+H                               |
 | Toggle Lock track     | Ctrl+L                               |
