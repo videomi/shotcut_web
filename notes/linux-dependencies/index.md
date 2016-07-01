@@ -4,40 +4,20 @@ title: Linux Distro Package Dependencies
 category: notes
 ---
 
-Ubuntu 14.04 - 16.04
---------------------
+Ubuntu, Debian, and Mint
+------------------------
 
 required: libsox2, libsdl1.2debian, libjack0, libfftw3-3,
-libgstreamer-plugins-base0.10, swh-plugins
-
-Ubuntu 12.04
-------------
-
-required: libsox1b, libsdl1.2debian, libjack0, libfftw3-3,
 libgstreamer-plugins-base0.10
 
-optional: LADSPA plugins (apt-cache search plugins | grep LADSPA)
+optional: swh-plugins
 
-Fedora 17
----------
-
-required: SDL libexif jack-audio-connection-kit
-
-optional: ladspa-\*-plugins, for example ladspa-swh-plugins
-
-Fedora 18
----------
-
-required: SDL libexif jack-audio-connection-kit
-
-optional: ladspa-\*-plugins, for example ladspa-swh-plugins
-
-Fedora 19
----------
+Fedora
+------
 
 required: jack-audio-connection-kit mesa-libGLU
 
-optional: ladspa-\*-plugins, for example ladspa-swh-plugins
+optional: ladspa-swh-plugins
 
 Generic Directly Dependent Libraries
 ------------------------------------

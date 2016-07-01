@@ -20,6 +20,13 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 16.07
+
+* Added **File** > **Export Frame...**
+* Added **Remove transition** to **History** by trimming a neighboring clip to
+  remove it.
+* Fixed version checker.
+
 ##### Release 16.06
 
 * Show red outline on scrub bar of **Source** player to indicate selection.

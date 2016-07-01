@@ -75,7 +75,6 @@ Quick Tasks To Do
 -   Let user quickly enter a name in Playlists
 -   Add move with insert position when dragging clip on timeline.
 -   Make File > Open Other more obvious?
--   Make easier to save current frame as image
 -   Rework filter menu into a searchable filter browser with animated
     icon and nice description.
 -   Add Parametric Equalizer audio filter
