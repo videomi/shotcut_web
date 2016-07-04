@@ -17,7 +17,7 @@ to download.
 
 #### Current Version: 16.07 -- 64-bit Only
 
-[Linux](https://github.com/mltframework/shotcut/releases/download/v16.07/shotcut-debian7-x86_64-160701.tar.bz2)
+[Linux](https://github.com/mltframework/shotcut/releases/download/v16.07/shotcut-debian8-x86_64-160701.tar.bz2)
 <small>(Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, openSUSE
 13.2+, Arch/Manjaro)</small>
 
