@@ -15,21 +15,21 @@ unrelated to Shotcut such as browser toolbars or download managers.
 However, we can only provide that guarantee if you come to this website
 to download.
 
-#### Current Version: 16.07 -- 64-bit Only
+#### Current Version: 16.08 -- 64-bit Only
 
-[Linux](https://github.com/mltframework/shotcut/releases/download/v16.07/shotcut-debian8-x86_64-160701.tar.bz2)
+[Linux](https://github.com/mltframework/shotcut/releases/download/v16.08/shotcut-debian8-x86_64-160802.tar.bz2)
 <small>(Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, openSUSE
 13.2+, Arch/Manjaro)</small>
 
 [OS
-X](https://github.com/mltframework/shotcut/releases/download/v16.07/shotcut-osx-x86_64-160701.dmg)
+X](https://github.com/mltframework/shotcut/releases/download/v16.08/shotcut-osx-x86_64-160802.dmg)
 <small>(64-bit OS X 10.8+)</small>
 
-[Windows](https://github.com/mltframework/shotcut/releases/download/v16.07/shotcut-win64-160701.exe)
+[Windows](https://github.com/mltframework/shotcut/releases/download/v16.08/shotcut-win64-160802.exe)
 <small>(64-bit Windows 7+)</small>
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v16.07/shotcut-src-160701.tar.bz2)
+archive](https://github.com/mltframework/shotcut/releases/download/v16.08/shotcut-src-160801.tar.bz2)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Release Notes]({{ "/download/releasenotes/" | prepend: site.baseurl }})

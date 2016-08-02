@@ -20,6 +20,11 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 16.08
+
+* Added count-down (or up) generator: **File > Open Other > Count**
+* Major performance boost for opaque clips on video tracks higher than **V1** with track **C**omposite enabled and **Blend mode: Over**.
+
 ##### Release 16.07
 
 * Added **File** > **Export Frame...**
