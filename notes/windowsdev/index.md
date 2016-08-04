@@ -24,7 +24,7 @@ a change.
         the PATH.
     -   Choose "Checkout Windows-style, commit Unix-style line endings."
 1. (optional) Download a static build of
-[pkg-config](pkg-config.exe) and put it in somewhere in
+[pkg-config](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/pkg-config.exe) and put it in somewhere in
 your path. From Git Bash `echo $PATH` to see your options.
 C:\\Windows\\system32 is always one option.
 1. This is the difficult
@@ -92,5 +92,5 @@ Command Line Debugging {#command-line-debugging}
 
 When using gdb at the command line to debug, using Ctrl+C to break
 execution will also exit the debugger. There is a program called
-[breakgdb.exe](breakgdb.exe) ([source](debugbreak.c)) that can be used to break
+[breakgdb.exe](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/breakgdb.exe) ([source](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/debugbreak.c)) that can be used to break
 execution.
