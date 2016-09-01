@@ -53,7 +53,6 @@ Quick Tasks To Do
 -   Add missing transitions
 -   Add porter duff modes to movit
 -   Add a reset all settings option
--   Consolidate tutorials, FAQ, and how-to?
 -   Adding live source to timeline should prompt for duration.
 -   Add transform effect to movit.
 -   Convert producer UIs to QML.
@@ -69,7 +68,6 @@ Quick Tasks To Do
 -   The ability to detach and remove audio from the video clips.
 -   Add HTML Title to Open Other that supplies a background.
 -   Add transparency support to WebVfx filter and transition.
--   Add icon view to Playlists
 -   Add ability to create additional playlists in project
 -   Add search media type queries to Playlists
 -   Let user quickly enter a name in Playlists

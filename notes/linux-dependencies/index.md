@@ -15,7 +15,7 @@ optional: swh-plugins
 Fedora
 ------
 
-required: jack-audio-connection-kit mesa-libGLU
+required: jack-audio-connection-kit mesa-libGLU SDL
 
 optional: ladspa-swh-plugins
 
