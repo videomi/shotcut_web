@@ -20,6 +20,14 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 16.09
+
+* Added **Tiles**, **Icons**, and **Details** view modes to Playlist.
+* Added **Copy Filters** and **Paste Filters**.
+* Upgraded Qt to v5.6.1 with HiDPI support. (Set environment variable QT_AUTO_SCREEN_SCALE_FACTOR=0 to turn it off.)
+* Converted some 16x16 icons to 32x32 for HiDPI.
+* Moved the **Timeline Zoom** slider to the toolbar.
+
 ##### Release 16.08
 
 * Added count-down (or up) generator: **File > Open Other > Count**
