@@ -4,16 +4,22 @@ title: Download
 permalink: /download/
 category: about
 ---
-{% include donate.md %}
 
-## Downloads
-
-Please support this project's service of frequently updated free
-downloads. In exchange, we guarantee that our downloads are always free of
+We pledge that our downloads are always free of
 malware, spyware, and adware. Furthermore, we refuse to bundle any software
 unrelated to Shotcut such as browser toolbars or download managers.
 However, we can only provide that guarantee if you come to this website
 to download.
+
+<!-- Shotcut Responsive -->
+<ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-1305424236533187"
+    data-ad-slot="3403753557"
+    data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### Current Version: 16.08.12 -- 64-bit Only
 

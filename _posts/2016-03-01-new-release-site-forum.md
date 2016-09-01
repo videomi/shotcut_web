@@ -24,8 +24,7 @@ Thanks to a new team member, Chris, we have an all [new site design](https://www
 Not only is it responsive and mobile-friendly, but it also has a more modern,
 fresh design that is easier to navigate. It is also easier to maintain, has
 better server performance, and is served over HTTPS.
-We also have a new [discussion forum](https://www.shotcut.org/discussionforum/)
-for people who make a donation (a perk).
+We also have a new [discussion forum](https://forum.shotcut.org/).
 
 Lastly, here is more information about the new release. Among the many new
 features and fixes in the new [FFmpeg 3.0 release](http://www.ffmpeg.org/index.html#news),

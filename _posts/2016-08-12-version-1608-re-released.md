@@ -2,9 +2,7 @@
 layout: post
 title: Version 16.08 Re-released
 author: Dan Dennedy
-tags: 
-categories:
-- blog
+category: blog
 ---
 
 The "performance boost for opaque clips on video tracks higher than **V1**" that
