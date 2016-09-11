@@ -7,8 +7,7 @@ category: notes
 Ubuntu, Debian, and Mint
 ------------------------
 
-required: libsox2, libsdl1.2debian, libjack0, libfftw3-3,
-libgstreamer-plugins-base0.10
+required: libsox2 libsdl1.2debian libjack0
 
 optional: swh-plugins
 
@@ -29,4 +28,4 @@ libgthread, libglib-2.0, libgobject-2.0
 free codecs: libvorbis, libvorbisenc, libtheoraenc, libtheoradec,
 libogg, libFLAC
 
-common multimedia libs: libSDL-1.2, libjack, libexif, libfftw3
+common multimedia libs: libSDL-1.2, libjack, libexif

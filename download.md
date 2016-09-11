@@ -24,8 +24,7 @@ to download.
 #### Current Version: 16.09 -- 64-bit Only
 
 [Linux](https://github.com/mltframework/shotcut/releases/download/v16.09/shotcut-debian8-x86_64-160901.tar.bz2)
-<small>(Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, openSUSE
-13.2+, Arch/Manjaro)</small>
+<small>(Mint 18+, Ubuntu 16.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
 
 [OS
 X](https://github.com/mltframework/shotcut/releases/download/v16.09/shotcut-osx-x86_64-160901.dmg)
