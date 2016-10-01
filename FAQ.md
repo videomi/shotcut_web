@@ -360,15 +360,12 @@ but it will likely grow to include more things over time.
 **Windows**
 
 The log, database, and presets are stored in
-%APPDATA%\\Meltytech\\Shotcut\\. In the Explorer location bar, enter
-"%APPDATA%" and press Enter. T<span style="background-color:
-transparent;">hen look for Meltytech\\Shotcut. Sometimes, you need to
-go to the APPDATA parent, choose Local or Remote, and then look for
-Meltytech.</span>
+%LOCALAPPDATA%\\Meltytech\\Shotcut\\. In the Explorer location bar, enter
+"%LOCALAPPDATA%" and press Enter. Then look for Meltytech\\Shotcut.
 
-<span style="background-color: transparent;">The settings are
+The settings are
 stored in the registry at key
-HKEY\_CURRENT\_USER\\Software\\Meltytech\\Shotcut\\.</span>
+HKEY\_CURRENT\_USER\\Software\\Meltytech\\Shotcut\\.
 
 **Linux**
 
