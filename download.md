@@ -21,20 +21,22 @@ to download.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-#### Current Version: 16.09 -- 64-bit Only
+#### Current Version: 16.10
 
-[Linux](https://github.com/mltframework/shotcut/releases/download/v16.09/shotcut-debian8-x86_64-160901.tar.bz2)
-<small>(Mint 18+, Ubuntu 16.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
-
-[OS
-X](https://github.com/mltframework/shotcut/releases/download/v16.09/shotcut-osx-x86_64-160901.dmg)
-<small>(64-bit OS X 10.8+)</small>
-
-[Windows](https://github.com/mltframework/shotcut/releases/download/v16.09/shotcut-win64-160901.exe)
+[64-bit Windows](https://github.com/mltframework/shotcut/releases/download/v16.10/shotcut-win64-161001.exe)
 <small>(64-bit Windows 7+)</small>
 
+[32-bit Windows](https://github.com/mltframework/shotcut/releases/download/v16.10/shotcut-win32-161001.exe)
+<small>(32-bit Windows 7+)</small>
+
+[Linux](https://github.com/mltframework/shotcut/releases/download/v16.10/shotcut-linux-x86_64-161001.tar.bz2)
+<small>(Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
+
+[macOS](https://github.com/mltframework/shotcut/releases/download/v16.10/shotcut-osx-x86_64-161001.dmg)
+<small>(64-bit OS X 10.8+)</small>
+
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v16.09/shotcut-src-160901.tar.bz2)
+archive](https://github.com/mltframework/shotcut/releases/download/v16.10/shotcut-src-161001.tar.bz2)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Release Notes]({{ "/download/releasenotes/" | prepend: site.baseurl }})
