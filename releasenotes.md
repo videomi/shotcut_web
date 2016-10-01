@@ -20,6 +20,16 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 16.10
+
+* Added **32-bit Windows** build.
+* Changed Linux build to be more compatible.
+* Added **LUT (3D)** video filter.
+* Added **Lens Correction** video filter.
+* Added **Merge with next clip** to Timeline clip context menu.
+* Fixed **Paste Filters** for Timeline clips and tracks.
+* Removed File > Open Other > Screen.
+
 ##### Release 16.09
 
 * Added **Tiles**, **Icons**, and **Details** view modes to Playlist.
