@@ -142,7 +142,7 @@ of seeking to make the responsiveness of the video player faster.
 
 ## Are there keyboard shortcuts for editing?
 
-There is now a [page with all of the keyboard shortcuts]( {{ "/tutorials/" | prepend: site.baseurl }} ).\\
+There is now a [page with all of the keyboard shortcuts]( {{ "/howtos/keyboard-shortcuts/" | prepend: site.baseurl }} ).\\
 These shortcuts are available without holding Ctrl, Alt, or Command (OS X)
 unless otherwise noted:
 
