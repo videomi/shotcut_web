@@ -60,21 +60,23 @@ If you just want to save your changes to re-open it later in Shotcut,
 you can save your project as a MLT XML file by clicking **Save** on the
 toolbar at the top of the window. If you want to upload the video to a
 web site or somehow share the result with someone as separate video
-file, then click **Encode** on the toolbar, which opens or raises the
-Encode panel. In the Encode panel, there are 3 basic steps:
+file, then click **Export** on the toolbar, which opens or raises the
+Export panel. In the Export panel, there are 3 basic steps:
 
 1. choose and click a **Preset**, 
 2. click **Reload** to load the current
 video settings, and
-3. click **Encode File** at the bottom of the panel.
-If you have made a playlist **Encode** uses the **Playlist** unless you
+3. click **Export File** at the bottom of the panel.
+
+By default, if you have made a playlist **Export** uses the **Playlist** unless you
 have put something into the **Timeline**, in which case, it uses the
-timeline. Otherwise, it will encode the clip or live source (stream,
-device, screen, etc.).
+timeline. Otherwise, it will Export the clip or live source (stream,
+device, screen, etc.). However, you can control what is used for the source of
+the export using the **From** control at the top of the **Export** panel.
 
 * * *
 
-## Which Encode preset should I use?
+## Which Export preset should I use?
 
 It all depends; that is why there are so many of them! But here are some
 suggestions:
