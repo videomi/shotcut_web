@@ -78,17 +78,19 @@ category: help
 | Move selection up     | Ctrl+Up                              | Cmd+Up
 | Move selection down   | Ctrl+Down                            | Cmd+Down
 | Deselect All          | Ctrl+D                               | Cmd+D
-| Seek start of selected| Enter or double-click                |
+| Seek start of selected| double-click                         |
 | Toggle Mute track     | Ctrl+M                               |
 | Toggle Hide track     | Ctrl+H                               |
 | Toggle Lock track     | Ctrl+L                               |
 | ***Playlist***        |                                      |
 | Append                | Shift+C                              |
-| Delete                | Shift+X, Del or Backspace            |
+| Delete                | Shift+X                              |
 | Insert                | Shift+V                              |
 | Update                | Shift+B                              |
 | Move Up               | Ctrl+Up                              | Cmd+Up
 | Move Down             | Ctrl+Down                            | Cmd+Down
+| Open previous item    | Alt+Up                               |
+| Open next item        | Alt+Down                             |
 | Select Item N         | 1 2 3 4 5 6 7 8 9 0                  |
 | Open Selected         | Enter or double-click                |
 | Goto/Seek             | Shift+Enter or Shift+double-click    |

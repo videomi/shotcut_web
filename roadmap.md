@@ -53,7 +53,6 @@ Quick Tasks To Do
 -   Add missing transitions
 -   Add porter duff modes to movit
 -   Add a reset all settings option
--   Adding live source to timeline should prompt for duration.
 -   Add transform effect to movit.
 -   Convert producer UIs to QML.
 -   Add partik0l producer
@@ -84,5 +83,3 @@ Quick Tasks To Do
 -   Fix duration of GIF animations. Does this affect PNG and WebP as well?
 -   Turn off VUI - automatically and/or user toggle
 -   Add speed param to Encode > Codec
--   Add setting and command line option to set path for settings,
-    presets, and database files for so-called portableapp.

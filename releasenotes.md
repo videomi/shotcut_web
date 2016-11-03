@@ -20,6 +20,14 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 16.11
+
+* Added **portable app** feature with **Settings > App Data Directory** and --appdata command line argument.
+* Fixed drag-n-drop to Timeline after moving clip to different track.
+* Fixed **LUT (3D) filter** for languages/regions that use comma for decimal point.
+* Fixed **Properties > Speed** on macOS for languages/regions that use comma for decimal point.
+* Added **Gaelic** (Scottish) translation.
+
 ##### Release 16.10
 
 * Added **32-bit Windows** build.
