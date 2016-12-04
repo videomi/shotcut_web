@@ -20,6 +20,15 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 16.12
+
+* Added **Constrained VBR** for the video codec rate control mode to Export.
+* Added **Fixed** option to video **GOP** to Export.
+* New audio mixing mode that does not affect levels.
+* Increased usage of floating point for audio processing to improve quality.
+* Added **Occitan** translation.
+* More fixes for copying filters and LUT (3D) video filter.
+
 ##### Release 16.11
 
 * Added **portable app** feature with **Settings > App Data Directory** and --appdata command line argument.
