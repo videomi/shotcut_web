@@ -3,52 +3,51 @@ layout: page
 title: How To Setup a Windows Development Environment
 category: notes
 ---
-Support for this is not available. This is mainly for the lead developer
-documenting his steps for future use in case he needs to do it again.
 
 1. Download and install the following:
-  - [Qt](https://www.qt.io/download-open-source/)
   - [Qt Creator](https://www.qt.io/download-open-source/)
-  - [MinGW for Windows 64 bit, version 5.1](https://sourceforge.net/projects/qt64ng/files/qt/x86-64/5.5.0/mingw-5.1/seh/)
-  - [Shotcut SDK (current version 16.12.03)](http://builds.us.meltytech.s3.amazonaws.com/shotcut/shotcut-win64-sdk-161203.zip)
+  - [Our Qt 5.6.1 with QtWebKit SDK (815 MB!)](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/qt-5.6.1-x64-mingw510r0-seh.tar.bz2)    
+    Extract it to C:\Qt\qt-5.6.1-x64-mingw510r0-seh
+  - [MinGW 5.1 for Windows 64 bit](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/x86_64-5.1.0-release-posix-seh-rt_v4-rev0.7z)  
+    Extract it to C:\Qt\x86_64-5.1.0-release-posix-seh-rt_v4-rev0
+  - [Shotcut SDK (889 MB! current version 16.12.03)](http://s3.amazonaws.com/builds.us.meltytech/shotcut/shotcut-win64-sdk-161203.zip)  
+    Extract it to C:\Projects
 
-2. Place/ensure the following folders and files are in the correct directories:
-  - C:\Qt\qt-5.5.0-x64-mingw510r0-seh-rev0\mingw64\bin\g++.exe
-  - C:\Qt\qt-5.5.0-x64-mingw510r0-seh-rev0\qt-5.5.0-x64-mingw510r0-seh-rev0\bin\qmake.exe
-  - C:\Qt\Tools\mingq483_32 <- This should be an entire folder.
+2. Check that the following files are in the correct directories:
+  - C:\Qt\x86_64-5.1.0-release-posix-seh-rt_v4-rev0\mingw64\bin\g++.exe
+  - C:\Qt\qt-5.6.1-x64-mingw510r0-seh\bin\qmake.exe
 
-3. In Qt Creator, choose Tools > Options > Build & Run > Kits.
-Configure all of your settings in the Build & Run section.
+3. Start Qt Creator and choose **Tools &gt; Options &gt; Build &amp; Run**  
+Configure all of your settings in the Build & Run section.889 MB!
   - Manually set the debugger to MinGW's gdb.exe.
   ![Debug Settings](debuggers_build_run.png)
   - Manually set the compiler to MinGW's g++.exe
   ![Compiler(2/2) Settings](compilers_build_run2.png)
-  - Manually set the Qt version to MinGW's.
+  - Manually set the Qt version.
   ![Version Settings](versions_build_run.png)
-  - Configure the project kit from the previously set debug, compiler, and Qt versions.
+  - Configure the project kit from the previously set debug, compiler, and Qt version.
   ![Kit Settings](kits_build_run.png)  
 
-4. Use the Shotcut SDK and extract the .zip
-file to a new folder in C: called Projects. (like this: C:\Projects)
-5. Run Qt Creator and open shotcut.pro from C:\Projects\Shotcut\src\shotcut
-6. In the Shotcut project configuration screen find Run Settings.
-  - Deployment > Add Deploy Step > Make. In Make arguments, enter "install"
-  - Run > Add a Run Configuration > Custom Executable. Set Executable to C:\Projects\Shotcut\shotcut.exe
-     and set Working directory to C:\Projects\Shotcut
+4. Extract the Shotcut SDK .zip file to a new folder in C:\ called "Projects" (C:\Projects).
+5. In Qt Creator open shotcut.pro from C:\Projects\Shotcut\src\shotcut.
+6. In the Shotcut project configuration screen find **Run Settings**.
+  - Go to **Deployment &gt; Add Deploy Step &gt; Make**. In **Make arguments**, enter "install"
+  - Go to **Run &gt; Add &gt; Custom Executable**.  
+    Set **Executable** to "C:\Projects\Shotcut\shotcut.exe"
     ![Run Settings](run_settings.png)
 
 7. Set your build settings in the Shotcut project configuration so that the build steps include MinGW make steps.
-    <a href="{{ "build_settings.png" }}">
-    <img src="{{ "build_settings.png" }}" alt="Project"></a>
-8. You can confirm the newly built executable is the one that is running from the About
-   dialog: the version will be "adhoc."
+    <a href="build_settings.png">
+    <img src="build_settings.png" alt="Project"></a>
+8. After choosing You can confirm the newly built executable is the one that is running from the About
+   dialog: the version will be "adhoc".
 
 ### Final Project
 
-<a href="{{ "project.png" }}">
-<img src="{{ "project.png" }}" alt="Project"></a>
-<a href="{{ "final.png" }}">
-<img src="{{ "final.png" }}" alt="Final"></a>
+<a href="project.png">
+<img src="project.png" alt="Project"></a>
+<a href="final.png">
+<img src="final.png" alt="Final"></a>
 
 Rebuilding Dependencies {#rebuilding-dependencies}
 -----------------------
@@ -60,9 +59,8 @@ frei0r and webvfx. Instructions for that are not yet included. In other
 cases you can use the Git Bash shell environment. Upon opening a Git
 Bash shell, enter (or add to ~/.profile and restart the shell):
 
-    export BASE="/Qt/qt-5.5.0-x64-mingw510r0-seh-rev0"
-    export PATH="/c$BASE/mingw64/bin:$PATH"
-    export QTDIR="c:$BASE/qt-5.5.0-x64-mingw510r0-seh-rev0"
+    export PATH="/c/Qt/x86_64-5.1.0-release-posix-seh-rt_v4-rev0/mingw64/bin:$PATH"
+    export QTDIR="c:/Qt/qt-5.6.1-x64-mingw510r0-seh"
     export CC=gcc
     export CXX=g++
     export PKG_CONFIG_PATH="c:/Projects/Shotcut/lib/pkgconfig"
