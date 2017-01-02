@@ -6,11 +6,11 @@ category: notes
 
 1. Download and install the following:
   - [Qt Creator](https://www.qt.io/download-open-source/)
-  - [Our Qt 5.6.1 with QtWebKit SDK (815 MB!)](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/qt-5.6.1-x64-mingw510r0-seh.tar.bz2)    
+  - [Our special build of the Qt 5.6.1 SDK that includes QtWebKit](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/qt-5.6.1-x64-mingw510r0-seh.tar.bz2)    
     Extract it to C:\Qt\qt-5.6.1-x64-mingw510r0-seh
   - [MinGW 5.1 for Windows 64 bit](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/x86_64-5.1.0-release-posix-seh-rt_v4-rev0.7z)  
     Extract it to C:\Qt\x86_64-5.1.0-release-posix-seh-rt_v4-rev0
-  - [Shotcut SDK (889 MB! current version 16.12.03)](http://s3.amazonaws.com/builds.us.meltytech/shotcut/shotcut-win64-sdk-161203.zip)  
+  - [Shotcut SDK (1.2 GB! current version 17.01.02)](http://s3.amazonaws.com/builds.us.meltytech/shotcut/shotcut-win64-sdk-170102.zip)  
     Extract it to C:\Projects
 
 2. Check that the following files are in the correct directories:
@@ -18,7 +18,7 @@ category: notes
   - C:\Qt\qt-5.6.1-x64-mingw510r0-seh\bin\qmake.exe
 
 3. Start Qt Creator and choose **Tools &gt; Options &gt; Build &amp; Run**  
-Configure all of your settings in the Build & Run section.889 MB!
+Configure all of your settings in the Build & Run section.
   - Manually set the debugger to MinGW's gdb.exe.
   ![Debug Settings](debuggers_build_run.png)
   - Manually set the compiler to MinGW's g++.exe
