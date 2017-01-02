@@ -23,26 +23,26 @@ to download.
 
 #### Current Version: 16.12
 
-[64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v16.12/shotcut-win64-161203.exe)
+[64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.01/shotcut-win64-170102.exe)
 <small>(64-bit Windows 7+)</small>
 
-[64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v16.12/shotcut-win64-161203.zip)
+[64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.01/shotcut-win64-170102.zip)
 <small>(64-bit Windows 7+)</small>
 
-[32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v16.12/shotcut-win32-161203.exe)
+[32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.01/shotcut-win32-170102.exe)
 <small>(32-bit Windows 7+)</small>
 
-[32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v16.12/shotcut-win32-161203.zip)
+[32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.01/shotcut-win32-170102.zip)
 <small>(32-bit Windows 7+)</small>
 
-[macOS](https://github.com/mltframework/shotcut/releases/download/v16.12/shotcut-osx-x86_64-161203.dmg)
+[macOS](https://github.com/mltframework/shotcut/releases/download/v17.01/shotcut-osx-x86_64-170102.dmg)
 <small>(64-bit OS X 10.8+)</small>
 
-[Linux](https://github.com/mltframework/shotcut/releases/download/v16.12/shotcut-linux-x86_64-161203.tar.bz2)
-<small>(Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
+[Linux](https://github.com/mltframework/shotcut/releases/download/v17.01/shotcut-linux-x86_64-170102.tar.bz2)
+<small>(64-bit Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v16.12/shotcut-src-161203.tar.bz2)
+archive](https://github.com/mltframework/shotcut/releases/download/v17.01/shotcut-src-170102.tar.bz2)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Release Notes]({{ "/download/releasenotes/" | prepend: site.baseurl }})

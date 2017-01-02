@@ -20,6 +20,11 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 17.01
+
+* Mostly just bug fixes.
+* Added Chinese Taiwan translation.
+
 ##### Release 16.12
 
 * Added **Constrained VBR** for the video codec rate control mode to Export.
