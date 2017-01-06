@@ -21,7 +21,7 @@ to download.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-#### Current Version: 16.12
+#### Current Version: 17.01
 
 [64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.01/shotcut-win64-170102.exe)
 <small>(64-bit Windows 7+)</small>
