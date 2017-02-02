@@ -20,6 +20,17 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 17.02
+
+* Fixed drag-n-drop from other than C: drive on Windows.
+* Fixed '/' getting added to front of file paths on Windows.
+* Fixed the MLT XML repair tool not correctly handling decimal point in some
+  configurations.
+* Fixed opening a network stream.
+* Improved support for image sequences.
+* Improved device capture.
+* Added Slovenian translation.
+
 ##### Release 17.01
 
 * Mostly just bug fixes.
