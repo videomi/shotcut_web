@@ -23,26 +23,26 @@ to download.
 
 #### Current Version: 17.02
 
-[64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-win64-170201.exe)
+[64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-win64-170205.exe)
 <small>(64-bit Windows 7+)</small>
 
-[64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-win64-170201.zip)
+[64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-win64-170205.zip)
 <small>(64-bit Windows 7+)</small>
 
-[32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-win32-170201.exe)
+[32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-win32-170205.exe)
 <small>(32-bit Windows 7+)</small>
 
-[32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-win32-170201.zip)
+[32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-win32-170205.zip)
 <small>(32-bit Windows 7+)</small>
 
-[macOS](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-osx-x86_64-170201.dmg)
+[macOS](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-osx-x86_64-170205.dmg)
 <small>(64-bit OS X 10.8+)</small>
 
-[Linux](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-linux-x86_64-170201.tar.bz2)
+[Linux](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-linux-x86_64-170205.tar.bz2)
 <small>(64-bit Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-src-170201.tar.bz2)
+archive](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-src-170205.tar.bz2)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Release Notes]({{ "/download/releasenotes/" | prepend: site.baseurl }})
