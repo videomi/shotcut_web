@@ -59,6 +59,13 @@ Film Restoration
 src="//www.youtube.com/embed/r3gCM6QNzFY" frameborder="0"
 allowfullscreen="1"></iframe>
 
+Recording a Voice Over
+----------------
+
+<iframe width="640" height="360"
+src="//www.youtube.com/embed/lGxOGwNWF7U" frameborder="0"
+allowfullscreen="1"></iframe>
+
 See Also
 --------
 - [James Woo has created an excellent 25+ video course on how to use Shotcut](https://betterbusiness.zenler.com/courses/video-editing-made-easy-with-shotcut-video-editor&affiliate=1367)

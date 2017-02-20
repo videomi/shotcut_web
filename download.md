@@ -45,6 +45,9 @@ to download.
 archive](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-src-170205.tar.bz2)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
+[Older versions](https://github.com/mltframework/shotcut/releases/) are
+available for download.
+
 [Release Notes]({{ "/download/releasenotes/" | prepend: site.baseurl }})
 
 **OS X users**: since the application is not signed, you need to
@@ -63,9 +66,6 @@ Low Pass, Notch, and Reverb requires that you install the SWH LADSPA plugins
 package, which is commonly available in all distributions.
 [Here is a page]({{ "/notes/linux-dependencies/" | prepend: site.baseurl }}) that lists some required packages
 for specific distributions.
-
-[Older versions](https://github.com/mltframework/shotcut/releases/) are
-available for download.
 
 `This program is distributed in the hope that it will be useful, but
 WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
