@@ -59,6 +59,8 @@ The next step is the most important part. On the **On Scene Load**
 section header, click **+**. In the Action drop-down menu, choose **Run
 JavaScript...**
 
+&nbsp;
+
 In the Function drop-down menu, choose **New Function...** A new tab
 appears in the main document window with some code in it. Put the
 following code into the function:
@@ -100,6 +102,8 @@ add a rectangle, rounded rectangle, or ellipse shape element to act as a
 place-holder for the video. Then, while it is selected, switch to the
 Identity tab of the Inspector. For the **Unique Element ID**, enter the
 value "video".
+
+&nbsp;
 
 Next, switch to the Scene tab, scroll down to the On Scene Load, and
 either add this JavaScript, or change the existing code to look like
