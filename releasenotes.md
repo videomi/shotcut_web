@@ -20,6 +20,14 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 17.03
+
+* Converted the track toggle buttons to icons.
+* Now, you can press Del or Backspace to delete a selected item in the Recent panel.
+* Playback now pauses at the out point in the Source player.
+* Some stability improvements.
+* Performance boost for Size & Position and Rotate filters on multi-CPU systems.
+
 ##### Release 17.02
 
 * Fixed drag-n-drop from other than C: drive on Windows.

@@ -21,40 +21,40 @@ to download.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-#### Current Version: 17.02
+#### Current Version: 17.03
 
-[64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-win64-170205.exe)
+##### Windows
+[64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.03/shotcut-win64-170302.exe)
 <small>(64-bit Windows 7+)</small>
 
-[64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-win64-170205.zip)
+[64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.03/shotcut-win64-170302.zip)
 <small>(64-bit Windows 7+)</small>
 
-[32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-win32-170205.exe)
+[32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.03/shotcut-win32-170302.exe)
 <small>(32-bit Windows 7+)</small>
 
-[32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-win32-170205.zip)
+[32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.03/shotcut-win32-170302.zip)
 <small>(32-bit Windows 7+)</small>
 
-[macOS](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-osx-x86_64-170205.dmg)
+---
+
+##### macOS
+[macOS](https://github.com/mltframework/shotcut/releases/download/v17.03/shotcut-osx-x86_64-170302.dmg)
 <small>(64-bit OS X 10.8+)</small>
 
-[Linux](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-linux-x86_64-170205.tar.bz2)
-<small>(64-bit Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
-
-[Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-src-170205.tar.bz2)
-/ [GitHub repository](https://github.com/mltframework/shotcut)
-
-[Older versions](https://github.com/mltframework/shotcut/releases/) are
-available for download.
-
-[Release Notes]({{ "/download/releasenotes/" | prepend: site.baseurl }})
-
-**OS X users**: since the application is not signed, you need to
+**macOS users**: since the application is not signed, you need to
 control-click the app icon and choose **Open** from the context menu the
 first time you run it.
 
-**Linux users**: no install required, simply extract the archive and run
+---
+
+##### Linux
+[64-bit Linux portable zip](https://github.com/mltframework/shotcut/releases/download/v17.03/shotcut-linux-x86_64-170302.tar.bz2)
+<small>(64-bit Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
+
+[64-bit Linux snap](https://uappexplorer.com/app/shotcut.meltytech)
+
+**Linux users**: No install required, simply extract the archive and run
 it. You can drag the Shotcut folder to copy and move it wherever you
 want. If double-clicking the icon in your file manager does not launch
 Shotcut, open Shotcut.app, and try double-clicking the shotcut shell
@@ -66,6 +66,19 @@ Low Pass, Notch, and Reverb requires that you install the SWH LADSPA plugins
 package, which is commonly available in all distributions.
 [Here is a page]({{ "/notes/linux-dependencies/" | prepend: site.baseurl }}) that lists some required packages
 for specific distributions.
+
+---
+
+##### Other
+
+[Source code
+archive](https://github.com/mltframework/shotcut/releases/download/v17.03/shotcut-src-170302.tar.bz2)
+/ [GitHub repository](https://github.com/mltframework/shotcut)
+
+[Older versions](https://github.com/mltframework/shotcut/releases/) are
+available for download.
+
+[Release Notes]({{ "/download/releasenotes/" | prepend: site.baseurl }})
 
 `This program is distributed in the hope that it will be useful, but
 WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
