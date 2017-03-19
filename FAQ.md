@@ -312,6 +312,15 @@ We recommend that you use VirtualDub or Avidemux for that.
 
 * * *
 
+## Is Shotcut free for commercial use?
+
+Yes, because the software is made available under the GPLv3 license, it
+supports [The Free Software Definition](https://www.gnu.org/philosophy/free-sw.html),
+which includes:
+> The freedom to run the program as you wish, for any purpose (freedom 0).
+
+* * *
+
 ## Where can I get more transitions?
 
 16-bit grayscale PGMs give the best results.
