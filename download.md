@@ -21,25 +21,25 @@ to download.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-#### Current Version: 17.03
+#### Current Version: 17.04
 
 ##### Windows
-[64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.03/shotcut-win64-170302.exe)
+[64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.04/shotcut-win64-170402.exe)
 <small>(64-bit Windows 7+)</small>
 
-[64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.03/shotcut-win64-170302.zip)
+[64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.04/shotcut-win64-170402.zip)
 <small>(64-bit Windows 7+)</small>
 
-[32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.03/shotcut-win32-170302.exe)
+[32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.04/shotcut-win32-170402.exe)
 <small>(32-bit Windows 7+)</small>
 
-[32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.03/shotcut-win32-170302.zip)
+[32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.04/shotcut-win32-170402.zip)
 <small>(32-bit Windows 7+)</small>
 
 ---
 
 ##### macOS
-[macOS](https://github.com/mltframework/shotcut/releases/download/v17.03/shotcut-osx-x86_64-170302.dmg)
+[macOS](https://github.com/mltframework/shotcut/releases/download/v17.04/shotcut-osx-x86_64-170402.dmg)
 <small>(64-bit OS X 10.8+)</small>
 
 **macOS users**: since the application is not signed, you need to
@@ -49,7 +49,7 @@ first time you run it.
 ---
 
 ##### Linux
-[64-bit Linux portable zip](https://github.com/mltframework/shotcut/releases/download/v17.03/shotcut-linux-x86_64-170302.tar.bz2)
+[64-bit Linux portable zip](https://github.com/mltframework/shotcut/releases/download/v17.04/shotcut-linux-x86_64-170402.tar.bz2)
 <small>(64-bit Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
 
 [64-bit Linux snap](https://uappexplorer.com/app/shotcut.meltytech)

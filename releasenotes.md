@@ -20,6 +20,12 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 17.04
+
+* Fix crashing on launch on the new macOS 10.12.4.
+* Added Japanese translation.
+* Added Turkish translation.
+
 ##### Release 17.03
 
 * Converted the track toggle buttons to icons.
