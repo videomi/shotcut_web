@@ -75,7 +75,7 @@ for specific distributions.
 ##### Other
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v17.03/shotcut-src-170302.tar.bz2)
+archive](https://github.com/mltframework/shotcut/releases/download/v17.05/shotcut-src-170503.tar.bz2)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Older versions](https://github.com/mltframework/shotcut/releases/) are
