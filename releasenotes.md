@@ -22,6 +22,11 @@ information.
 
 ##### Release 17.04
 
+* Fix opening and saving files on Windows with non-Latin characters in the name or path.
+* Updated translations.
+
+##### Release 17.04
+
 * Fix crashing on launch on the new macOS 10.12.4.
 * Added Japanese translation.
 * Added Turkish translation.
