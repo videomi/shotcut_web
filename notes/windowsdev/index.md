@@ -39,7 +39,7 @@ Configure all of your settings in the Build & Run section.
 7. Set your build settings in the Shotcut project configuration so that the build steps include MinGW make steps.
     <a href="build_settings.png">
     <img src="build_settings.png" alt="Project"></a>
-8. After choosing You can confirm the newly built executable is the one that is running from the About
+8. After clicking Run, you can confirm the newly built executable is the one that is running from the About
    dialog: the version will be "adhoc".
 
 ### Final Project
