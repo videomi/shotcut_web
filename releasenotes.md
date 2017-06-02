@@ -20,7 +20,13 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
-##### Release 17.04
+##### Release 17.06
+
+* Change maximum duration of a still image from 10 minutes to 4 hours.
+* Added Hungarian translation.
+* Fixed Chinese translation.
+
+##### Release 17.05
 
 * Fix opening and saving files on Windows with non-Latin characters in the name or path.
 * Updated translations.
