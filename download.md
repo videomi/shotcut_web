@@ -52,7 +52,7 @@ first time you run it.
 [64-bit Linux portable zip](https://github.com/mltframework/shotcut/releases/download/v17.06/shotcut-linux-x86_64-170601.tar.bz2)
 <small>(64-bit Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
 
-[64-bit Linux snap](https://uappexplorer.com/app/shotcut.meltytech)
+[64-bit Linux snap](https://uappexplorer.com/snap/ubuntu/shotcut)
 
 On [snap-enabled systems](https://snapcraft.io/docs/core/install), install the
 beta snap from the store with: `snap install shotcut --edge --classic`
