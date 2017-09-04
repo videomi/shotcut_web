@@ -46,6 +46,11 @@ Versions 15.09 and higher can also use **DirectX** when GPU processing is not
 enabled, and that should improve compatibility. Try the different options under
 **Settings > Display Method: OpenGL or DirectX**.
 
+If you are using the 32-bit version of Shotcut on 64-bit Windows (it may appear
+in "Program Files (x86)"), try using
+the 64-bit version of Shotcut instead. You may be experiencing issues with
+drivers or running into memory limitations.
+
 Of course, there can still be other reasons we have not yet discovered.
 If you believe none of the reasons above applies to you, then you can
 locate your shotcut-log.txt file in AppData (see other question below
@@ -63,7 +68,7 @@ web site or somehow share the result with someone as separate video
 file, then click **Export** on the toolbar, which opens or raises the
 Export panel. In the Export panel, there are 3 basic steps:
 
-1. choose and click a **Preset**, 
+1. choose and click a **Preset**,
 2. click **Reload** to load the current
 video settings, and
 3. click **Export File** at the bottom of the panel.
@@ -265,7 +270,7 @@ choosing **Settings > Display Method > DirectX (ANGLE)**.
 ## Can I have multiple versions installed at the same time?
 
 Yes. Simply rename your existing program folder to put the version
-number in it or move it out-of-the-way to another location. 
+number in it or move it out-of-the-way to another location.
 
 On **Windows**, the installer is mostly just a fancy zip extractor that also
 adds a start menu item. So, you can install the new version to a

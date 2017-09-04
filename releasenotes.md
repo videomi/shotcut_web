@@ -20,6 +20,13 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 17.08
+
+* Increased maximum **Timeline** zoom level.
+* Increased **Speed** field precision to 3 decimal places.
+* Increased maximum value for **Speed** field to 200x.
+* Added Norwegian Bokmål translation.
+
 ##### Release 17.06
 
 * Change maximum duration of a still image from 10 minutes to 4 hours.
