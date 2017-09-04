@@ -20,6 +20,15 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 17.09
+
+* Show in Folder now selects the file on Windows Explorer or macOS Finder.
+* Renewed the code signing certificate for the Windows installer and executable.
+* Updated SDL to v2.0
+* Updated FFmpeg to v3.2
+* Updated x264, x265, and vp8/9 to the latest stable versions.
+* Added --noupgrade command line option and boolean General/noupgrade option to config/registry options.
+
 ##### Release 17.08
 
 * Increased maximum **Timeline** zoom level.

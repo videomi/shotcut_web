@@ -7,14 +7,14 @@ category: notes
 Ubuntu, Debian, and Mint
 ------------------------
 
-required: libsox2 libsdl1.2debian libjack0
+required: libsox2 libsdl2-2.0-0 libjack0
 
 optional: swh-plugins
 
 Fedora
 ------
 
-required: jack-audio-connection-kit mesa-libGLU SDL
+required: jack-audio-connection-kit mesa-libGLU SDL2
 
 optional: ladspa-swh-plugins
 
@@ -28,4 +28,4 @@ libgthread, libglib-2.0, libgobject-2.0
 free codecs: libvorbis, libvorbisenc, libtheoraenc, libtheoradec,
 libogg, libFLAC
 
-common multimedia libs: libSDL-1.2, libjack, libexif
+common multimedia libs: libSDL-2.0, libjack, libexif
