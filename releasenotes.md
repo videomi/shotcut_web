@@ -20,6 +20,12 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 17.10
+
+* Fixed multi-threaded decoding with FFmpeg v3.2.
+* Added 1080p 59.94 and 60 fps video modes.
+* Added support for NVENC to Export panel.
+
 ##### Release 17.09
 
 * Show in Folder now selects the file on Windows Explorer or macOS Finder.
