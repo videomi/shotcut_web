@@ -23,7 +23,7 @@ category: help
 | Save As               | Ctrl+Shift+S                         | Cmd+Shift+S
 | Quit                  | Ctrl+Q                               | Cmd+Q
 | Undo                  | Ctrl+Z                               | Cmd+Z
-| Redo                  | Windows: Ctrl+Y, Linux: Ctrl+Shift+Z | Cmd+Shift+Z
+| Redo                  | Ctrl+Shift+Z                         | Cmd+Shift+Z
 | Fullscreen            | Ctrl+Shift+F                         | Ctrl+Cmd+F
 | ***Player***          |                                      |
 | Play                  | L or Space                           |
@@ -83,7 +83,7 @@ category: help
 | Toggle Hide track     | Ctrl+H                               |
 | Toggle Lock track     | Ctrl+L                               |
 | ***Playlist***        |                                      |
-| Append                | Shift+C                              |
+| Append                | Shift+A                              |
 | Delete                | Shift+X                              |
 | Insert                | Shift+V                              |
 | Update                | Shift+B                              |
