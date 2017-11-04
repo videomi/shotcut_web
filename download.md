@@ -21,26 +21,26 @@ to download.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-#### Current Version: 17.10
+#### Current Version: 17.11
 
 ##### Windows
-[64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.10/shotcut-win64-171002.exe)
+[64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.11/shotcut-win64-171104.exe)
 <small>(64-bit Windows 7+)</small>
 
-[64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.10/shotcut-win64-171002.zip)
+[64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.11/shotcut-win64-171104.zip)
 <small>(64-bit Windows 7+)</small>
 
-[32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.10/shotcut-win32-171002.exe)
+[32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v17.11/shotcut-win32-171104.exe)
 <small>(32-bit Windows 7+)</small>
 
-[32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.10/shotcut-win32-171002.zip)
+[32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v17.11/shotcut-win32-171104.zip)
 <small>(32-bit Windows 7+)</small>
 
 ---
 
 ##### macOS
-[macOS](https://github.com/mltframework/shotcut/releases/download/v17.10/shotcut-osx-x86_64-171002.dmg)
-<small>(64-bit OS X 10.8+)</small>
+[macOS](https://github.com/mltframework/shotcut/releases/download/v17.11/shotcut-osx-x86_64-171104.dmg)
+<small>(64-bit macOS 10.8+)</small>
 
 **macOS users**: since the application is not signed, you need to
 control-click the app icon and choose **Open** from the context menu the
@@ -49,13 +49,13 @@ first time you run it.
 ---
 
 ##### Linux
-[64-bit Linux portable zip](https://github.com/mltframework/shotcut/releases/download/v17.10/shotcut-linux-x86_64-171002.tar.bz2)
+[64-bit Linux portable zip](https://github.com/mltframework/shotcut/releases/download/v17.11/shotcut-linux-x86_64-171104.tar.bz2)
 <small>(64-bit Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
 
 [64-bit Linux snap](https://uappexplorer.com/snap/ubuntu/shotcut)
 
 On [snap-enabled systems](https://snapcraft.io/docs/core/install), install the
-beta snap from the store with: `snap install shotcut --edge --classic`
+beta snap from the store with: `snap install shotcut --classic`
 
 **Linux Zip file Users**: No install required, simply extract the archive and run
 it. You can drag the Shotcut folder to copy and move it wherever you
@@ -75,7 +75,7 @@ for specific distributions.
 ##### Other
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v17.10/shotcut-src-171002.tar.bz2)
+archive](https://github.com/mltframework/shotcut/releases/download/v17.11/shotcut-src-171104.tar.bz2)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Older versions](https://github.com/mltframework/shotcut/releases/) are

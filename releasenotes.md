@@ -20,6 +20,19 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 17.11
+
+* Changed add-filter menu to be embedded instead of popup.
+* Added **Master** label to **Timeline**.
+* Show filters icon on track heads if track is filtered.
+* Prioritize '0' shortcut for **Timeline** over **Playlist**.
+* Do not adjust timeline zoom until slider is released.
+* Added warning dialog to **Export** if file cannot be written (e.g. due to permissions).
+* Added warning dialog to **Export** if chosen file is in the project.
+* Added warning dialog to **Export** if the drive is low on space.
+* Added Nepali translation.
+* Added button to Text filter to insert the # symbol.
+
 ##### Release 17.10
 
 * Fixed multi-threaded decoding with FFmpeg v3.2.
