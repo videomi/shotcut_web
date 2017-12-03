@@ -20,6 +20,19 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 17.12
+
+* Added icon, progress bar, and time remaining/taken to **Jobs** panel.
+* Increased maximum resolution to 8192x8192.
+* Indicate if variable frame rate is detected in **Properties**.
+* Added **Convert to Edit-friendly...** dialog when variable frame rate or non-seekable file opened.
+* Added **Convert to Edit-friendly...** to **Properties** menu for video and audio files.
+* Adding, removing, and adjusting **Fade In/Out** filters now updates fade controls on the **Timeline**.
+* Major speed improvements for **Timeline** rendering, especially when changing zoom level.
+* Stop showing waveforms on muted tracks.
+* Fixed audio crackling on some systems.
+* Fixed accuracy of reading and writing time values, particularly for non-integer frame rates.
+
 ##### Release 17.11
 
 * Changed add-filter menu to be embedded instead of popup.
