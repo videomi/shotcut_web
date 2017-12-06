@@ -97,6 +97,19 @@ suggestions:
 
 * * *
 
+## What can I do if Export is failing or getting stuck?
+
+If a job appears to be stuck or hung (please allow ample time for percentage to
+change), right-click the job in the Jobs panel and choose **Stop**. Try export
+again with **Export > Video > Parallel processing** disabled (unchecked). If
+there is still a problem see what percentage it reaches before failing or
+hanging. Then, apply the percentage to your project duration to find the rough
+time of where it seems to be having trouble. Is there something complicated or
+different there? You can temporarily remove some things in this area and try
+again to see if export goes further.
+
+* * *
+
 ## How do I add text? Is there a titler?
 
 You must apply a filter to your clip or track. There are 3 suitable
