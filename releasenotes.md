@@ -20,6 +20,13 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 18.01
+
+* Added **Audio Spectrum Visualization** filter.
+* Added support for font size and italics to **Text** filter.
+* Added a **Mask** filter.
+* Another important fix for accuracy of XML time values for non-integer frame rates.
+
 ##### Release 17.12
 
 * Added icon, progress bar, and time remaining/taken to **Jobs** panel.
