@@ -48,7 +48,7 @@ Software Collections
 -   [MacUpdate](http://www.macupdate.com/app/mac/48634/shotcut/)
 -   Softpedia:
     [Windows](http://www.softpedia.com/get/Multimedia/Video/Video-Editors/Shotcut.shtml)
-    | [OS X](http://mac.softpedia.com/get/Multimedia/Shotcut.shtml) |
+    | [macOS](http://mac.softpedia.com/get/Multimedia/Shotcut.shtml) |
     [Linux](http://linux.softpedia.com/get/Multimedia/Video/Shotcut-103754.shtml)
 
 Warning: we do not officially endorse any of these organizations, and some of them may host downloads of Shotcut that are old or have been bundled with other unknown software.

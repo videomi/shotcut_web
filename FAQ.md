@@ -316,6 +316,10 @@ We recommend that you use VirtualDub or Avidemux for that.
 
 ## Why do I not have the \_\_ filter?
 
+-   Some filters are not compatible with GPU Processing.
+-   Some filters cannot be applied to a track or the entire timeline (i.e. Master).
+    Please check what is currently selected. The top of the Filters panel shows
+    the name of what is selected.
 -   By design, we do not make all LADSPA and frei0r filters available
     through the UI. We do not want to present a confusing generic
     interface to all available plugins and overwhelm users with so many,
@@ -336,48 +340,6 @@ Yes, because the software is made available under the GPLv3 license, it
 supports [The Free Software Definition](https://www.gnu.org/philosophy/free-sw.html),
 which includes:
 > The freedom to run the program as you wish, for any purpose (freedom 0).
-
-* * *
-
-## Where can I get more transitions?
-
-16-bit grayscale PGMs give the best results.
-
--   [Kdenlive
-    Git](http://quickgit.kde.org/?p=kdenlive.git&a=tree&f=lumas)
--   [KDE Files](http://kde-files.org/index.php?xcontentmode=683)
--   [Kino
-    CVS](https://sourceforge.net/p/kino/code/HEAD/tree/trunk/kino/src/timfx/lumas/)
-
-* * *
-
-## What are some sources of royalty-free images?
-
--   [Lost & Taken Textures](http://lostandtaken.com/gallery)
--   [Image After](http://www.imageafter.com/)
--   [Blue Vertigo](http://www.bluevertigo.com.ar/bluevertigo.htm)
--   [morgueFile](http://www.morguefile.com/)
--   [bittbox](http://www.bittbox.com/)
--   [Grunge Textures](http://www.grungetextures.com/)
--   [Texture King](http://www.textureking.com/)
--   [texturez.com](http://texturez.com/)
-
-* * *
-
-## What are some sources of royalty-free videos?
-
--   [IgniteMotion.com Free Motion
-    Backgrounds](http://www.ignitemotion.com/)
-
-* * *
-
-## What are some sources of royalty-free music?
-
--   [Creative Commons](http://creativecommons.org/legalmusicforvideos)
--   [Music for Video](http://music-for-video.com/)
--   [Vimeo Music Store (Creative Commons in addition
-    to commercial)](http://vimeo.com/musicstore)
--   [YouTube Audio Library](https://www.youtube.com/audiolibrary)
 
 * * *
 
