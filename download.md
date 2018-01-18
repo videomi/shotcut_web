@@ -84,6 +84,8 @@ archive](https://github.com/mltframework/shotcut/releases/download/v18.01/shotcu
 [Older versions](https://github.com/mltframework/shotcut/releases/) are
 available for download.
 
+An alternate, supported download location is [FossHub](https://www.fosshub.com/Shotcut.html).
+
 [Release Notes]({{ "/download/releasenotes/" | prepend: site.baseurl }})
 
 `This program is distributed in the hope that it will be useful, but

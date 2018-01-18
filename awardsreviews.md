@@ -42,6 +42,7 @@ GameTechSuperSham
 Software Collections
 ====================
 
+-   [FossHub](https://www.fosshub.com/Shotcut.html)
 -   [Wikipedia](https://en.wikipedia.org/wiki/Shotcut)
 -   [Free Software Foundation
     Directory](http://directory.fsf.org/wiki/Shotcut)
