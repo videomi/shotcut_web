@@ -21,20 +21,22 @@ developer has reviewed for accuracy and recommends.
 <img src="{{ "/assets/img/resources/shotcut-official-training.png" | prepend: site.baseurl }}" alt="Shotcut Official Training Ad" width="320" height="180"></a>
 </center>
 
-<!--
-## Want to charge money for people to view your videos?
+## Want a video hosting service where you can sell your videos?
 
-Or, do you need a Web-based collaboration tool for reviewing your videos with
-customers or team members? Then, consider a Vimeo PRO membership!
--->
+Vimeo PRO also includes Web-based collaboration tools for reviewing videos with customers or team members.
+
+<center>
+<a href="https://vimeo.com/ondemand/startselling">
+<img src="{{ "/assets/img/resources/vimeopro.jpeg" | prepend: site.baseurl }}" alt="Vimeo PRO Ad" width="300" height="250"></a>
+</center>
 
 ## Looking for royalty-free media to include in your video?
 
-Give Storyblocks (a.k.a. Videoblocks) a try.
-
+<center>
 <a href="https://videoblocks.go2cloud.org/aff_c?offer_id=18&aff_id=2503&file_id=452" target="_blank"><img src="https://media.go2speed.org/brand/files/videoblocks/18/728x90-sbidefault-400kstockimage-tryfree7days.png" width="728" height="90" border="0" /></a><img src="https://videoblocks.go2cloud.org/aff_i?offer_id=18&file_id=452&aff_id=2503" width="1" height="1">  
 <a href="https://videoblocks.go2cloud.org/aff_c?offer_id=12&aff_id=2503&url_id=44&file_id=106" target="_blank"><img src="https://media.go2speed.org/brand/files/videoblocks/12/300x250-vbcoppervalley-startdownloading-ga115kft.png" width="300" height="250" border="0" /></a><img src="https://videoblocks.go2cloud.org/aff_i?offer_id=12&file_id=106&aff_id=2503&url_id=44&source=shotcut.com" width="1" height="1">
 <a href="https://videoblocks.go2cloud.org/aff_c?offer_id=22&aff_id=2503&url_id=70&file_id=248" target="_blank"><img src="https://media.go2speed.org/brand/files/videoblocks/22/300x250-abviolin-startcreating-115krfsmc.png" width="300" height="250" border="0" /></a><img src="https://videoblocks.go2cloud.org/aff_i?offer_id=22&file_id=248&aff_id=2503&url_id=70" width="1" height="1">
+</center>
 
 ### Free Stock Media Sources
 
