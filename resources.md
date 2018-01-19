@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: nosidebar
 title: Resources
 permalink: /resources/
-category: help
+category: other
 ---
 <small>
 This page contains some affiliate links to partners, which financially supports the
@@ -16,27 +16,21 @@ In addition to the [free tutorial videos on YouTube]({{ "/tutorials/" | prepend:
 there is a very good and affordable video training course that the Shotcut lead
 developer has reviewed for accuracy and recommends.
 
-<center>
 <a href="https://betterbusiness.zenler.com/courses/video-editing-made-easy-with-shotcut-video-editor&affiliate=1367">
 <img src="{{ "/assets/img/resources/shotcut-official-training.png" | prepend: site.baseurl }}" alt="Shotcut Official Training Ad" width="320" height="180"></a>
-</center>
 
 ## Want a video hosting service where you can sell your videos?
 
 Vimeo PRO also includes Web-based collaboration tools for reviewing videos with customers or team members.
 
-<center>
 <a href="https://vimeo.com/ondemand/startselling">
 <img src="{{ "/assets/img/resources/vimeopro.jpeg" | prepend: site.baseurl }}" alt="Vimeo PRO Ad" width="300" height="250"></a>
-</center>
 
 ## Looking for royalty-free media to include in your video?
 
-<center>
 <a href="https://videoblocks.go2cloud.org/aff_c?offer_id=18&aff_id=2503&file_id=452" target="_blank"><img src="https://media.go2speed.org/brand/files/videoblocks/18/728x90-sbidefault-400kstockimage-tryfree7days.png" width="728" height="90" border="0" /></a><img src="https://videoblocks.go2cloud.org/aff_i?offer_id=18&file_id=452&aff_id=2503" width="1" height="1">  
 <a href="https://videoblocks.go2cloud.org/aff_c?offer_id=12&aff_id=2503&url_id=44&file_id=106" target="_blank"><img src="https://media.go2speed.org/brand/files/videoblocks/12/300x250-vbcoppervalley-startdownloading-ga115kft.png" width="300" height="250" border="0" /></a><img src="https://videoblocks.go2cloud.org/aff_i?offer_id=12&file_id=106&aff_id=2503&url_id=44&source=shotcut.com" width="1" height="1">
 <a href="https://videoblocks.go2cloud.org/aff_c?offer_id=22&aff_id=2503&url_id=70&file_id=248" target="_blank"><img src="https://media.go2speed.org/brand/files/videoblocks/22/300x250-abviolin-startcreating-115krfsmc.png" width="300" height="250" border="0" /></a><img src="https://videoblocks.go2cloud.org/aff_i?offer_id=22&file_id=248&aff_id=2503&url_id=70" width="1" height="1">
-</center>
 
 ### Free Stock Media Sources
 
@@ -63,6 +57,8 @@ Vimeo PRO also includes Web-based collaboration tools for reviewing videos with 
 - [Music for Video](https://music-for-video.com/)
 - [Free Music Archive](http://freemusicarchive.org/)
 - [YouTube Audio Library](https://www.youtube.com/audiolibrary/music)
+- [PremiumBeat Sound Effects](https://www.premiumbeat.com/blog/120-free-sound-effects/)
+- [Lucid Samples Free Effects](https://www.lucidsamples.com/free-sample-packs/181-free-sound-effects-sfx-pack.html)
 
 #### Transitions
 
