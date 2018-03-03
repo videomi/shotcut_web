@@ -16,3 +16,5 @@ For Italian users, Diversi Tutti has created some guides:
 - [FAQ](https://diversitutti.wixsite.com/vidint/faq)
 - [Videos](https://diversitutti.wixsite.com/vidint/corso-base-di-montaggio-video)
 - [YouTube Playlist](https://www.youtube.com/playlist?list=PLualQpLgteOCmKCRjnYFOTyaoK3HsgthW)
+
+Nicos Papadouri created a [Greek instruction manual](srs_shotcut.pdf).
