@@ -20,6 +20,19 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 18.03
+
+* Added a **Sketch** filter.
+* Added numeric fields to the **Color Grading** filter.
+* Added **All** option to **Properties > Audio > Track**.
+* Added **Estonian** translation.
+* Improved image loading speed on Windows.
+* Improved mouse-wheel & trackpad scrolling in **Timeline**.
+* Improved support for JACK Audio (Linux and macOS only).
+* Upgraded FFmpeg to version 3.4 and latest vpx for much faster VP9 encoding.
+* Upgrade MLT to v6.6.0.
+* Upgraded SDL to version 2.0.
+
 ##### Release 18.01
 
 * Added **Audio Spectrum Visualization** filter.

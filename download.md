@@ -21,25 +21,25 @@ to download.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-#### Current Version: 18.01
+#### Current Version: 18.03
 
 ##### Windows
-[64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.01/shotcut-win64-180102.exe)
+[64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.03/shotcut-win64-180302.exe)
 <small>(64-bit Windows 7+)</small>
 
-[64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.01/shotcut-win64-180102.zip)
+[64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.03/shotcut-win64-180302.zip)
 <small>(64-bit Windows 7+)</small>
 
-[32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.01/shotcut-win32-180102.exe)
+[32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.03/shotcut-win32-180302.exe)
 <small>(32-bit Windows 7+)</small>
 
-[32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.01/shotcut-win32-180102.zip)
+[32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.03/shotcut-win32-180302.zip)
 <small>(32-bit Windows 7+)</small>
 
 ---
 
 ##### macOS
-[macOS](https://github.com/mltframework/shotcut/releases/download/v18.01/shotcut-osx-x86_64-180102.dmg)
+[macOS](https://github.com/mltframework/shotcut/releases/download/v18.03/shotcut-osx-x86_64-180302.dmg)
 <small>(64-bit macOS 10.8+)</small>
 
 **macOS users**: since the application is not signed, you need to
@@ -49,7 +49,7 @@ first time you run it.
 ---
 
 ##### Linux
-[64-bit Linux portable zip](https://github.com/mltframework/shotcut/releases/download/v18.01/shotcut-linux-x86_64-180102.tar.bz2)
+[64-bit Linux portable zip](https://github.com/mltframework/shotcut/releases/download/v18.03/shotcut-linux-x86_64-180302.tar.bz2)
 <small>(64-bit Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
 
 [64-bit Linux snap](https://uappexplorer.com/snap/ubuntu/shotcut)
@@ -78,7 +78,7 @@ for specific distributions.
 ##### Other
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v18.01/shotcut-src-180102.tar.bz2)
+archive](https://github.com/mltframework/shotcut/releases/download/v18.03/shotcut-src-180302.tar.bz2)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Older versions](https://github.com/mltframework/shotcut/releases/) are
