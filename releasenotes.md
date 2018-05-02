@@ -79,7 +79,7 @@ information.
 * Updated SDL to v2.0
 * Updated FFmpeg to v3.2
 * Updated x264, x265, and vp8/9 to the latest stable versions.
-* Added --noupgrade command line option and boolean General/noupgrade option to config/registry options.
+* Added `--noupgrade` command line option and boolean General/noupgrade option to config/registry options.
 
 ##### Release 17.08
 
@@ -140,7 +140,7 @@ information.
 
 ##### Release 16.11
 
-* Added **portable app** feature with **Settings > App Data Directory** and --appdata command line argument.
+* Added **portable app** feature with **Settings > App Data Directory** and `--appdata` command line argument.
 * Fixed drag-n-drop to Timeline after moving clip to different track.
 * Fixed **LUT (3D) filter** for languages/regions that use comma for decimal point.
 * Fixed **Properties > Speed** on macOS for languages/regions that use comma for decimal point.

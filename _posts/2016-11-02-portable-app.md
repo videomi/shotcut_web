@@ -21,7 +21,7 @@ Like most apps, Shotcut has an app data directory wherein it stores its
 thumbnails/waveforms database, presets, and log file. Normally,
 it stores settings in a platform-defined manner such as the registry on Windows
 or a plist file in ~/Library on macOS. Now, you can set the app directory using
-the command line option "--appdata &lt;directory&gt;" or the **Settings &gt; App Data Directory**
+the command line option `--appdata &lt;directory&gt;` or the **Settings &gt; App Data Directory**
 menu. When you do, then settings are instead saved in an INI file in the designated
 folder. If you use the menu, Shotcut will try to migrate everything from the
 current location to the new location only if there is not existing Shotcut
