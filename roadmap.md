@@ -15,17 +15,15 @@ category: other
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-1. keyframable filter parameters
 2. undo/redo support for filters
 3. reverse clip
 4. better support for foreign MLT XML (e.g. Kdenlive)
 5. looping playback - project, selection, around
 6. fullscreen playback on current/single screen
-7. add a "pre-flight" test when loading file to check compatibility
-8. convenient voice-over recording
+13. markers
+8. more convenient voice-over recording
 10. set metadata (artist, title, etc.) in encode
 10. archive project
-13. markers
 14. slideshow generator
 16. reorder tracks
 17. transcode or transmux incompatible media or to create optimized-for-editing media
@@ -33,7 +31,7 @@ category: other
 19. project and media management
 20. additional editing modes/operations
 21. AviSynth script as [input file](http://www.ffmpeg.org/general.html#AviSynth)
-22. surround sound
+22. surround panning
 23. USB jog/shuttle
 24. USB MIDI controller mapping for buttons, faders, and knobs
 25. scopes: histogram, RGB parade, vectorscope

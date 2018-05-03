@@ -20,6 +20,21 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 18.05
+
+* Added **Keyframes** for Filters:
+  - Gain / Volume
+  - Brightness
+  - Circular Frame
+  - Color Grading (no simple)
+  - Opacity
+  - Size and Position (simple only)
+* Added support for mono and 5.1 surround sound: **Settings > Audio Channels** and **Export >Audio > Channels**.
+* Added **Finnish** translation.
+* Restored **GIF Animation** for Export.
+* Reduced memory footprint (especially for Rotate and Size and Position filters).
+* Changed **Export** default settings to reduce output size by increasing GOP and number of B frames.
+
 ##### Release 18.03
 
 * Added a **Sketch** filter.
