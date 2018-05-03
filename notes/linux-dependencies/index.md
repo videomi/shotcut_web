@@ -7,7 +7,7 @@ category: notes
 Ubuntu, Debian, and Mint
 ------------------------
 
-required: libsox2 libsdl2-2.0-0 libjack0
+required: libsox2 libsdl2-2.0-0 libjack0 libxkbcommon-x11-0
 
 optional: swh-plugins
 
