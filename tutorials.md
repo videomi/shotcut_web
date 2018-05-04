@@ -66,6 +66,14 @@ Recording a Voice Over
 src="//www.youtube.com/embed/lGxOGwNWF7U" frameborder="0"
 allowfullscreen="1"></iframe>
 
+Keyframes
+----------------
+
+<iframe width="640" height="360"
+src="//www.youtube.com/embed/BrlicD7W6jk" frameborder="0"
+allowfullscreen="1"></iframe>
+
+
 See Also
 --------
 - [James Woo has created an excellent 45+ video course on how to use Shotcut](https://betterbusiness.zenler.com/courses/video-editing-made-easy-with-shotcut-video-editor&affiliate=1367)
