@@ -24,23 +24,25 @@ to download.
 #### Current Version: 18.05
 
 ##### Windows
-[64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcut-win64-180503.exe)
-<small>(64-bit Windows 7+)</small>
+<small>(Windows 7+)</small>
 
-[64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcut-win64-180503.zip)
-<small>(64-bit Windows 7+)</small>
-
-[32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcut-win32-180503.exe)
-<small>(32-bit Windows 7+)</small>
-
-[32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcut-win32-180503.zip)
-<small>(32-bit Windows 7+)</small>
+| Mirror 1 (GitHub)     | Mirror 2 (FossHub)
+|-----------------------|-------------------
+| [64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcut-win64-180503.exe) | [64-bit Windows installer](https://www.fosshub.com/Shotcut.html/shotcut-win64-180503.exe)
+| [64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcut-win64-180503.zip) | [64-bit Windows portable zip](https://www.fosshub.com/Shotcut.html/shotcut-win64-180503.zip)
+| [32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcut-win32-180503.exe) | [32-bit Windows installer](https://www.fosshub.com/Shotcut.html/shotcut-win32-180503.exe)
+| [32-bit Windows portable zip ](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcut-win32-180503.zip) | [32-bit Windows portable zip](https://www.fosshub.com/Shotcut.html/shotcut-win32-180503.zip)
+{:.withborders}
 
 ---
 
 ##### macOS
-[macOS](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcut-osx-x86_64-180503.dmg)
 <small>(64-bit macOS 10.8+)</small>
+
+| Mirror 1 (GitHub) &nbsp; &nbsp; | Mirror 2 (FossHub)
+|-----------------------|-----------------------------
+| [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcut-osx-x86_64-180503.dmg) | [macOS dmg](https://www.fosshub.com/Shotcut.html/shotcut-osx-x86_64-180503.dmg)
+{:.withborders}
 
 **macOS users**: since the application is not signed, you need to
 control-click the app icon and choose **Open** from the context menu the
@@ -49,15 +51,14 @@ first time you run it.
 ---
 
 ##### Linux
-[64-bit Linux portable zip](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcut-linux-x86_64-180503.tar.bz2)
 <small>(64-bit Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
 
-[64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v18.05/Shotcut-18.05.glibc2.14-x86_64.AppImage)
-<small>(64-bit Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
-
-[64-bit Linux Flatpak](https://flathub.org/apps/details/org.shotcut.Shotcut)
-
-[64-bit Linux Snap](https://snapcraft.io/shotcut)
+| Mirror 1 (GitHub)     | Mirror 2 (FossHub)
+|-----------------------|-------------------
+| [64-bit Linux portable zip](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcut-linux-x86_64-180503.tar.bz2) | [64-bit Linux potable zip](https://www.fosshub.com/Shotcut.html/shotcut-linux-x86_64-180503.tar.bz2)  
+| [64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v18.05/Shotcut-18.05.glibc2.14-x86_64.AppImage) | [64-bit Linux AppImage](https://www.fosshub.com/Shotcut.html/Shotcut-18.05.glibc2.14-x86_64.AppImage)
+| [Linux Flatpak](https://flathub.org/apps/details/org.shotcut.Shotcut) | [64-bit Linux Snap](https://snapcraft.io/shotcut)
+{:.withborders}
 
 On [snap-enabled systems](https://snapcraft.io/docs/core/install), install the
 from the store with `snap install shotcut --classic`  
@@ -89,7 +90,6 @@ archive](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcu
 [Older versions](https://github.com/mltframework/shotcut/releases/) are
 available for download.
 
-An alternate, supported download location is [FossHub](https://www.fosshub.com/Shotcut.html).
 
 [Release Notes]({{ "/download/releasenotes/" | prepend: site.baseurl }})
 
