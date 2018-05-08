@@ -25,6 +25,11 @@ Shotcut adds several XML elements and attributes to the MLT XML it generates. Al
 | producer | shotcut_resource | //producer[property/@name = 'mlt_service' and (property/text() = 'qimage' or property/text() = 'pixbuf')]/property[@name='shotcut_resource'] | When working with image sequences, this stores the image file that the user selected since Shotcut will set the MLT resource property to something suitable for image sequences. |
 | producer | shotcut:caption | //producer/property[@name = 'shotcut:caption'] | Used to provide a friendly name for a producer to be used for display to the user |
 | producer | shotcut:detail | //producer/property[@name = 'shotcut:detail'] | Used to provide a more detailed description for the producer than the caption. For example if the caption is the file name, the detail could be the full file path |
+| producer | shotcut:hash | //producer/property[@name = 'shotcut:hash'] | A MD5 hash of a media file (whole file if less than 2 MB, or first MB followed by last MB for files larger than 2 MB) |
+| producer | shotcut:skipConvert | //producer/property[@name = 'shotcut:skipConvert'] | If set 1, then Shotcut will not prompt to convert the file if it believes it to be variable frame rate or unseekable. |
+| various | shotcut:projectAudioChannels | //property[@name = 'shotcut:skipConvert'] | Sets the number of audio channels to use for this project. 2 is used if not specified. |
+| filter | shotcut:animIn | //filter/property[@name = 'shotcut:animIn'] | The duration in frames for the simple keyframes' starting animation. |
+| filter | shotcut:animOut | //filter/property[@name = 'shotcut:animOut'] | The duration in frames for the simple keyframes' ending animation. |
 {:.withborders}
 
 **Warning**: All of these are subject to change as Shotcut is still in early development.
