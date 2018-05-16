@@ -14,7 +14,7 @@ category: help
 </script>
 
 [Tumult Hype](http://tumult.com/hype/) is a HTML5 animation program for
-OS X. It is proprietry, but inexpensive and easy-to-use. More
+macOS. It is proprietry, but inexpensive and easy-to-use. More
 importantly, it is easy to integrate with Shotcut. What do I mean by
 "integrate?" Sure, Shotcut will let you drop in an animation, but the
 timing will be messed up without some integration - specifically the

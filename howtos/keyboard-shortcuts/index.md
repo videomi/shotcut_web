@@ -14,7 +14,7 @@ category: help
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-| Action                | Windows/Linux<br>Shortcut            | OS X Shortcut<br>(if different)
+| Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
 |-----------------------|--------------------------------------|----------------------
 | ***Main Menu***       |                                      |
 | Open File             | Ctrl+O                               | Cmd+O

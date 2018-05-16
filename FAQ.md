@@ -161,7 +161,7 @@ of seeking to make the responsiveness of the video player faster.
 ## Are there keyboard shortcuts for editing?
 
 There is now a [page with all of the keyboard shortcuts]( {{ "/howtos/keyboard-shortcuts/" | prepend: site.baseurl }} ).\\
-These shortcuts are available without holding Ctrl, Alt, or Command (OS X)
+These shortcuts are available without holding Ctrl, Alt, or Command (macOS)
 unless otherwise noted:
 
 -   **i** and **o** set the in and out points respectively (when a clip
@@ -244,7 +244,7 @@ libraries could not be loaded.
 
 ## What are the minimum system requirements?
 
-Operating system: 64-bit Windows 7 - 10, Apple OS X 10.8 - 10.10, or
+Operating system: 32- or 64-bit Windows 7 - 10, Apple macOS 10.8 - 10.10, or
 64-bit Linux with at least glibc 2.13.
 
 CPU: x86-64 Intel or AMD; at least one 2 GHz core for SD, 2 cores for
@@ -291,7 +291,7 @@ different location, or rename the existing folder to prevent it from
 being overwritten. Then, you can just navigate to whichever program
 folder you want in Explorer and run shotcut.exe.
 
-On **Mac OS X**, you do not
+On **macOS**, you do not
 need to copy Shotcut to the /Applications folder - that is merely a
 suggestion. Simply drag Shotcut out of the .dmg to wherever you like and
 rename the app bundle to put the version number into it. Or, rename the
@@ -329,7 +329,7 @@ We recommend that you use VirtualDub or Avidemux for that.
     then you can add any filter you want.
 -   Sometimes a MLT plugin may fail to load due to a missing or
     incompatible library. Shotcut downloads provide all dependencies for
-    Windows and OS X, but it may rely upon some libraries provided by
+    Windows and macOS, but it may rely upon some libraries provided by
     distribution packages on Linux.
 
 * * *
@@ -367,7 +367,7 @@ course.
 The settings are stored in \~/.config/Meltytech/Shotcut.conf, which is a
 text file in INI format.
 
-**OS X**
+**macOS**
 
 The log, database, and presets are stored in \~/Library/Application
 Support/Meltytech/Shotcut/, where '\~' is your home directory, of
