@@ -98,6 +98,6 @@ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
 or FITNESS FOR A PARTICULAR PURPOSE.`
 
 <a href="https://www.jetbrains.com/teamcity/"><img
-width="125" alt="TeamCity logo" src="{{ site.baseurl }}/assets/img/logo_teamcity.png"
-style="border: 0px; float: right; margin-left: 10px" title="JetBrains TeamCity" height="25"></a>
+width="139" height="25" alt="TeamCity logo" src="{{ "/assets/img/logo_teamcity.png" | prepend: site.baseurl }}"
+style="border: 0px; float: right; margin-left: 10px" title="JetBrains TeamCity"></a>
 These builds are made possible by a <a href="https://www.jetbrains.com/teamcity/">TeamCity</a> server license generously donated by JetBrains.
