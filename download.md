@@ -26,7 +26,7 @@ to download.
 ##### Windows
 <small>(Windows 7+)</small>
 
-| Mirror 1 (GitHub)     | Mirror 2 (FossHub)
+| Site 1 (GitHub)     | Site 2 (FossHub)
 |-----------------------|-------------------
 | [64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcut-win64-180508.exe) | [64-bit Windows installer](https://www.fosshub.com/Shotcut.html/shotcut-win64-180508.exe)
 | [64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcut-win64-180508.zip) | [64-bit Windows portable zip](https://www.fosshub.com/Shotcut.html/shotcut-win64-180508.zip)
@@ -39,7 +39,7 @@ to download.
 ##### macOS
 <small>(64-bit macOS 10.8+)</small>
 
-| Mirror 1 (GitHub) &nbsp; &nbsp; | Mirror 2 (FossHub)
+| Site 1 (GitHub) &nbsp; &nbsp; | Site 2 (FossHub)
 |-----------------------|-----------------------------
 | [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcut-osx-x86_64-180508.dmg) | [macOS dmg](https://www.fosshub.com/Shotcut.html/shotcut-osx-x86_64-180508.dmg)
 {:.withborders}
@@ -53,7 +53,7 @@ first time you run it.
 ##### Linux
 <small>(64-bit Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
 
-| Mirror 1 (GitHub)     | Mirror 2 (FossHub)
+| Site 1 (GitHub)     | Site 2 (FossHub)
 |-----------------------|-------------------
 | [64-bit Linux portable zip](https://github.com/mltframework/shotcut/releases/download/v18.05/shotcut-linux-x86_64-180508.tar.bz2) | [64-bit Linux portable zip](https://www.fosshub.com/Shotcut.html/shotcut-linux-x86_64-180508.tar.bz2)  
 | [64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v18.05/Shotcut-18.05.glibc2.14-x86_64.AppImage) | [64-bit Linux AppImage](https://www.fosshub.com/Shotcut.html/Shotcut-180508.glibc2.14-x86_64.AppImage)
