@@ -20,6 +20,29 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 18.06
+
+* Many bug fixes due to introduction of keyframes and change to memory management in v18.05.
+* Added simple and advanced **Keyframes** to the **Blur** and **Mask** filters.
+* Added seek buttons for simple **Keyframes**.
+* Added ability to add and remove advanced **Keyframes** using double-click.
+* Added ability to drag advanced **Keyframes** to adjust both value and position.  
+  (When dragging, hold down Ctrl key to adjust only value or Alt key to adjust only position.)
+* Added double-click to toggle simple **Keyframes** controls (circles).
+* Added double-click to toggle fade in/out controls (circles) on **Timeline** clip.
+* Added many animated (keyframes) presets to the **Size and Position** filter.
+* Added **Reverse** to clip **Properties** menu.
+* Added **Detach Audio** to timeline clip's context menu.
+* Added 5.1 surround support to the **Copy Channel** and **Swap Channels** audio filters.
+* Added caution message to GPU Effects confirmation dialog.
+* Added a **Keyboard Shortcuts** link to the **Help** menu.
+* Changed presets file format to YAML.
+* Changed **Settings > GPU Processing** to **GPU Effects**.
+* Reduced memory usage on 32-bit builds (by constraining multi-threading).
+* Upgraded [FFmpeg to v4.0](http://ffmpeg.org/index.html#news).
+* Integrated [AMD AMF](https://gpuopen.com/gaming-product/advanced-media-framework/) hardware-accelerated H.264 and HEVC encoders on Windows (Set **Export > Codec** to **h264_amf** or **hevc_amf**. Requires recent Radeon or AMD APU.)
+* Upgraded MLT to git master ([v6.8.0](https://www.mltframework.org/blog/v6.8.0_released/) minimum required to build).
+
 ##### Release 18.05
 
 * Added **Keyframes** for Filters:

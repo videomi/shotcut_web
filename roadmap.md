@@ -16,7 +16,6 @@ category: other
 </script>
 
 2. undo/redo support for filters
-3. reverse clip
 4. better support for foreign MLT XML (e.g. Kdenlive)
 5. looping playback - project, selection, around
 6. fullscreen playback on current/single screen
@@ -26,7 +25,6 @@ category: other
 10. archive project
 14. slideshow generator
 16. reorder tracks
-17. transcode or transmux incompatible media or to create optimized-for-editing media
 18. audio mixer console (one strip per track plus master)
 19. project and media management
 20. additional editing modes/operations
@@ -54,7 +52,6 @@ Quick Tasks To Do
 -   Add transform effect to movit.
 -   Convert producer UIs to QML.
 -   Add partik0l producer
--   Fix embedded album art
 -   Circle VUI control for vignette and ?
 -   Add multi-track transitions feature
 -   Add generic filter
@@ -62,7 +59,6 @@ Quick Tasks To Do
 -   Add Kdenlive export
 -   Add keyboard shortcut to toggle snap
 -   Add keyboard shortcut to toggle ripple
--   The ability to detach and remove audio from the video clips.
 -   Add HTML Title to Open Other that supplies a background.
 -   Add transparency support to WebVfx filter and transition.
 -   Add ability to create additional playlists in project
@@ -75,9 +71,9 @@ Quick Tasks To Do
 -   Add Parametric Equalizer audio filter
 -   User-defined and -named UI layouts
 -   Fix interaction between Crop and Size & Position (and Rotate?) filters
--   Add option to view waveform per channel
+-   Add option to view timeline waveform per channel
 -   Add transitions to Playlist
--   Make it easy to add 0.5s or 1s fade-in, fade-out, or transition on timeline.
+-   Make it easy to add 0.5 or 1 second transition on timeline.
 -   Fix duration of GIF animations. Does this affect PNG and WebP as well?
 -   Turn off VUI - automatically and/or user toggle
 -   Add speed param to Encode > Codec

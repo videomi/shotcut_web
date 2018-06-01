@@ -8,7 +8,7 @@
 	URL: http://alvarez.is
 	
 ################################################################# */ 
-@import url(//fonts.googleapis.com/css?family=Raleway:400,700,900);
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:700,900);
 @import url(//fonts.googleapis.com/css?family=Lato:400,900);
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
@@ -31,7 +31,7 @@ body {
 	}
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-weight: 700;
 }
 
@@ -103,10 +103,10 @@ a:focus {
 }
 
 .navbar-brand {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-weight: 900;
 	background: url(../img/shotcut-logo2.png) no-repeat;
-    background-size: 100%;
+  background-size: 100%;
 	padding: 38px 15px;
 }
 
@@ -126,7 +126,6 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: white;
 	font-weight: 700;
 	font-size: 12px;
 	padding-top: 30px;
@@ -141,28 +140,17 @@ a:focus {
 	background-color: transparent;
 }
 
-.navbar-default {
-	background-color: {{ site.colors.primary }};
-	border-color: #04181F;
-    border-bottom-width: 3px;
-    border-top-width: 3px;
-}
-
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-    background-color: {{ site.colors.primary }} !important;
-    color: #A1A1A1;
+    background-color: {{ site.colors.background }} !important;
+    color: #A1A1A1 ;
 }
 
 .dropdown-menu {
-    background-color: {{ site.colors.primary }} !important;
+    background-color: {{ site.colors.background }} !important;
     border: none;
     right: -45px;
-}
-
-.navbar-default .navbar-nav > li > a {
-    background-color: {{ site.colors.primary }};
 }
 
 /*Change Navbar collapse break-point*/
@@ -253,7 +241,7 @@ a:focus {
 }
 
 .dropdown-menu > li > a {
-	color: white;
+	color: #777;
 	font-weight: 700;
 	font-size: 12px;
     line-height: 30px;
