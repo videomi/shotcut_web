@@ -31,6 +31,7 @@ information.
 * Added double-click to toggle simple **Keyframes** controls (circles).
 * Added double-click to toggle fade in/out controls (circles) on **Timeline** clip.
 * Added many animated (keyframes) presets to the **Size and Position** filter.
+* Added **Hue/Lightness/Saturation** video filter.
 * Added **Reverse** to clip **Properties** menu.
 * Added **Detach Audio** to timeline clip's context menu.
 * Added 5.1 surround support to the **Copy Channel** and **Swap Channels** audio filters.
