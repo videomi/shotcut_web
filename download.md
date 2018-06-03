@@ -55,7 +55,7 @@ first time you run it.
 
 | Site 1 (GitHub)     | Site 2 (FossHub)
 |-----------------------|-------------------
-| [64-bit Linux portable zip](https://github.com/mltframework/shotcut/releases/download/v18.06/shotcut-linux-x86_64-180602.tar.bz2) | [64-bit Linux portable zip](https://www.fosshub.com/Shotcut.html/shotcut-linux-x86_64-180602.tar.bz2)  
+| [64-bit Linux portable](https://github.com/mltframework/shotcut/releases/download/v18.06/shotcut-linux-x86_64-180602.tar.bz2) | [64-bit Linux portable](https://www.fosshub.com/Shotcut.html/shotcut-linux-x86_64-180602.tar.bz2)  
 | [64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v18.06/Shotcut-180602.glibc2.14-x86_64.AppImage) | [64-bit Linux AppImage](https://www.fosshub.com/Shotcut.html/Shotcut-180602.glibc2.14-x86_64.AppImage)
 | [Linux Flatpak](https://flathub.org/apps/details/org.shotcut.Shotcut) | [64-bit Linux Snap](https://snapcraft.io/shotcut)
 {:.withborders}
@@ -66,7 +66,7 @@ Since this snap is using classic confinement based on the portable zip above,
 not all dependencies are bundled, and it has the same run-time requirements as
 the portable zip.
 
-**Linux Zip file Users**: No install required, simply extract the archive and run
+**Linux Portable Users**: No install required, simply extract the archive and run
 it. You can drag the Shotcut folder to copy and move it wherever you
 want. If double-clicking the icon in your file manager does not launch
 Shotcut, open Shotcut.app, and try double-clicking the shotcut shell
