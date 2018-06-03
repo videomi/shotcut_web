@@ -23,7 +23,7 @@ information.
 ##### Release 18.06
 
 * Many bug fixes due to introduction of keyframes and change to memory management in v18.05.
-* Added simple and advanced **Keyframes** to the **Blur** and **Mask** filters.
+* Added simple and advanced **Keyframes** to the **Blur**, **Mask**, and **Saturation** filters.
 * Added seek buttons for simple **Keyframes**.
 * Added ability to add and remove advanced **Keyframes** using double-click.
 * Added ability to drag advanced **Keyframes** to adjust both value and position.  
