@@ -20,6 +20,43 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 18.07
+
+* Numerous fixes as usual.
+* Changed shortcut for **Add Video Track** to `Ctrl+I`.
+* Changed shortcut for **Redo** to `Ctrl+Y` on Windows.
+* Added **10%** to the player zoom menu.
+* Hide the VUI (video user interface) when the play head is not over the clip with the current filter.
+* Renamed the Rotate filter to **Rotate and Scale**.
+* Keyframes are now saved in the project file using time clock values instead of frame numbers to make them adaptive to frame rate.
+* Reverted memory manager change from v18.05 pending further testing to improve stability.
+* Added advanced keyframes to the **Size and Position** filter.
+* Added simple and advanced keyframes to the following video filters:
+  - **Rotate and Scale**
+  - **Text**
+  - **Glow***
+  - **Contrast***
+  - **Sharpen***
+  - **Vignette***  
+  \* = including the (still experimental) GPU filter
+* Added **Copy Timeline to Source** to Timeline menu.
+* Changed the audio codec to AC-3 for the edit-friendly and reverse MP4 file format.
+* Changed `J` and `K` key behavior to change speed up or down before changing direction.
+* Added categories to the **Export** presets (custom presets can start their name with "category)" to use a category).
+* Added **View > Layout** menu for custom and stock layouts:
+  - Timeline Project
+  - Playlist Project
+  - Clip-only Project
+  - Player
+* Changed the default, first-time user UI layout to **Timeline Project**.
+* Changed **Properties > menu > Reverse...** to work on a trimmed clip from either **Source** or **Timeline**.
+* Added **Properties** menu items to the context menus for **Timeline** and timeline clips.
+* Added logic to sort GoPro files when multiple files are opened or dropped.
+* Added support for setting project file name (using **File > Save**) for empty project.
+* Added new HTML template for WebVfx JavaScript extensions enabled in **Overlay HTML** video filter.
+* Added search field to the filter chooser in **Filters**.
+* Upgraded MLT to v6.10.0
+
 ##### Release 18.06
 
 * Many bug fixes due to introduction of keyframes and change to memory management in v18.05.

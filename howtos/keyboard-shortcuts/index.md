@@ -23,7 +23,7 @@ category: help
 | Save As               | Ctrl+Shift+S                         | Cmd+Shift+S
 | Quit                  | Ctrl+Q                               | Cmd+Q
 | Undo                  | Ctrl+Z                               | Cmd+Z
-| Redo                  | Ctrl+Shift+Z                         | Cmd+Shift+Z
+| Redo                  | Ctrl+Y / Ctrl+Shift+Z                | Cmd+Shift+Z
 | Fullscreen            | Ctrl+Shift+F                         | Ctrl+Cmd+F
 | ***Player***          |                                      |
 | Play                  | L or Space                           |
@@ -51,7 +51,7 @@ category: help
 | Cut                   | Ctrl+X                               | Cmd+X
 | Copy                  | Ctrl+C or C                          | Cmd+X or C
 | Paste                 | Ctrl+V                               | Cmd+V
-| Add Audio Track       | Ctrl+U                               | Cmd+U
+| Add Audio Track       | Ctrl+I                               | Cmd+I
 | Add Video Track       | Ctrl+Y                               | Cmd+Y
 | Close                 | Ctrl+W                               | Cmd+W
 | Append                | A                                    |
