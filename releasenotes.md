@@ -20,6 +20,39 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 18.08
+
+* Added the timecode of failure to the **Jobs** panel when an export job fails
+  (makes locating problem areas in the project easier).
+* Added an **Unpremultiply Alpha** video filter (handy to fix compositing for
+  video clips with an alpha channel that has had its color pre-multiplied with
+  its alpha).
+* Fixed various crash regressions since v18.05.
+* Fixed audio distortion during preview (regression in v18.07).
+* Fixed custom **Export** presets broken if name contains parentheses
+  (regression in v18.07).
+* Fixed **Properties > Reverse...** broken if numeric region setting uses comma
+  for decimal (regression in v18.07).
+* Fixed **Overlay HTML** editor easily destroys default scripts (introduced in
+  v18.07) if **WebVfx JavaScript extension** enabled.
+* Fixed custom interlaced **Export** presets loading as progressive (regression
+  in v18.07)
+* Fixed **Timeline > Copy Timeline to Source > Export** fails on unsaved
+  (Untitled) project.
+* Fixed **Text** filter has aliased edges (regression in v18.07).
+* Fixed **Stabilize** video filter not available on Linux (regression since v18.06).
+* Fixed changing **Speed** in **Properties** breaks all filters on that clip
+  (regression since v18.05).
+* Fixed **Fade Out Video** (and keyframes in general) broken on still images
+  whose in point is > 0 (regression since v18.03).
+* Fixed accuracy of **Properties > Duration** for image clip on the timeline.
+* Some fixes for changing **Settings > Video Mode** after starting a project.
+* Fixed compositing of upper video tracks becomes broken if bottom video track
+  is deleted.
+* Fixed images with alpha channel (e.g. PNG) on upper video tracks have dark
+  edges after compositing if the **Size and Position** or **Rotate and Scale**
+  filters are not used.
+
 ##### Release 18.07
 
 * Numerous fixes as usual.
