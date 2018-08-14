@@ -21,17 +21,17 @@ to download.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-#### Current Version: 18.08.11
+#### Current Version: 18.08.14
 
 ##### Windows
 <small>(Windows 7+)</small>
 
 | Site 1 (GitHub)     | Site 2 (FossHub)
 |-----------------------|-------------------
-| [64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.08.11/shotcut-win64-180811.exe) | [64-bit Windows installer](https://www.fosshub.com/Shotcut.html/shotcut-win64-180811.exe)
-| [64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.08.11/shotcut-win64-180811.zip) | [64-bit Windows portable zip](https://www.fosshub.com/Shotcut.html/shotcut-win64-180811.zip)
-| [32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.08.11/shotcut-win32-180811.exe) | [32-bit Windows installer](https://www.fosshub.com/Shotcut.html/shotcut-win32-180811.exe)
-| [32-bit Windows portable zip ](https://github.com/mltframework/shotcut/releases/download/v18.08.11/shotcut-win32-180811.zip) | [32-bit Windows portable zip](https://www.fosshub.com/Shotcut.html/shotcut-win32-180811.zip)
+| [64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.08.14/shotcut-win64-180814.exe) | [64-bit Windows installer](https://www.fosshub.com/Shotcut.html/shotcut-win64-180814.exe)
+| [64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.08.14/shotcut-win64-180814.zip) | [64-bit Windows portable zip](https://www.fosshub.com/Shotcut.html/shotcut-win64-180814.zip)
+| [32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.08.14/shotcut-win32-180814.exe) | [32-bit Windows installer](https://www.fosshub.com/Shotcut.html/shotcut-win32-180814.exe)
+| [32-bit Windows portable zip ](https://github.com/mltframework/shotcut/releases/download/v18.08.14/shotcut-win32-180814.zip) | [32-bit Windows portable zip](https://www.fosshub.com/Shotcut.html/shotcut-win32-180814.zip)
 {:.withborders}
 
 ---
@@ -41,7 +41,7 @@ to download.
 
 | Site 1 (GitHub) &nbsp; &nbsp; | Site 2 (FossHub)
 |-----------------------|-----------------------------
-| [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v18.08.11/shotcut-macos-x86_64-180811.dmg) | [macOS dmg](https://www.fosshub.com/Shotcut.html/shotcut-macos-x86_64-180811.dmg)
+| [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v18.08.14/shotcut-macos-x86_64-180814.dmg) | [macOS dmg](https://www.fosshub.com/Shotcut.html/shotcut-macos-x86_64-180814.dmg)
 {:.withborders}
 
 **macOS users**: since the application is not signed, you need to
@@ -55,8 +55,8 @@ first time you run it.
 
 | Site 1 (GitHub)     | Site 2 (FossHub)
 |-----------------------|-------------------
-| [64-bit Linux portable](https://github.com/mltframework/shotcut/releases/download/v18.08.11/shotcut-linux-x86_64-180811.tar.bz2) | [64-bit Linux portable](https://www.fosshub.com/Shotcut.html/shotcut-linux-x86_64-180811.tar.bz2)  
-| [64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v18.08.11/Shotcut-180811.glibc2.14-x86_64.AppImage) | [64-bit Linux AppImage](https://www.fosshub.com/Shotcut.html/Shotcut-180811.glibc2.14-x86_64.AppImage)
+| [64-bit Linux portable](https://github.com/mltframework/shotcut/releases/download/v18.08.14/shotcut-linux-x86_64-180814.tar.bz2) | [64-bit Linux portable](https://www.fosshub.com/Shotcut.html/shotcut-linux-x86_64-180814.tar.bz2)  
+| [64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v18.08.14/Shotcut-180814.glibc2.14-x86_64.AppImage) | [64-bit Linux AppImage](https://www.fosshub.com/Shotcut.html/Shotcut-180814.glibc2.14-x86_64.AppImage)
 | [Linux Flatpak](https://flathub.org/apps/details/org.shotcut.Shotcut) | [64-bit Linux Snap](https://snapcraft.io/shotcut)
 {:.withborders}
 
@@ -84,7 +84,7 @@ for specific distributions.
 ##### Other
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v18.08.11/shotcut-src-180811.tar.xz)
+archive](https://github.com/mltframework/shotcut/releases/download/v18.08.14/shotcut-src-180814.tar.xz)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Older versions](https://github.com/mltframework/shotcut/releases/) are

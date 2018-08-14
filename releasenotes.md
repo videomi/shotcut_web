@@ -20,6 +20,13 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 18.08.14
+
+* Fixed regression in 18.08.11 that can put corrupt character in the .mlt XML
+  project file.
+* Fixed the size of an existing Text filter with animation breaks if you
+  select the clip and the filter.
+
 ##### Release 18.08.11
 
 * Fixed new crash in v18.08 changing **Settings > Video Mode** with nothing opened.
