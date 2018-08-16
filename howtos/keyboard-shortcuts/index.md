@@ -114,8 +114,8 @@ position of the mouse cursor without clicking and dragging.
 
 #### Entering Time Values
 
-Timecode fields - such as the prominent one at the bottom of the player
-- do not require you to enter a full timecode value. There are some
+Timecode fields&mdash;such as the prominent one at the bottom of the
+player&mdash;do not require you to enter a full timecode value. There are some
 short-hand ways to enter time values. First of all, a number with no
 colons (e.g., 100) is a **frame number**. Remember, frame numbers start
 at 0; so 100 is the 101-th frame! Including a colon (:) makes it
