@@ -20,6 +20,70 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 18.09.13
+
+- Added **Ripple** support for **moving** clips including **Ripple All Tracks**.
+- When **Ripple** is on and you move a clip to the right, it now
+ripples (pushes) all the clips to the right instead of making a transition
+(including the **Ripple All Tracks** option).
+- Added **Ctrl+R** keyboard shortcut to toggle **Timeline Ripple**,  
+**Ctrl+Alt+R** to toggle **Ripple All Tracks**, and  
+**Ctrl+Shift+R** to toggle both.
+- Improved **Snapping** behavior on the **Timeline**.
+- Added **Ctrl+P** keyboard shortcut to toggle **Snapping**.
+- Added **Reset Track Height** (**Ctrl+0**) to the **Timeline** menu.
+- Added a **Timer** video filter.
+- Added support for negative rotation to the **Rotate and Scale** filter.
+- Added **Shake 1 Second - Scaled** and **Shake 1 Second - Unscaled** presets
+to the Size and Position filter.
+- Added a **Text** clip to the **Open Other** dialog.  
+This is a convenience item that creates a transparent **Color** clip with a
+**Text** filter.
+- Added **Extract Sub-clip** to **Properties** menu for audio/video clip.
+- Added **Export** presets for WebM VP8 and VP9 with alpha channel.
+- Fixed a crash when quickly changing clip selections in the **Timeline**.
+- Improved closing Shotcut more reliably and the behavior of multiple shotcut
+processes.
+- Fixed **Undo** beyond **Remove Track** may crash.
+- Fixed a crash when moving a clip after undoing a transition.
+- Fixed a crash loading project after some sequence of inserting and removing tracks.
+- Fixed a crash loading an image with the wrong filename extension.
+- Fixed OS audio device changes may cause Shotcut to hang.
+- Fixed crash dragging simple keyframes beyond the edges of the clip.
+- The 32-bit Windows build can use more memory to reduce risk of crash:  
+3 GiB on 32-bit Windows and 4 GiB on 64-bit Windows.
+- Improved behavior of opening WebP images.
+- Fixed advanced keyframes for the **Size and Position** filter.
+- Fixed inserted and then hidden video tracks become audio tracks after
+re-opening the project.
+- Fixed changing **Video Mode** from **Automatic** to something else with
+nothing opened.
+- Fixed moving a transition to another track leaves a hidden clip on the old track.
+- Fixed trimming the out point of a timeline clip may change the in point of
+the following clip.
+- Fixed **Properties** > **Speed**, **Convert**, **Reverse**, and
+**More Information** does not work sometimes after reloading a project.
+- Fixed reliability of changing size and position fields with keyframes
+in **Size and Position** and **Text** filters.
+- Fixed trimming outward with **Ripple All Tracks** moved clips on other tracks
+in the wrong direction.
+- Fixed audio waveforms still appear on muted tracks after adding a track.
+- Fixed edges of text with the **Text** filter may get cut off (clipped).
+- Fixed **Size and Position** and **Rotate and Scale** filters may leave black
+right and bottom edge of frame.
+- Fixed trimming a timeline clip with **Fade In/Out Video** filters
+with "Adjust opacity instead of fade with black" enabled.
+- Fixed **Export** may change the actual frame rate and cause timing errors.
+- Fixed reducing the **Frame/sec** in **Export** causes timing errors in the output.
+- Removed the **Compositing** toggle icon from the **Timeline** track head. Now,
+it is located in the track **Properties** as **Blend mode** with a **None** option.
+- In the **3D Text** filter, replaced the Droid fonts with Liberation due to an
+incompatible license.
+- Improved the performance of changing filter parameters and scrubbing.
+- Limit the number of background thumbnail and waveform generation threads to 4.
+- Prevent trying to generate audio levels for waveforms for still images and
+other silent sources.
+
 ##### Release 18.08.14
 
 * Fixed regression in 18.08.11 that can put corrupt character in the .mlt XML

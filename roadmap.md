@@ -45,7 +45,6 @@ category: other
 Quick Tasks To Do
 -----------------
 
--   Fix bad indexes
 -   Add missing transitions
 -   Add porter duff modes to movit
 -   Add a reset all settings option

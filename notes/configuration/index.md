@@ -89,6 +89,8 @@ Windows registry, a bool is stored as a string: true or false.
 | thumbnails       | bool        | Timeline > menu > Show Video Thumbnails
 | waveforms        | bool        | Timeline > menu > Show Audio Waveforms
 | rippleAllTracks  | bool        | Timeline > menu > Ripple All Tracks
+| snap             | bool        | Timeline > Toggle snapping
+| ripple           | bool        | Timeline > Ripple trim and drop
 | ***filter***
 | favorite/&lt;filterId&gt; | string | whether a filter is chosen as favorite, one of: yes or no. See all the meta.qml files in share/shotcut/qml/filters for the filter IDs.
 | audioInDuration  | real number | the default Fade Audio In duration in seconds

@@ -71,6 +71,7 @@ category: help
 | Reset Zoom            | 0                                    |
 | Make Tracks Shorter   | Ctrl+-                               | Cmd+-
 | Make Tracks Taller    | Ctrl+=                               | Cmd+=
+| Reset Track Height    | Ctrl+0                               |
 | Reload                | F5                                   |
 | Select under playhead | Ctrl+Space                           |
 | Move selection left   | Ctrl+Left                            | Cmd+Left
@@ -82,6 +83,10 @@ category: help
 | Toggle Mute track     | Ctrl+M                               |
 | Toggle Hide track     | Ctrl+H                               |
 | Toggle Lock track     | Ctrl+L                               |
+| Toggle Snapping       | Ctrl+P                               |
+| Toggle Ripple mode    | Ctrl+R                               |
+| Toggle Ripple All Tracks | Ctrl+Alt+R                        |
+| Toggle Ripple mode and all tracks | Ctrl+Shift+R             |
 | ***Playlist***        |                                      |
 | Append                | Shift+A                              |
 | Delete                | Shift+X                              |
