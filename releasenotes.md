@@ -22,6 +22,19 @@ information.
 
 ##### Release 18.09.13
 
+- Fixed image transform regression in **Rotate and Scale**, **Size and
+Position**, and **Text** filters.
+- Fixed image scaling interpolation method when not using a transform filter.
+- Fixed a crash applying an image transform filter to an image with alpha
+channel (PNG, SVG).
+- Added a highlight for the buttons in the **Filters** chooser.
+- Fixed new **Ripple** and **Snapping** keyboard shortcuts not always working.
+- Fixed moving a clip to another track and back not working correctly.
+- Fixed dragging clips to the **Timeline** stops working.
+- Fixed redo trimming the in point of clip on **Timeline** not working correctly.
+
+##### Release 18.09.13
+
 - Added **Ripple** support for **moving** clips including **Ripple All Tracks**.
 - When **Ripple** is on and you move a clip to the right, it now
 ripples (pushes) all the clips to the right instead of making a transition
