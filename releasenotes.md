@@ -20,7 +20,16 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
-##### Release 18.09.13
+##### Release 18.09.16
+
+Fixed broken color selection in the following (non-GPU) video filters:
+
+- Chroma Key: Simple
+- Chroma Key: Advanced
+- Key Spill: Advanced
+- White Balance
+
+##### Release 18.09.15
 
 - Fixed image transform regression in **Rotate and Scale**, **Size and
 Position**, and **Text** filters.
