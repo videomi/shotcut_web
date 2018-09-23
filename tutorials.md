@@ -12,7 +12,7 @@ Getting Started
 src="//www.youtube.com/embed/hlDG90sbhQY" frameborder="0"
 allowfullscreen="1"></iframe>
 
-Mulitrack Timeline Basics
+Multitrack Timeline Basics
 -------------------------
 
 <iframe width="640" height="360"

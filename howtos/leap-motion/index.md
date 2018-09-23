@@ -31,7 +31,7 @@ or pause playback.
 Jog
 ---
 
-To jog means to step fowards or backwards frame-by-frame. With your hand
+To jog means to step forwards or backwards frame-by-frame. With your hand
 closed but one finger out and pointing, make small circles to step by
 one frame and large circles to step second. A clockwise gesture steps
 forward, and counter-clockwise steps backwards in time.

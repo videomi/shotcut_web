@@ -14,7 +14,7 @@ category: help
 </script>
 
 [Tumult Hype](http://tumult.com/hype/) is a HTML5 animation program for
-macOS. It is proprietry, but inexpensive and easy-to-use. More
+macOS. It is proprietary, but inexpensive and easy-to-use. More
 importantly, it is easy to integrate with Shotcut. What do I mean by
 "integrate?" Sure, Shotcut will let you drop in an animation, but the
 timing will be messed up without some integration - specifically the
@@ -129,7 +129,7 @@ if (typeof webvfx !== 'undefined') {
 }
 ~~~~
 
-First, we get the Hype shape element we identied with "video." Then, we
+First, we get the Hype shape element we identified with "video." Then, we
 make a new HTML image object and add it within the shape. Inside the
 render function we instruct WebVfx to update our image object with the
 image from the current video frame. At this point, you can animate the
