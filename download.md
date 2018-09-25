@@ -60,7 +60,7 @@ first time you run it.
 | [Linux Flatpak](https://flathub.org/apps/details/org.shotcut.Shotcut) | [64-bit Linux Snap](https://snapcraft.io/shotcut)
 {:.withborders}
 
-On [snap-enabled systems](https://snapcraft.io/docs/core/install), install the
+On [snap-enabled systems](https://snapcraft.io/docs/core/install), install
 from the store with `snap install shotcut --classic`  
 Since this snap is using classic confinement based on the portable zip above,
 not all dependencies are bundled, and it has the same run-time requirements as

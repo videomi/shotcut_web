@@ -420,7 +420,7 @@ other silent sources.
 * Fixed frequently reported problem with black video on Export.
 * Fixed a few crashing bugs.
 * Added an option to Windows installer to remove registry settings to help people with new crash-on-launch problems.
-* Reduced memory usage when exporting a playlist or mulitrack project.
+* Reduced memory usage when exporting a playlist or multitrack project.
 * Added **Normalize: One Pass** audio filter (existing Normalize renamed **Normalize: Two Pass**.
 * Added **Audio Loudness** to View > Scopes.
 * Added **Brightness** video filter for CPU and GPU.
@@ -820,7 +820,7 @@ this time.
 -   13.11.15: add thumbnail caching
 -   13.11.08:
     -   fix keyboard cursor left/right and page/up down (on Linux,
-        issues still persist on WIndows, OS X)
+        issues still persist on Windows, OS X)
     -   add Stabilize video filter
     -   add Downmix audio filter
     -   add Swap Channels audio filter
