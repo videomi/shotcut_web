@@ -28,10 +28,10 @@ to download.
 
 | Site 1 (GitHub)     | Site 2 (FossHub)
 |-----------------------|-------------------
-| [64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-win64-180916.exe) | [64-bit Windows installer](https://www.fosshub.com/Shotcut.html/shotcut-win64-180916.exe)
-| [64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-win64-180916.zip) | [64-bit Windows portable zip](https://www.fosshub.com/Shotcut.html/shotcut-win64-180916.zip)
-| [32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-win32-180916.exe) | [32-bit Windows installer](https://www.fosshub.com/Shotcut.html/shotcut-win32-180916.exe)
-| [32-bit Windows portable zip ](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-win32-180916.zip) | [32-bit Windows portable zip](https://www.fosshub.com/Shotcut.html/shotcut-win32-180916.zip)
+| [64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-win64-180916.exe) | [64-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-180916.exe)
+| [64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-win64-180916.zip) | [64-bit Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-180916.zip)
+| [32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-win32-180916.exe) | [32-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-180916.exe)
+| [32-bit Windows portable zip ](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-win32-180916.zip) | [32-bit Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-180916.zip)
 {:.withborders}
 
 ---
@@ -41,7 +41,7 @@ to download.
 
 | Site 1 (GitHub) &nbsp; &nbsp; | Site 2 (FossHub)
 |-----------------------|-----------------------------
-| [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-macos-x86_64-180916.dmg) | [macOS dmg](https://www.fosshub.com/Shotcut.html/shotcut-macos-x86_64-180916.dmg)
+| [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-macos-x86_64-180916.dmg) | [macOS dmg](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-x86_64-180916.dmg)
 {:.withborders}
 
 **macOS users**: since the application is not signed, you need to
@@ -55,8 +55,8 @@ first time you run it.
 
 | Site 1 (GitHub)     | Site 2 (FossHub)
 |-----------------------|-------------------
-| [64-bit Linux portable](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-linux-x86_64-180916.tar.bz2) | [64-bit Linux portable](https://www.fosshub.com/Shotcut.html/shotcut-linux-x86_64-180916.tar.bz2)  
-| [64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v18.09.16/Shotcut-180916.glibc2.14-x86_64.AppImage) | [64-bit Linux AppImage](https://www.fosshub.com/Shotcut.html/Shotcut-180916.glibc2.14-x86_64.AppImage)
+| [64-bit Linux portable](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-linux-x86_64-180916.tar.bz2) | [64-bit Linux portable](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-180916.tar.bz2)  
+| [64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v18.09.16/Shotcut-180916.glibc2.14-x86_64.AppImage) | [64-bit Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=Shotcut-180916.glibc2.14-x86_64.AppImage)
 | [Linux Flatpak](https://flathub.org/apps/details/org.shotcut.Shotcut) | [64-bit Linux Snap](https://snapcraft.io/shotcut)
 {:.withborders}
 
