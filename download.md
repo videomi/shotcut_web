@@ -21,17 +21,17 @@ to download.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-#### Current Version: 18.09.16
+#### Current Version: 18.10.08
 
 ##### Windows
 <small>(Windows 7+)</small>
 
 | Site 1 (GitHub)     | Site 2 (FossHub)
 |-----------------------|-------------------
-| [64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-win64-180916.exe) | [64-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-180916.exe)
-| [64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-win64-180916.zip) | [64-bit Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-180916.zip)
-| [32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-win32-180916.exe) | [32-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-180916.exe)
-| [32-bit Windows portable zip ](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-win32-180916.zip) | [32-bit Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-180916.zip)
+| [64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.10.08/shotcut-win64-181008.exe) | [64-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-181008.exe)
+| [64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.10.08/shotcut-win64-181008.zip) | [64-bit Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-181008.zip)
+| [32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.10.08/shotcut-win32-181008.exe) | [32-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-181008.exe)
+| [32-bit Windows portable zip ](https://github.com/mltframework/shotcut/releases/download/v18.10.08/shotcut-win32-181008.zip) | [32-bit Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-181008.zip)
 {:.withborders}
 
 ---
@@ -41,7 +41,7 @@ to download.
 
 | Site 1 (GitHub) &nbsp; &nbsp; | Site 2 (FossHub)
 |-----------------------|-----------------------------
-| [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-macos-x86_64-180916.dmg) | [macOS dmg](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-x86_64-180916.dmg)
+| [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v18.10.08/shotcut-macos-x86_64-181008.dmg) | [macOS dmg](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-x86_64-181008.dmg)
 {:.withborders}
 
 **macOS users**: since the application is not signed, you need to
@@ -55,8 +55,8 @@ first time you run it.
 
 | Site 1 (GitHub)     | Site 2 (FossHub)
 |-----------------------|-------------------
-| [64-bit Linux portable](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-linux-x86_64-180916.tar.bz2) | [64-bit Linux portable](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-180916.tar.bz2)  
-| [64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v18.09.16/Shotcut-180916.glibc2.14-x86_64.AppImage) | [64-bit Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=Shotcut-180916.glibc2.14-x86_64.AppImage)
+| [64-bit Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v18.10.08/shotcut-linux-x86_64-181008.tar.bz2) | [64-bit Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-181008.tar.bz2)  
+| [64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v18.10.08/Shotcut-181008.glibc2.14-x86_64.AppImage) | [64-bit Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=Shotcut-181008.glibc2.14-x86_64.AppImage)
 | [Linux Flatpak](https://flathub.org/apps/details/org.shotcut.Shotcut) | [64-bit Linux Snap](https://snapcraft.io/shotcut)
 {:.withborders}
 
@@ -64,27 +64,23 @@ On [snap-enabled systems](https://snapcraft.io/docs/core/install), install
 from the store with `snap install shotcut --classic`  
 Since this snap is using classic confinement based on the portable zip above,
 not all dependencies are bundled, and it has the same run-time requirements as
-the portable zip.
+the portable tar.
 
 **Linux Portable Users**: No install required, simply extract the archive and run
 it. You can drag the Shotcut folder to copy and move it wherever you
 want. If double-clicking the icon in your file manager does not launch
 Shotcut, open Shotcut.app, and try double-clicking the shotcut shell
-script. Do not try to run bin/shotcut directly. You may need to install
-the following dependencies from their distribution (the exact names may
-vary): SDL, libexif, and JACK. A number of the audio filters such as
-Band Pass, Bass & Treble, Compressor, Delay, Expander, High Pass, Limiter,
-Low Pass, Notch, and Reverb requires that you install the SWH LADSPA plugins
-package, which is commonly available in all distributions.
-[Here is a page]({{ "/notes/linux-dependencies/" | prepend: site.baseurl }}) that lists some required packages
-for specific distributions.
+script. Do not try to run bin/shotcut directly. You may need to **install
+JACK** from your distribution.
+[Here is a page]({{ "/notes/linux-dependencies/" | prepend: site.baseurl }})
+that lists some required packages for specific distributions.
 
 ---
 
 ##### Other
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-src-180916.tar.xz)
+archive](https://github.com/mltframework/shotcut/releases/download/v18.10.08/shotcut-src-181008.tar.xz)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Older versions](https://github.com/mltframework/shotcut/releases/) are

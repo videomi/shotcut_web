@@ -20,6 +20,53 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 18.10.08
+
+- Added support for [Intel Quick Sync Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html) hardware-accelerated video encoders to the Windows build (in **Export > Codec** choose h264_qsv or hevc_qsv).
+- Added **Grid** and **Safe Area** overlays with a toggle/menu button to the player.
+- Added snapping to the grid and safe areas for the VUI rectangle control as used by **Text**, **Size and Position**, and more filters.
+- Added **Open Other** to the main toolbar with a drop-down menu.
+- Added the ability to drag-n-drop folders from a file manager into Shotcut.
+- Added the ability to supply multiple file and folder name arguments to the shotcut command line executable.
+- Added the ability to make a temporary **Custom Video Mode** (leave **Name** blank).
+- Added **Settings > Video Mode > Custom > Remove....**
+- Added **View > Layout > Remove....**
+- Added **Settings > Clear Recent on Exit** checkbox to prevent saving data on a shared computer account.
+- Added command line option `--clear-recent` to enable **Clear Recent on Exit** and hide that option in the **Settings** menu.
+- Added a dialog when you click to check for an update that asks if you want to check for update automatically (at startup only) with the option to suppress the dialog indefinitely.
+- Fixed audio preview distortion on Windows (regression in v18.09).
+- Fixed some AAC MP4 files start in the middle.
+- Fixed un-mute a track may not draw its waveforms.
+- Fixed whitespace in **Text** filter removed in **Export**.
+- Fixed crash adding clip to **Timeline** after removing all tracks.
+- Fixed simple keyframes go missing or not all the way to 00:00.
+- Fixed switching from simple to advanced keyframes in **Text**, **Rotate and Scale**, **Timer**, and **Size and Position** filters.
+- Fixed a possible crash when adding a transition by trimming.
+- Fixed crash on macOS after the app restarts itself when some **Settings** are changed.
+- Fixed moving a clip to the left where the right edge is not a blank.
+- Fixed some **Timeline** actions do not work correctly after a **Ripple** move.
+- Fixed undo/redo form trim-to-transition over a blank/gap.
+- Fixed **Ripple** moving a clip to the end of a track was not extending the hidden black background.
+- Hide the **Text** generator if **Settings > GPU Effects** is on (incompatible).
+- Fixed the **Rotate and Scale** filter preset not saving keyframes for the **Scale** parameter.
+- Fixed a crash opening multiple files at once either through **File > Open** or drag-n-drop from a file manager.
+- Fixed a crash closing a playlist-only project with **Automatic Video Mode**.
+- Fixed changing position or removing advanced keyframes for the **Scale** parameter of the **Rotate and Scale** filter distorting the aspect ratio of the image.
+- Fixed **Timeline > Split** not working if the current track is empty. (It should split the topmost clip under the playhead.)
+- Fixed clicking the reset button of the **Center** checkbox of the **Crop** filter does not re-enable the other controls.
+- Fixed the **Timeline** and **Keyframes** timeline rulers are incorrect after changing **Settings > Video Mode**.
+- Fixed a crash when the project frame rate is very low (< 6 fps).
+- Fixed a crash when switching keyframes on and off for position and size parameters in video filter such as **Size and Position**, **Text**, and **Timer**.
+- Fixed trimming multiple track filters hides them.
+- Fixed making a **Text** preset does not save the text (only all other parameters).
+- Changed resolution restriction from a multiple of 8 to a multiple of 2.
+- Improved the layout of the filter chooser in **Filters**.
+- Changed **Timeline** fade controls to behave the same as **Keyframes** simple keyframes.
+- Changed the **Noise** generator from opening as a live source to a clip with a duration.
+- Changed drag-n-drop to **Playlist** to not automatically open the first file unless the project is empty.
+- Changed the **Rotation** parameter of the **Mask** filter to use degrees, and fixed its reset button.
+- Added more library dependencies to the Linux portable tar, AppImage, and snap builds including the SWH LADSPA plugins.
+
 ##### Release 18.09.16
 
 Fixed broken color selection in the following (non-GPU) video filters:

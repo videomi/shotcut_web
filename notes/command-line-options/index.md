@@ -23,6 +23,7 @@ Options:
   --fullscreen           Fill the screen with the Shotcut window.
   --noupgrade            Hide upgrade prompt and menu item.
   --gpu                  Use GPU processing.
+  --clear-recent         Clear Recent on Exit
   --appdata <directory>  The directory for app configuration and data.
 
 Arguments:
