@@ -244,7 +244,7 @@ libraries could not be loaded.
 
 ## What are the minimum system requirements?
 
-Operating system: 32- or 64-bit Windows 7 - 10, Apple macOS 10.8 - 10.10, or
+Operating system: 32- or 64-bit Windows 7 - 10, Apple macOS 10.12 - 10.14, or
 64-bit Linux with at least glibc 2.19.
 
 CPU: x86-64 Intel or AMD; at least one 2 GHz core for SD, 2 cores for

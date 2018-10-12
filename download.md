@@ -37,7 +37,7 @@ to download.
 ---
 
 ##### macOS
-<small>(64-bit macOS 10.8+)</small>
+<small>(64-bit macOS 10.12+)</small>
 
 | Site 1 (GitHub) &nbsp; &nbsp; | Site 2 (FossHub)
 |-----------------------|-----------------------------
@@ -47,6 +47,8 @@ to download.
 **macOS users**: since the application is not signed, you need to
 control-click the app icon and choose **Open** from the context menu the
 first time you run it.
+
+The last version to support OS X 10.10 and 10.11 is [version 18.09.06](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-macos-x86_64-180916.dmg).
 
 ---
 
