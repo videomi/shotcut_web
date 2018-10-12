@@ -59,6 +59,9 @@ Vimeo PRO also includes Web-based collaboration tools for reviewing videos with 
 - [YouTube Audio Library](https://www.youtube.com/audiolibrary/music)
 - [PremiumBeat Sound Effects](https://www.premiumbeat.com/blog/120-free-sound-effects/)
 - [Lucid Samples Free Effects](https://www.lucidsamples.com/free-sample-packs/181-free-sound-effects-sfx-pack.html)
+- [Production Crate](https://www.productioncrate.com/index.html)
+- [BBC Sound Effects](http://bbcsfx.acropolis.org.uk/)
+- [SoundBible.com](http://soundbible.com/)
 
 #### Transitions
 
