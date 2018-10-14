@@ -48,7 +48,7 @@ to download.
 control-click the app icon and choose **Open** from the context menu the
 first time you run it.
 
-The last version to support OS X 10.10 and 10.11 is [version 18.09.06](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-macos-x86_64-180916.dmg).
+The last version to support OS X 10.10 and 10.11 is [version 18.09.16](https://github.com/mltframework/shotcut/releases/download/v18.09.16/shotcut-macos-x86_64-180916.dmg).
 
 ---
 
