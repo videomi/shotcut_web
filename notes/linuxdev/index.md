@@ -21,19 +21,20 @@ Configure all of your settings in the Build & Run section.
 3. Extract the Shotcut SDK .bz2 file to a new folder in $HOME called "Projects".
 4. In Qt Creator open shotcut.pro from $HOME/Projects/Shotcut/Shotcut.app/src/shotcut.
 5. In the Shotcut project configuration screen find **Build Settings**.  
-   - Under **Build steps &gt; qmake &gt; Additional arguments** add "MLT_PATH=../../.. PREFIX=../../.."
+   - Under **Build steps &gt; qmake &gt; Additional arguments** add  
+   `MLT_PATH=../../.. PREFIX=../../..`
    - Under **Build Steps &gt; Make &gt; Make arguments** add "-j" for faster parallel compilation.
 6. In the Shotcut project configuration screen find **Run Settings**.  
    - Under **Deployment** click **Add Deploy Step &gt; Make**, and in **Make arguments** add "install".  
-   - Under **Run &gt; Run configuration** click **Add &gt; Custom Executable &gt; Executable** add "/home/_____/Projects/Shotcut/Shotcut.app/bin/shotcut".  
+   - Under **Run &gt; Run configuration** click **Add &gt; Custom Executable &gt; Executable** add   `$HOME/Projects/Shotcut/Shotcut.app/bin/shotcut`
    - Under **Run Environment &gt; Details** add the following environment variables:
-     - Set LD_LIBRARY_PATH to /home/_____/Projects/Shotcut/Shotcut.app/lib:/home/_____/Qt/5.6.1/gcc_64/lib:/home/_____/Projects/Shotcut/Shotcut.app/src/build-shotcut-Desktop_Qt_5_6_1_GCC_64bit-Debug/mvcp:/home/_____/Projects/Shotcut/Shotcut.app/src/build-shotcut-Desktop_Qt_5_6_1_GCC_64bit-Debug/CuteLogger
-     - Set MLT_DATA to /home/_____/Projects/Shotcut/Shotcut.app/share/mlt
-     - Set MLT_PRESETS_PATH to /home/_____/Projects/Shotcut/Shotcut.app/share/mlt/presets
-     - Set MLT_PROFILES_PATH to /home/_____/Projects/Shotcut/Shotcut.app/share/mlt/profiles
-     - Set MLT_REPOSITORY to /home/_____/Projects/Shotcut/Shotcut.app/lib/mlt
-     - Set QML2_IMPORT_PATH to /home/_____/Qt/5.6.1/gcc_64/qml
-     - Set QT_PLUGIN_PATH to /home/_____/Qt/5.6.1/gcc_64/plugins
+     - Set `LD_LIBRARY_PATH` to `${HOME}/Projects/Shotcut/Shotcut.app/lib:${QTDIR}/lib:${HOME}/Projects/Shotcut/Shotcut.app/src/build-shotcut-Desktop_Qt_5_6_1_GCC_64bit-Debug/CuteLogger`
+     - Set `MLT_DATA` to `${HOME}/Projects/Shotcut/Shotcut.app/share/mlt`
+     - Set `MLT_PRESETS_PATH` to `${HOME}/Projects/Shotcut/Shotcut.app/share/mlt/presets`
+     - Set `MLT_PROFILES_PATH` to `${HOME}/Projects/Shotcut/Shotcut.app/share/mlt/profiles`
+     - Set `MLT_REPOSITORY` to `${HOME}/Projects/Shotcut/Shotcut.app/lib/mlt`
+     - Set `QML2_IMPORT_PATH` to `${QTDIR}/qml`
+     - Set `QT_PLUGIN_PATH` to `${QTDIR}/plugins`
 
 7. Go back to **Edit** mode, right-click "shotcut" in the project tree, and choose **Rebuild**.
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How To Setup a Windows Development Environment
+title: How To Use the Windows SDK
 category: notes
 ---
 
