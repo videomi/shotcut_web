@@ -20,6 +20,47 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 18.11.13
+
+- Added an **Advanced** mode to **Export**.
+- Added **Use hardware encoder** checkbox to **Export**.
+- Added VA-API hardware encoding for Linux.
+- Added videotoolbox hardware encoding for macOS.
+- Added **New Project** / **Recent Projects** screen.
+- Added **10 Pixel Grid** and **20 Pixel Grid** options to the player grid button menu.
+- Added **Spot Remover** video filter.
+- Added **View > Scopes > Video Waveform**.
+- Added **Settings > Video Mode > Non-Broadcast > Square 1080p 30 fps** and 60 fps.
+- Added **Ut Video** presets to **Export**.
+- Added signed app bundle for macOS.
+- Fixed support for macOS 10.10 and 10.11.
+- Fixed clearing export preset search collapses categories.
+- Fixed searching export presets in categories.
+- Fixed initial rectangle size for **Size and Position** filter.
+- Fixed reopening **Timeline** changes zoom level.
+- Fixed exit sometimes hangs.
+- Fixed some filters' presets do not save any values:
+  - **Key Spill: Advanced**
+  - **Chroma Key: Advanced**
+  - **Reduce Noise**
+- Fixed A/V synchronization on some files.
+- Fixed seeking on audio files with album art.
+- Fixed saving multiple lines of text in preset for **Text** generator.
+- Fixed crash when undoing split and transition on Timeline.
+- Fixed filters not applied correctly when using **Export > From > Each Playlist Item**.
+- Improved reliability of **Audio/Video Device** capture.
+- Fixed **Color** generator did not signal colorspace.
+- Fixed transfer characteristic conversion and full range output in **Export**.  
+  (Add `mlt_image_format=rgb24`, `color_range=jpeg`, and `pix_fmt=yuvj420p` in
+  **Other** for full range output.)
+- Made **GPU Effects** hidden and discouraged.
+- Added support for project folder to **Stabilize** and **Overlay HTML** filters.
+- Increased **Scale** maximum to 500% for **Rotate and Scale** filter.
+- Improved support for DDS, ICO, and WebP images.
+- Bundle more library dependencies on Linux.
+- Converted macOS build to standard app bundle layout.
+
+
 ##### Release 18.10.08
 
 - Added support for [Intel Quick Sync Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html) hardware-accelerated video encoders to the Windows build (in **Export > Codec** choose h264_qsv or hevc_qsv).

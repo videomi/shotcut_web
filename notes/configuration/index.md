@@ -64,14 +64,18 @@ Windows registry, a bool is stored as a string: true or false.
 | drawMethod       | integer     | Settings > Display Method (Windows only), one of: 0 (Automatic), 15 (OpenGL), or 16 (DirectX)
 | noupgrade        | bool        | whether to show the prompt to check for upgrade upon app launch
 | appdatadir       | string      | the file system path where to load configuration. If this is set, then all the remaining configuration keys are read from shotcut.ini instead of the registry (Windows), plist (macOS), or ~/.config (Linux).
-| checkUpgradeAutomatic |  bool  | Whether to check for an update automatically at startup (default false)
-| askUpgradeAutomatic | bool     | Whether to ask if you want to check for an update automatically (default true) 
+| checkUpgradeAutomatic |  bool  | whether to check for an update automatically at startup (default false)
+| askUpgradeAutomatic | bool     | whether to ask if you want to check for an update automatically (default true)
+| projectsFolder   | string      | the file system path in which project folders are created
 | ***playlist***
 | viewMode         | string      | one of: detailed, icons, or tiled
 | thumbnails       | string      | how to show the thumbnails in the Playlist panel, one of: hidden, wide, tall, small, large
 | ***encode***
 | path             | string      | the file system path for Export > Export File
 | freeSpaceCheck   | bool        | whether to continue checking if a storage volume has sufficient space for storing Video
+| hardware         | string list | list of hardware encoders available on this system: comma-separated in Linux or Windows INI, multi-string in Windows registry, and array of strings in macOS plist (View > Recent)
+| useHardware      | bool        | whether to use hardware encoding if available (default false)
+| advanced         | bool        | whether to always show the Advanced mode for Export (default false)
 | ***player***
 | audioChannels    | integer     | the number of audio channels to use (Settings > Audio Channels)
 | deinterlacer     | string      | one of: onefield, linearblend, yadif-nospatial, or yadif (Settings > Deinterlacer)
