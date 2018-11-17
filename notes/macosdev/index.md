@@ -44,3 +44,29 @@ Configure all of your settings in the Kits section.
 
 8. After clicking **Run**, you can confirm the newly built executable is the one
    that is running from the **About** dialog: the version will be today's date.
+
+
+Rebuilding Dependencies {#rebuilding-dependencies}
+-----------------------
+
+You still might need to get some dependencies from MacPorts (or Homebrew, untested).
+
+You can use the following command to revise all of the pkg-config files to
+your installation path:
+
+`for f in Shotcut/Contents/Frameworks/lib/pkgconfig/*.pc; do sed -i .bak -e "s,/Users/ddennedy/BuildAgent/work/ef55b932ce3c3e94/shotcut/build,$HOME/Projects/Shotcut/Contents/Frameworks," -e 's,Frameworks/lib,Frameworks,' -e 's,${exec_prefix}/lib,${exec_prefix},' $f ; done`
+
+You might want to put the following into ~/.profile or a setup script:
+
+```
+export PATH="$HOME/Projects/Shotcut/Contents/MacOS:$PATH"
+export QTDIR="$HOME/Qt/5.6.1/clang_64"
+export PKG_CONFIG_PATH="$HOME/Projects/Shotcut/Contents/Frameworks/lib/pkgconfig"
+export CFLAGS="-I/opt/local/include -DRELOCATABLE"
+export CXXFLAGS="$CFLAGS"
+export LDFLAGS="-L/opt/local/lib/libomp"
+```
+
+Sometimes, you need to `make distclean` and re-run `configure` to make a clean
+in-tree (non-shadow) build. MLT has a `./reconfigure` script that invokes the
+configure with the same arguments as the previous run.
