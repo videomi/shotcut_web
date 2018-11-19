@@ -80,7 +80,7 @@ that lists some required packages for specific distributions.
 ##### Other
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v18.11.18/shotcut-src-181118.tar.xz)
+archive](https://github.com/mltframework/shotcut/releases/download/v18.11.18/shotcut-src-181118.txz)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Older versions](https://github.com/mltframework/shotcut/releases/) are
