@@ -81,7 +81,8 @@ Windows registry, a bool is stored as a string: true or false.
 | deinterlacer     | string      | one of: onefield, linearblend, yadif-nospatial, or yadif (Settings > Deinterlacer)
 | external         | string      | for Settings > External Monitor, one of: sdi (Linsys card), decklink:&lt;N&gt; (Blackmagic Design peripheral), or &lt;N&gt; (screen)
 | gamma            | string      | for Settings > Gamma (GPU Effects only), one of: iec61966_2_1 (sRGB) or bt709 (Rec. 709)
-| gpu              | bool        | whether Settings > GPU Effects is on
+| gpu              | bool        | whether Settings > GPU Effects is on (default false)
+| warnGPU          | bool        | whether to show warning dialog when GPU Effects is on (default true)
 | jack             | bool        | whether Settings > Use JACK Audio is on
 | interpolation    | string      | for Settings > Interpolation, one of: nearest, bilinear, bicubic, or hyper (Lanczos)
 | keyer            | integer     | for Settings > External Monitor > Decklink Keyer, one of: 0 (Off), 1 (Internal), 2 (External)

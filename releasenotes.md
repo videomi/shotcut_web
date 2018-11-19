@@ -20,6 +20,20 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 18.11.18
+
+- Fixed crash in Export (bug in v18.11.13).
+- Fixed NVENC hardware encoders on Windows and Linux.
+- Fixed VA-API hardware encoders on Linux. As a result, the Linux build is now
+  based on Ubuntu 16.04 (glibc 2.23), which may reduce compatibility with older
+  Linux systems.
+- Fixed hardware encoder detection on Windows.
+- Added **Audio Waveform Visualization** video filter.
+- Added **MM:SS.SS** to **Timer** filter.
+- Added IRE graticule and tooltips to the **Video Waveform** scope.
+- Added support for the mouse wheel to the **Color Grading** circles.
+- Added configuration setting player/warnGPU, which is a boolean that defaults true.
+
 ##### Release 18.11.13
 
 - Added an **Advanced** mode to **Export**.
