@@ -375,7 +375,7 @@ course.
 
 The settings are stored in
 \~/Library/Preferences/com.Meltytech.Shotcut.plist, which is a [binary
-plist](https://developer.apple.com/library/mac/documentation/Darwin/Reference/Manpages/man5/plist.5.html)
+plist](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/PropertyLists/Introduction/Introduction.html)
 file.
 
 * * *
@@ -391,7 +391,7 @@ original requirements in mind. The original Shotcut was created by
 Charlie Yates, a MLT co-founder and original lead developer. Since Dan
 Dennedy, another MLT co-founder and its current lead, wanted to create a
 new editor based on MLT, he simply chose to [reuse the
-name](http://mltframework.blogspot.com/2011/12/end-of-2011-update.html)
+name](https://mltframework.org/blog/end_of_2011_update/)
 since he liked it so much. The current Shotcut had its origins as the
 [MLT BuildOnMe project](https://github.com/mltframework/BuildOnMe).
 BuildOnMe was created in January, 2011 as a minimal, example project of
