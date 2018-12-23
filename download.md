@@ -21,17 +21,17 @@ to download.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-#### Current Version: 18.11.18
+#### Current Version: 18.12.23
 
 ##### Windows
 <small>(Windows 7+)</small>
 
 | Site 1 (FossHub)     | Site 2 (GitHub)
 |-----------------------|-------------------
-| [64-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-181118.exe) | [64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.11.18/shotcut-win64-181118.exe)
-| [64-bit Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-181118.zip) | [64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.11.18/shotcut-win64-181118.zip)
-| [32-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-181118.exe) | [32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.11.18/shotcut-win32-181118.exe)
-| [32-bit Windows portable zip ](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-181118.zip) | [32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.11.18/shotcut-win32-181118.zip)
+| [64-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-181223.exe) | [64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.12.23/shotcut-win64-181223.exe)
+| [64-bit Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-181223.zip) | [64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.12.23/shotcut-win64-181223.zip)
+| [32-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-181223.exe) | [32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.12.23/shotcut-win32-181223.exe)
+| [32-bit Windows portable zip ](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-181223.zip) | [32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.12.23/shotcut-win32-181223.zip)
 {:.withborders}
 
 ---
@@ -41,11 +41,11 @@ to download.
 
 | Site 1 (FossHub) &nbsp; &nbsp; | Site 2 (GitHub)
 |-----------------------|-----------------------------
-| [macOS dmg](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-signed-181118.dmg) | [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v18.11.18/shotcut-macos-signed-181118.dmg)
+| [macOS dmg](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-signed-181223.dmg) | [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v18.12.23/shotcut-macos-signed-181223.dmg)
 {:.withborders}
 
 An [unsigned app bundle is available on
-GitHub](https://github.com/mltframework/shotcut/releases/download/v18.11.18/shotcut-macos-unsigned-181118.dmg) so that you
+GitHub](https://github.com/mltframework/shotcut/releases/download/v18.12.23/shotcut-macos-unsigned-181223.dmg) so that you
 can modify the build per the Free Software license agreement.
 
 ---
@@ -55,8 +55,8 @@ can modify the build per the Free Software license agreement.
 
 | Site 1 (FossHub)      | Site 2 (GitHub)
 |-----------------------|-------------------
-| [64-bit Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-181118.txz) | [64-bit Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v18.11.18/shotcut-linux-x86_64-181118.txz)  
-| [64-bit Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=Shotcut-181118.glibc2.14-x86_64.AppImage) | [64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v18.11.18/Shotcut-181118.glibc2.14-x86_64.AppImage)
+| [64-bit Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-181223.txz) | [64-bit Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v18.12.23/shotcut-linux-x86_64-181223.txz)  
+| [64-bit Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=Shotcut-181223.glibc2.14-x86_64.AppImage) | [64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v18.12.23/Shotcut-181223.glibc2.14-x86_64.AppImage)
 | [Linux Flatpak](https://flathub.org/apps/details/org.shotcut.Shotcut) | [64-bit Linux Snap](https://snapcraft.io/shotcut)
 {:.withborders}
 
@@ -80,7 +80,7 @@ that lists some required packages for specific distributions.
 ##### Other
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v18.11.18/shotcut-src-181118.txz)
+archive](https://github.com/mltframework/shotcut/releases/download/v18.12.23/shotcut-src-181223.txz)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Older versions](https://github.com/mltframework/shotcut/releases/) are

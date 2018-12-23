@@ -20,6 +20,45 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 18.12.23
+
+- Fixed color accuracy of **lossless/Ut Video** preset and use yuv422p format.
+- Fixed number of digits for seconds in the **Timer** video filter when using **Format > MM:SS.SS**.
+- Fixed compositing completely transparent areas of alpha channel darkens output.
+- Fixed some generators (**Color Bars, Ising, Lissajous, Plasma**) not working correctly in **Timeline**.
+- Fixed **Settings > External Monitor > DeckLink/Intensity** can stall when **Settings > Realtime** is enabled.
+- Fixed making project folder if a parent folder does not exist.
+- Fixed **New Project > Start** does not save a .mlt file until you open media and save.
+- Fixed launch on some Linux (e.g. gentoo) by including libselinux .
+- Fixed crash when undo **Playlist > Remove All**.
+- Fixed auto-saved file not removed when save and exit with no changes.
+- Fixed the color accuracy of the **Color** generator.
+- Fixed numeric locale bug in the **Audio Spectrum Visualization** and **Audio Waveform Visualization** filters.
+- Fixed clip reloaded when leaving **Properties > Speed** with no change.
+- Fixed **Settings > External Monitor** on Windows screen.
+- Fixed launch crash on Linux with (Csound) csladspa < 6.11.1 installed.
+- Improved color accuracy of internal RGB-to-YUV conversions.
+- Changed **Quality** to 100% when using the **intermediate/ProRes** preset.
+- Added 16:9, 9:16, and 1:1 aspect ratios for transition wipes.
+- Moved **Properties > Reverse...** from the overflow menu to a button.
+- Changed **Properties > Reverse...** to use project folder if used.
+- When **Reverse** job completes, automatically open it and add it to the **Playlist**
+- Start playback from the beginning if you play when the play head is at the end.
+- Improved speed of the **Text** and **Timer** video filters.
+- Added **View > Scopes > Video Histogram**
+- Added **Preset** to some more filters:
+  - **Audio Gain/Volume**
+  - **Blur**
+  - **Brightness**
+  - **Opacity**
+- Added **Preset** and simple and advanced keyframes to the **Balance** and **Pan** audio filters.
+- Added a **Levels** video filter with simple and advanced keyframes!
+- Added **Properties > Color Range** for video clips.
+- Replace the **Mask** video filter with 3 new filters:
+  - **Mask: Simple Shape**
+  - **Mask: From File**
+  - **Mask: Apply**
+
 ##### Release 18.11.18
 
 - Fixed crash in Export (bug in v18.11.13).
