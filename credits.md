@@ -27,6 +27,8 @@ projects:
     the [GPL v2 License](http://www.gnu.org/licenses/gpl-2.0.html)
 -   [LADSPA](http://www.ladspa.org/) audio plugins under the [GPL v2
     License](http://www.gnu.org/licenses/gpl-2.0.html)
+-   [SWH](https://github.com/swh/ladspa) LADSPA plugins under the [GPL v2
+    License](http://www.gnu.org/licenses/gpl-2.0.html)
 -   [Movit](http://git.sesse.net/movit/) OpenGL Shader Language video
     processing framework under the [GPL v2
     License](http://www.gnu.org/licenses/gpl-2.0.html)
@@ -94,3 +96,8 @@ projects:
     License](http://opensource.org/licenses/mit-license.php)
 -   [typeface.js](http://typeface.neocracy.org/) under the [MIT
     License](http://opensource.org/licenses/mit-license.php)
+-   [GPUOpen AMF SDK](https://github.com/GPUOpen-LibrariesAndSDKs/AMF) under the [MIT
+    License](http://opensource.org/licenses/mit-license.php)
+-   [Intel Media SDK dispatcher](https://github.com/lu-zero/mfx_dispatch) under the [BSD-3-Clause license](https://raw.githubusercontent.com/lu-zero/mfx_dispatch/master/LICENSE)
+-   [Liberation Fonts](https://github.com/liberationfonts/liberation-fonts) under
+    the [SIL Open Font License](https://raw.githubusercontent.com/liberationfonts/liberation-fonts/master/LICENSE)
