@@ -2,6 +2,7 @@
 layout: page
 title: Technical Notes
 ---
+{% assign sorted_pages = site.pages | sort:"title" %}
 <!-- Shotcut Responsive -->
 <ins class="adsbygoogle"
     style="display:block"
@@ -11,15 +12,9 @@ title: Technical Notes
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
 These pages are here primarily for the Shotcut developers.
-
-[How To Cross Compile Shotcut for Windows on Linux](cross-compile/)
-
-[Linux Distro Packages](linux-dependencies/)
-
-[MLT XML Annotations](mltxml-annotations/)
-
-[Support Upload to MediaFire](support-upload/)
-
-[User Interface Conventions](ui-conventions/)
+{% for page in sorted_pages %}
+  {% if page.category == 'notes' %}
+[{{ page.title }}]({{ site.baseurl }}{{ page.url }})
+  {% endif %}
+{% endfor %}

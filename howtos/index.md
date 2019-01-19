@@ -2,6 +2,7 @@
 layout: page
 title: How To Articles
 ---
+{% assign sorted_pages = site.pages | sort:"title" %}
 
 <!-- Shotcut Responsive -->
 <ins class="adsbygoogle"
@@ -13,14 +14,8 @@ title: How To Articles
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-[Frequently Asked Questions](../FAQ/)
-
-[Non-English Getting Started Guides](getting-started/)
-
-[Keyboard Shortcut Reference](keyboard-shortcuts/)
-
-[How To Integrate Tumult Hype Animations](tumult-hype/)
-
-[How To Use the Contour ShuttlePRO with Shotcut](contour-shuttle/)
-
-[How To Use Leap Motion](leap-motion/)
+{% for page in sorted_pages %}
+  {% if page.category == 'help' %}
+[{{ page.title }}]({{ site.baseurl }}{{ page.url }})
+  {% endif %}
+{% endfor %}
