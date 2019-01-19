@@ -26,6 +26,11 @@ to download.
 ##### Windows
 <small>(Windows 7+)</small>
 
+<div style='float: right; text-align: center'>
+To avoid ads and get automatic updates:<br>
+<a href='//www.microsoft.com/store/apps/9plnffl3p6lr?ocid=badge'><img src='https://assets.windowsphone.com/85864462-9c82-451e-9355-a3d5f874397a/English_get-it-from-MS_InvariantCulture_Default.png' alt='English badge' style='width: 183px; height: 67px'/></a>
+</div>
+
 | Site 1 (FossHub)     | Site 2 (GitHub)
 |-----------------------|-------------------
 | [64-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-181223.exe) | [64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v18.12.23/shotcut-win64-181223.exe)
