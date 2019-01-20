@@ -101,8 +101,8 @@ the Shotcut code another way, but there is no help provided for that as it gets
 very complicated quickly.
 
 [How To Use the Linux SDK]({{ "/notes/linuxdev/" | prepend: site.baseurl }})  
-[How To Use the Windows SDK]({{ "/notes/linuxdev/" | prepend: site.baseurl }})  
-[How To Use the macOS SDK]({{ "/notes/linuxdev/" | prepend: site.baseurl }})
+[How To Use the Windows SDK]({{ "/notes/windowsdev/" | prepend: site.baseurl }})  
+[How To Use the macOS SDK]({{ "/notes/macosdev/" | prepend: site.baseurl }})
 
 All code contributions should assign copyright to Meltytech, LLC; however,
 exceptions may be considered for a major contribution.
