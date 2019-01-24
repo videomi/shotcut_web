@@ -59,6 +59,9 @@ To avoid ads and get automatic updates:<br>
 | [32-bit Windows portable zip ](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-181223.zip) | [32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v18.12.23/shotcut-win32-181223.zip)
 {:.withborders}
 
+---
+{:.win}
+
 {:.mac}
 ##### macOS
 <small class="mac">(64-bit macOS 10.10+)</small>
@@ -73,6 +76,9 @@ To avoid ads and get automatic updates:<br>
 An [unsigned app bundle is available on
 GitHub](https://github.com/mltframework/shotcut/releases/download/v18.12.23/shotcut-macos-unsigned-181223.dmg) so that you
 can modify the build per the Free Software license agreement.
+
+---
+{:.mac}
 
 {:.linux}
 ##### GNU/Linux
@@ -112,6 +118,7 @@ JACK** from your distribution.
 that lists some required packages for specific distributions.
 
 ---
+{:.linux}
 
 ##### Other
 
@@ -122,12 +129,7 @@ archive](https://github.com/mltframework/shotcut/releases/download/v18.12.23/sho
 [Older versions](https://github.com/mltframework/shotcut/releases/) are
 available for download.
 
-
 [Release Notes]({{ "/download/releasenotes/" | prepend: site.baseurl }})
-
-`This program is distributed in the hope that it will be useful, but
-WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
-or FITNESS FOR A PARTICULAR PURPOSE.`
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_donations">
@@ -141,11 +143,14 @@ or FITNESS FOR A PARTICULAR PURPOSE.`
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-
 <a href="https://www.jetbrains.com/teamcity/"><img
 width="139" height="25" alt="TeamCity logo" src="{{ "/assets/img/logo_teamcity.png" | prepend: site.baseurl }}"
 style="border: 0px; float: right; margin-left: 10px" title="JetBrains TeamCity"></a>
 These builds are made possible by a <a href="https://www.jetbrains.com/teamcity/">TeamCity</a> server license generously donated by JetBrains.
+
+`This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE.`
 
 <script src="{{ "/assets/js/platform.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/platform-display.js" | prepend: site.baseurl }}"></script>
