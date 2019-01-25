@@ -20,6 +20,55 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 19.01.24
+
+- Fixed launch crash on Linux by excluding libdrm libraries.
+- Fixed audio level changed by the **Mask : From File** filter.
+- Fixed **Text** filter may have glitches with **Export > Parallel processing**
+  (regression in v18.12.x).
+- Fixed missing file detected when **Stabilize** filter added without clicking
+  **Analyze**.
+- Fixed external monitoring on Linux screen.
+- Fixed unable to detect hardware encoders with spaces in the installation
+  folder path.
+- Fixed changing **Speed** can move a clip.
+- Fixed changing **Speed** has no effect when the system region and language
+  decimal separators are different.
+- Fixed filter duration not adjusted when trimming a transition.
+- Fixed ripple trim when clip has a transition.
+- Fixed removing a transition by trimming adds some frames.
+- Fixed aspect ratio for **File > Export Frame** with non-square pixel video.
+- Fixed handling relative paths to external resources in the **Overlay HTML**
+  editor.
+- Fixed a crash opening a project after removing the bottom video track.
+- Fixed the lossless/H.264 preset to be completely lossless.
+- Fixed dropping a file from a file manager whose name has special/extended
+  characters (e.g. `[`, `]`).
+- Fixed the state of the enabled checkbox for the **Overlay HTML** filter and
+  when using a color picker.
+- Fixed distortion after changing the **Keyframe Type** of a keyframe for the
+  **Scale** parameter in the **Rotate and Scale** filter.
+- Fixed right-clicking a keyframe to open context menu may change its position.
+- Fixed distortion when a **Mirror** filter is placed before a **Size and
+  Position** or **Rotate and Scale** filter.
+- Upgraded FFmpeg to v4.1
+- Improved **Color Grading** filter by letting all parameters go from -100% to 100%.
+- Added an automatic retry without **Parallel processing** when **Export** job fails.
+- Set the **Save as type** list on the **Export File** dialog on Windows when a
+  preset defines a filename extension.
+- Added **Center Playhead** option to the **Timeline** and **Keyframes** menus.
+- Added **Slow Zoom ___, Hold ___** presets to the **Size and Position** filter.
+- Added a **Chroma Hold** video filter.
+- Added a **Swirl (HTML)** video filter.
+- Added a simple **Templates** framework to the **Overlay HTML** filter (see
+  path `Shotcut\share\shotcut\qml\filters\webvfx\templates` to add your own)
+  with the following templates:
+  - Blank HTML
+  - Blue Middle Bar
+  - Creative Commons Music
+  - Blank with Web Animations
+  - Simple Scroll
+
 ##### Release 18.12.23
 
 - Fixed color accuracy of **lossless/Ut Video** preset and use yuv422p format.
