@@ -49,8 +49,6 @@ information.
 - Fixed distortion after changing the **Keyframe Type** of a keyframe for the
   **Scale** parameter in the **Rotate and Scale** filter.
 - Fixed right-clicking a keyframe to open context menu may change its position.
-- Fixed distortion when a **Mirror** filter is placed before a **Size and
-  Position** or **Rotate and Scale** filter.
 - Upgraded FFmpeg to v4.1
 - Improved **Color Grading** filter by letting all parameters go from -100% to 100%.
 - Added an automatic retry without **Parallel processing** when **Export** job fails.
