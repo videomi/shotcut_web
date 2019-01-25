@@ -84,17 +84,12 @@ can modify the build per the Free Software license agreement.
 ##### GNU/Linux
 <small class="linux">(64-bit Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
 
-<div class="linux" style='float: right; text-align: center'>
-To avoid ads and get automatic updates:<br>
-<a href='https://flathub.org/apps/details/org.shotcut.Shotcut'><img width='186' height='62' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a><br>
-<a href='https://snapcraft.io/shotcut'><img width='186' height='60' alt='Download on Snap Store' src='https://raw.githubusercontent.com/snapcore/snap-store-badges/master/EN/%5BEN%5D-snap-store-black.png'></a>
-</div>
-
 {:.linux}
 | Site 1 (FossHub)      | Site 2 (GitHub)
 |-----------------------|-------------------
 | [64-bit Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-190124.txz) | [64-bit Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v19.01.24/shotcut-linux-x86_64-190124.txz)  
 | [64-bit Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=Shotcut-190124.glibc2.14-x86_64.AppImage) | [64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v19.01.24/Shotcut-190124.glibc2.14-x86_64.AppImage)
+| <a href='https://flathub.org/apps/details/org.shotcut.Shotcut'><img width='186' height='62' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a> | <a href='https://snapcraft.io/shotcut'><img width='186' height='60' alt='Download on Snap Store' src='https://raw.githubusercontent.com/snapcore/snap-store-badges/master/EN/%5BEN%5D-snap-store-black.png'></a>
 {:.withborders}
 
 {:.linux}
