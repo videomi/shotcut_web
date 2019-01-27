@@ -11,6 +11,8 @@ unrelated to Shotcut such as browser toolbars or download managers.
 However, we can only provide that guarantee if you come to this website
 to download.
 
+<div style="background-color: #ddd; padding: 6px; text-align: center">
+<span>advertisement</span>
 <!-- Shotcut Responsive -->
 <ins class="adsbygoogle"
     style="display:block"
@@ -20,8 +22,9 @@ to download.
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
 
-#### Current Version: 19.01.24
+#### Current Version: 19.01.27
 
 <div class="OSTEST">
   <p>
@@ -53,10 +56,10 @@ To avoid ads and get automatic updates:<br>
 {:.win}
 | Site 1 (FossHub)     | Site 2 (GitHub)
 |-----------------------|-------------------
-| [64-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-190124.exe) | [64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v19.01.24/shotcut-win64-190124.exe)
-| [64-bit Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-190124.zip) | [64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v19.01.24/shotcut-win64-190124.zip)
-| [32-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-190124.exe) | [32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v19.01.24/shotcut-win32-190124.exe)
-| [32-bit Windows portable zip ](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-190124.zip) | [32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v19.01.24/shotcut-win32-190124.zip)
+| [64-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-190127.exe) | [64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v19.01.27/shotcut-win64-190127.exe)
+| [64-bit Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-190127.zip) | [64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v19.01.27/shotcut-win64-190127.zip)
+| [32-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-190127.exe) | [32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v19.01.27/shotcut-win32-190127.exe)
+| [32-bit Windows portable zip ](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-190127.zip) | [32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v19.01.27/shotcut-win32-190127.zip)
 {:.withborders}
 
 ---
@@ -69,12 +72,12 @@ To avoid ads and get automatic updates:<br>
 {:.mac}
 | Site 1 (FossHub) &nbsp; &nbsp; | Site 2 (GitHub)
 |-----------------------|-----------------------------
-| [macOS dmg](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-signed-190124.dmg) | [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v19.01.24/shotcut-macos-signed-190124.dmg)
+| [macOS dmg](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-signed-190127.dmg) | [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v19.01.27/shotcut-macos-signed-190127.dmg)
 {:.withborders}
 
 {:.mac}
 An [unsigned app bundle is available on
-GitHub](https://github.com/mltframework/shotcut/releases/download/v19.01.24/shotcut-macos-unsigned-190124.dmg) so that you
+GitHub](https://github.com/mltframework/shotcut/releases/download/v19.01.27/shotcut-macos-unsigned-190127.dmg) so that you
 can modify the build per the Free Software license agreement.
 
 ---
@@ -82,25 +85,29 @@ can modify the build per the Free Software license agreement.
 
 {:.linux}
 ##### GNU/Linux
+
+<div class="linux" style='float: right; text-align: center'>
+<small>To avoid ads and get automatic updates:</small><br>
+<a href='https://flathub.org/apps/details/org.shotcut.Shotcut'><img
+width='186' height='62' alt='Download on Flathub'
+src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
+<br>
+<a href='https://snapcraft.io/shotcut'><img width='186' height='60'
+alt='Download on Snap Store' 
+src='https://raw.githubusercontent.com/snapcore/snap-store-badges/master/EN/%5BEN%5D-snap-store-black.png'></a>
+</div>
+
 <small class="linux">(64-bit Mint 17+, Ubuntu 14.04+, Debian 8+, Fedora 21+, Arch/Manjaro)</small>
 
 {:.linux}
 | Site 1 (FossHub)      | Site 2 (GitHub)
 |-----------------------|-------------------
-| [64-bit Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-190124.txz) | [64-bit Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v19.01.24/shotcut-linux-x86_64-190124.txz)  
-| [64-bit Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=Shotcut-190124.glibc2.14-x86_64.AppImage) | [64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v19.01.24/Shotcut-190124.glibc2.14-x86_64.AppImage)
-| <a href='https://flathub.org/apps/details/org.shotcut.Shotcut'><img width='186' height='62' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a> | <a href='https://snapcraft.io/shotcut'><img width='186' height='60' alt='Download on Snap Store' src='https://raw.githubusercontent.com/snapcore/snap-store-badges/master/EN/%5BEN%5D-snap-store-black.png'></a>
+| [64-bit Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-190127.txz) | [64-bit Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v19.01.27/shotcut-linux-x86_64-190127.txz)  
+| [64-bit Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=Shotcut-190127.glibc2.14-x86_64.AppImage) | [64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v19.01.27/Shotcut-190127.glibc2.14-x86_64.AppImage)
 {:.withborders}
 
 {:.linux}
-**Snap Users**: On [snap-enabled systems](https://snapcraft.io/docs/core/install), install
-from the store with `snap install shotcut --classic`  
-Since this snap is using classic confinement based on the portable zip above,
-not all dependencies are bundled, and it has the same run-time requirements as
-the portable tar.
-
-{:.linux}
-**GNU/Linux Portable Users**: No install required, simply extract the archive and run
+**Linux portable tar users**: No install required, simply extract the archive and run
 it. You can drag the Shotcut folder to copy and move it wherever you
 want. If double-clicking the icon in your file manager does not launch
 Shotcut, open Shotcut.app, and try double-clicking the shotcut shell
@@ -109,13 +116,20 @@ JACK** from your distribution.
 [Here is a page]({{ "/notes/linux-dependencies/" | prepend: site.baseurl }})
 that lists some required packages for specific distributions.
 
+{:.linux}
+**Snap Users**: On [snap-enabled systems](https://snapcraft.io/docs/core/install), install
+from the store with `snap install shotcut --classic`  
+Since this snap is using classic confinement based on the portable zip above,
+not all dependencies are bundled, and it has the same run-time requirements as
+the portable tar.
+
 ---
 {:.linux}
 
 ##### Other
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v19.01.24/shotcut-src-190124.txz)
+archive](https://github.com/mltframework/shotcut/releases/download/v19.01.27/shotcut-src-190127.txz)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Older versions](https://github.com/mltframework/shotcut/releases/) are

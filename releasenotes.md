@@ -20,6 +20,13 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 19.01.27
+
+- Fixed **Text** animation/keyframes not working in v19.01.24.
+- Fixed distortion when a **Mirror** filter is placed before a **Size and
+  Position** or **Rotate and Scale** filter.
+- Fixed **Levels** filter in locales with comma for decimal point.
+
 ##### Release 19.01.24
 
 - Fixed launch crash on Linux by excluding libdrm libraries.
@@ -49,8 +56,6 @@ information.
 - Fixed distortion after changing the **Keyframe Type** of a keyframe for the
   **Scale** parameter in the **Rotate and Scale** filter.
 - Fixed right-clicking a keyframe to open context menu may change its position.
-- Fixed distortion when a **Mirror** filter is placed before a **Size and
-  Position** or **Rotate and Scale** filter.
 - Upgraded FFmpeg to v4.1
 - Improved **Color Grading** filter by letting all parameters go from -100% to 100%.
 - Added an automatic retry without **Parallel processing** when **Export** job fails.
