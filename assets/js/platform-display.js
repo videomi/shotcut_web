@@ -12,7 +12,7 @@ if ( platform.os.family.indexOf('Win') !== -1 && platform.os.family.indexOf('Pho
     // Windows, _not_ Phone
     document.getElementById('pOSTEST').innerHTML = 'Microsoft Windows.';
     render('os_win')
-} else if ( platform.os.family.indexOf('macOS') !== -1 ){
+} else if ( platform.os.family.indexOf('OS X') !== -1 ){
     // macOS
     document.getElementById('pOSTEST').innerHTML = 'macOS.';
     render('os_mac')
@@ -39,7 +39,6 @@ if ( platform.os.family.indexOf('Win') !== -1 && platform.os.family.indexOf('Pho
 function render(os) {
     if (typeof(os) !== 'string')
       os = this.id;
-    console.log('os = ' + os);
     switch ( os ) {
         case 'os_linux':
             [].forEach.call(document.getElementsByClassName('win'), function(el) {
