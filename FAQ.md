@@ -173,7 +173,7 @@ unless otherwise noted:
 
 -   **Shift+X**, **del** or **backspace** removes the selected item
 -   **Shift+C** appends a clip to the playlist
--   **Shit+V** inserts a clip before the selected playlist item; appends
+-   **Shift+V** inserts a clip before the selected playlist item; appends
     if no item is selected
 -   **Shift+B** updates the selected item with the clip in the player
 -   **Enter** opens the playlist in the player and seeks to the selected
