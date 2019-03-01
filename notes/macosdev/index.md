@@ -6,9 +6,9 @@ category: notes
 
 1. Download and install the following:
   - Qt Creator from the [Qt project](https://www.qt.io/download-open-source/) or your distribution packages.
-  - [Our special build of the Qt 5.6.1 SDK that includes QtWebKit](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/qt-5.6.1-osx-x86_64.tar.bz2)    
+  - [Our special build of the Qt 5.9.7 SDK that includes QtWebKit](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/qt-5.9.7-macos-x86_64.txz)    
     Extract it to $HOME
-  - [Shotcut SDK (537 MiB! current version 19.01.27)](http://builds.us.meltytech.s3.amazonaws.com/shotcut/shotcut-macos-sdk-190127.txz)    
+  - [Shotcut SDK (538 MiB! current version 19.02.28)](http://builds.us.meltytech.s3.amazonaws.com/shotcut/shotcut-macos-sdk-190228.txz)    
     Extract it to $HOME/Projects
 
 2. Start Qt Creator and choose **Qt Creator &gt; Preferences... &gt; Kits**  
@@ -60,7 +60,7 @@ You might want to put the following into ~/.profile or a setup script:
 
 ```
 export PATH="$HOME/Projects/Shotcut/Contents/MacOS:$PATH"
-export QTDIR="$HOME/Qt/5.6.1/clang_64"
+export QTDIR="$HOME/Qt/5.8.7/clang_64"
 export PKG_CONFIG_PATH="$HOME/Projects/Shotcut/Contents/Frameworks/lib/pkgconfig"
 export CFLAGS="-I/opt/local/include -DRELOCATABLE"
 export CXXFLAGS="$CFLAGS"

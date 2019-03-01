@@ -11,7 +11,7 @@ projects:
 -   [MLT](http://www.mltframework.org/) multimedia authoring framework
     under the [GPL v3 License](http://www.gnu.org/licenses/gpl-3.0.html)
 -   [Qt](http://qt-project.org/) application and UI framework under the
-    [LGPL v2.1 License](http://www.gnu.org/licenses/lgpl-2.1.html)
+    [GPL v3 License](http://www.gnu.org/licenses/gpl-3.0.html)
 -   [FFmpeg](http://www.ffmpeg.org/) multimedia format and codec
     libraries under the [GPL v3
     License](http://www.gnu.org/licenses/gpl-3.0.html)
@@ -101,3 +101,8 @@ projects:
 -   [Intel Media SDK dispatcher](https://github.com/lu-zero/mfx_dispatch) under the [BSD-3-Clause license](https://raw.githubusercontent.com/lu-zero/mfx_dispatch/master/LICENSE)
 -   [Liberation Fonts](https://github.com/liberationfonts/liberation-fonts) under
     the [SIL Open Font License](https://raw.githubusercontent.com/liberationfonts/liberation-fonts/master/LICENSE)
+-   This product includes software developed by the OpenSSL Project for use in
+the [OpenSSL Toolkit](http://www.openssl.org/) licensed under [the dual OpenSSL
+and SSLeay license](https://www.openssl.org/source/license-openssl-ssleay.txt)
+via the [Qt GPLv3 license with
+exception](https://doc.qt.io/qt-5.9/qtnetwork-index.html#licenses-and-attributions)

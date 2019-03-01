@@ -15,19 +15,21 @@ category: notes
 </script>
 
 ```
-Usage: shotcut [options] resource
+Usage: shotcut [options] [FILE]...
 
 Options:
-  -h, --help             Displays this help.
-  -v, --version          Displays version information.
-  --fullscreen           Fill the screen with the Shotcut window.
-  --noupgrade            Hide upgrade prompt and menu item.
-  --gpu                  Use GPU processing.
-  --clear-recent         Clear Recent on Exit
-  --appdata <directory>  The directory for app configuration and data.
+  -h, --help                        Displays this help.
+  -v, --version                     Displays version information.
+  --fullscreen                      Fill the screen with the Shotcut window.
+  --noupgrade                       Hide upgrade prompt and menu item.
+  --gpu                             Use GPU processing.
+  --clear-recent                    Clear Recent on Exit
+  --appdata <directory>             The directory for app configuration and data.
+  --QT_SCALE_FACTOR <number>        The scale factor for a high-DPI screen
+  --QT_SCREEN_SCALE_FACTORS <list>  A semicolon-separated list of scale factors for each screen
 
 Arguments:
-  resource               A file to open.
+  [FILE]...                         Zero or more files or folders to open
 ```
 
 When `--appdata` is supplied the configuration key `appdatadir`

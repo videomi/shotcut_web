@@ -6,16 +6,16 @@ category: notes
 
 1. Download and install the following:
   - [Qt Creator](https://www.qt.io/download-open-source/)
-  - [Our special build of the Qt 5.6.1 SDK that includes QtWebKit](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/qt-5.6.1-x64-mingw510r0-seh.tar.bz2)    
-    Extract it to C:\Qt\qt-5.6.1-x64-mingw510r0-seh
-  - [MinGW 5.1 for Windows 64 bit](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/x86_64-5.1.0-release-posix-seh-rt_v4-rev0.7z)  
-    Extract it to C:\Qt\x86_64-5.1.0-release-posix-seh-rt_v4-rev0
-  - [Shotcut SDK (1.5 GB! current version 19.01.27)](http://builds.us.meltytech.s3.amazonaws.com/shotcut/shotcut-win64-sdk-190127.zip)  
+  - [Our special build of the Qt 5.9.7 SDK that includes QtWebKit](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/qt-5.9.7-x64-mingw540-seh.txz)    
+    Extract it to C:\Qt\qt-5.9.7-x64-mingw540-seh
+  - [MinGW-w64 GCC-5.4.0 for 64-bit Windows](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/5.4.0/threads-posix/seh/x86_64-5.4.0-release-posix-seh-rt_v5-rev0.7z)  
+    Extract it to C:\Qt\x86_64-5.4.0-release-posix-seh-rt_v5-rev0
+  - [Shotcut SDK (1.4 GB! current version 19.01.27)](http://builds.us.meltytech.s3.amazonaws.com/shotcut/shotcut-win64-sdk-190228.zip)  
     Extract it to C:\Projects
 
 2. Check that the following files are in the correct directories:
-  - C:\Qt\x86_64-5.1.0-release-posix-seh-rt_v4-rev0\mingw64\bin\g++.exe
-  - C:\Qt\qt-5.6.1-x64-mingw510r0-seh\bin\qmake.exe
+  - C:\Qt\x86_64-5.4.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe
+  - C:\Qt\qt-5.9.7-x64-mingw540-seh\bin\qmake.exe
 
 3. Start Qt Creator and choose **Tools &gt; Options &gt; Build &amp; Run**  
 Configure all of your settings in the Build & Run section.
@@ -59,8 +59,8 @@ frei0r and webvfx. Instructions for that are not yet included. In other
 cases you can use the Git Bash shell environment. Upon opening a Git
 Bash shell, enter (or add to ~/.profile and restart the shell):
 
-    export PATH="/c/Qt/x86_64-5.1.0-release-posix-seh-rt_v4-rev0/mingw64/bin:$PATH"
-    export QTDIR="c:/Qt/qt-5.6.1-x64-mingw510r0-seh"
+    export PATH="/c/Qt/x86_64-5.4.0-release-posix-seh-rt_v5-rev0/mingw64/bin:$PATH"
+    export QTDIR="c:/Qt/qt-5.9.7-x64-mingw540-seh"
     export CC=gcc
     export CXX=g++
     export PKG_CONFIG_PATH="c:/Projects/Shotcut/lib/pkgconfig"

@@ -20,6 +20,36 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 19.02.28
+
+- Fixed opening image sequence on Windows with extended/special characters in file path/name.
+- Fixed crash on some video clips, particularly those with Google Pixel 3 and likely others.
+- Fixed field order with interlaced export.
+- Fixed an image artifact when using keyframes with the **Mask: Simple Shape** filter.
+- Fixed image and alpha channel integrity with transitions on clips with a non-opaque alpha channel.
+- Fixed a crash when changing clip **Properties > Audio > Track**.
+- Fixed **Properties > Video > Color Range** inaccurate after changing it.
+- Fixed **Shake One Second** presets in regions that use comma for decimal point.
+- Fixed moving a **Playlist** item to the end.
+- Fixed more dialogs to be modal to prevent them from going behind the main window.
+- Fixed **Overlay HTML** webvfx templates when using a project folder.
+- Fixed volume slider appears before main window at launch on macOS.
+- Fixed more dialogs to use sheet style on macOS.
+- Fixed a few small memory leaks in MLT.
+- Upgraded Qt to version 5.9.7.
+- Changed **Width** and **Height** minimum to 0 for **Blur** filter.
+- Set the **Save as type** list on all file save dialogs (convert, reverse, text, EDL, image).
+- Improved the quality of Export Frame > WebP.
+- Show "Not Seekable" instead of "Live" when opening a non-seeable clip (or device or stream).
+- Show a status message when trying to drag from Project player.
+- Prefer loading DLLs in Shotcut's install folder over those in System32.
+- Default the out point of the **Color**, **Count**, and **Text** generator clips to the same as image duration (default 4 seconds).
+- Added **Offset** to **Timer** video filter.
+- Added **Vertical HD 30 fps** and **Vertical HD 60 fps** video modes.
+- Added support for HTTPS.
+- Added [`--QT_SCALE_FACTOR` and `--QT_SCREEN_SCALE_FACTORS`](https://doc.qt.io/qt-5/highdpi.html#high-dpi-support-in-qt) command line options.
+- Added **English (Great Britain)** translation.
+
 ##### Release 19.01.27
 
 - Fixed **Text** animation/keyframes not working in v19.01.24.
