@@ -20,25 +20,86 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 19.04.30
+
+- Fixed reading some AVCHD files after a camcorder splits.
+- Cosmetic fixes for timecode spinner and toolbar icons on high DPI systems.
+- Bundled libnsl for Linux to fix Fedora.
+- Fixed **Video Waveform** scope graticule not showing on non-dark theme.
+- Fixed incorrect compositing z-order after **Insert Track**.
+- Fixed cosmetic problem with main toolbar using **System** theme on macOS.
+- Fixed current track changes after inserting or overwriting a clip in Timeline.
+- Fixed absolute paths can be introduced on Windows when using a project folder.
+- Fixed sometimes showing forward slashes for file paths on Windows.
+- Fixed first clip does not start at beginning when drop to Timeline after
+  **File > New** or **File > Close**.
+- Fixed **Properties > Convert** and **Reverse** on files with album art or
+  embedded thumbnail.
+- Fixed a possible crash on **File > New** or **File > Close**.
+- Fixed filters on clips not extended into transition when adding a transition
+  by trimming or resizing a transition.
+- Fixed **Open Other  > ALSA Audio** on toolbar on Linux.
+- Fixed changing **Properties > Speed** or **Color Range** on a timeline clip
+  may crash.
+- Fixed timeline correction when drag clip to another track and then back to
+  original.
+- Fixed reloading the **Mask: From File** filter resets **Threshold** keyframes.
+- Fixed the **Mask: Simple Shape** filter does not work when **Width** or
+  **Height** is 0%.
+- Increased parameter ranges in the **Rotate and Scale** filter.
+- Added verification that saved MLT XML is well-formed XML before (over-)writing
+  the target file.
+- Changed default **Outline Thickness** (3) and alpha of **Text** filter to
+  match **Open Other > Text** and prevent a problem where the text outline is
+  aliased when the clip is transparent.
+- Changed the version check to use HTTPS for increased privacy.
+- Added DLL redirection files for other .exe programs on Windows to prioritize
+  Shotcut-provided DLLs over those in system or $path.
+- Removed the buggy **Merge with next clip** from Timeline clip context menu.
+- Added (creation) **Date** column to Playlist **Details** view.
+- Added **Set File Date...** to the Playlist menu and item context menu.
+- Added **Sort By Name** and **Sort By Date** to the Playlist menu.  
+  These are single-shot sorting commands. The playlist is still fixed-ordering.
+  The new options do not automatically sort new playlist entries.
+- Added new video filters:
+  * **Grid**
+  * **Audio Dance Visualization**
+  * **Audio Light Visualization**
+  * **RGB Shift**
+  * **Glitch**
+  * **Distort**
+- Added **Zoom 300%, 400%, 500%, 750%, and 1000%** to the player's zoom menu.
+- Added **Settings > Drawing Method > Software (Mesa)** on Windows.  
+  This is not good for performance, but it improves compatibility. Use only as
+  a last resort.
+- Added **Display Method > OpenGL** or **Software (Mesa)** on Linux.
+- Added **Norwegian Nynorsk** translation.
+
 ##### Release 19.02.28
 
-- Fixed opening image sequence on Windows with extended/special characters in file path/name.
-- Fixed crash on some video clips, particularly those with Google Pixel 3 and likely others.
+- Fixed opening image sequence on Windows with extended/special characters in
+  file path/name.
+- Fixed crash on some video clips, particularly those with Google Pixel 3 and
+  likely others.
 - Fixed field order with interlaced export.
-- Fixed an image artifact when using keyframes with the **Mask: Simple Shape** filter.
-- Fixed image and alpha channel integrity with transitions on clips with a non-opaque alpha channel.
+- Fixed an image artifact when using keyframes with the **Mask: Simple Shape**
+  filter.
+- Fixed image and alpha channel integrity with transitions on clips with a
+  non-opaque alpha channel.
 - Fixed a crash when changing clip **Properties > Audio > Track**.
 - Fixed **Properties > Video > Color Range** inaccurate after changing it.
 - Fixed **Shake One Second** presets in regions that use comma for decimal point.
 - Fixed moving a **Playlist** item to the end.
-- Fixed more dialogs to be modal to prevent them from going behind the main window.
+- Fixed more dialogs to be modal to prevent them from going behind the main
+  window.
 - Fixed **Overlay HTML** webvfx templates when using a project folder.
 - Fixed volume slider appears before main window at launch on macOS.
 - Fixed more dialogs to use sheet style on macOS.
 - Fixed a few small memory leaks in MLT.
 - Upgraded Qt to version 5.9.7.
 - Changed **Width** and **Height** minimum to 0 for **Blur** filter.
-- Set the **Save as type** list on all file save dialogs (convert, reverse, text, EDL, image).
+- Set the **Save as type** list on all file save dialogs (convert, reverse,
+  text, EDL, image).
 - Improved the quality of Export Frame > WebP.
 - Show "Not Seekable" instead of "Live" when opening a non-seeable clip (or device or stream).
 - Show a status message when trying to drag from Project player.

@@ -17,7 +17,7 @@ required: jack-audio-connection-kit, libXScrnSaver
 Generic Directly Dependent Libraries
 ------------------------------------
 
-basic "platform" libs: libc, libpthread, libm, libdl, librt, libz, libstdc++,
+basic "platform" libs: glibc 2.23+, libpthread, libm, libdl, librt, libz, libstdc++,
 libGL, libX*, libasound (ALSA), libgthread, libglib-2.0, libgobject-2.0,
 libselinux
 
