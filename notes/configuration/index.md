@@ -61,7 +61,7 @@ Windows registry, a bool is stored as a string: true or false.
 | windowState      | binary      | the current layout of the UI panels
 | windowStateDefault | binary    | used to save View > Layout > Restore Default Layout
 | showConvertClipDialog | bool   | whether to continue to show the Convert to Edit-friendly dialog for variable frame rate or non-seekable files
-| drawMethod       | integer     | Settings > Display Method, one of: 0 (Automatic), 15 (OpenGL), 16 (DirectX, Windows only), or 17 (Software)
+| opengl           | integer     | Settings > Display Method, in decimal: 0 (Automatic), 15 (OpenGL), 16 (DirectX, Windows only), or 17 (Software)
 | noupgrade        | bool        | whether to show the prompt to check for upgrade upon app launch
 | appdatadir       | string      | the file system path where to load configuration. If this is set, then all the remaining configuration keys are read from shotcut.ini instead of the registry (Windows), plist (macOS), or ~/.config (Linux).
 | checkUpgradeAutomatic |  bool  | whether to check for an update automatically at startup (default false)
