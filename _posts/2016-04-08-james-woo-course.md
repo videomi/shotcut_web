@@ -5,7 +5,7 @@ author: Dan Dennedy
 category: blog
 ---
 Shotcut power user, James Woo, has created a wonderful
-[course on how to use Shotcut](https://betterbusiness.zenler.com/courses/video-editing-made-easy-with-shotcut-video-editor&affiliate=1367).
+[course on how to use Shotcut](https://betterbusiness.newzenler.com/courses/video-editing-made-easy-with-shotcut-video-editor?affiliate=WrMMTH).
 
 Currently, it contains 24 videos and costs $25, but it only costs $20 using the
 coupon code in the link on this blog post! As the
