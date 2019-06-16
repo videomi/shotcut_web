@@ -55,25 +55,17 @@ Quick Tasks To Do
 -   Add transform effect to movit.
 -   Convert producer UIs to QML.
 -   Add partik0l producer
--   Circle VUI control for vignette and ?
+-   Circle VUI control for Vignette and Crop: Circle
 -   Add multi-track transitions feature
 -   Add generic filter
 -   Add generic transition
 -   Add Kdenlive export
--   Add keyboard shortcut to toggle snap
--   Add keyboard shortcut to toggle ripple
 -   Add HTML Title to Open Other that supplies a background.
--   Add transparency support to WebVfx filter and transition.
--   Add ability to create additional playlists in project
 -   Add search media type queries to Playlists
 -   Let user quickly enter a name in Playlists
 -   Add move with insert position when dragging clip on timeline.
--   Make File > Open Other more obvious?
--   Rework filter menu into a searchable filter browser with animated
-    icon and nice description.
+-   Rework filter browser with icon and nice description.
 -   Add Parametric Equalizer audio filter
--   User-defined and -named UI layouts
--   Fix interaction between Crop and Size & Position (and Rotate?) filters
 -   Add option to view timeline waveform per channel
 -   Add transitions to Playlist
 -   Make it easy to add 0.5 or 1 second transition on timeline.

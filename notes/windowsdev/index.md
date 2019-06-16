@@ -10,7 +10,7 @@ category: notes
     Extract it to C:\Qt\qt-5.9.7-x64-mingw540-seh
   - [MinGW-w64 GCC-5.4.0 for 64-bit Windows](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/5.4.0/threads-posix/seh/x86_64-5.4.0-release-posix-seh-rt_v5-rev0.7z)  
     Extract it to C:\Qt\x86_64-5.4.0-release-posix-seh-rt_v5-rev0
-  - [Shotcut SDK (1.5 GB! current version 19.04.30)](http://builds.us.meltytech.s3.amazonaws.com/shotcut/shotcut-win64-sdk-190430.zip)  
+  - [Shotcut SDK (1.5 GB! current version 19.06.15)](http://builds.us.meltytech.s3.amazonaws.com/shotcut/shotcut-win64-sdk-190615.zip)  
     Extract it to C:\Projects
 
 2. Check that the following files are in the correct directories:

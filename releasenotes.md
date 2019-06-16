@@ -20,6 +20,64 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 19.06.16
+
+- Fixed deleting the project file if there was a save error.
+- Fixed reliability of **Settings > Display Method > Software** on Windows.
+- Fixed **Crop: Source** filter not working with **Color** clip.
+- Fixed using filters on **Color Bars** and other generator clips.
+- Fixed audio filters (**Compressor, Expander, Limiter, Notch, Reverb**) broken\
+on comma for decimal.
+- Fixed alpha video opaque on gaps in **Timeline**.
+- Fixed **Convert/Reverse** if there no audio track.
+- Fixed **Measure Video Quality** broken.
+- Fixed saving the app directory in XML. 
+- Fixed **Alpha: Adjust > Invert** checkbox on reload.
+- Fixed color eye-dropper (picker) error.
+- Fixed audio **Pan** filter channel resets on reload.
+- Fixed a crash using **Mirror** filter before **Rotate and Scale** or **Size
+and Position**.
+- Fixed poor reverse audio quality for mp4 and mkv options.
+- Fixed Simple Scroll HTML template may not scroll Up or Left completely.
+- Changed project file to use period for decimal point regardless of OS locale
+(region/language setting).
+- Changed **Export > From** to show **Source** instead of base file name.
+- Improved Export Job progress and estimated time remaining.
+- Changed **Timeline** ruler interval to 5 seconds.
+- Renamed video filter **Circular Frame** to **Crop: Circle**.
+- Renamed video filter **Crop** to **Crop: Source**.
+- Renamed video filter **Text** to **Text: Simple**.
+- Renamed video filter **3D Text** to **Text: 3D**.
+- Renamed video filter **Overlay HTML** to **Text: HTML**.
+- Renamed video filter **Blur** to **Blur: Box**.
+- Renamed **Reduce Noise** video filter to **Reduce Noise: Smart Blur**.
+- Changed the default for **Settings > Display Method** back to **DirectX** on
+Windows.
+- Changed maximum duration of **Color**, **Text**, and **Color Bars** clips to
+4 hours.
+- Added **Jobs** to the main toolbar.
+- Reordered panel buttons on main toolbar to match **View** menu.
+- Increased maximum value of Timer filter's Start Delay, Duration, and Offset
+to 24 hours.
+- Added **View > Show Text Under Icons** to menu.
+- Added **View > Show Small Icons** to menu.
+- Added support for alpha channel to **Crop: Circle**.
+- Added **Crop: Rectangle** video filter with support for alpha channel.
+- Added **Add Keyframe** button in Keyframes (only on parameters that show a
+  curve UI).
+- Added **Ripple All** button to **Timeline** toolbar.
+- Added keyboard shortcuts Ctrl+0-9 to toggle the panels.
+- Added Alt 0/+/- shortcuts to adjust the zoom in **Keyframes**.
+- Added a vertical **Flip** video filter.
+- Added **Blur: Exponential** video filter (fast and bleeds to edges).
+- Added **Blur: Low Pass** video filter (fast and bleeds to edges).
+- Added **Blur: Gaussian** video filter (slow and bleeds to edges).
+- Added **Reduce Noise: HQDN3D** video filter.
+- Added **Noise: Fast** video filter.
+- Added **Noise: Keyframes** video filter.
+- Added Swedish translation.
+
+
 ##### Release 19.04.30
 
 - Fixed reading some AVCHD files after a camcorder splits.

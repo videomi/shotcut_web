@@ -17,14 +17,29 @@ category: help
 | Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
 |-----------------------|--------------------------------------|----------------------
 | ***Main Menu***       |                                      |
-| Open File             | Ctrl+O                               | Cmd+O
-| Open Other            | Ctrl+Shift+O                         | Cmd+Shift+O
-| Save                  | Ctrl+S                               | Cmd+S
-| Save As               | Ctrl+Shift+S                         | Cmd+Shift+S
-| Quit                  | Ctrl+Q                               | Cmd+Q
-| Undo                  | Ctrl+Z                               | Cmd+Z
-| Redo                  | Ctrl+Y / Ctrl+Shift+Z                | Cmd+Shift+Z
-| Fullscreen            | Ctrl+Shift+F                         | Ctrl+Cmd+F
+| File > New            | Ctrl+N                               | Cmd+N
+| File > Open           | Ctrl+O                               | Cmd+O
+| File > Open Other     | Ctrl+Shift+O                         | Cmd+Shift+O
+| File > Save           | Ctrl+S                               | Cmd+S
+| File > Save As        | Ctrl+Shift+S                         | Cmd+Shift+S
+| File > Export Video   | Ctrl+E                               | Cmd+E
+| File > Export Frame   | Ctrl+Shift+E                         | Cmd+Shift+E
+| File > Close          | Ctrl+W                               | Cmd+W
+| File > Quit           | Ctrl+Q                               | Cmd+Q
+| Edit > Undo           | Ctrl+Z                               | Cmd+Z
+| Edit > Redo           | Ctrl+Y / Ctrl+Shift+Z                | Cmd+Shift+Z
+| View > Fullscreen (not Windows) | Ctrl+Shift+F               | Ctrl+Cmd+F
+| View > Audio Peak Meter | Ctrl+1                             | Cmd+1
+| View > Properties       | Ctrl+2                             | Cmd+2
+| View > Recent           | Ctrl+3                             | Cmd+3
+| View > Playlist         | Ctrl+4                             | Cmd+4
+| View > Timeline         | Ctrl+5                             | Cmd+5
+| View > Filters          | Ctrl+6                             | Cmd+6
+| View > Keyframes        | Ctrl+7                             | Cmd+7
+| View > History          | Ctrl+8                             | Cmd+8
+| View > Export           | Ctrl+9                             | Cmd+9
+| View > Jobs             | Ctrl+0                             | Cmd+0
+| Help > Keyboard Shortcuts | F1                               | F1
 | ***Player***          |                                      |
 | Play                  | L or Space                           |
 | Pause                 | K or Space                           |
@@ -71,7 +86,6 @@ category: help
 | Reset Zoom            | 0                                    |
 | Make Tracks Shorter   | Ctrl+-                               | Cmd+-
 | Make Tracks Taller    | Ctrl+=                               | Cmd+=
-| Reset Track Height    | Ctrl+0                               |
 | Reload                | F5                                   |
 | Select under playhead | Ctrl+Space                           |
 | Move selection left   | Ctrl+Left                            | Cmd+Left
@@ -99,6 +113,10 @@ category: help
 | Select Item N         | 1 2 3 4 5 6 7 8 9 0                  |
 | Open Selected         | Enter or double-click                |
 | Goto/Seek             | Shift+Enter or Shift+double-click    |
+| ***Keyframes***       |                                      |
+| Zoom In               | Alt+=                                |
+| Zoom Out              | Alt+-                                |
+| Reset Zoom            | Alt+0                                |
 {:.withborders}
 
 ### Other Notes
