@@ -52,6 +52,7 @@ Software Collections
     | [macOS](http://mac.softpedia.com/get/Multimedia/Shotcut.shtml) |
     [Linux](http://linux.softpedia.com/get/Multimedia/Video/Shotcut-103754.shtml)
 -   [KubaDownload.com](https://kubadownload.com/app/shotcut-download)
+-   [LO4D.com](https://shotcut-video-editor.en.lo4d.com/windows)
 
 Warning: we do not officially endorse any of these organizations, and some of them may host downloads of Shotcut that are old or have been bundled with other unknown software.
 
