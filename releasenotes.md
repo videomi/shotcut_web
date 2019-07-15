@@ -20,6 +20,50 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 19.07.15
+
+- Fixed **Timer** video filter shows incorrect decimals.
+- Fixed clips that become INVALID were saved as uneditable text clips.
+- Fixed a crash in **Wave** video filter.
+- Fixed a crash when changing clip **Speed** to something very low.
+- Fixed long **Projects folder** path in the **New Project** view.
+- Fixed the temporary backup file is empty when saving MLT XML.
+- Fixed saving existing project on Dropbox gives an error.
+- Fixed advanced keyframes removed when trimming.
+- Fixed loading the frame rate from an export preset.
+- Fixed multiple **Stabilize** video filter analysis jobs may try to write to
+the same .stab file.
+- Fixed reported timecode of failed **Export** job if (**Frames/sec** is not 25
+or not changed in **Advanced > Video**).
+- Fixed incorrect audio waveform after **Undo** after insert/paste into **Timeline**.
+- Fixed filters added to a clip with a transition are not the correct length
+and not active during the transition.
+- Fixed **Blur: Gaussian** filter makes bottom 3 rows of the image with black
+or garbage.
+- Fixed help text in the **New Project** view may be truncated without scroll bar.
+- Fixed **Crop: Circle** > Radius = 100% not completely extended.
+- Fixed loading image sequences that do not put leading zeroes into their
+number (bug introduced in v19.06).
+- Changed **Average Bitrate** for libopus audio codec to set vbr to constrained.
+- Changed **Crop: Source** to use the source clip's resolution as maximum for
+parameters.
+- Changed the **Convert to Edit-friendly** and **Reverse** "better" option from
+ProRes to DNxHR, which is faster.
+- Changed the **Convert to Edit-friendly** and **Reverse** "best" option from
+FFV1 to Ut Video, which is faster.
+- Improved full range handling in **Convert to Edit-friendly** and **Reverse**
+by respecting an override in **Properties > Color Range**.
+- Improved detection of full range color in video clips.
+- Changed ripple move on the Timeline to push the clips when the drop zone is a gap.
+- Added " - Converted" into the suggested file name when using **Properties >
+Convert to Edit-friendly...**
+- Added a status message at the start of opening a project.
+- Added a drop-down of common frame rates to **Export** and **Custom Video Mode**.
+- Added a dialog to ask if the standard, fractional frame rate was intended in
+**Export** and **Custom Video Mode**.
+- Added a **HD 1080p 50 fps** video mode.
+
+
 ##### Release 19.06.16
 
 - Fixed deleting the project file if there was a save error.

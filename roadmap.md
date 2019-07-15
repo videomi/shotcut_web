@@ -70,5 +70,5 @@ Quick Tasks To Do
 -   Add transitions to Playlist
 -   Make it easy to add 0.5 or 1 second transition on timeline.
 -   Fix duration of GIF animations. Does this affect PNG and WebP as well?
--   Turn off VUI - automatically and/or user toggle
+-   Turn off VUI via user toggle
 -   Add speed param to Encode > Codec
