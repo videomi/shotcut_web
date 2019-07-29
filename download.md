@@ -128,6 +128,10 @@ the portable tar.
 
 ##### Other
 
+File checksums for downloads are available in
+[md5sum](https://github.com/mltframework/shotcut/releases/download/v19.07.15/md5sums.txt)
+or [sha256sum](https://github.com/mltframework/shotcut/releases/download/v19.07.15/sha256sums.txt) format.
+
 [Source code
 archive](https://github.com/mltframework/shotcut/releases/download/v19.07.15/shotcut-src-190715.txz)
 / [GitHub repository](https://github.com/mltframework/shotcut)
