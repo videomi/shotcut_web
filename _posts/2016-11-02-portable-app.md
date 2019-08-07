@@ -4,7 +4,7 @@ title: Version 16.11 - Now a Portable App
 author: Dan Dennedy
 category: blog
 ---
-Version 16.11 was released today and is available for [**DOWNLOAD**]({{ "/download/" | prepend: site.baseurl | prepend: site.url }}).
+Version 16.11 was released today and is available for [**DOWNLOAD**]({{ "/downloads/" | prepend: site.baseurl | prepend: site.url }}).
 
 By popular demand, this version includes a new so-called portable app feature.
 A portable app is one that can be run without having to install and register

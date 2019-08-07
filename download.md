@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Download
-permalink: /download/
+permalink: /downloads/
 category: about
 ---
 

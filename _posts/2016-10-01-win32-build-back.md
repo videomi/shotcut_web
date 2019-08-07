@@ -7,7 +7,7 @@ category: blog
 
 #### Improved compatibility
 
-Version 16.10 was released today and is available for [**DOWNLOAD**]({{ "/download/" | prepend: site.baseurl | prepend: site.url }}).
+Version 16.10 was released today and is available for [**DOWNLOAD**]({{ "/downloads/" | prepend: site.baseurl | prepend: site.url }}).
 
 The 32-bit Windows version is back by popular demand! 32-bit apps still have the
 significant limitation that they can only use 2 GB RAM, and Shotcut still uses
