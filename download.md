@@ -153,11 +153,6 @@ available for download.
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-<a href="https://www.jetbrains.com/teamcity/"><img
-width="139" height="25" alt="TeamCity logo" src="{{ "/assets/img/logo_teamcity.png" | prepend: site.baseurl }}"
-style="border: 0px; float: right; margin-left: 10px" title="JetBrains TeamCity"></a>
-These builds are made possible by a <a href="https://www.jetbrains.com/teamcity/">TeamCity</a> server license generously donated by JetBrains.
-
 `This program is distributed in the hope that it will be useful, but
 WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
 or FITNESS FOR A PARTICULAR PURPOSE.`
