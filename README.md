@@ -13,7 +13,6 @@ Most general settings and data like site name, colors, address, etc. can be conf
 The content of the Home page can be changed here: `/home.html`
 The content of the About page can be changed here: `/about.html`
 The content of the Portfolio page can be changed here:`/portfolio.html`
-The content of the Contact page can be changed here:`/contact.html`
 ####Add content  
 Delete the demo content and publish your own content.
 #####Blog post
