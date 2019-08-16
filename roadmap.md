@@ -15,23 +15,23 @@ category: other
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+13. markers
+2. multiple selection in timeline
+9. proxy generation and editing
 0. multiple playlists
 1. undo/redo support for filters
-2. multiple selection in timeline
 3. groups in timeline
 4. better support for foreign MLT XML (e.g. Kdenlive)
 5. looping playback - project, selection, around
 6. fullscreen playback on current/single screen
-13. markers
 8. more convenient voice-over recording
 19. project media management
-9. proxy generation and editing
 10. set metadata (artist, title, etc.) in encode
 11. archive project
 14. slideshow generator
 16. reorder tracks
 18. audio mixer console (one strip per track plus master)
-20. additional editing modes/operations
+20. additional editing modes/operations (slip, slide, roll)
 21. AviSynth script as [input file](http://www.ffmpeg.org/general.html#AviSynth)
 22. surround panning
 23. USB jog/shuttle
@@ -43,7 +43,6 @@ category: other
 29. HDR/SMPTE 2084
 30. subtitles
 31. FireWire/Linux input
-32. live switcher/mixer/set features
 33. multi-camera editing features
 
 Quick Tasks To Do
@@ -59,7 +58,9 @@ Quick Tasks To Do
 -   Add multi-track transitions feature
 -   Add generic filter
 -   Add generic transition
--   Add Kdenlive export
+-   Add CMX EDL import
+-   Add Kdenlive XML export
+-   Add OpenTimelineIO import/export
 -   Add HTML Title to Open Other that supplies a background.
 -   Add search media type queries to Playlists
 -   Let user quickly enter a name in Playlists

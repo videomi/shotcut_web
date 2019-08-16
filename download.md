@@ -24,7 +24,7 @@ to download.
 </script>
 </div>
 
-#### Current Version: 19.07.15
+#### Current Version: 19.08.16
 
 <div class="OSTEST">
   <p>
@@ -56,10 +56,10 @@ To avoid ads and get automatic updates:<br>
 {:.win}
 | Site 1 (FossHub)     | Site 2 (GitHub)
 |-----------------------|-------------------
-| [64-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-190715.exe) | [64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v19.07.15/shotcut-win64-190715.exe)
-| [64-bit Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-190715.zip) | [64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v19.07.15/shotcut-win64-190715.zip)
-| [32-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-190715.exe) | [32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v19.07.15/shotcut-win32-190715.exe)
-| [32-bit Windows portable zip ](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-190715.zip) | [32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v19.07.15/shotcut-win32-190715.zip)
+| [64-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-190816.exe) | [64-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v19.08.16/shotcut-win64-190816.exe)
+| [64-bit Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-190816.zip) | [64-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v19.08.16/shotcut-win64-190816.zip)
+| [32-bit Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-190816.exe) | [32-bit Windows installer](https://github.com/mltframework/shotcut/releases/download/v19.08.16/shotcut-win32-190816.exe)
+| [32-bit Windows portable zip ](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win32-190816.zip) | [32-bit Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v19.08.16/shotcut-win32-190816.zip)
 {:.withborders}
 
 ---
@@ -72,12 +72,12 @@ To avoid ads and get automatic updates:<br>
 {:.mac}
 | Site 1 (FossHub) &nbsp; &nbsp; | Site 2 (GitHub)
 |-----------------------|-----------------------------
-| [macOS dmg](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-signed-190715.dmg) | [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v19.07.15/shotcut-macos-signed-190715.dmg)
+| [macOS dmg](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-signed-190816.dmg) | [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v19.08.16/shotcut-macos-signed-190816.dmg)
 {:.withborders}
 
 {:.mac}
 An [unsigned app bundle is available on
-GitHub](https://github.com/mltframework/shotcut/releases/download/v19.07.15/shotcut-macos-unsigned-190715.dmg) so that you
+GitHub](https://github.com/mltframework/shotcut/releases/download/v19.08.16/shotcut-macos-unsigned-190816.dmg) so that you
 can modify the build per the Free Software license agreement.
 
 ---
@@ -102,8 +102,8 @@ src='https://raw.githubusercontent.com/snapcore/snap-store-badges/master/EN/%5BE
 {:.linux}
 | Site 1 (FossHub)      | Site 2 (GitHub)
 |-----------------------|-------------------
-| [64-bit Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-190715.txz) | [64-bit Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v19.07.15/shotcut-linux-x86_64-190715.txz)  
-| [64-bit Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=Shotcut-190715.glibc2.14-x86_64.AppImage) | [64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v19.07.15/Shotcut-190715.glibc2.14-x86_64.AppImage)
+| [64-bit Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-190816.txz) | [64-bit Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v19.08.16/shotcut-linux-x86_64-190816.txz)  
+| [64-bit Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=Shotcut-190816.glibc2.14-x86_64.AppImage) | [64-bit Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v19.08.16/Shotcut-190816.glibc2.14-x86_64.AppImage)
 {:.withborders}
 
 {:.linux}
@@ -129,11 +129,11 @@ the portable tar.
 ##### Other
 
 File checksums for downloads are available in
-[md5sum](https://github.com/mltframework/shotcut/releases/download/v19.07.15/md5sums.txt)
-or [sha256sum](https://github.com/mltframework/shotcut/releases/download/v19.07.15/sha256sums.txt) format.
+[md5sum](https://github.com/mltframework/shotcut/releases/download/v19.08.16/md5sums.txt)
+or [sha256sum](https://github.com/mltframework/shotcut/releases/download/v19.08.16/sha256sums.txt) format.
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v19.07.15/shotcut-src-190715.txz)
+archive](https://github.com/mltframework/shotcut/releases/download/v19.08.16/shotcut-src-190816.txz)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Older versions](https://github.com/mltframework/shotcut/releases/) are

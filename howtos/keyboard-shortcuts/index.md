@@ -103,6 +103,7 @@ category: help
 | Toggle Ripple mode and all tracks | Ctrl+Shift+R             |
 | ***Playlist***        |                                      |
 | Append                | Shift+A                              |
+| Copy                  | Shift+C                              |
 | Delete                | Shift+X                              |
 | Insert                | Shift+V                              |
 | Update                | Shift+B                              |
