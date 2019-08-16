@@ -4,7 +4,7 @@ title: New Release 17.06 with Linux SDK
 author: Dan Dennedy
 category: blog
 ---
-Version 17.06 is now available for [**DOWNLOAD**]({{ "/downloads/" | prepend: site.baseurl | prepend: site.url }}).
+Version 17.06 is now available for [**DOWNLOAD**]({{ "/download/" | prepend: site.baseurl | prepend: site.url }}).
 
 This version changes the maximum duration for a still image from 10 minutes to
 four hours. As with previous versions, if you need an image to appear longer,

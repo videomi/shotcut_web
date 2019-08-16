@@ -4,7 +4,7 @@ title: New Release, Web Site & Forum
 author: Dan Dennedy
 category: blog
 ---
-Version 16.03 is now available for [download]({{ "/downloads/" | prepend: site.baseurl | prepend: site.url }}).
+Version 16.03 is now available for [download]({{ "/download/" | prepend: site.baseurl | prepend: site.url }}).
 
 * Changed player tab **Program** to **Project**.
 * Changed panel name **Encode** to **Export**.

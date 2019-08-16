@@ -4,7 +4,7 @@ title: Tiles and Icons Views for Playlist
 author: Dan Dennedy
 category: blog
 ---
-Thanks to Shotcut developer, Harald, new **Tiles** and **Icons** Playlist view modes were added to the new version 16.09, which is now available for [DOWNLOAD]({{ "/downloads/" | prepend: site.baseurl | prepend: site.url }}). The old view mode is still available and named **Details**.
+Thanks to Shotcut developer, Harald, new **Tiles** and **Icons** Playlist view modes were added to the new version 16.09, which is now available for [DOWNLOAD]({{ "/download/" | prepend: site.baseurl | prepend: site.url }}). The old view mode is still available and named **Details**.
 
 <a data-rel="prettyPhoto" href="{{ "/assets/img/blog/screenshot-playlist-tiles.png" | prepend: site.baseurl }}">
 <img src="{{ "/assets/img/blog/screenshot-playlist-tiles.png" | prepend: site.baseurl | prepend: site.url }}" alt="Playlist Tiles View" width="201" height="238"></a>
