@@ -22,8 +22,6 @@ information.
 
 ##### Release 19.08.16
 
-This version continues to rework and refine existing features in the areas of video stabilization, audio normalization, converting and reversing files, external monitoring, and most significantly: the playlist.
-
 - Changed **Playlist > Open As Clip** to simply **Open**. This action now opens the playlist item directly in the **Source** player, and all changes made in **Source** (trim in/out), **Properties**, **Filters**, and **Keyframes** apply to the playlist item immediately without an explicit update.
 - Added **Playlist > Copy** that opens a copy of the playlist item in **Source** just like the old behavior. This is useful if you want to trim out another shot from the same source clip or create a different sub-clip with different filtering.
 - Changed double-click on a playlist item to **Open** the clip instead of **Copy** it.
