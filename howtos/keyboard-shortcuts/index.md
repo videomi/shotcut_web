@@ -14,9 +14,10 @@ category: help
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+# Main Menu
+
 | Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
 |-----------------------|--------------------------------------|----------------------
-| ***Main Menu***       |                                      |
 | File > New            | Ctrl+N                               | Cmd+N
 | File > Open           | Ctrl+O                               | Cmd+O
 | File > Open Other     | Ctrl+Shift+O                         | Cmd+Shift+O
@@ -40,7 +41,12 @@ category: help
 | View > Export           | Ctrl+9                             | Cmd+9
 | View > Jobs             | Ctrl+0                             | Cmd+0
 | Help > Keyboard Shortcuts | F1                               | F1
-| ***Player***          |                                      |
+{:.withborders}
+
+# Player
+
+| Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
+|-----------------------|--------------------------------------|----------------------
 | Play                  | L or Space                           |
 | Pause                 | K or Space                           |
 | Rewind                | J                                    |
@@ -62,12 +68,17 @@ category: help
 | Seek Next Edit        | Alt+Right                            |
 | Seek Previous Edit    | Alt+Left                             |
 | Switch Source/Program | Esc                                  |
-| ***Timeline***        |                                      |
+{:.withborders}
+
+# Timeline
+
+| Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
+|-----------------------|--------------------------------------|----------------------
 | Cut                   | Ctrl+X                               | Cmd+X
 | Copy                  | Ctrl+C or C                          | Cmd+X or C
 | Paste                 | Ctrl+V                               | Cmd+V
-| Add Audio Track       | Ctrl+I                               | Cmd+I
-| Add Video Track       | Ctrl+Y                               | Cmd+Y
+| Add Audio Track       | Ctrl+U                               | Cmd+U
+| Add Video Track       | Ctrl+I                               | Cmd+I
 | Close                 | Ctrl+W                               | Cmd+W
 | Append                | A                                    |
 | Ripple Delete         | X or Shift+Del or Shift+Backspace    |
@@ -101,7 +112,12 @@ category: help
 | Toggle Ripple mode    | Ctrl+R                               |
 | Toggle Ripple All Tracks | Ctrl+Alt+R                        |
 | Toggle Ripple mode and all tracks | Ctrl+Shift+R             |
-| ***Playlist***        |                                      |
+{:.withborders}
+
+# Playlist
+
+| Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
+|-----------------------|--------------------------------------|----------------------
 | Append                | Shift+A                              |
 | Copy                  | Shift+C                              |
 | Delete                | Shift+X                              |
@@ -114,20 +130,25 @@ category: help
 | Select Item N         | 1 2 3 4 5 6 7 8 9 0                  |
 | Open Selected         | Enter or double-click                |
 | Goto/Seek             | Shift+Enter or Shift+double-click    |
-| ***Keyframes***       |                                      |
+{:.withborders}
+
+# Keyframes
+
+| Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
+|-----------------------|--------------------------------------|----------------------
 | Zoom In               | Alt+=                                |
 | Zoom Out              | Alt+-                                |
 | Reset Zoom            | Alt+0                                |
 {:.withborders}
 
-### Other Notes
+# Other Notes
 
-#### Player
+## Player
 
 Press and hold **Shift** to **skim** - scrub/seek using the horizontal
 position of the mouse cursor without clicking and dragging.
 
-#### Timeline
+## Timeline
 
 While dragging shot or trimming, press and hold **Alt** to temporarily
 **suspend snapping**. On Linux, pressing Alt before dragging will
@@ -136,7 +157,7 @@ usually move the app window; so, press Alt after you start dragging.
 Press and hold **Shift** to **skim** - scrub/seek using the horizontal
 position of the mouse cursor without clicking and dragging.
 
-#### Entering Time Values
+## Entering Time Values
 
 Timecode fields&mdash;such as the prominent one at the bottom of the
 player&mdash;do not require you to enter a full timecode value. There are some
