@@ -14,7 +14,7 @@ category: help
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-# Main Menu
+## Main Menu
 
 | Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
 |-----------------------|--------------------------------------|----------------------
@@ -43,7 +43,7 @@ category: help
 | Help > Keyboard Shortcuts | F1                               | F1
 {:.withborders}
 
-# Player
+## Player
 
 | Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
 |-----------------------|--------------------------------------|----------------------
@@ -70,7 +70,7 @@ category: help
 | Switch Source/Program | Esc                                  |
 {:.withborders}
 
-# Timeline
+## Timeline
 
 | Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
 |-----------------------|--------------------------------------|----------------------
@@ -114,7 +114,7 @@ category: help
 | Toggle Ripple mode and all tracks | Ctrl+Shift+R             |
 {:.withborders}
 
-# Playlist
+## Playlist
 
 | Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
 |-----------------------|--------------------------------------|----------------------
@@ -132,7 +132,7 @@ category: help
 | Goto/Seek             | Shift+Enter or Shift+double-click    |
 {:.withborders}
 
-# Keyframes
+## Keyframes
 
 | Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
 |-----------------------|--------------------------------------|----------------------
@@ -141,14 +141,14 @@ category: help
 | Reset Zoom            | Alt+0                                |
 {:.withborders}
 
-# Other Notes
+## Other Notes
 
-## Player
+### Player
 
 Press and hold **Shift** to **skim** - scrub/seek using the horizontal
 position of the mouse cursor without clicking and dragging.
 
-## Timeline
+### Timeline
 
 While dragging shot or trimming, press and hold **Alt** to temporarily
 **suspend snapping**. On Linux, pressing Alt before dragging will
@@ -157,7 +157,7 @@ usually move the app window; so, press Alt after you start dragging.
 Press and hold **Shift** to **skim** - scrub/seek using the horizontal
 position of the mouse cursor without clicking and dragging.
 
-## Entering Time Values
+### Entering Time Values
 
 Timecode fields&mdash;such as the prominent one at the bottom of the
 player&mdash;do not require you to enter a full timecode value. There are some

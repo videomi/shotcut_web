@@ -441,3 +441,89 @@ free, open source, cross-platform tool
 
 Shotcut does not offer that, but we recommend to try the free, open
 source, cross-platform tool [Audacity](http://audacityteam.org/).
+
+* * *
+
+## How does Shotcut use the GPU (or not)?
+
+Shotcut uses the GPU in three ways:
+
+1. OpenGL for drawing parts of the user interface and showing video
+2. hardware encoding (where available and enabled)
+3. OpenGL for the hidden GPU Effects (filters and transitions) mode
+
+Shotcut does NOT use the GPU or hardware acceleration for the following:
+
+1. decoding and pixel format conversion
+2. automatic (as-needed) filters to deinterlace, scale, and pad video and to
+   resample or downmix audio
+3. filters that you add
+4. transitions
+5. compositing/blending video tracks
+6. mixing audio tracks
+
+Thus, you cannot expect Shotcut to use close to 0% CPU and much % of GPU
+when exporting using the hardware encoder because the reading of files and
+decoding alone becomes a bottleneck to feed the hardware encoder. Also, if you
+have any decent amount of image processing, you should expect a significant
+amount of CPU usage especially if parallel processing is enabled (it is by
+default). Software from other companies may limit itself to one GPU vendor API
+such as CUDA in order to provide almost entirely GPU-based pipeline. Shotcut
+has not chosen to go that route because it is a cross-platform solution.
+
+* * *
+
+## Why does Shotcut not use hardware accelerated video decoding?
+
+The video stream always originates in system (CPU) RAM, and CPU-based video
+decoding is highly optimized and fast. Meanwhile, transferring full,
+uncompressed video from the GPU RAM to system RAM is a relatively slow. Thus, in
+the context of a video editor (not simply a player or transcoder),
+hardware-accelerated decoding should only be done when all video processing can
+also be done on the GPU. That alone is non-trivial. Shotcut does have an
+OpenGL-based effects system that is disabled and hidden currently due to
+instability. Even when enabled it is a small subset of all effects and does not
+include a deinterlacer. Next, assuming you do not need to deinterlace and agree
+to limit oneself to the GPU effects, there is a major technical hurdle to
+transfer the decoded video in GPU RAM to OpenGL textures due to [multiple
+APIs](https://trac.ffmpeg.org/wiki/HWAccelIntro) for multiple operating systems.
+Likewise, the complexity to convert OpenGL textures to hardware encoder frames
+for the various hardware encoding APIs. Any tool that claims to do all of these
+but does not ensure the video stays in GPU RAM is going to have limited
+performance gain if any.
+
+Even if made available (integrated) there are major hurdles to handle resource
+limitations (number of simultaneous decodes) in a robust fashion and to handle
+incompatible video streams with many permutations of encoding
+profiles/parameters, APIs, and devices. That would result in a huge source of
+unreliability and support issues.
+
+If you want to help with this, please feel free to 
+[contribute]( {{ "/howtos/contribute/" | prepend: site.baseurl }} ).
+We have not made much progress here due to higher priorities: fixing bugs,
+rework on some features, adding basic expected UI features, upgrading
+dependencies, providing support, making documentation, and stabilizing GPU Effects.
+
+* * *
+
+## How does Shotcut use multiple CPU cores and threads?
+
+Shotcut's engine (MLT atop FFmpeg and other libraries) uses multiple CPU
+cores/threads for:
+
+1. decoding video on _many_ (most?) video codecs
+2. image slice-based multi-threaded processing in _some_ processes
+3. frame-based multi-threaded image processing in _many_ processes
+4. encoding video when not using the hardware encoder on _most_ video codecs
+
+When any of the above is not enabled, a bottleneck is introduced. Some of these
+are minor and others major depending on the weight of the operation.
+
+Shotcut's interface - in addition to the main UI thread - uses multiple
+background CPU cores/threads for:
+
+1. generating video thumbnails
+2. generating audio levels for waveform display in the timeline
+3. the engine itself (see above)
+4. sending video to OpenGL for display
+5. exporting
