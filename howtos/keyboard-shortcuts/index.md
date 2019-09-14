@@ -20,15 +20,15 @@ category: help
 |-----------------------|--------------------------------------|----------------------
 | File > New            | Ctrl+N                               | Cmd+N
 | File > Open           | Ctrl+O                               | Cmd+O
-| File > Open Other     | Ctrl+Shift+O                         | Cmd+Shift+O
+| File > Open Other     | Ctrl+Shift+O                         | Shift+Cmd+O
 | File > Save           | Ctrl+S                               | Cmd+S
-| File > Save As        | Ctrl+Shift+S                         | Cmd+Shift+S
+| File > Save As        | Ctrl+Shift+S                         | Shift+Cmd+S
 | File > Export Video   | Ctrl+E                               | Cmd+E
-| File > Export Frame   | Ctrl+Shift+E                         | Cmd+Shift+E
+| File > Export Frame   | Ctrl+Shift+E                         | Shift+Cmd+E
 | File > Close          | Ctrl+W                               | Cmd+W
 | File > Quit           | Ctrl+Q                               | Cmd+Q
 | Edit > Undo           | Ctrl+Z                               | Cmd+Z
-| Edit > Redo           | Ctrl+Y / Ctrl+Shift+Z                | Cmd+Shift+Z
+| Edit > Redo           | Ctrl+Y / Ctrl+Shift+Z                | Shift+Cmd+Z
 | View > Fullscreen (not Windows) | Ctrl+Shift+F               | Ctrl+Cmd+F
 | View > Audio Peak Meter | Ctrl+1                             | Cmd+1
 | View > Properties       | Ctrl+2                             | Cmd+2
@@ -99,19 +99,23 @@ category: help
 | Make Tracks Taller    | Ctrl+=                               | Cmd+=
 | Reload                | F5                                   |
 | Select under playhead | Ctrl+Space                           |
+| Select All            | Ctrl+A                               | Cmd+A
+| Select None           | Ctrl+D                               | Cmd+D
 | Move selection left   | Ctrl+Left                            | Cmd+Left
 | Move selection right  | Ctrl+Right                           | Cmd+Right
 | Move selection up     | Ctrl+Up                              | Cmd+Up
 | Move selection down   | Ctrl+Down                            | Cmd+Down
-| Deselect All          | Ctrl+D                               | Cmd+D
 | Seek start of selected| double-click                         |
 | Toggle Mute track     | Ctrl+M                               |
 | Toggle Hide track     | Ctrl+H                               |
 | Toggle Lock track     | Ctrl+L                               |
 | Toggle Snapping       | Ctrl+P                               |
-| Toggle Ripple mode    | Ctrl+R                               |
-| Toggle Ripple All Tracks | Ctrl+Alt+R                        |
-| Toggle Ripple mode and all tracks | Ctrl+Shift+R             |
+| Toggle Ripple mode    | Ctrl+R                               | Cmd+R
+| Toggle Ripple All Tracks | Ctrl+Alt+R                        | Option+Cmd+R
+| Toggle Ripple mode and all tracks | Ctrl+Shift+R             | Shift+Cmd+R
+| Insert Track          | Ctrl+Alt+I                           | Option+Cmd+I
+| Remove Track          | Ctrl+Alt+U                           | Option+Cmd+U
+| Copy Timeline to Source  | Ctrl+Alt+C                        | Option+Cmd+C
 {:.withborders}
 
 ## Playlist
@@ -127,7 +131,9 @@ category: help
 | Move Down             | Ctrl+Down                            | Cmd+Down
 | Open previous item    | Alt+Up                               |
 | Open next item        | Alt+Down                             |
-| Select Item N         | 1 2 3 4 5 6 7 8 9 0                  |
+| Select All            | Ctrl+Shift+A                         | Cmd+Shift+A
+| Select Item N         | 1 2 3 4 5 6 7 8 9 0                  | Cmd+Shift+D
+| Selection None        | Ctrl+Shift+D                         |
 | Open Selected         | Enter or double-click                |
 | Goto/Seek             | Shift+Enter or Shift+double-click    |
 {:.withborders}

@@ -16,7 +16,6 @@ category: other
 </script>
 
 13. markers
-2. multiple selection in timeline
 9. proxy generation and editing
 0. multiple playlists
 1. undo/redo support for filters
@@ -25,6 +24,7 @@ category: other
 5. looping playback - project, selection, around
 6. fullscreen playback on current/single screen
 8. more convenient voice-over recording
+9. audio noise reduction
 19. project media management
 10. set metadata (artist, title, etc.) in encode
 11. archive project

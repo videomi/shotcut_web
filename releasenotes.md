@@ -20,6 +20,44 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 19.09.14
+
+- Added the option **Play After Open** (default on) to the playlist menu to control above behavior.
+- Added multi-select to **Playlist** as welll as **Select All** (Ctrl+Shift+A) and **Select None** (Ctrl+Shift+D) to its menu.
+- Added multi-select to **Timeline**, which is currently limited to the remove/delete and lift operations.
+- Added **Select All** (Ctrl+A) and **Select None** (Ctrl+D) to the **Timeline** menu.
+- Added keyboard shortcuts for some existing **Timeline** menu actions:
+  - **Insert Track** (Ctrl+Alt+I)
+  - **Remove Track** (Ctrl+Alt+U)
+  - **Copy Timeline to Source** (Ctrl+Alt+C)
+- Added new video filters:
+  - **Dither**
+  - **Halftone**
+  - **Posterize**
+  - **Threshold**
+  - **Elastic Scale** (non-linear horizontal scaling)
+  - **Blend Mode** (overrides the track **Properties > Blend mode** for that clip)
+- Added a **Galician** translation.
+- Fixed a crash in some audio filters when using 1 or 6 channels.
+- Fixed showing language **English (Great Britain)** when **English (United States)** is chosen.
+- Fixed a crash bug in v19.06 when changing image sequence **Repeat** in **Properties**.
+- Fixed a bug in v19.08 where dropping a video into **Playlist** on a new project does not update the **Automatic Video Mode**.
+- Fixed a bug in v19.08 in the on-screen rectangle control (as used in **Text: Simple** and **Size and Position** filters among a few others).
+- Fixed changing speed of a clip with a colon in the file name.
+- Fixed reading MLT XML with a colon in the file name of a relative path.
+- Fixed the playlist menu button disabled after removing all clips.
+- Fixed reloading **Fade In Video** or **Fade Out Video** using opacity may alter the colors.
+- Fixed **Convert to Edit-friendly** failing on GoPro videos.
+- Fixed filters during a transition are truncated after a **Split** on the timeline.
+- Fixed a bug in v19.08 where **Keyframes** becomes broken after trimming on the timeline.
+- Reduced the size of the installation by 255 MiB
+- Upgraded FFmpeg to v4.2.
+- Increased export process priority on Windows from Low (idle) to Below Normal.
+- Changed default HEVC quality to 45% so the x265 crf matches its default of 28.
+- Added the clip's name to the end of a clip in **Timeline** if its block is wide enough.
+- No longer seek after dropping a clip from the player to the **Timeline**.
+
+
 ##### Release 19.08.16
 
 - Changed **Playlist > Open As Clip** to simply **Open**. This action now opens the playlist item directly in the **Source** player, and all changes made in **Source** (trim in/out), **Properties**, **Filters**, and **Keyframes** apply to the playlist item immediately without an explicit update.

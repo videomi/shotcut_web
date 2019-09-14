@@ -70,6 +70,7 @@ Windows registry, a bool is stored as a string: true or false.
 | ***playlist***
 | viewMode         | string      | one of: detailed, icons, or tiled
 | thumbnails       | string      | how to show the thumbnails in the Playlist panel, one of: hidden, wide, tall, small, large
+| autoplay         | bool        | whether to automatically start playing after opening a clip from the playlist
 | ***encode***
 | path             | string      | the file system path for Export > Export File
 | freeSpaceCheck   | bool        | whether to continue checking if a storage volume has sufficient space for storing Video
