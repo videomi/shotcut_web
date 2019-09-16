@@ -5,11 +5,11 @@ permalink: /tutorials/
 category: help
 ---
 
-Getting Started
----------------
+Introduction and Overview
+-------------------------
 
 <iframe width="640" height="360"
-src="//www.youtube.com/embed/hlDG90sbhQY" frameborder="0"
+src="//www.youtube.com/embed/JtsB2iZRb9c" frameborder="0"
 allowfullscreen="1"></iframe>
 
 Multitrack Timeline Basics
