@@ -658,3 +658,7 @@ table.withborders td {
     border: 1px solid;
     padding: 0.5em;
 }
+
+a.show_links {
+		cursor: pointer;
+}
