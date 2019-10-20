@@ -54,6 +54,7 @@ Quick Tasks To Do
 -   Add transform effect to movit.
 -   Convert producer UIs to QML.
 -   Add partik0l producer
+-   Add gradient producer
 -   Circle VUI control for Vignette and Crop: Circle
 -   Add multi-track transitions feature
 -   Add generic filter
@@ -72,4 +73,4 @@ Quick Tasks To Do
 -   Make it easy to add 0.5 or 1 second transition on timeline.
 -   Fix duration of GIF animations. Does this affect PNG and WebP as well?
 -   Turn off VUI via user toggle
--   Add speed param to Encode > Codec
+-   Add speed param to Export > Codec

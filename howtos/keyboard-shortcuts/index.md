@@ -138,6 +138,17 @@ category: help
 | Goto/Seek             | Shift+Enter or Shift+double-click    |
 {:.withborders}
 
+## Filters
+
+| Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
+|-----------------------|--------------------------------------|----------------------
+| Choose a Filter       | F                                    |
+| Select Previous Filter| Up                                   |
+| Select Next Filter    | Down                                 |
+| Add Selected Filter   | Enter                                |
+| Remove Filter         | Shift+F                              |
+{:.withborders}
+
 ## Keyframes
 
 | Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
@@ -145,6 +156,12 @@ category: help
 | Zoom In               | Alt+=                                |
 | Zoom Out              | Alt+-                                |
 | Reset Zoom            | Alt+0                                |
+| Set Filter Start      | [                                    |
+| Set Filter End        | ]                                    |
+| Set First Simple Keyframe     | {                            |
+| Set Second Simple Keyframe    | }                            |
+| Seek Previous Simple Keyframe | Alt+[                        |
+| Seek Next Simple Keyframe     | Alt+]                        |
 {:.withborders}
 
 ## Other Notes

@@ -8,7 +8,7 @@ category: notes
   - Qt Creator from the [Qt project](https://www.qt.io/download-open-source/) or your distribution packages.
   - [Our special build of the Qt 5.9.7 SDK that includes QtWebKit](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/qt-5.9.7-ubuntu16.04-x86_64.txz)    
     Extract it to $HOME/Qt
-  - [Shotcut SDK (602 MiB! current version 19.09.14)](http://builds.us.meltytech.s3.amazonaws.com/shotcut/shotcut-linux-x86_64-sdk-190914.txz)    
+  - [Shotcut SDK (602 MiB! current version 19.10.20)](http://builds.us.meltytech.s3.amazonaws.com/shotcut/shotcut-linux-x86_64-sdk-191020.txz)    
     Extract it to $HOME/Projects
 
 2. Start Qt Creator and choose **Tools &gt; Options &gt; Build &amp; Run**  
