@@ -643,11 +643,6 @@ a.anchor{
         max-height: 100%;
         overflow-y: scroll;
     }
-		
-		.stickyad {
-			position: fixed;
-			z-index: 1;
-		}
 }
 
 input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
