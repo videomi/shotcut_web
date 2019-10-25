@@ -8,7 +8,7 @@
             </div>
             <div class="col-sm-6">
                 <h4>Social Links</h4>
-                <div class="hline-w"></div>
+                <div class="hline-w" style="width: 10em"></div>
                 <p>
                     {% for network in site.social %}
                         <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
@@ -18,12 +18,10 @@
         </div><!-- /row -->
         <div class="row">
             <div class="col-sm-6">
-                <p>Copyright &copy; 2011-2018 by <a href="https://www.meltytech.com/">Meltytech, LLC</a>
+                <p>Copyright &copy; 2011-2019 by <a href="https://www.meltytech.com/">Meltytech, LLC</a>
                 <br>Shotcut is a trademark of <a href="https://www.meltytech.com/">Meltytech, LLC.</a></p>
             </div>
             <div class="col-sm-6">
-               <p>Site design by <a href="http://videomi.com/">Magnetic Image</a>.
-                <a href="http://www.videomi.com"><img class="img-responsive" style="margin-left: -5px" src="{{ "/assets/img/mi-logo.png" | prepend: site.baseurl }}" alt="Magnetic Image, Inc."></a></p>
             </div>
         </div><!-- /row -->
     </div><!-- /container -->
