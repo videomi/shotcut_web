@@ -68,6 +68,7 @@ category: help
 | Seek Next Edit        | Alt+Right                            |
 | Seek Previous Edit    | Alt+Left                             |
 | Switch Source/Program | Esc                                  |
+| Grab Focus            | Shift+Esc                            |
 {:.withborders}
 
 ## Timeline

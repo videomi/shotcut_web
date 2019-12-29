@@ -20,6 +20,62 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 19.12.16
+
+- Fixed **Scale** animation not linear in the **Rotate & Scale** filter.
+- Fixed audio crackles in first couple of seconds of export.
+- Fixed <kbd>Ctrl</kbd>+<kbd>A</kbd> selects all in **Playlist** as well as Timeline.
+- Fixed the size and position of the **Text: HTML** editor with **Settings >
+  External Monitor** enabled.
+- Fixed drag-drop from **Playlist** to **Timeline** sometimes reorders the
+  **Playlist**.
+- Fixed **Color Grading** and **Contrast** creates a weird color after deleting
+  a keyframe.
+- Fixed updating `x265-params` in **Export > Other** after making changes in **Codec**.
+- Fixed opening another project in the same session breaks master track filters.
+- Fixed saving a preset with a slash in the name.
+- Fixed export fails if the system temporary directory is not writable.
+- Fixed removing some temporary files on exit.
+- Fixed the timeline **Ripple All Tracks** option was not saved with history
+  (before the current setting used during undo and redo).
+- Fixed an image sequence in **Export > From > Playlist** may show "INVALID" on export.
+- Fixed changing **Properties** (for example, image duration) not updating the **Playlist**.
+- Fixed snapping to horizontal grid lines.
+- Fixed **Timeline** clip context menu > **Properties** broken in v19.09.
+- Fixed bad transitions created by trimming beyond media beginning or end.
+- Fixed audio does not follow default device changes on Windows.
+- Fixed changing the speed of the clip on the right side of a transition creates
+  INVALID transition.
+- Fixed track filters were not restored when undoing a **Remove Track**.
+- Changed the minimum of the **Gain/Volume** filter to -70 dB.
+- Removed **Settings > Deinterlacer > YADIF**. (This was causing crashes, and
+  this option only affects preview, not export.)
+- Added support for adding a transition in **Timeline** when dragging over a gap.
+- Added support for free-form movement of clips on the **Timeline** (no more
+  snapping back).
+- Change the **Timeline** and **Keyframes** toolbars respond to **View > Small** Icons.
+- Upgraded Mesa software OpenGL in Windows build to version 19.2.7.
+- Upgraded SDL audio output library in Windows build to version 2.0.10.
+- Added a limit to undo **History** configurable to new configuration key
+  `undoLimit` that defaults to 1000.
+- Added 3 new filters:
+  * **Gradient** video filter
+  *  **Scan Lines** video filter
+  * **Noise Gate** audio filter
+- Added a new color gradient control to the following filters:
+  * **Audio Light Visualization**
+  * **Audio Spectrum Visualization**
+  * **Audio Waveform Visualization**
+- Added **View > Scopes >  Video Zoom**.
+- Added **Reverse** checkbox to the **Mask: From File** filter.
+- Added **Remove Finished** to the **Jobs** menu.
+- Added **Playlist > Update Thumbnails**.
+- Added **Update Thumbnails** to the timeline video clip menu.
+- Added keyboard shortcut <kbd>Shift</kbd>+<kbd>Escape</kbd> to give the player
+  focus (take focus away from certain widgets).
+- Added a **Two Column Scroll** template to the **Text: HTML** filter.
+
+
 ##### Release 19.10.20
 
 - Fixed **Open Other > Audio/Video Device** capture (broken in v19.09).

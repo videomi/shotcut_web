@@ -67,6 +67,7 @@ Windows registry, a bool is stored as a string: true or false.
 | checkUpgradeAutomatic |  bool  | whether to check for an update automatically at startup (default false)
 | askUpgradeAutomatic | bool     | whether to ask if you want to check for an update automatically (default true)
 | projectsFolder   | string      | the file system path in which project folders are created
+| undoLimit        | integer     | the maximum number of undo commands in View > History (default 1000)
 | ***playlist***
 | viewMode         | string      | one of: detailed, icons, or tiled
 | thumbnails       | string      | how to show the thumbnails in the Playlist panel, one of: hidden, wide, tall, small, large
