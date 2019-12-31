@@ -20,6 +20,24 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 19.12.31
+
+- Fixed a **Timeline** clip corruption bug in version 19.12.16 when moving clips
+  with **Ripple** on.
+- Added support for moving multiple clips on the **Timeline**.
+- Added two new video scopes were added: **RGB Parade** and **RGB Waveform**.
+- Allow reducing track height to very short in **Timeline** and **Keyframes**.
+- Fixed crackly audio playback for some Windows users.
+- Fixed loading project files made before v19.06 when not using a period for a
+  decimal point.
+- Fixed **Lift** and **Ripple Delete** on **Timeline** not reliably removing all
+  selected.
+- Fixed checking **Properties > Image sequence** may not update duration in
+  **Playlist**.
+- Fixed the intra-VLC and non-linear-quantizer options in the XDCAM-422 and D10
+  export presets.
+
+
 ##### Release 19.12.16
 
 - Fixed **Scale** animation not linear in the **Rotate & Scale** filter.

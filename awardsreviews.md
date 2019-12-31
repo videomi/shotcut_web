@@ -14,6 +14,8 @@ Awards
 Articles
 ========
 
+-   [Our Favorite FREE Video Enhancer Software to Improve Video
+Quality](https://thesweetbits.com/best-free-video-enhancer-software/) by TheSweetBits
 -   [Introducing
     Shotcut](http://libregraphicsworld.org/blog/entry/introducing-shotcut-a-new-free-video-editor)
     by Alexandre Prokoudine, Libre Graphics World

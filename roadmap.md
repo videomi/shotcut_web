@@ -15,7 +15,6 @@ category: other
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-1. move multiple clips in timeline
 2. support multi-selection in cut/copy/paste
 13. markers
 9. proxy generation and editing
@@ -47,9 +46,7 @@ category: other
 Quick Tasks To Do
 -----------------
 
--   Add porter duff modes to movit
 -   Add a reset all settings option
--   Add transform effect to movit.
 -   Convert producer UIs to QML.
 -   Add partik0l producer
 -   Circle VUI control for Vignette and Crop: Circle
@@ -59,7 +56,6 @@ Quick Tasks To Do
 -   Add CMX EDL import
 -   Add Kdenlive XML export
 -   Add OpenTimelineIO import/export
--   Add HTML Title to Open Other that supplies a background.
 -   Add search media type queries to Playlists
 -   Let user quickly enter a name in Playlists
 -   Add move with insert position when dragging clip on timeline.
