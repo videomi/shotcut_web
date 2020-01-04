@@ -374,7 +374,7 @@ Support/Meltytech/Shotcut/, where '\~' is your home directory, of
 course.
 
 The settings are stored in
-\~/Library/Preferences/com.Meltytech.Shotcut.plist, which is a [binary
+\~/Library/Preferences/com.meltytech.Shotcut.plist, which is a [binary
 plist](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/PropertyLists/Introduction/Introduction.html)
 file.
 

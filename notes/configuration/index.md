@@ -34,7 +34,7 @@ text file in INI format.
 **macOS**
 
 The settings are stored in
-\~/Library/Preferences/com.Meltytech.Shotcut.plist, which is a [binary
+\~/Library/Preferences/com.meltytech.Shotcut.plist, which is a [binary
 plist](https://developer.apple.com/library/mac/documentation/Darwin/Reference/Manpages/man5/plist.5.html)
 file.
 
