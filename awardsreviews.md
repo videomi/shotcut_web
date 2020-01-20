@@ -7,9 +7,11 @@ category: about
 Awards
 ======
 
-<img width="100" alt="" src="http://www.giga.de/static/badges/img/2375875_software.png" height="100">
-<br>
-[Shotcut - 5 stars @ GIGA](http://www.giga.de/downloads/shotcut/#utm_source=PS&utm_medium=BL&utm_campaign=Badge)
+<div style="display:grid;grid-template-columns: 100px 100px 200px;align-items: start">
+<div><a target="_blank" href="http://www.giga.de/downloads/shotcut/#utm_source=PS&utm_medium=BL&utm_campaign=Badge"><img width="100" alt="GIGA Badge" src="http://www.giga.de/static/badges/img/2375875_software.png" height="100"><br>Shotcut - 5 stars @ GIGA</a></div>
+&nbsp;
+<div><a target="_blank" href="https://www.goodfirms.co/software/shotcut"><img style="width:180px" src="https://goodfirms.s3.amazonaws.com/badges/blue-button/app-development-software.svg" alt="GoodFirms Badge"></a></div>
+</div>
 
 Articles
 ========
