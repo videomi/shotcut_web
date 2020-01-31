@@ -15,9 +15,9 @@ helpful.
 
 User Daniel Schär has created some PDF guides:
 
-- [Erste_Schritte_mit_Shotcut.pdf](Erste_Schritte_mit_Shotcut.pdf)
-- [Premier_pas_avec_Shotcut.pdf](Premier_pas_avec_Shotcut.pdf)
-- [Primeros_pasos_con_Shotcut.pdf](Primeros_pasos_con_Shotcut.pdf)
+- [Erste Schritte mit Shotcut.pdf](Erste%20Schritte%20mit%20Shotcut.pdf)
+- [Premier pas avec Shotcut.pdf](Premier%20pas%20avec%20Shotcut.pdf)
+- [Primeros pasos con Shotcut.pdf](Primeros%20pasos%20con%20Shotcut.pdf)
 
 ## Greek
 
