@@ -40,6 +40,10 @@ category: help
 | View > History          | Ctrl+8                             | Cmd+8
 | View > Export           | Ctrl+9                             | Cmd+9
 | View > Jobs             | Ctrl+0                             | Cmd+0
+| Settings > Preview Scaling > None | F6
+| Settings > Preview Scaling > 360p | F7
+| Settings > Preview Scaling > 540p | F8
+| Settings > Preview Scaling > 720p | F9
 | Help > Keyboard Shortcuts | F1                               | F1
 {:.withborders}
 

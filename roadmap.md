@@ -35,7 +35,6 @@ category: other
 20. additional editing modes/operations (slip, slide, roll)
 22. surround panning
 23. USB jog/shuttle
-25. scopes: RGB parade, vectorscope
 26. raw video processing - e.g. CinemaDNG
 27. improved support for high bit depth video
 28. Rec. 2020 wide color gamut
@@ -57,7 +56,6 @@ Quick Tasks To Do
 -   Add Kdenlive XML export
 -   Add OpenTimelineIO import/export
 -   Add search media type queries to Playlists
--   Let user quickly enter a name in Playlists
 -   Add move with insert position when dragging clip on timeline.
 -   Rework filter browser with icon and nice description.
 -   Add Parametric Equalizer audio filter

@@ -8,7 +8,7 @@ category: notes
   - Qt Creator from the [Qt project](https://www.qt.io/download-open-source/) or your distribution packages.
   - [Our special build of the Qt 5.9.7 SDK that includes QtWebKit](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/qt-5.9.7-macos-x86_64.txz)    
     Extract it to $HOME
-  - [Shotcut SDK (563 MiB! current version 19.12.31)](http://builds.us.meltytech.s3.amazonaws.com/shotcut/shotcut-macos-sdk-191231.txz)    
+  - [Shotcut SDK (563 MiB! current version 20.02.17)](http://builds.us.meltytech.s3.amazonaws.com/shotcut/shotcut-macos-sdk-200217.txz)    
     Extract it to $HOME/Projects
 
 2. Start Qt Creator and choose **Qt Creator &gt; Preferences... &gt; Kits**  

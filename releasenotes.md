@@ -20,6 +20,56 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 20.02.17
+
+- Added **Settings > Preview Scaling**!  
+- Added **Export > Advanced > Video >Use preview scaling**.  
+- Added **Views > Scopes > Video Vector**.  
+- Added **Filters > Audio > Pitch**.  
+- Added the ability to rename clips in **Properties**.
+- Added support for using a video clip in Transition **Properties > Video**.   
+- Added a few more export presets:
+  * audio/ALAC
+  * audio/FLAC
+  * intermediate/DNxHR HQ
+  * intermediate/ProRes HQ
+  * intermediate/ProRes was changed to ProRes 422
+- Added **Arabic** translation.
+- Fixed dropping multiple files to **Playlist** in a new project (broken in v19.12.31).
+- Fixed some broken keyboard shortcuts in the Turkish translation.
+- Fixed **Properties > Speed** not working after a project file repair.
+- Fixed clip selection after **Insert Track** or **Remove Track**.
+- Fixed **Playlist > Add Selected to Timeline** creates corrupt clips (broken in v19.12.31).
+- Fixed **Settings > Display Method > Software (Mesa)** on Windows (broken in v19.12.31).
+- Fixed creating a **Project folder** with leading or trailing spaces.
+- Fixed saving the `length` property in MLT XML as a time value independent of
+  frame rate.
+- Fixed starting **Text: Simple** video filter with "@" shows "0".
+- Fixed seeking previous &amp; next on the first track in **Keyframes** where
+  you trim a filter or use simple keyframes.
+- Fixed an unexpected transition is created when moving a clip rightward
+  adjacent to the next clip in **Timeline** (regression in v19.12.16).
+- Fixed drag-n-drop from **Source** player to **Timeline** left player in an
+  inconsistent state (broken in v19.09.14).
+- Fixed an inconsistent colorspace conversion when accessing a cached image.
+- Fixed **Playlist > Copy** followed by a change in **Properties** incorrectly
+  changes the playlist item.
+- Fixed clicking on the rectangle control may change its size.
+- Fixed using the **LUT (3D)** filter with file with extended characters in its
+  file path on Windows.
+- Fixed a crash when using a transition on every track at the same time.
+- Improved the reliability of **Timeline > Select None**.
+- Changed **Timeline > Master > Properties > Frame rate** to show 6 decimal digits.
+- Reduced the latency of scrubbing (regression in v19.12.31).
+- Changed the video-overlay rectangle control used in some filters to allow
+  changing the position by dragging from anywhere inside the rectangle.  
+- Changed the **Filters** panel on macOS to prevent floating to avoid a
+  frequently reported problem of the **Filters** window appearing blank/black.
+- Changed **Timeline > clip context menu > Detach Audio** to not seek afterwards.
+- Improved mouse wheel and trackpad behavior in **Timeline**.  
+- Upgraded MLT to version 6.20.0 and WebVfx to version 1.2.0.
+
+
 ##### Release 19.12.31
 
 - Fixed a **Timeline** clip corruption bug in version 19.12.16 when moving clips
