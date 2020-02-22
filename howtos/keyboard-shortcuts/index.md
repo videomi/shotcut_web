@@ -185,6 +185,20 @@ usually move the app window; so, press Alt after you start dragging.
 Press and hold **Shift** to **skim** - scrub/seek using the horizontal
 position of the mouse cursor without clicking and dragging.
 
+### Mouse Wheel
+
+#### Playlist
+
+- scroll vertically
+- use <kbd>Alt</kbd> to scroll horizontally
+
+#### Timeline and Keyframes
+
+- scroll horizontally
+- use <kbd>Alt</kbd> to scroll vertically
+- use <kbd>Shift</kbd> to change track height
+- use <kbd>Ctrl</kbd> or <kbd>Cmd</kbd> to zoom in/out (change time scale)
+
 ### Entering Time Values
 
 Timecode fields&mdash;such as the prominent one at the bottom of the
