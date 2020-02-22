@@ -22,6 +22,17 @@ An easy way for non-programmers to help is simply to participate in the
 [Shotcut Forum](https://forum.shotcut.org/) by answering user's questions.
 Alternatively, consider making a tutorial video on YouTube or similar.
 
+Write Documentation
+-------------------
+
+We are now building [documentation in the
+forum](https://forum.shotcut.org/c/docs/docs-english) using its wiki-mode where
+any trusted user (some forum experience required or manual promotion) can edit
+the topic. Please treat this like real documentation you would see in a user
+manual. Some day these topics might get compiled into an offline help file or
+large document. Initially, we only have English, but it is a sub-category with
+the hope that some day a volunteer will offer to translate to another language.
+
 Report a Bug
 ------------
 
