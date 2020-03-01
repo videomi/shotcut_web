@@ -5,8 +5,9 @@ category: notes
 ---
 
 1. Download and install the following:
+
   - [Qt Creator](https://www.qt.io/download-open-source/)
-  - [Our special build of the Qt 5.9.7 SDK that includes QtWebKit](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/qt-5.9.7-x64-mingw540-seh.txz)    
+  - [Our special build of the Qt 5.9.7 SDK that includes QtWebKit](https://s3.amazonaws.com/misc.meltymedia/shotcut-build/qt-5.9.7-x64-mingw540-seh.txz)  
     Extract it to C:\Qt\qt-5.9.7-x64-mingw540-seh
   - [MinGW-w64 GCC-5.4.0 for 64-bit Windows](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/5.4.0/threads-posix/seh/x86_64-5.4.0-release-posix-seh-rt_v5-rev0.7z)  
     Extract it to C:\Qt\x86_64-5.4.0-release-posix-seh-rt_v5-rev0
@@ -14,33 +15,43 @@ category: notes
     Extract it to C:\Projects
 
 2. Check that the following files are in the correct directories:
+
   - C:\Qt\x86_64-5.4.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe
   - C:\Qt\qt-5.9.7-x64-mingw540-seh\bin\qmake.exe
 
-3. Start Qt Creator and choose **Tools &gt; Options &gt; Build &amp; Run**  
-Configure all of your settings in the Build & Run section.
-  - Manually set the debugger to MinGW's gdb.exe.
-  ![Debug Settings](debuggers_build_run.png)
-  - Manually set the compiler to MinGW's g++.exe
-  ![Compiler(2/2) Settings](compilers_build_run2.png)
-  - Manually set the Qt version.
-  ![Version Settings](versions_build_run.png)
-  - Configure the project kit from the previously set debug, compiler, and Qt version.
-  ![Kit Settings](kits_build_run.png)  
+3. Start Qt Creator and choose **Tools &gt; Options &gt; Kits**  
+Configure the compilers and SDKs settings in the Kits section.
 
-4. Extract the Shotcut SDK .zip file to a new folder in C:\ called "Projects" (C:\Projects).
-5. In Qt Creator open shotcut.pro from C:\Projects\Shotcut\src\shotcut.
-6. In the Shotcut project configuration screen find **Run Settings**.
-  - Go to **Deployment &gt; Add Deploy Step &gt; Make**. In **Make arguments**, enter "install"
-  - Go to **Run &gt; Add &gt; Custom Executable**.  
-    Set **Executable** to "C:\Projects\Shotcut\shotcut.exe"
+  - Manually add MinGW's `gdb.exe` debugger:
+  ![Debugger Settings](debuggers_build_run.png)
+  - Manually add MinGW's `g++.exe` C++ compiler:
+  ![Compiler Settings](compilers_build_run2.png)
+  - Manually add the Qt version:
+  ![Qt Version Settings](versions_build_run.png)
+  - Add a project kit from the previously set debug, compiler, and Qt version:
+  ![Kit Settings](kits_build_run.png)
+  - Click OK
+
+4. Extract the Shotcut SDK .zip file to a new folder in `C:\` named "Projects" (`C:\Projects`).
+5. In Qt Creator open `shotcut.pro` from `C:\Projects\Shotcut\src\shotcut`.
+6. In the **Configure Project** screen, select your previously configured Kit
+   and click **Configure Project**:
+   ![Configure Project](configure_project.png)
+
+7. Click **Projects** in the navigation bar on the left side of the Qt Creator window.  
+   In the left column of the Shotcut project configuration screen click **Run**
+   to show the **Run Settings**:
     ![Run Settings](run_settings.png)
 
-7. Set your build settings in the Shotcut project configuration so that the build steps include MinGW make steps.
-    <a href="build_settings.png">
-    <img src="build_settings.png" alt="Project"></a>
-8. After clicking Run, you can confirm the newly built executable is the one that is running from the About
-   dialog: the version will be "adhoc".
+  - In **Deployment** click **Add Deploy Step &gt; Make**.
+  - In **Make arguments:** enter "install".
+  - In **Run** click **Add... &gt; Custom Executable**;  
+    in **Executable:** enter "C:\Projects\Shotcut\shotcut.exe":
+    ![Run Settings](run_settings2.png)
+
+8. After clicking **Run** (the green play button in bottom left of Qt Creator),
+   you can confirm the newly built executable is the one that is running from the
+   **Help &gt; About Shotcut...** dialog: the version will be "adhoc".
 
 ### Final Project
 
