@@ -197,7 +197,7 @@ position of the mouse cursor without clicking and dragging.
 - scroll horizontally
 - use <kbd>Alt</kbd> to scroll vertically
 - use <kbd>Shift</kbd> to change track height
-- use <kbd>Ctrl</kbd> or <kbd>Cmd</kbd> to zoom in/out (change time scale)
+- use <kbd>Ctrl</kbd> (<kbd>Cmd</kbd> on macOS) to zoom in/out (change time scale)
 
 ### Entering Time Values
 
