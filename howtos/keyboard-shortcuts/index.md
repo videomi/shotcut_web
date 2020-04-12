@@ -90,6 +90,7 @@ category: help
 | Lift                  | Z or Del or Backspace                |
 | Insert                | V                                    |
 | Overwrite             | B                                    |
+| Replace               | R                                    |
 | Split                 | S                                    |
 | Trim clip in          | I                                    |
 | Ripple trim clip in   | Shift+I                              |
@@ -173,16 +174,16 @@ category: help
 
 ### Player
 
-Press and hold **Shift** to **skim** - scrub/seek using the horizontal
+Press and hold <kbd>Shift</kbd>+<kbd>Alt</kbd> to **skim** - scrub/seek using the horizontal
 position of the mouse cursor without clicking and dragging.
 
 ### Timeline
 
-While dragging shot or trimming, press and hold **Alt** to temporarily
+While dragging shot or trimming, press and hold <kbd>Alt</kbd> to temporarily
 **suspend snapping**. On Linux, pressing Alt before dragging will
 usually move the app window; so, press Alt after you start dragging.
 
-Press and hold **Shift** to **skim** - scrub/seek using the horizontal
+Press and hold <kbd>Shift</kbd>+<kbd>Alt</kbd> to **skim** - scrub/seek using the horizontal
 position of the mouse cursor without clicking and dragging.
 
 ### Mouse Wheel
