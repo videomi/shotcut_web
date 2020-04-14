@@ -195,10 +195,16 @@ position of the mouse cursor without clicking and dragging.
 
 #### Timeline and Keyframes
 
-- scroll horizontally
+- scroll horizontally*
 - use <kbd>Alt</kbd> to scroll vertically
 - use <kbd>Shift</kbd> to change track height
 - use <kbd>Ctrl</kbd> (<kbd>Cmd</kbd> on macOS) to zoom in/out (change time scale)
+
+\* NOTE: On macOS, in order to scroll Timeline or Keyframes horizontally with a mouse wheel (not Magic Mouse or track pad), you must also use *one* of the following:
+- <kbd>Control</kbd> (not <kbd>Cmd</kbd>)
+- <kbd>Control</kbd>+<kbd>Option</kbd>
+- <kbd>Control</kbd>+<kbd>Command</kbd>
+- <kbd>Option</kbd>+<kbd>Command</kbd>
 
 ### Entering Time Values
 
