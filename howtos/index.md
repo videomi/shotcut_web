@@ -14,6 +14,8 @@ title: How To Articles
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+[User Manual](https://forum.shotcut.org/c/docs/docs-english/) (under construction)
+
 {% for page in sorted_pages %}
   {% if page.category == 'help' %}
 [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
