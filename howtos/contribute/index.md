@@ -51,47 +51,11 @@ you can share it on the
 You can locate presets on your system by choosing **Settings > App Data
 Directory > Show...** and navigating to the presets folder.
 
-Make a HTML Template
--------------
-
-Version 19.01 added support for templates for the **Overlay HTML** filter. Your
-templates must contain one HTML file and any number of additional external
-files such as scripts and images.
-In your Shotcut install folder, look in the folder
-share/shotcut/qml/filters/webvfx/templates
-(Shotcut.app/Contents/Resources/shotcut/qml/filters/webvfx/templates on macOS).
-
-The folder "plain" contains templates that do not use the WebVfx JavaScript
-extension, which is needed to make parameters or properly support animations.
-Thus, use the "webvfx" folder for templates that use the JavaScript extension.
-This differentiation is very important for WebVfx to work properly.
-The next folder down is simply a category for organization. At some point,
-this will likely appear in the UI when there are many templates. The next folder
-down is your template folder. The name of this folder is shown in the UI as the
-name of the template. You must use a folder even if you have a single,
-self-contained HTML file.
-
-The template **Blue Middle Bar** shows one way to use SVG as an image as well 
-as one way to center text.
-
-The template **Simple Scroll** shows how to use the Web Animations polyfill to 
-make the animation seek properly. It is a simple example of making a custom
-parameters UI for your template! This feature only supports Qt Quick QML.
-Animated templates that do not properly support seeking using JavaScript or
-Web Animations will not be accepted.
-
-You can share your template on the
-[Shotcut Forum](https://forum.shotcut.org/) or as a [GitHub Pull
-Request](https://github.com/mltframework/shotcut/pulls).
-
 Add a Filter
 ------------
 
 The engine has many additional filters that are not yet exposed. You can easily
-add a Shotcut UI for it. In addition, WebVfx makes it possible to add custom
-filters that go beyond what can be done in a HTML template including support
-for keyframes. 
-
+add a Shotcut UI for it.
 You can see existing filter UIs and add your own in your Shotcut install folder, look in the folder
 share/shotcut/qml/filters
 (Shotcut.app/Contents/Resources/shotcut/qml/filters on macOS).

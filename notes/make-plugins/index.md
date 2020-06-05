@@ -20,7 +20,6 @@ You can make a new backend using a number of technologies including
 [MLT](https://www.mltframework.org),
 [frei0r](http://frei0r.dyne.org/codedoc/html/),
 [LADSPA](https://en.wikipedia.org/w/index.php?title=LADSPA&oldid=696034724), or 
-[WebVfx](https://www.mltframework.org/doxygen/webvfx/).
 There are also many existing plugins for these
 that are already bundled with Shotcut builds that do not yet have a frontend!
 Thus, you might want to use an existing
@@ -44,8 +43,8 @@ LADSPA supports only 32-bit non-interleaved floating point.
 
 Video
 -----
-You make a MLT, frei0r, or WebVfx plugin. MLT and frei0r plugins require C or
-C++ coding; whereas WebVfx lets you use HTML5, CSS3, JavaScript, SVG, and WebGL.
+You make a MLT, frei0r, or FFmpeg/libavfilter plugin. These require C or
+C++ coding.
 
 MLT supports the following pixel formats:
 
@@ -53,7 +52,7 @@ MLT supports the following pixel formats:
 with an optional, separate 8-bit alpha channel bitmap.
 - RGB or RGBA, 8-bits per component, packed, in sRGB colorspace.
 
-frei0r and WebVfx only supports 8-bit RGB(A).
+frei0r only supports 8-bit RGB(A).
 
 Frontend
 ========

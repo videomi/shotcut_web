@@ -66,7 +66,7 @@ Rebuilding Dependencies {#rebuilding-dependencies}
 The section above just gets you a working environment for the Shotcut
 code, but not any of its dependencies. Some of the dependencies included
 in the SDK with source code can be opened and used within Qt Creator -
-frei0r and webvfx. Instructions for that are not yet included. In other
+e.g., frei0r. Instructions for that are not yet included. In other
 cases you can use the Git Bash shell environment. Upon opening a Git
 Bash shell, enter (or add to ~/.profile and restart the shell):
 
