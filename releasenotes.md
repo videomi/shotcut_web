@@ -20,6 +20,94 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 20.06.28
+
+- Added **Playlist > menu > Add Selected to Slideshow** slideshow generator!
+- Added **Settings > Proxy** for videos and images. See the [documentation](https://forum.shotcut.org/t/proxy-editing/18517)
+- Added bigsh0t 360&deg; video filters:
+  - **360: Equirectangular Mask**
+  - **360: Equirectangular to Rectilinear**
+  - **360: Hemispherical to Equirectangular**
+  - **360: Rectilinear to Equirectangular**
+  - **360: Stabilize**
+  - **360: Transform**
+- Added **Open Other > Blip Flash** generator.
+- Added 2 new Export presets: **Slide Deck (H.264)** and **Slide Deck (HEVC)**.
+- Added a **Background color** parameter to the **Rotate and Scale** and **Size and Position** video filters.
+- Added **Help > Topics** with keyboard shortcut <kbd>F1</kbd>.
+- Added the ability to drag-n-drop from external file manager (Explorer, Finder) directly to **Timeline**.
+- Added **Merge with next clip** to the timeline clip context menu. This only works for clips that are from the same source and contiguous. This is not clip grouping.
+- Added returning to the original file if you **Reverse** a reversed clip.
+- Added **Settings > Synchronization...** to calibrate the Shotcut player. This works while something is currently playing to help you calibrate using a known good clip.
+- Added millisecond **Format** options to the **Timer** video filter.
+- Added **Add a keyframe** button to the **Keyframes** panel for all parameters (previously it was missing on some paramters).
+- Added the **Reduce Noise: Wavelet** video filter.
+- Added a context menu (right-click) to the **Recent** panel with a **Remove** action.
+- Added keyboard shortcut <kbd>;</kbd> to toggle a keyframe at the playhead position.
+- Added keyboard shortcut <kbd>F2</kbd> to rename a clip.
+- Added keyboard shortcut <kbd>F3</kbd> to search in **Recent**.
+- Added keyboard shortcut <kbd>F11</kbd> to toggle fullscreen.
+- Added **View > Enter Full Screen** on Windows, but simply maximizes due to issues with popup (dialog) windows not appearing on top.
+- Added the UI files for the `bigsh0t` 360 video filters.
+- Added progress dialogs in several places where time consuming activities occur that otherwise block the user interface.
+- Renamed **Timeline > Master** to **Output**.
+- Stop selecting **Output** (formerly Master) by default when opening a project.
+- Removed **Settings > External Monitor > DVEO VidPort**.
+- Export now sets color primaries automatically based on the Video Mode colorspace.
+- Use Qt's internal image orientation detection instead of libexif.
+- Upgraded Mesa software OpenGL in Windows build to version 19.2.7.
+- Upgraded SDL audio output library in Windows build to version 2.0.12.
+- The keyboard shortcut to open a playlist item is changed to <kbd>Ctrl</kbd>+<kbd>Enter</kbd> (<kbd>Cmd</kbd>+<kbd>Return</kbd> on macOS).
+- Changed the keyboard shortcut to open the web page of keyboard shorcuts to <kbd>?</kbd>.
+- Change the timeline toolbar icon for **Timeline > Split** to something more clear and obvious.
+- **Timeline** no longer shows thumbnails for video when the track height is at its lowest.
+- The Timeline toolbar button to toggle **Scrub while dragging** is now saved to settings.
+- **Export > Video > Deinterlacer** is no longer disabled when **Scan mode** is **Interlaced** (Anything that causes a change to the vertical resolution of an interlaced source is automatically deinterlaced.)
+- Deprecated the following video filters. These will be removed in the next version.
+  - Rutt-Etra-Izer
+  - Swirl
+  - Text: 3D
+  - Text: HTML
+- Added a **Detect** button to the **Use hardware encoder > Configure** dialog.
+- Memory is now released when you choose **File > New**, **File > Close**, or **Export File**. (Previously it would keep most of it for reuse.)
+- Improved constant quality rate control mode for Intel Quick Sync Video.
+- Changed **Playlist > Sort > By Name** to be case insensitive.
+- Improved the performance of image sequences.
+- Significantly improved the performance of the automatic image padding.
+- Show a project's current **Video Mode** as selected in the **Settings** menu when opened.
+- Added a timecode tooltip to the mouse pointer when over the player, **Timeline,** or **Keyframes** scrub bars.
+- Filter VUIs (video user interfaces) are now disabled when the filter is disabled.
+- Fixed **Open Other > Audio/Video Device** on Windows with special characters in name.
+- Fixed changing **Properties > Audio > Track** sometimes does not work.
+- Improved A/V synchronization on speed-changed clips with **Pitch Compensation** or using the **Pitch** audio filter.
+- Fixed changing **Crop: Source** video filter, **Right** parameter on an image with odd width skews the image.
+- Fixed audio pops and clicks in a few places.
+- Improve A/V synchronization when resampling audio rate is required.
+- Fixed incorrect color when using **Export > Codec > libx264rgb**.
+- Fixed the clip name after using **Properties > Convert** or **Reverse**.
+- Fixed showing the waveform after undo **Detach Audio**.
+- Fixed **Audio Tone** in Timeline loses focus after change in **Properties**.
+- Fixed moving clip sometimes does not adjust background duration.
+- Fixed **Filters**, **Timeline**, and **Keyframes** responding to touch screen.
+- Fixed a crash when you use **Timeline > Append**, **Insert**, or **Overwrite** after choosing **File > Close** or **File > New**.
+- Fixed <kbd>Backspace</kbd> or <kbd>Delete</kbd> key in input fields sometimes delete timeline clip.
+- Fixed **Timeline > Select All** incorrectly includes clips on locked tracks.
+- Fixed track filter out points are changed after reopening a project.
+- Fixed the default timeline height is too short.
+- Fixed **Properties > Convert** ruins filters on clips that were never selected.
+- Fixed a crash when using **Crop: Source > Center bias**.
+- Fixed seeking to the out point in the **Source** player when you click to seek after the out point.
+- Fixed setting in > out or out < in in the **Source** player not reliably updating a playlist clip.
+- Fixed saving projects with relative paths.
+- Fixed keyframes for the **Level** parameter of the **Opacity** filter.
+- Fixed drop-framed timecode for 59.94 fps to follow a strict cadence.
+- Fixed the **Reduce Noise: Smart Blur** and **Reduce Noise: Wavelet** video filters to not overwrite the alpha channel.
+- Fixed the image quality (interpolation) of a **Size and Position** or **Rotate and Scale** filter inside of a transition.
+- Fixed loading image sequences when the sequence number in the file name does not start with 1.
+- Fixed a crash when using JACK audio and **File > Open Other**.
+- Fixed **Export > Video** not updated when open clip-only project.
+
+
 ##### Release 20.04.12
 
 - Added **Properties > Speed > Pitch Compensation** for automatic pitch correction for speed changes > 0.1x.

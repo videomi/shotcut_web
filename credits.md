@@ -108,3 +108,5 @@ via the [Qt GPLv3 license with
 exception](https://doc.qt.io/qt-5.9/qtnetwork-index.html#licenses-and-attributions)
 -   [Rubber Band Library](https://breakfastquay.com/rubberband/) under the
     [GPL v2 License](http://www.gnu.org/licenses/gpl-2.0.html)
+-   [bigsh0t](https://bitbucket.org/leo_sutic/bigsh0t) 360 video plugins under the [GPL v2
+    License](http://www.gnu.org/licenses/gpl-2.0.html)

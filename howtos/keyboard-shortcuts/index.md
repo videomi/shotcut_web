@@ -29,7 +29,7 @@ category: help
 | File > Quit           | Ctrl+Q                               | Cmd+Q
 | Edit > Undo           | Ctrl+Z                               | Cmd+Z
 | Edit > Redo           | Ctrl+Y / Ctrl+Shift+Z                | Shift+Cmd+Z
-| View > Fullscreen (not Windows) | Ctrl+Shift+F               | Ctrl+Cmd+F
+| View > Fullscreen     | F11 / Ctrl+Shift+F                   | Ctrl+Cmd+F / F11
 | View > Audio Peak Meter | Ctrl+1                             | Cmd+1
 | View > Properties       | Ctrl+2                             | Cmd+2
 | View > Recent           | Ctrl+3                             | Cmd+3
@@ -40,11 +40,15 @@ category: help
 | View > History          | Ctrl+8                             | Cmd+8
 | View > Export           | Ctrl+9                             | Cmd+9
 | View > Jobs             | Ctrl+0                             | Cmd+0
+| Rename clip (Properties)          | F2
+| Find (Recent)                     | F3
 | Settings > Preview Scaling > None | F6
 | Settings > Preview Scaling > 360p | F7
 | Settings > Preview Scaling > 540p | F8
 | Settings > Preview Scaling > 720p | F9
-| Help > Keyboard Shortcuts | F1                               | F1
+| Settings > Proxy > Use Proxy      | F4
+| Help > Topic                      | F1
+| Help > Keyboard Shortcuts         | ?
 {:.withborders}
 
 ## Player
@@ -168,6 +172,7 @@ category: help
 | Set Second Simple Keyframe    | }                            |
 | Seek Previous Simple Keyframe | Alt+[                        |
 | Seek Next Simple Keyframe     | Alt+]                        |
+| Toggle Keyframe at playhead   | ;
 {:.withborders}
 
 ## Other Notes

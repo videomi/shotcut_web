@@ -17,7 +17,6 @@ category: other
 
 2. support multi-selection in cut/copy/paste
 13. markers
-9. proxy generation and editing
 0. multiple playlists
 1. undo/redo support for filters
 3. groups in timeline
@@ -29,7 +28,6 @@ category: other
 19. project media management
 10. set metadata (artist, title, etc.) in encode
 11. archive project
-14. slideshow generator
 16. reorder tracks
 18. audio mixer console (one strip per track plus master)
 20. additional editing modes/operations (slip, slide, roll)
@@ -56,7 +54,6 @@ Quick Tasks To Do
 -   Add Kdenlive XML export
 -   Add OpenTimelineIO import/export
 -   Add search media type queries to Playlists
--   Add move with insert position when dragging clip on timeline.
 -   Rework filter browser with icon and nice description.
 -   Add Parametric Equalizer audio filter
 -   Add option to view timeline waveform per channel

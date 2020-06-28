@@ -68,6 +68,11 @@ Windows registry, a bool is stored as a string: true or false.
 | askUpgradeAutomatic | bool     | whether to ask if you want to check for an update automatically (default true)
 | projectsFolder   | string      | the file system path in which project folders are created
 | undoLimit        | integer     | the maximum number of undo commands in View > History (default 1000)
+| ***proxy***
+| enabled          | bool        | for Settings > Proxy > Use Proxy (default false)
+| folder           | string      | for Settings > Proxy > Storage > Set.... (default a sub-folder "proxies" of the App Data Directory)
+| projectFolder    | bool        | for Settings > Proxy > Storage > Use Project Folder (default true)
+| useHardware      | bool        | for Settings > Proxy > Use Hardware Encoder (default false)
 | ***playlist***
 | viewMode         | string      | one of: detailed, icons, or tiled
 | thumbnails       | string      | how to show the thumbnails in the Playlist panel, one of: hidden, wide, tall, small, large
@@ -94,15 +99,17 @@ Windows registry, a bool is stored as a string: true or false.
 | progressive      | bool        | whether Settings > Progressive is on
 | realtime         | bool        | whether Settings > Realtime is on
 | scrubAudio       | bool        | whether Settings > Scrub Audio is on
+| videoDelayMs     | real number | for Settings > Synchronization... (default 0)
 | volume           | integer     | the player volume level as a percentage
 | zoom             | real number | the player's current zoom level as a factor from 0 to 2 where 0 means "Fit"
 | ***timeline***
+| dragScrub        | bool        | Timeline > Scrub while dragging (default false)
 | thumbnails       | bool        | Timeline > menu > Show Video Thumbnails
 | waveforms        | bool        | Timeline > menu > Show Audio Waveforms
 | rippleAllTracks  | bool        | Timeline > menu > Ripple All Tracks
 | snap             | bool        | Timeline > Toggle snapping
 | ripple           | bool        | Timeline > Ripple trim and drop
-| trackHeight      | integer     | Timeline > Make Tracks Shorter/Taller
+| trackHeight      | integer     | Timeline > menu > Make Tracks Shorter/Taller
 | ***filter***
 | favorite/&lt;filterId&gt; | string | whether a filter is chosen as favorite, one of: yes or no. See all the meta.qml files in share/shotcut/qml/filters for the filter IDs.
 | audioInDuration  | real number | the default Fade Audio In duration in seconds
