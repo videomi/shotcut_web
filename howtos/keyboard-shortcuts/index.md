@@ -229,13 +229,3 @@ included - they are evaluated from right-to-left. Thus, for our example,
 second but not "1.0" because it does not contain a colon. ":1.5" is one
 and a half seconds. "1::" is one minute. "1:30:" is one minute and
 thirty seconds. "1:::" is one hour.
-
-<!-- Shotcut Responsive -->
-<ins class="adsbygoogle"
-    style="display:block"
-    data-ad-client="ca-pub-1305424236533187"
-    data-ad-slot="3403753557"
-    data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>

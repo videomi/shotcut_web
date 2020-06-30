@@ -128,14 +128,3 @@ Windows registry, a bool is stored as a string: true or false.
 | &lt;custom layout name&gt;_geometry | binary | the size and position of the windows
 | &lt;custom layout name&gt;_state | binary | the layout of the UI panels
 {:.withborders}
-
-
-<!-- Shotcut Responsive -->
-<ins class="adsbygoogle"
-    style="display:block"
-    data-ad-client="ca-pub-1305424236533187"
-    data-ad-slot="3403753557"
-    data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
