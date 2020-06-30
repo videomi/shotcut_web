@@ -144,7 +144,7 @@ category: help
 | Select All            | Ctrl+Shift+A                         | Cmd+Shift+A
 | Select Item N         | 1 2 3 4 5 6 7 8 9 0                  | Cmd+Shift+D
 | Selection None        | Ctrl+Shift+D                         |
-| Open Selected         | Enter or double-click                |
+| Open Selected         | Ctrl+Enter or double-click           | Cmd+Return or double-click
 | Goto/Seek             | Shift+Enter or Shift+double-click    |
 {:.withborders}
 
