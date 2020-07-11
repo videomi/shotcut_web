@@ -108,6 +108,8 @@ category: help
 | Make Tracks Shorter   | Ctrl+-                               | Cmd+-
 | Make Tracks Taller    | Ctrl+=                               | Cmd+=
 | Reload                | F5                                   |
+| Select clip           | single left-click mouse
+| Select and seek clip  | double left-click mouse
 | Select under playhead | Ctrl+Space                           |
 | Select All            | Ctrl+A                               | Cmd+A
 | Select None           | Ctrl+D                               | Cmd+D

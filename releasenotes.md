@@ -20,6 +20,15 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 20.07.11
+
+- Fixed noisy sound playback on some Windows systems.
+- Fixed UI layout glitches and default/minimum size of timeline too short.
+- Fixed Quick Sync Video hardware encoder (h264_qsv or hevc_qsv with Quality-based VBR) not working on Windows on older Intel chips.
+- Fixed **Properties > Speed** not working correctly on trimmed clip in **Source** player.
+- Fixed **Stabilize** and **Normalize: Two Pass** filters not working on trimmed clip in **Source** player.
+
+
 ##### Release 20.06.28
 
 - Added **Playlist > menu > Add Selected to Slideshow** slideshow generator!
