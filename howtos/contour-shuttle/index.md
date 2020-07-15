@@ -9,15 +9,20 @@ is a USB controller that provides some special functions that are very
 useful for video editing. A jog/shuttle controller features a wheel or
 knob called the jog wheel with an outer ring called the shuttle. Shuttle
 refers to playback speed and direction, and jog means to step
-frame-by-frame. Shotcut does not yet contain programming to take full
-advantage of this device, but power user tin2tin provided some
-information about how to use the Contour generic software to control
-Shotcut.
+frame-by-frame.
 
-You can [download his Contour preferences
-file](Shotcut_ContourShuttleProV2.pref). This was developed
-and tested on Windows. It may or may not work on other operating
-systems.
+## ShuttlePRO v2
+
+[Download the ShuttlePRO v2 preferences file for Windows](Shotcut_ContourShuttleProV2.pref).
 
 <img width="842" height="657" alt="Contour-to-Shotcut button mappings"
 src="Shotcut_ContourShuttleProV2_settings.png">
+
+## ShuttlePRO v1
+
+[Download the ShuttlePRO v1 preferences file for Windows](Shotcut_ContourShuttleProV1.pref).
+
+[Download the ShuttlePRO v1 settings file for macOS](Shotcut_ContourShuttleProV1.shuttleSettings).
+
+<img width="831" height="661" alt="Contour-to-Shotcut button mappings"
+src="Shotcut_ContourShuttleProV1_settings.png">
