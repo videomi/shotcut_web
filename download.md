@@ -97,7 +97,7 @@ alt='Download on Snap Store'
 src='https://raw.githubusercontent.com/snapcore/snap-store-badges/master/EN/%5BEN%5D-snap-store-black.png'></a>
 </div>
 
-<small class="linux">(64-bit Mint 18+, Ubuntu 16.04+, Debian 9+, Fedora 24+, Arch/Manjaro 16.10+)</small>
+<small class="linux">(64-bit Mint 19+, Ubuntu 16.10+, Debian 9+, Fedora 24+, Arch/Manjaro 16.10+)</small>
 
 {:.linux}
 | Site 1 (FossHub)      | Site 2 (GitHub)
