@@ -46,14 +46,14 @@ allowfullscreen="1"></iframe>
 
 Other Video Tutorials
 ---------------------
-- [Film Restoration](https://youtu.be/r3gCM6QNzFY)
 - [Mini Tutorial Videos](minitutorials/)
+- [Film Restoration](https://youtu.be/r3gCM6QNzFY)
 - [Mute and Detach Audio](https://youtu.be/ai1Dp7lGM9A)
 - [Normalize and Stabilize Filters](https://youtu.be/C3v-jYJJfuM)
 - [Recording a Voice Over](https://youtu.be/lGxOGwNWF7U)
 - [Timer Filter](https://youtu.be/m4nSFkyLvJU)
+- [Rotating Video](https://youtu.be/AVOh_5-TdbA)
 - [Simple Sub-clip Export](https://youtu.be/I9uJYO0HmYY)
-- [Using HTML5](https://youtu.be/xs3bv1TzkYw)
 - [Official Shotcut YouTube channel](https://www.youtube.com/channel/UCjuv-Js1znyvErPy9vZf37A)
 
 See Also
