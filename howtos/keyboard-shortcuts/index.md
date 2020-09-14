@@ -16,165 +16,164 @@ category: help
 
 ## Main Menu
 
-| Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
+| Action                | Windows/Linux                        | macOS
 |-----------------------|--------------------------------------|----------------------
-| File > New            | Ctrl+N                               | Cmd+N
-| File > Open           | Ctrl+O                               | Cmd+O
-| File > Open Other     | Ctrl+Shift+O                         | Shift+Cmd+O
-| File > Save           | Ctrl+S                               | Cmd+S
-| File > Save As        | Ctrl+Shift+S                         | Shift+Cmd+S
-| File > Export Video   | Ctrl+E                               | Cmd+E
-| File > Export Frame   | Ctrl+Shift+E                         | Shift+Cmd+E
-| File > Close          | Ctrl+W                               | Cmd+W
-| File > Quit           | Ctrl+Q                               | Cmd+Q
-| Edit > Undo           | Ctrl+Z                               | Cmd+Z
-| Edit > Redo           | Ctrl+Y / Ctrl+Shift+Z                | Shift+Cmd+Z
-| View > Fullscreen     | F11 / Ctrl+Shift+F                   | Ctrl+Cmd+F / F11
-| View > Audio Peak Meter | Ctrl+1                             | Cmd+1
-| View > Properties       | Ctrl+2                             | Cmd+2
-| View > Recent           | Ctrl+3                             | Cmd+3
-| View > Playlist         | Ctrl+4                             | Cmd+4
-| View > Timeline         | Ctrl+5                             | Cmd+5
-| View > Filters          | Ctrl+6                             | Cmd+6
-| View > Keyframes        | Ctrl+7                             | Cmd+7
-| View > History          | Ctrl+8                             | Cmd+8
-| View > Export           | Ctrl+9                             | Cmd+9
-| View > Jobs             | Ctrl+0                             | Cmd+0
-| Rename clip (Properties)          | F2
-| Find (Recent)                     | F3
-| Settings > Preview Scaling > None | F6
-| Settings > Preview Scaling > 360p | F7
-| Settings > Preview Scaling > 540p | F8
-| Settings > Preview Scaling > 720p | F9
-| Settings > Proxy > Use Proxy      | F4
-| Help > Topic                      | F1
-| Help > Keyboard Shortcuts         | ?
+| File > New            | Ctrl+N                               | command+N
+| File > Open           | Ctrl+O                               | command+O
+| File > Open Other     | Ctrl+Shift+O                         | shift+command+O
+| File > Save           | Ctrl+S                               | command+S
+| File > Save As        | Ctrl+Shift+S                         | shift+command+S
+| File > Export Video   | Ctrl+E                               | command+E
+| File > Export Frame   | Ctrl+Shift+E                         | shift+command+E
+| File > Close          | Ctrl+W                               | command+W
+| File > Quit           | Ctrl+Q                               | command+Q
+| Edit > Undo           | Ctrl+Z                               | command+Z
+| Edit > Redo           | Ctrl+Y / Ctrl+Shift+Z                | shift+command+Z
+| View > Fullscreen     | F11 / Ctrl+Shift+F                   | control+command+F / F11
+| View > Audio Peak Meter | Ctrl+1                             | command+1
+| View > Properties       | Ctrl+2                             | command+2
+| View > Recent           | Ctrl+3                             | command+3
+| View > Playlist         | Ctrl+4                             | command+4
+| View > Timeline         | Ctrl+5                             | command+5
+| View > Filters          | Ctrl+6                             | command+6
+| View > Keyframes        | Ctrl+7                             | command+7
+| View > History          | Ctrl+8                             | command+8
+| View > Export           | Ctrl+9                             | command+9
+| View > Jobs             | Ctrl+0                             | command+0
+| Help > Keyboard Shortcuts         | ?                        | ?
+| Help > Topic                      | F1                       | F1
+| Rename clip (Properties)          | F2                       | F2
+| Find (Recent)                     | F3                       | F3
+| Settings > Proxy > Use Proxy      | F4                       | F4
+| Reload                            | F5                       | F5
+| Settings > Preview Scaling > None | F6                       | F6
+| Settings > Preview Scaling > 360p | F7                       | F7
+| Settings > Preview Scaling > 540p | F8                       | F8
+| Settings > Preview Scaling > 720p | F9                       | F9
 {:.withborders}
 
 ## Player
 
-| Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
+| Action                | Windows/Linux                        | macOS
 |-----------------------|--------------------------------------|----------------------
-| Play                  | L or Space                           |
-| Pause                 | K or Space                           |
-| Rewind                | J                                    |
-| Fast Forward          | L                                    |
-| Set In                | I                                    |
-| Set Out               | O                                    |
-| Next Frame            | Right or K+L                         |
-| Previous Frame        | Left or K+J                          |
-| Forward One Second    | Page Down                            |
-| Backward One Second   | Page Up                              |
-| Forward Two Seconds   | Shift+Page Down                      |
-| Backward Two Second   | Shift+Page Up                        |
-| Forward 5 Seconds     | Ctrl+Page Down                       | Cmd+Page Down
-| Backward 5 Seconds    | Ctrl+Page Up                         | Cmd+Page Up
-| Forward 10 Seconds    | Shift+Ctrl+Page Down                 | Shift+Cmd+Page Down
-| Backward 10 Seconds   | Shift+Ctrl+Page Up                   | Shift+Cmd+Page Up
-| Seek Start            | Home                                 |
-| Seek End              | End                                  |
-| Seek Next Edit        | Alt+Right                            |
-| Seek Previous Edit    | Alt+Left                             |
-| Switch Source/Program | Esc                                  |
-| Grab Focus            | Shift+Esc                            |
+| Play                  | L or Space                           | L or space
+| Pause                 | K or Space                           | K or space
+| Rewind                | J                                    | J
+| Fast Forward          | L                                    | L
+| Set In                | I                                    | I
+| Set Out               | O                                    | O
+| Next Frame            | Right or K+L                         | right or K+L
+| Previous Frame        | Left or K+J                          | left or K+J
+| Forward One Second    | Page Down                            | page down
+| Backward One Second   | Page Up                              | page up
+| Forward Two Seconds   | Shift+Page Down                      | shift+page down
+| Backward Two Second   | Shift+Page Up                        | shift+page up
+| Forward 5 Seconds     | Ctrl+Page Down                       | command+page down
+| Backward 5 Seconds    | Ctrl+Page Up                         | command+Page up
+| Forward 10 Seconds    | Shift+Ctrl+Page Down                 | shift+command+page down
+| Backward 10 Seconds   | Shift+Ctrl+Page Up                   | shift+command+page up
+| Seek Start            | Home                                 | home
+| Seek End              | End                                  | end
+| Seek Next Edit        | Alt+Right                            | option+right
+| Seek Previous Edit    | Alt+Left                             | option+left
+| Switch Source/Program | Esc                                  | esc
+| Grab Focus            | Shift+Esc                            | shift+esc
 {:.withborders}
 
 ## Timeline
 
-| Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
+| Action                | Windows/Linux                        | macOS
 |-----------------------|--------------------------------------|----------------------
-| Cut                   | Ctrl+X                               | Cmd+X
-| Copy                  | Ctrl+C or C                          | Cmd+X or C
-| Paste                 | Ctrl+V                               | Cmd+V
-| Add Audio Track       | Ctrl+U                               | Cmd+U
-| Add Video Track       | Ctrl+I                               | Cmd+I
-| Close                 | Ctrl+W                               | Cmd+W
-| Append                | A                                    |
-| Ripple Delete         | X or Shift+Del or Shift+Backspace    |
-| Lift                  | Z or Del or Backspace                |
-| Insert                | V                                    |
-| Overwrite             | B                                    |
-| Replace               | R                                    |
-| Split                 | S                                    |
-| Trim clip in          | I                                    |
-| Ripple trim clip in   | Shift+I                              |
-| Trim clip out         | O                                    |
-| Ripple trim clip out  | Shift+O                              |
-| Select Track Below    | Down                                 |
-| Select Track Above    | Up                                   |
-| Zoom In               | =                                    |
-| Zoom Out              | -                                    |
-| Reset Zoom            | 0                                    |
-| Make Tracks Shorter   | Ctrl+-                               | Cmd+-
-| Make Tracks Taller    | Ctrl+=                               | Cmd+=
-| Reload                | F5                                   |
-| Select clip           | single left-click mouse
-| Select and seek clip  | double left-click mouse
-| Select under playhead | Ctrl+Space                           |
-| Select All            | Ctrl+A                               | Cmd+A
-| Select None           | Ctrl+D                               | Cmd+D
-| Move selection left   | Ctrl+Left                            | Cmd+Left
-| Move selection right  | Ctrl+Right                           | Cmd+Right
-| Move selection up     | Ctrl+Up                              | Cmd+Up
-| Move selection down   | Ctrl+Down                            | Cmd+Down
-| Seek start of selected| double-click                         |
-| Toggle Mute track     | Ctrl+M                               |
-| Toggle Hide track     | Ctrl+H                               |
-| Toggle Lock track     | Ctrl+L                               |
-| Toggle Snapping       | Ctrl+P                               |
-| Toggle Ripple mode    | Ctrl+R                               | Cmd+R
-| Toggle Ripple All Tracks | Ctrl+Alt+R                        | Option+Cmd+R
-| Toggle Ripple mode and all tracks | Ctrl+Shift+R             | Shift+Cmd+R
-| Insert Track          | Ctrl+Alt+I                           | Option+Cmd+I
-| Remove Track          | Ctrl+Alt+U                           | Option+Cmd+U
-| Copy Timeline to Source  | Ctrl+Alt+C                        | Option+Cmd+C
+| Cut                   | Ctrl+X                               | command+X
+| Copy                  | Ctrl+C or C                          | command+X or C
+| Paste                 | Ctrl+V                               | command+V
+| Add Audio Track       | Ctrl+U                               | command+U
+| Add Video Track       | Ctrl+I                               | command+I
+| Close                 | Ctrl+W                               | command+W
+| Append                | A                                    | A
+| Ripple Delete         | X or Shift+Del or Shift+Backspace    | X or shift+delete
+| Lift                  | Z or Del or Backspace                | Z or delte
+| Insert                | V                                    | V
+| Overwrite             | B                                    | B
+| Replace               | R                                    | R
+| Split                 | S                                    | S
+| Trim clip in          | I                                    | I
+| Ripple trim clip in   | Shift+I                              | shift+I
+| Trim clip out         | O                                    | O
+| Ripple trim clip out  | Shift+O                              | shift+O
+| Select Track Below    | Down                                 | down
+| Select Track Above    | Up                                   | up
+| Zoom In               | =                                    | =
+| Zoom Out              | -                                    | -
+| Zoom Fit              | 0                                    | 0
+| Make Tracks Shorter   | Ctrl+-                               | command+-
+| Make Tracks Taller    | Ctrl+=                               | command+=
+| Reload                | F5                                   | F5
+| Select clip           | single left-click mouse              | single-click mouse
+| Select and seek clip  | double left-click mouse              | double-click mouse
+| Select under playhead | Ctrl+Space                           | command+space
+| Select All            | Ctrl+A                               | command+A
+| Select None           | Ctrl+D                               | command+D
+| Move selection left   | Ctrl+Left                            | command+left
+| Move selection right  | Ctrl+Right                           | command+right
+| Move selection up     | Ctrl+Up                              | command+up
+| Move selection down   | Ctrl+Down                            | command+down
+| Seek start of selected| double-click                         | double-click
+| Toggle Mute track     | Ctrl+M                               | control+M
+| Toggle Hide track     | Ctrl+H                               | control+H
+| Toggle Lock track     | Ctrl+L                               | control+L
+| Toggle Snapping       | Ctrl+P                               | command+P
+| Toggle Ripple mode    | Ctrl+R                               | command+R
+| Toggle Ripple All Tracks | Ctrl+Alt+R                        | option+command+R
+| Toggle Ripple mode and all tracks | Ctrl+Shift+R             | shift+command+R
+| Insert Track          | Ctrl+Alt+I                           | option+command+I
+| Remove Track          | Ctrl+Alt+U                           | option+command+U
+| Copy Timeline to Source  | Ctrl+Alt+C                        | option+command+C
 {:.withborders}
 
 ## Playlist
 
-| Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
+| Action                | Windows/Linux                        | macOS
 |-----------------------|--------------------------------------|----------------------
-| Append                | Shift+A                              |
-| Copy                  | Shift+C                              |
-| Delete                | Shift+X                              |
-| Insert                | Shift+V                              |
-| Update                | Shift+B                              |
-| Move Up               | Ctrl+Up                              | Cmd+Up
-| Move Down             | Ctrl+Down                            | Cmd+Down
-| Open previous item    | Alt+Up                               |
-| Open next item        | Alt+Down                             |
-| Select All            | Ctrl+Shift+A                         | Cmd+Shift+A
-| Select Item N         | 1 2 3 4 5 6 7 8 9 0                  | Cmd+Shift+D
-| Selection None        | Ctrl+Shift+D                         |
-| Open Selected         | Ctrl+Enter or double-click           | Cmd+Return or double-click
-| Goto/Seek             | Shift+Enter or Shift+double-click    |
+| Append                | Shift+A                              | shift+A
+| Copy                  | Shift+C                              | shift+C
+| Delete                | Shift+X                              | shift+X
+| Insert                | Shift+V                              | shift+V
+| Update                | Shift+B                              | shift+B
+| Move Up               | Ctrl+Up                              | command+up
+| Move Down             | Ctrl+Down                            | command+down
+| Select All            | Ctrl+Shift+A                         | command+shift+A
+| Select Item N         | 1 2 3 4 5 6 7 8 9                    | 1 2 3 4 5 6 7 8 9
+| Selection None        | Ctrl+Shift+D                         | command+shift+D
+| Open Selected         | Ctrl+Enter or double-click           | command+return or double-click
+| Goto/Seek             | Shift+Enter or Shift+double-click    | shift+return or shift+double-click
 {:.withborders}
 
 ## Filters
 
-| Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
+| Action                | Windows/Linux                        | macOS
 |-----------------------|--------------------------------------|----------------------
-| Choose a Filter       | F                                    |
-| Select Previous Filter| Up                                   |
-| Select Next Filter    | Down                                 |
-| Add Selected Filter   | Enter                                |
-| Remove Filter         | Shift+F                              |
+| Choose a Filter       | F                                    | F
+| Select Previous Filter| Up                                   | up
+| Select Next Filter    | Down                                 | down
+| Add Selected Filter   | Enter                                | return
+| Remove Filter         | Shift+F                              | shift+F
 {:.withborders}
 
 ## Keyframes
 
-| Action                | Windows/Linux<br>Shortcut            | macOS Shortcut<br>(if different)
+| Action                | Windows/Linux                        | macOS
 |-----------------------|--------------------------------------|----------------------
-| Zoom In               | Alt+=                                |
-| Zoom Out              | Alt+-                                |
-| Reset Zoom            | Alt+0                                |
-| Set Filter Start      | [                                    |
-| Set Filter End        | ]                                    |
-| Set First Simple Keyframe     | {                            |
-| Set Second Simple Keyframe    | }                            |
-| Seek Previous Simple Keyframe | Alt+[                        |
-| Seek Next Simple Keyframe     | Alt+]                        |
-| Toggle Keyframe at playhead   | ;
+| Zoom In               | Alt+=                                | option+=
+| Zoom Out              | Alt+-                                | option+-
+| Reset Zoom            | Alt+0                                | option+0
+| Set Filter Start      | [                                    | [
+| Set Filter End        | ]                                    | ]
+| Set First Simple Keyframe     | {                            | {
+| Set Second Simple Keyframe    | }                            | }
+| Seek Previous Simple Keyframe | Alt+[                        | option+[
+| Seek Next Simple Keyframe     | Alt+]                        | option+]
+| Toggle Keyframe at playhead   | ;                            | ;
 {:.withborders}
 
 ## Other Notes
@@ -193,6 +192,14 @@ usually move the app window; so, press Alt after you start dragging.
 Press and hold <kbd>Shift</kbd>+<kbd>Alt</kbd> to **skim** - scrub/seek using the horizontal
 position of the mouse cursor without clicking and dragging.
 
+### Multiple Selection in Playlist and Timeline
+
+To select a range (multiple consecutive clips) click the first (or last) clip, press and hold
+<kbd>Shift</kbd> and click the last (or first) clip.
+
+To select or deselect multiple clips individually hold <kbd>Ctrl</kbd> (<kbd>command</kbd> on macOS)
+while clicking the clips.
+
 ### Mouse Wheel
 
 #### Playlist
@@ -205,13 +212,13 @@ position of the mouse cursor without clicking and dragging.
 - scroll horizontally*
 - use <kbd>Alt</kbd> to scroll vertically
 - use <kbd>Shift</kbd> to change track height
-- use <kbd>Ctrl</kbd> (<kbd>Cmd</kbd> on macOS) to zoom in/out (change time scale)
+- use <kbd>Ctrl</kbd> (<kbd>command</kbd> on macOS) to zoom in/out (change time scale)
 
 \* NOTE: On macOS, in order to scroll Timeline or Keyframes horizontally with a mouse wheel (not Magic Mouse or track pad), you must also use *one* of the following:
-- <kbd>Control</kbd> (not <kbd>Cmd</kbd>)
-- <kbd>Control</kbd>+<kbd>Option</kbd>
-- <kbd>Control</kbd>+<kbd>Command</kbd>
-- <kbd>Option</kbd>+<kbd>Command</kbd>
+- <kbd>control</kbd> (not <kbd>command</kbd>)
+- <kbd>control</kbd>+<kbd>option</kbd>
+- <kbd>control</kbd>+<kbd>command</kbd>
+- <kbd>option</kbd>+<kbd>command</kbd>
 
 ### Entering Time Values
 

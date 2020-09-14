@@ -20,6 +20,45 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 20.09.13
+
+- Added a **Blur: Pad** video filter and made it available in Slideshow generator as **Pad Blur**.
+- Added a **Text: Rich** video filter and made **Text: HTML** hidden since it is deprecated (still loads in old projects).
+- Added a workspace layout switcher to the main toolbar for the new stock workspace layouts.
+- Added a VUI to the **360: Transform** video filter to adjust parameters by dragging.
+- Added **Set Equirectangular Projection...** to the **Jobs** menu for a successful export job. This is used to add metadata to a video file to indicate it is 360॰ video in the equirectangular projection as required by most players and web services.
+- Added **Zoom to fit** icons to the **Timeline** and **Keyframes** toolbars.
+- Improved the performance of the **Timeline** especially with projects over one hour long.
+- Upgraded FFmpeg to version 4.3.1.
+- Changed **Size and Position** to **Size, Position & Rotate** and made **Rotate and Scale** hidden (only appears in old projects).
+- Replaced **Choppy**, **Crop: Circle**, and **Crop: Rectangle** filters with new versions that do not use HTML through WebVfx, which was deprecated in version 20.06.28.
+- Changed the **Rutt-Etra-Izer**, **Swirl**, and **Text: 3D** filters to be hidden since they are deprecated  (still loads in old projects).
+- Replaced **View > Layout > Timeline Project** with new, better **Logging**, **Editing**, **FX**, **Color**, **Audio**, and **Player** stock layouts.
+- The current layout is saved automatically for each stock layout if selected, and **Restore Default Layout** is different for each stock layout.
+- Changed the video track hidden icon on the System theme to be more clear and obvious.
+- Show an error dialog on startup if the frei0r plugins are not installed (only affects Linux distribution packages).
+- Changed the keyboard shortcut <kbd>0</kbd> to zoom timeline to fit.
+- Changed the keyboard shortcut <kbd>Alt</kbd>+<kbd>0</kbd> to zoom playlist to fit.
+- Changed the Timeline and Keyframes time ruler interval to 1 second when zoomed in.
+- Fixed using a secure connection to get the upgrade URL.
+- Fixed a rounding error for **Color Grading** video filter.
+- Fixed a crash and incorrect preview scaling with more than one **Rotate and Scale** or **Size and Position** filter.
+- Fixed colors when using an alpha/VP8 or alpha/VP9 export preset.
+- Fixed video compositing with nothing on video track V1 or V1 hidden.
+- Fixed export may fail when using extended (non-Latin-1) characters in path.
+- Fixed EDL export.
+- Fixed **Export**, **Convert**, or **Reverse** may fail if a temporary file it creates becomes locked on Windows.
+- Fixed **Properties > Color** button not opening the color dialog with the current color.
+- Fixed the **Crop: Source** video filter when using **Settings > Proxy**.
+- Fixed a crash when dragging a MLT XML project file to a non-empty **Timeline**.
+- Fixed the font dialog may too big or the preview inside the font dialog too big for **Text: Simple** filter.
+- Fixed filters not being applied to the portion of a clip inside a transition after undo of **Cut**, **Lift**, **Remove**, **Ripple Delete**, or move.
+- Fixed a crash changing speed of a clip with non-standard non-integer or variable frame rate.
+- Fixed some dialogs not opening or staying in the foreground.
+- Fixed some crashes in timeline overwrite mode.
+- Fixed clicking the filters icon next to **Output** not opening the filters panel.
+
+
 ##### Release 20.07.11
 
 - Fixed noisy sound playback on some Windows systems.

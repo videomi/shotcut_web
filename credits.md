@@ -32,9 +32,9 @@ projects:
 -   [Movit](http://git.sesse.net/movit/) OpenGL Shader Language video
     processing framework under the [GPL v2
     License](http://www.gnu.org/licenses/gpl-2.0.html)
--   [WebVfx](http://rectalogic.github.io/webvfx/) HTML5 and QML video
+-   [WebVfx](https://github.com/mltframework/webvfx) HTML5 and QML video
     effects framework under a [BSD
-    License](http://rectalogic.github.io/webvfx/license.html)
+    License](https://github.com/mltframework/webvfx/blob/master/LICENSE)
 -   [DefaultIcon](http://www.defaulticon.com/) symbolic icon collection
     under the [Creative Commons Attribution-NoDerivs
     License](http://creativecommons.org/licenses/by-nd/3.0/legalcode)
@@ -110,3 +110,5 @@ exception](https://doc.qt.io/qt-5.9/qtnetwork-index.html#licenses-and-attributio
     [GPL v2 License](http://www.gnu.org/licenses/gpl-2.0.html)
 -   [bigsh0t](https://bitbucket.org/leo_sutic/bigsh0t) 360 video plugins under the [GPL v2
     License](http://www.gnu.org/licenses/gpl-2.0.html)
+-   [Spatial Media](https://github.com/VarolOkan/spatial-media), a C++ port of [Google's Spatial
+    Media](https://github.com/google/spatial-media), under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0)
