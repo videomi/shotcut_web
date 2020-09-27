@@ -85,7 +85,7 @@ category: help
 | Action                | Windows/Linux                        | macOS
 |-----------------------|--------------------------------------|----------------------
 | Cut                   | Ctrl+X                               | command+X
-| Copy                  | Ctrl+C or C                          | command+X or C
+| Copy                  | Ctrl+C or C                          | command+C or C
 | Paste                 | Ctrl+V                               | command+V
 | Add Audio Track       | Ctrl+U                               | command+U
 | Add Video Track       | Ctrl+I                               | command+I
@@ -174,6 +174,29 @@ category: help
 | Seek Previous Simple Keyframe | Alt+[                        | option+[
 | Seek Next Simple Keyframe     | Alt+]                        | option+]
 | Toggle Keyframe at playhead   | ;                            | ;
+{:.withborders}
+
+## Rich Text Editor
+
+| Action                       | Windows/Linux                 | macOS
+|------------------------------|-------------------------------|----------------------
+| Undo                         | Ctrl+Z                        | command+Z
+| Redo                         | Ctrl+Y/Ctrl+Shift+Z           | shift+command+Z
+| Cut                          | Ctrl+X                        | command+X
+| Copy                         | Ctrl+C                        | command+C
+| Paste                        | Ctrl+V                        | command+V
+| Select All                   | Ctrl+A                        | command+A
+| Move cursor to the right     | Right                         | right
+| Move cursor to the left      | Left                          | left
+| Move cursor to previous line | Up                            | up
+| Move cursor to the next line | Down                          | down
+| Move cursor to next word     | Ctrl+Left                     | option+left
+| Move cursor to previous word | Ctrl+Right                    | option+right
+| Move cursor to start of line | Home                          | command+home or command+left
+| Move cursor to end of line   | End                           | command+end or command+right
+| Move cursor to start         | Ctrl+Home                     | home or command+up
+| Move cursor to end           | Ctrl+End                      | end or command+down
+| Select                       | Shift                         | shift
 {:.withborders}
 
 ## Other Notes

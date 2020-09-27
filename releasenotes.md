@@ -20,6 +20,24 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 20.09.27
+
+
+- Fixed file dialogs in various filters not openening on macOS (regression in v20.09.13).
+- Fixed setting color alpha (opacity) to 0 in **Open Other > Color** and **Open Other > Text** (regression in v20.09.13).
+- Fixed a possible crash when using **Center bias** in the **Crop: Source** filter (regression in v20.09.13).
+- Fixed incorrect font size in **Text: Rich** filter in export on Windows when the system **Settings > Display > Scale
+  and layout** > 100% (High DPI).
+- Fixed **Text: Rich** filter when **Export > Video > Parallel processing** is on.
+- Fixed **Text: Rich > Preset > Scroll Up/Down** when the background is not transparent.
+- Added collpase & expand buttons to the **Text: Rich** editor's toolbar.
+- Added **Overflow** parameter to the **Text: Rich** filter.
+- Added **Paste Text Only** to the **Text: Rich** editor's menu.
+- Added a **Lower Third** preset to **Text: Rich**.
+- Fixed the actual workspace layout may not match the currently selected layout when restarting after a crash.
+- Fixed **Filters** and **Keyframes** broken on **Source** clip after changing **Settings > Video Mode**.
+
+
 ##### Release 20.09.13
 
 - Added a **Blur: Pad** video filter and made it available in Slideshow generator as **Pad Blur**.
