@@ -208,20 +208,28 @@ position of the mouse cursor without clicking and dragging.
 
 ### Timeline
 
-While dragging shot or trimming, press and hold <kbd>Alt</kbd> to temporarily
-**suspend snapping**. On Linux, pressing Alt before dragging will
-usually move the app window; so, press Alt after you start dragging.
-
-Press and hold <kbd>Shift</kbd>+<kbd>Alt</kbd> to **skim** - scrub/seek using the horizontal
-position of the mouse cursor without clicking and dragging.
+- While dragging shot or trimming, press and hold <kbd>Alt</kbd> to temporarily
+  **suspend snapping**. On Linux, pressing Alt before dragging will
+  usually move the app window; so, press Alt after you start dragging.
+- Press and hold <kbd>Shift</kbd>+<kbd>Alt</kbd> to **skim** - scrub/seek using the horizontal
+  position of the mouse cursor without clicking and dragging.
+- Double-click a fade in/out control (circle) to toggle it between one second and none.
 
 ### Multiple Selection in Playlist and Timeline
 
-To select a range (multiple consecutive clips) click the first (or last) clip, press and hold
-<kbd>Shift</kbd> and click the last (or first) clip.
-
-To select or deselect multiple clips individually hold <kbd>Ctrl</kbd> (<kbd>command</kbd> on macOS)
+- To select a range (multiple consecutive clips) click the first (or last) clip, press and hold
+  <kbd>Shift</kbd> and click the last (or first) clip.
+- To select or deselect multiple clips individually hold <kbd>Ctrl</kbd> (<kbd>command</kbd> on macOS)
 while clicking the clips.
+
+### Keyframes
+
+- Hold <kbd>Ctrl</kbd> (<kbd>command</kbd> on macOS) while dragging a keyframe to lock the time
+  and change only its value.
+- Hold <kbd>Alt</kbd> while dragging a keyframe to lock the value and change only its time.
+- Double-click a regular keyframe curve/line to add or remove a keyframe. (Not all parameters support a curve/line
+  for its keyframes.)
+- Double-click a simple keyframe to toggle it between one second and none.
 
 ### Mouse Wheel
 

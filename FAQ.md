@@ -21,6 +21,34 @@ category: help
 
 **See Also: [How To Articles](../howtos/)**
 
+## What are the minimum system requirements?
+
+Operating system: 64-bit Windows 7 - 10, Apple macOS 10.10 - 10.15, or
+64-bit Linux with at least glibc 2.27.
+
+CPU: x86-64 Intel or AMD; at least one 2 GHz core for SD, 4 cores for
+HD, and 8 cores for 4K.
+
+GPU: OpenGL 2.0 that works correctly and is compatible. On Windows, you
+can also use a card with good, compatible DirectX 9 or 11 drivers. We do
+not have a list.
+
+RAM: At least 4 GB for SD, 8 GB for HD, and 16 GB for 4K.
+
+NOTE: If your computer is at the lower end of CPU and RAM requirements, you should use both the
+[Preview Scaling](https://forum.shotcut.org/t/preview-scaling/15650) and
+[Proxy](https://forum.shotcut.org/t/proxy-editing/18517) features to help reduce preview lag.
+
+Hard drive: yes, get one; the bigger, the better :-)
+
+Network: Shotcut does NOT require access to the network to activate,
+check a subscription, or send usage analytics. However, some links in
+the Help menu do link out to this web site. If you have files on a fast
+(at least 1 Gb/s) network share you can access them from there through
+your operating system.
+
+* * *
+
 ## Why does it crash on Windows upon launch?
 
 Is this a new - for the first time ever - installation of Shotcut?
@@ -239,30 +267,6 @@ successfully on GNOME Nautilus and KDE Dolphin.
 Please do not try to run bin/shotcut; always use the wrapper script in the Shotcut.app
 folder! If it still does not start, then it should report that some
 libraries could not be loaded.
-
-* * *
-
-## What are the minimum system requirements?
-
-Operating system: 32- or 64-bit Windows 7 - 10, Apple macOS 10.10 - 10.15, or
-64-bit Linux with at least glibc 2.19.
-
-CPU: x86-64 Intel or AMD; at least one 2 GHz core for SD, 2 cores for
-HD, and 4 cores for 4K.
-
-GPU: OpenGL 2.0 that works correctly and is compatible. On Windows, you
-can also use a card with good, compatible DirectX 9 or 11 drivers. We do
-not have a list.
-
-RAM: At least 4 GB for SD, 8 GB for HD, and 16 GB for 4K.
-
-Hard drive: yes, get one; the bigger, the better :-)
-
-Network: Shotcut does NOT require access to the network to activate,
-check a subscription, or send usage analytics. However, some links in
-the Help menu do link out to this web site. If you have files on a fast
-(at least 1 Gb/s) network share you can access them from there through
-your operating system.
 
 * * *
 
