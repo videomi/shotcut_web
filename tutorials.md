@@ -20,7 +20,7 @@ src="//www.youtube.com/embed/FMIE2xpATNY" frameborder="0"
 allowfullscreen="1"></iframe>
 
 
-Cross-fades and Transitions
+Transitions and Cross-fades
 ---------------------------
 
 <iframe width="640" height="360"
@@ -28,33 +28,73 @@ src="//www.youtube.com/embed/NUDCcq6WcJU" frameborder="0"
 allowfullscreen="1"></iframe>
 
 
-Track Filters
--------------
+Filter Effects and Fades
+------------------------
 
 <iframe width="640" height="360"
-src="//www.youtube.com/embed/siyPPFCQzFY" frameborder="0"
+src="//www.youtube.com/embed/i3XREONw9hw" frameborder="0"
+allowfullscreen="1"></iframe>
+
+
+Improve Preview Performance with Proxy Editing
+----------------------------------------------
+
+<iframe width="640" height="360"
+src="//www.youtube.com/embed/PzHutxve2T0" frameborder="0"
 allowfullscreen="1"></iframe>
 
 
 Keyframes
-----------------
+---------
 
 <iframe width="640" height="360"
-src="//www.youtube.com/embed/j9xb1Rzn2Sg" frameborder="0"
+src="//www.youtube.com/embed/Mc--QszFCFU" frameborder="0"
+allowfullscreen="1"></iframe>
+
+
+Adding Text
+-----------
+
+<iframe width="640" height="360"
+src="//www.youtube.com/embed/sfsy3TfV-Gw" frameborder="0"
+allowfullscreen="1"></iframe>
+
+
+Picture-in-Picture &amp; Split-Screen
+-------------------------------------
+
+<iframe width="640" height="360"
+src="//www.youtube.com/embed/fL4yjMVZlfg" frameborder="0"
+allowfullscreen="1"></iframe>
+
+
+Record a Voice-Over
+-------------------
+
+<iframe width="640" height="360"
+src="//www.youtube.com/embed/SkLgpx2E6CI" frameborder="0"
+allowfullscreen="1"></iframe>
+
+
+Exporting
+---------
+
+<iframe width="640" height="360"
+src="//www.youtube.com/embed/DK9FBsN73VY" frameborder="0"
 allowfullscreen="1"></iframe>
 
 
 Other Video Tutorials
 ---------------------
 - [Mini Tutorial Videos](minitutorials/)
-- [Film Restoration](https://youtu.be/r3gCM6QNzFY)
-- [Mute and Detach Audio](https://youtu.be/ai1Dp7lGM9A)
-- [Normalize and Stabilize Filters](https://youtu.be/C3v-jYJJfuM)
-- [Recording a Voice Over](https://youtu.be/lGxOGwNWF7U)
-- [Timer Filter](https://youtu.be/m4nSFkyLvJU)
 - [Rotating Video](https://youtu.be/AVOh_5-TdbA)
+- [Making a Template and Using Track Filters](https://youtu.be/siyPPFCQzFY)
+- [Film Restoration](https://youtu.be/r3gCM6QNzFY)
+- [Normalize and Stabilize Filters](https://youtu.be/C3v-jYJJfuM)
+- [Timer Filter](https://youtu.be/m4nSFkyLvJU)
 - [Simple Sub-clip Export](https://youtu.be/I9uJYO0HmYY)
 - [Official Shotcut YouTube channel](https://www.youtube.com/channel/UCjuv-Js1znyvErPy9vZf37A)
+- [YouTube Playlist of Advanced Transition Techniques](https://www.youtube.com/playlist?list=PLpO3ttBDkV5ttZrLKQDFRo0UAmS5fH0uW)
 
 See Also
 --------
