@@ -47,6 +47,8 @@ information.
 - Improved the performance of the **Fade In Video**, **Fade Out Video**, and **Brightness** filters on multicore systems.
 - Improved image quality when using **Size, Position & Rotate**.
 - Changed **Export > Codec > Dual pass** to not write a video file for the first pass.
+- Removed "Shotcut" as default text in **Text: Rich** filter.
+- Reduced memory usage in **Export** with many clips.
 - Fixed time rulers hiding on vertical scroll in **Timeline** and **Keyframes** (regression in v20.09).
 - Fixed **Crop: Rectangle > Corner radius** not exactly the same as in version 20.07 (regression in v20.09).
 - Fixed a compatibility issue for some systems by downgrading FFmpeg to version 4.2 (regression in v20.09).
@@ -60,6 +62,11 @@ information.
 - Fixed dropping file with comma in its name to **Timeline**.
 - Fixed delete keyframe button in **Keyframes** may remove keyframe for another parameter.
 - Fixed convert dialog for variable frame rate never appears if dragged directly to non-empty playlist or timeline.
+- Fixed a crash dragging multiple clips to **Timeline** if some are variable frame rate.
+- Fixed the **Blur: Pad** filter appearing correctly if used that option in slideshow generator.
+- Fixed zooming in near end of timeline scrolls timeline backward.
+- Fixed deleting all text in **Text: Rich** filter changes font to very small black.
+- Fixed editor toolbar in **Text: Rich** filter usually overlays the text by default.
 
 
 ##### Release 20.09.27
