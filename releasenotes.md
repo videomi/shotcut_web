@@ -20,8 +20,49 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
-##### Release 20.09.27
 
+##### Release 20.10.31
+
+- Removed QtWebKit and WebVfx (HTML5 components) from all builds.
+- Upgraded Qt to version 5.15.1 on Linux and Windows and version 5.12.9 on macOS.
+  As a result, the minimum macOS version is 10.12.
+- Updated Linux build to a Ubuntu 18.04 base (glibc version 2.27).
+- Completely new Windows build based on msys2, and discontinued the 32-bit build.
+- Migrated Windows and Linux builds to GitHub Actions, and automated builds of AppImage and snap for Linux.
+- Added **Invert** (reverse polarity) audio filter.
+- Added showing the job progress in Windows taskbar button. (thanks @lolametro!)
+- Added converting **Text: HTML** filters to **Text: Rich**.
+  This does not retain full fidelity, but hopefully it retains the text.
+- Added using the H.264 hardware encoder if HEVC not available when **Proxy > Use Hardware Encoder** is on.
+- Added **Scroll to Playhead on Zoom** option to **Timeline** menu.
+- Added ability to change position in **Size, Position & Rotate** by dragging anywhere inside the rectangle while also holding <kbd>Shift</kbd>.
+- Added rectangle VUI help tips for various video filters.
+- Added **Size, Position & Rotate > Zoom** now works in any **Size mode**!
+- Added **Scroll to Playhead on Zoom** to **Keyframes** menu!
+- Added keyboard shortcut for **Center the Playhead**: Ctrl+Shift+P.
+- Added keyboard shortcut for **Scroll to Playhead on Zoom**: Ctrl+Alt+P.
+- Added keyboard shortcut for rich text editor **Paste Text Only**:  Ctr+Shift+V
+- Added common preset resolutions and aspect ratios to the **Add Custom Video Mode** dialog.
+- Improved **Text: Rich** filter export on Windows and Linux when display scale is fractional (e.g. 150%).
+- Improved the performance of the **Fade In Video**, **Fade Out Video**, and **Brightness** filters on multicore systems.
+- Improved image quality when using **Size, Position & Rotate**.
+- Changed **Export > Codec > Dual pass** to not write a video file for the first pass.
+- Fixed time rulers hiding on vertical scroll in **Timeline** and **Keyframes** (regression in v20.09).
+- Fixed **Crop: Rectangle > Corner radius** not exactly the same as in version 20.07 (regression in v20.09).
+- Fixed a compatibility issue for some systems by downgrading FFmpeg to version 4.2 (regression in v20.09).
+- Improved the **Timeline** scrolling speed and smoothness (regression in v20.09).
+- Fixed **Blur: Pad incorrect** after splitting clip.
+- Fixed moving the cursor in filter fields may move playhead.
+- Fixed **Filters** allowed pasting filters when nothing selected.
+- Fixed saving projects to Dropbox on Windows leaves temporary files.
+- Fixed saving the current stock layout when switching to a custom layout.
+- Fixed progress dialog appears over the convert variable frame rate dialog when dragging to **Timeline**.
+- Fixed dropping file with comma in its name to **Timeline**.
+- Fixed delete keyframe button in **Keyframes** may remove keyframe for another parameter.
+- Fixed convert dialog for variable frame rate never appears if dragged directly to non-empty playlist or timeline.
+
+
+##### Release 20.09.27
 
 - Fixed file dialogs in various filters not openening on macOS (regression in v20.09.13).
 - Fixed setting color alpha (opacity) to 0 in **Open Other > Color** and **Open Other > Text** (regression in v20.09.13).

@@ -14,10 +14,11 @@ title: How To Articles
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-[User Manual](https://forum.shotcut.org/c/docs/docs-english/) (under construction)
+- #### [User Manual](https://forum.shotcut.org/c/docs/docs-english/)
+- #### [Tutorials in the Forum](https://forum.shotcut.org/c/tutorial/5)
 
 {% for page in sorted_pages %}
   {% if page.category == 'help' %}
-[{{ page.title }}]({{ site.baseurl }}{{ page.url }})
+- #### [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
   {% endif %}
 {% endfor %}

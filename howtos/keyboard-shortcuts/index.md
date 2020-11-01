@@ -70,8 +70,8 @@ category: help
 | Backward Two Second   | Shift+Page Up                        | shift+page up
 | Forward 5 Seconds     | Ctrl+Page Down                       | command+page down
 | Backward 5 Seconds    | Ctrl+Page Up                         | command+Page up
-| Forward 10 Seconds    | Shift+Ctrl+Page Down                 | shift+command+page down
-| Backward 10 Seconds   | Shift+Ctrl+Page Up                   | shift+command+page up
+| Forward 10 Seconds    | Ctrl+Shift+Page Down                 | shift+command+page down
+| Backward 10 Seconds   | Ctrl+Shift+Page Up                   | shift+command+page up
 | Seek Start            | Home                                 | home
 | Seek End              | End                                  | end
 | Seek Next Edit        | Alt+Right                            | option+right
@@ -128,7 +128,9 @@ category: help
 | Toggle Ripple mode and all tracks | Ctrl+Shift+R             | shift+command+R
 | Insert Track          | Ctrl+Alt+I                           | option+command+I
 | Remove Track          | Ctrl+Alt+U                           | option+command+U
-| Copy Timeline to Source  | Ctrl+Alt+C                        | option+command+C
+| Copy Timeline to Source    | Ctrl+Alt+C                      | option+command+C
+| Center the Playhead        | Ctrl+Shift+P                    | shift+command+P
+| Scroll to Playhead on Zoom | Ctrl+Alt+P                      | option+command+P
 {:.withborders}
 
 ## Playlist
@@ -140,11 +142,13 @@ category: help
 | Delete                | Shift+X                              | shift+X
 | Insert                | Shift+V                              | shift+V
 | Update                | Shift+B                              | shift+B
-| Move Up               | Ctrl+Up                              | command+up
-| Move Down             | Ctrl+Down                            | command+down
-| Select All            | Ctrl+Shift+A                         | command+shift+A
+| Move Up               | Ctrl+Shift+Up                        | shift+command+up
+| Move Down             | Ctrl+Shift+Down                      | shift+command+down
+| Open Next             | Alt+Down                             | option+down
+| Open Previous         | Alt+Up                               | option+up
+| Select All            | Ctrl+Shift+A                         | shift+command+A
 | Select Item N         | 1 2 3 4 5 6 7 8 9                    | 1 2 3 4 5 6 7 8 9
-| Selection None        | Ctrl+Shift+D                         | command+shift+D
+| Selection None        | Ctrl+Shift+D                         | shift+command+D
 | Open Selected         | Ctrl+Enter or double-click           | command+return or double-click
 | Goto/Seek             | Shift+Enter or Shift+double-click    | shift+return or shift+double-click
 {:.withborders}
@@ -185,6 +189,7 @@ category: help
 | Cut                          | Ctrl+X                        | command+X
 | Copy                         | Ctrl+C                        | command+C
 | Paste                        | Ctrl+V                        | command+V
+| Paste Text Only              | Ctrl+Shift+V                  | shift+command+V
 | Select All                   | Ctrl+A                        | command+A
 | Move cursor to the right     | Right                         | right
 | Move cursor to the left      | Left                          | left

@@ -12,9 +12,9 @@ title: Technical Notes
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-These pages are here primarily for the Shotcut developers.
+
 {% for page in sorted_pages %}
   {% if page.category == 'notes' %}
-[{{ page.title }}]({{ site.baseurl }}{{ page.url }})
+- #### [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
   {% endif %}
 {% endfor %}

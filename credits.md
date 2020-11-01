@@ -32,9 +32,6 @@ projects:
 -   [Movit](http://git.sesse.net/movit/) OpenGL Shader Language video
     processing framework under the [GPL v2
     License](http://www.gnu.org/licenses/gpl-2.0.html)
--   [WebVfx](https://github.com/mltframework/webvfx) HTML5 and QML video
-    effects framework under a [BSD
-    License](https://github.com/mltframework/webvfx/blob/master/LICENSE)
 -   [DefaultIcon](http://www.defaulticon.com/) symbolic icon collection
     under the [Creative Commons Attribution-NoDerivs
     License](http://creativecommons.org/licenses/by-nd/3.0/legalcode)
@@ -56,7 +53,7 @@ projects:
     License](http://www.gnu.org/licenses/gpl-3.0.html)
 -   [SoX](http://sox.sourceforge.net/) (libsox) under the [LGPL v2.1
     License](http://www.gnu.org/licenses/lgpl-2.1.html)
--   [Simple DirectMedia Library 1.2](http://www.libsdl.org/) under the
+-   [Simple DirectMedia Library](http://www.libsdl.org/) under the
     [LGPL v2.1 License](http://www.gnu.org/licenses/lgpl-2.1.html)
 -   [libxml2](http://www.xmlsoft.org/) under the [MIT
     License](http://opensource.org/licenses/mit-license.php)
@@ -84,8 +81,7 @@ projects:
     License](http://www.gnu.org/licenses/gpl-3.0.html) with the [GCC
     Runtime Library
     Exception](http://gcc.gnu.org/onlinedocs/libstdc++/manual/license.html)
--   [MXE](http://mxe.cc/) M cross environment to build cross-compilers
-    and libraries for Windows
+-   [msys2](https://www.msys2.org/) Software Distribution and Building Platform for Windows
 -   [libebur](https://github.com/jiixyj/libebur128) under the [MIT
     License](http://opensource.org/licenses/mit-license.php)
 -   [vid.stab](https://github.com/georgmartius/vid.stab) (libvidstab)
@@ -112,3 +108,4 @@ exception](https://doc.qt.io/qt-5.9/qtnetwork-index.html#licenses-and-attributio
     License](http://www.gnu.org/licenses/gpl-2.0.html)
 -   [Spatial Media](https://github.com/VarolOkan/spatial-media), a C++ port of [Google's Spatial
     Media](https://github.com/google/spatial-media), under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0)
+- 

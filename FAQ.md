@@ -19,7 +19,10 @@ category: help
 * Will be replaced with the ToC
 {:toc}
 
-**See Also: [How To Articles](../howtos/)**
+See Also
+--------
+- [Posts in the Forum tagged #FAQ](https://forum.shotcut.org/search?q=tags%3AFAQ)
+- [How To Articles](../howtos/)
 
 ## What are the minimum system requirements?
 
