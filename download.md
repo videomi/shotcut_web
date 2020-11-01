@@ -56,8 +56,8 @@ To avoid ads and get automatic updates:<br>
 {:.win}
 | Site 1 (FossHub)     | Site 2 (GitHub)
 |-----------------------|-------------------
-| [Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-201031.exe) | [Windows installer](https://github.com/mltframework/shotcut/releases/download/v20.09.27/shotcut-win64-201031.exe)
-| [Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-201031.zip) | [Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v20.09.27/shotcut-win64-201031.zip)
+| [Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-201031.exe) | [Windows installer](https://github.com/mltframework/shotcut/releases/download/v20.10.31/shotcut-win64-201031.exe)
+| [Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-201031.zip) | [Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v20.10.31/shotcut-win64-201031.zip)
 {:.withborders}
 
 ---
@@ -70,12 +70,12 @@ To avoid ads and get automatic updates:<br>
 {:.mac}
 | Site 1 (FossHub) &nbsp; &nbsp; | Site 2 (GitHub)
 |-----------------------|-----------------------------
-| [macOS dmg](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-signed-201031.dmg) | [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v20.09.27/shotcut-macos-signed-201031.dmg)
+| [macOS dmg](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-signed-201031.dmg) | [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v20.10.31/shotcut-macos-signed-201031.dmg)
 {:.withborders}
 
 {:.mac}
 An [unsigned app bundle is available on
-GitHub](https://github.com/mltframework/shotcut/releases/download/v20.09.27/shotcut-macos-unsigned-201031.dmg) so that you
+GitHub](https://github.com/mltframework/shotcut/releases/download/v20.10.31/shotcut-macos-unsigned-201031.dmg) so that you
 can modify the build per the Free Software license agreement.
 
 ---
@@ -100,8 +100,8 @@ src='https://raw.githubusercontent.com/snapcore/snap-store-badges/master/EN/%5BE
 {:.linux}
 | Site 1 (FossHub)      | Site 2 (GitHub)
 |-----------------------|-------------------
-| [Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-201031.txz) | [Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v20.09.27/shotcut-linux-x86_64-201031.txz)  
-| [Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=Shotcut-201031-x86_64.AppImage) | [Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v20.09.27/Shotcut-201031-x86_64.AppImage)
+| [Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-201031.txz) | [Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v20.10.31/shotcut-linux-x86_64-201031.txz)  
+| [Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-201031.AppImage) | [Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v20.10.31/shotcut-linux-x86_64-201031.AppImage)
 {:.withborders}
 
 {:.linux}
@@ -127,11 +127,11 @@ the portable tar.
 ##### Other
 
 File checksums for downloads are available in
-[md5sum](https://github.com/mltframework/shotcut/releases/download/v20.09.27/md5sums.txt)
-or [sha256sum](https://github.com/mltframework/shotcut/releases/download/v20.09.27/sha256sums.txt) format.
+[md5sum](https://github.com/mltframework/shotcut/releases/download/v20.10.31/md5sums.txt)
+or [sha256sum](https://github.com/mltframework/shotcut/releases/download/v20.10.31/sha256sums.txt) format.
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v20.09.27/shotcut-src-201031.txz)
+archive](https://github.com/mltframework/shotcut/releases/download/v20.10.31/shotcut-src-201031.txz)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Older versions](https://github.com/mltframework/shotcut/releases/) are
