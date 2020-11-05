@@ -18,20 +18,12 @@ Articles
 
 -   [Our Favorite FREE Video Enhancer Software to Improve Video
 Quality](https://thesweetbits.com/best-free-video-enhancer-software/) by TheSweetBits
--   [Introducing
-    Shotcut](http://libregraphicsworld.org/blog/entry/introducing-shotcut-a-new-free-video-editor)
+-   [Introducing Shotcut](http://libregraphicsworld.org/blog/entry/introducing-shotcut-a-new-free-video-editor)
     by Alexandre Prokoudine, Libre Graphics World
 -   [Shotcut video editor gets hardware accelerated color
     grading](http://libregraphicsworld.org/blog/entry/shotcut-gets-hardware-accelerated-color-grading)
     by Alexandre Prokoudine, Libre Graphics World
--   [These Free Video Editors Can Match the Pricey Ones’
-    Features](http://observer.com/2015/08/these-free-video-editors-can-match-the-pricey-ones-features/)
-    by Brady Dale, Observer
--   [A Powerful and Free Video Editor for Linux
-    Users](http://www.softpedia.com/reviews/linux/shotcut-review-490438.shtml)
-    by Silviu Stahie, Softpedia
--   [Fast
-    Cut](http://www.linux-magazine.com/Issues/2014/159/Shotcut-Video-Editor)
+-   [Fast Cut](http://www.linux-magazine.com/Issues/2014/159/Shotcut-Video-Editor)
     by Tim Schürmann, Linux Magazine
 
 Reviews
@@ -48,17 +40,9 @@ Software Collections
 
 -   [FossHub](https://www.fosshub.com/Shotcut.html)
 -   [Wikipedia](https://en.wikipedia.org/wiki/Shotcut)
--   [Free Software Foundation
-    Directory](http://directory.fsf.org/wiki/Shotcut)
--   [MacUpdate](http://www.macupdate.com/app/mac/48634/shotcut/)
--   Softpedia:
-    [Windows](http://www.softpedia.com/get/Multimedia/Video/Video-Editors/Shotcut.shtml)
-    | [macOS](http://mac.softpedia.com/get/Multimedia/Shotcut.shtml) |
-    [Linux](http://linux.softpedia.com/get/Multimedia/Video/Shotcut-103754.shtml)
--   [KubaDownload.com](https://kubadownload.com/app/shotcut-download)
--   [LO4D.com](https://shotcut-video-editor.en.lo4d.com/windows)
+-   [Free Software Foundation Directory](http://directory.fsf.org/wiki/Shotcut)
 
-Warning: we do not officially endorse any of these organizations, and some of them may host downloads of Shotcut that are old or have been bundled with other unknown software.
+Warning: we do not officially endorse any of these organizations.
 
 <!-- Shotcut leaderboard -->
 <ins class="adsbygoogle"
