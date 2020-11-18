@@ -65,13 +65,21 @@ To avoid ads and get automatic updates:<br>
 
 {:.mac}
 ##### macOS
-<small class="mac">(64-bit macOS 10.10+)</small>
+<small class="mac">(64-bit macOS 10.12+)</small>
 
 {:.mac}
 | Site 1 (FossHub) &nbsp; &nbsp; | Site 2 (GitHub)
 |-----------------------|-----------------------------
 | [macOS dmg](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-signed-201031.dmg) | [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v20.10.31/shotcut-macos-signed-201031.dmg)
 {:.withborders}
+
+{:.mac}
+### Big Sur Users
+
+The current release is incompatible. This is fixed in the
+[version 20.11 BETA](https://github.com/mltframework/shotcut/releases/download/v20.11.14/shotcut-macos-signed-201115.dmg)
+for the release expected by the end of November.
+{:.mac}
 
 {:.mac}
 An [unsigned app bundle is available on

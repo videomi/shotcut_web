@@ -92,7 +92,7 @@ category: help
 | Close                 | Ctrl+W                               | command+W
 | Append                | A                                    | A
 | Ripple Delete         | X or Shift+Del or Shift+Backspace    | X or shift+delete
-| Lift                  | Z or Del or Backspace                | Z or delte
+| Lift                  | Z or Del or Backspace                | Z or delete
 | Insert                | V                                    | V
 | Overwrite             | B                                    | B
 | Replace               | R                                    | R

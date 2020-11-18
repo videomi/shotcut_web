@@ -35,6 +35,8 @@ GameTechSuperSham
 <iframe width="640" height="360" src="//www.youtube.com/embed/zbeuUvkn_Gcwww.youtube-nocookie.com/embed/-ZiAgwIzBGc?list=PLy7k-GJ461uvIDBD0qpEy4E5ixfSfryJW" frameborder="0" allowfullscreen="1">
 </iframe>
 
+- [techradar pro](https://www.techradar.com/reviews/shotcut)
+
 Software Collections
 ====================
 
