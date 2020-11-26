@@ -106,12 +106,14 @@ Windows registry, a bool is stored as a string: true or false.
 | dragScrub        | bool        | Timeline > Scrub while dragging (default false)
 | thumbnails       | bool        | Timeline > menu > Show Video Thumbnails
 | waveforms        | bool        | Timeline > menu > Show Audio Waveforms
-| rippleAllTracks  | bool        | Timeline > menu > Ripple All Tracks
-| snap             | bool        | Timeline > Toggle snapping
 | ripple           | bool        | Timeline > Ripple trim and drop
+| rippleAllTracks  | bool        | Timeline > menu > Ripple All Tracks
+| scrollZoom       | bool        | Timeline > menu > Scroll to Playhead on Zoom
+| snap             | bool        | Timeline > Toggle snapping
 | trackHeight      | integer     | Timeline > menu > Make Tracks Shorter/Taller
 | ***filter***
 | favorite/&lt;filterId&gt; | string | whether a filter is chosen as favorite, one of: yes or no. See all the meta.qml files in share/shotcut/qml/filters for the filter IDs.
+| askOutput        | bool        | whether to show warning dialog about adding filters to Timeline Output
 | audioInDuration  | real number | the default Fade Audio In duration in seconds
 | audioOutDuration | real number | the default Fade Audio Out duration in seconds
 | videoInDuration  | real number | the default Fade Video In duration in seconds
@@ -125,6 +127,7 @@ Windows registry, a bool is stored as a string: true or false.
 | loudness/truepeak | bool     | View > Scopes > Audio Loudness > menu > True Peak
 | ***layout***
 | layouts          | string list| the names of all of the custom saved layouts
+| mode             | integer    | which of the layout modes is selected: 0 = custom, 1 = Logging, 2 = Editing, 3 = FX, 4 = Color, 5 = Audio, 6 = Player 
 | &lt;custom layout name&gt;_geometry | binary | the size and position of the windows
 | &lt;custom layout name&gt;_state | binary | the layout of the UI panels
 {:.withborders}
