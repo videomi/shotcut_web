@@ -8,7 +8,7 @@ category: notes
 
   - [Qt Creator](https://www.qt.io/download-open-source/)
   - Qt SDK version 5.15 mingw-w64
-  - [Shotcut SDK (1.6 GB! current version 20.10.31)](https://s3.amazonaws.com/builds.us.meltytech/shotcut/shotcut-win64-sdk-201031.zip)  
+  - [Shotcut SDK (752 MB current version 20.11.26)](https://s3.amazonaws.com/builds.us.meltytech/shotcut/shotcut-win64-sdk-201126.zip)  
     Extract it to C:\Projects
 
 2. Extract the Shotcut SDK .zip file to a new folder in `C:\` named "Projects" (`C:\Projects`).
