@@ -28,7 +28,7 @@ information.
 - Fixed dropping multiple files to **Timeline** (broke in v20.10).
 - Fixed **Timeline, Keyframes, and Text: Rich** editor menus and drop-downs in all filters not showing on systems with multiple monitors (broke in v20.10).
 - Fixed drop-downs in all filters not showing the correct value when the filter is reselected (broke in v20.10).
-- Fixed appearance of **Settings > Theme > Sysytem** on Windows and macOS (broke in v20.10).
+- Fixed appearance of **Settings > Theme > System** on Windows and macOS (broke in v20.10).
 - Fixed text looks too big in Windows with display scale 150% (regression in v20.10).
 - Fixed **Size, Position & Rotate** filter when a size value becomes 0, possibly while editing the field (broke in v20.10).
 - Fixed some library dependencies not bundled in Linux (broke in v20.10).
