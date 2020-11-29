@@ -7,8 +7,8 @@ category: notes
 1. Download and install the following:
 
   - [Qt Creator](https://www.qt.io/download-open-source/)
-  - Qt SDK version 5.15 mingw-w64
-  - [Shotcut SDK (752 MB current version 20.11.26)](https://s3.amazonaws.com/builds.us.meltytech/shotcut/shotcut-win64-sdk-201126.zip)  
+  - Qt SDK version 5.15 MinGW
+  - [Shotcut SDK (759 MB current version 20.11.28)](https://s3.amazonaws.com/builds.us.meltytech/shotcut/shotcut-win64-sdk-201128.zip)  
     Extract it to C:\Projects
 
 2. Extract the Shotcut SDK .zip file to a new folder in `C:\` named "Projects" (`C:\Projects`).

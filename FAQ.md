@@ -16,11 +16,12 @@ category: help
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
 * Will be replaced with the ToC
 {:toc}
 
-See Also
---------
+**See Also**
+
 - [Posts in the Forum tagged #FAQ](https://forum.shotcut.org/search?q=tags%3AFAQ)
 - [How To Articles](../howtos/)
 

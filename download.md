@@ -24,7 +24,7 @@ to download.
 </script>
 </div>
 
-#### Current Version: 20.11.25
+#### Current Version: 20.11.28
 
 <div class="OSTEST">
   <p>
@@ -56,8 +56,8 @@ To avoid ads and get automatic updates:<br>
 {:.win}
 | Site 1 (FossHub)     | Site 2 (GitHub)
 |-----------------------|-------------------
-| [Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-201125.exe) | [Windows installer](https://github.com/mltframework/shotcut/releases/download/v20.11.25/shotcut-win64-201125.exe)
-| [Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-201125.zip) | [Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v20.11.25/shotcut-win64-201125.zip)
+| [Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-201128.exe) | [Windows installer](https://github.com/mltframework/shotcut/releases/download/v20.11.28/shotcut-win64-201128.exe)
+| [Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-201128.zip) | [Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v20.11.28/shotcut-win64-201128.zip)
 {:.withborders}
 
 ---
@@ -70,12 +70,12 @@ To avoid ads and get automatic updates:<br>
 {:.mac}
 | Site 1 (FossHub) &nbsp; &nbsp; | Site 2 (GitHub)
 |-----------------------|-----------------------------
-| [macOS dmg](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-signed-201125.dmg) | [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v20.11.25/shotcut-macos-signed-201125.dmg)
+| [macOS dmg](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-signed-201128.dmg) | [macOS dmg](https://github.com/mltframework/shotcut/releases/download/v20.11.28/shotcut-macos-signed-201128.dmg)
 {:.withborders}
 
 {:.mac}
 An [unsigned app bundle is available on
-GitHub](https://github.com/mltframework/shotcut/releases/download/v20.11.25/shotcut-macos-unsigned-201125.dmg) so that you
+GitHub](https://github.com/mltframework/shotcut/releases/download/v20.11.28/shotcut-macos-unsigned-201128.dmg) so that you
 can modify the build per the Free Software license agreement.
 
 ---
@@ -100,8 +100,8 @@ src='https://raw.githubusercontent.com/snapcore/snap-store-badges/master/EN/%5BE
 {:.linux}
 | Site 1 (FossHub)      | Site 2 (GitHub)
 |-----------------------|-------------------
-| [Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-201125.txz) | [Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v20.11.25/shotcut-linux-x86_64-201125.txz)  
-| [Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-201125.AppImage) | [Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v20.11.25/shotcut-linux-x86_64-201125.AppImage)
+| [Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-201128.txz) | [Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v20.11.28/shotcut-linux-x86_64-201128.txz)  
+| [Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-201128.AppImage) | [Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v20.11.28/shotcut-linux-x86_64-201128.AppImage)
 {:.withborders}
 
 {:.linux}
@@ -127,11 +127,11 @@ the portable tar.
 ##### Other
 
 File checksums for downloads are available in
-[md5sum](https://github.com/mltframework/shotcut/releases/download/v20.11.25/md5sums.txt)
-or [sha256sum](https://github.com/mltframework/shotcut/releases/download/v20.11.25/sha256sums.txt) format.
+[md5sum](https://github.com/mltframework/shotcut/releases/download/v20.11.28/md5sums.txt)
+or [sha256sum](https://github.com/mltframework/shotcut/releases/download/v20.11.28/sha256sums.txt) format.
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v20.11.25/shotcut-src-201125.txz)
+archive](https://github.com/mltframework/shotcut/releases/download/v20.11.28/shotcut-src-201128.txz)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Older versions](https://github.com/mltframework/shotcut/releases/) are

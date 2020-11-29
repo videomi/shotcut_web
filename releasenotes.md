@@ -20,6 +20,15 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 20.11.28
+
+- Fixed **Insert Track** creates wrong layer/composite ordering (broke in v20.11.25).
+- Fixed gradient color chooser affecting filters: Gradient, Audio Light Visualization, Audio Spectrum Visualization,
+  and Audio Waveform Visualization (broke in v20.11.25).
+- Fixed clicking Open in LUT filter on Linux Snap crashes (broke in v20.10.31).
+- Fixed VUI (on-screen controls) of a clip filter disappear when there is a filter on the track or Output (broke in v20.11.25).
+- Fixed some filter parameter controls are missing on macOS: Alpha Channel Adjust, Alpha Channel View, Chroma Key
+  Advanced, Blends Mode, Gradient, Timer (broke in v20.11.25).
 
 ##### Release 20.11.25
 
