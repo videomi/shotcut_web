@@ -11,19 +11,6 @@ unrelated to Shotcut such as browser toolbars or download managers.
 However, we can only provide that guarantee if you come to this website
 to download.
 
-<div style="background-color: #ddd; padding: 6px; text-align: center">
-<span>advertisement</span>
-<!-- Shotcut Responsive -->
-<ins class="adsbygoogle"
-    style="display:block"
-    data-ad-client="ca-pub-1305424236533187"
-    data-ad-slot="3403753557"
-    data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-
 #### Current Version: 20.11.28
 
 <div class="OSTEST">
@@ -124,6 +111,19 @@ the portable tar.
 ---
 {:.linux}
 
+<div style="background-color: #ddd; padding: 6px; text-align: center">
+<span>advertisement</span>
+<!-- Shotcut Responsive -->
+<ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-1305424236533187"
+    data-ad-slot="3403753557"
+    data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 ##### Other
 
 File checksums for downloads are available in
@@ -139,6 +139,7 @@ available for download.
 
 [Release Notes]({{ "/download/releasenotes/" | prepend: site.baseurl }})
 
+<!--
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_donations">
 <input type="hidden" name="business" value="pez4brian@yahoo.com">
@@ -150,6 +151,7 @@ available for download.
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
+-->
 
 `This program is distributed in the hope that it will be useful, but
 WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
