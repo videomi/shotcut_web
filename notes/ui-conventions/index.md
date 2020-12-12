@@ -28,8 +28,9 @@ stay in. I want to maintain style consistency.
     control-group headings.
   - Only add the ellipses on menu items that open a dialog, not
     on buttons. I find the ellipses to be ugly without really adding
-    much value, and on buttons they just make them needlessly wider. 1 I
-    removed the "spacing: 8" on rows & between columns. The QWidget
+    much value, and on buttons they just make them needlessly wider.
+
+1. I removed the "spacing: 8" on rows & between columns. The QWidget
     default spacing is 5, and the Quick default spacing is 4. Removing
     the 8 makes the QML more consistent with QWidget defaults without
     having to clutter our QML with spacing details.
