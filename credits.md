@@ -19,8 +19,12 @@ projects:
     under the [GPL v2 License](http://www.gnu.org/licenses/gpl-2.0.html)
 -   [x265](http://x265.org/) H.265/HEVC encoder under the [GPL v2
     License](http://www.gnu.org/licenses/gpl-2.0.html)
--   [WebM](http://www.webmproject.org/) VP8 encoder under a [BSD
+-   [WebM](http://www.webmproject.org/) VP8 and VP9 encoders under a [BSD
     License](http://www.webmproject.org/license/software/)
+-   [aom](https://aomedia.googlesource.com/aom/) AV1 encoder, Copyright (c) 2016, Alliance for Open Media. All rights reserved. Under a [BSD
+    License](https://aomedia.googlesource.com/aom/+/refs/heads/master/LICENSE)
+-   [dav1d](https://www.videolan.org/projects/dav1d.html) AV1 decoder, Copyright © 2018-2019, VideoLAN and dav1d authors. Under a [BSD
+    License](https://code.videolan.org/videolan/dav1d/-/blob/master/COPYING)
 -   [LAME](http://lame.sourceforge.net/) MP3 encoder under the [LGPL
     v2.1 License](http://www.gnu.org/licenses/lgpl-2.1.html)
 -   [Frei0r](http://www.dyne.org/software/frei0r/) video plugins under
@@ -108,4 +112,3 @@ exception](https://doc.qt.io/qt-5.9/qtnetwork-index.html#licenses-and-attributio
     License](http://www.gnu.org/licenses/gpl-2.0.html)
 -   [Spatial Media](https://github.com/VarolOkan/spatial-media), a C++ port of [Google's Spatial
     Media](https://github.com/google/spatial-media), under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0)
-- 
