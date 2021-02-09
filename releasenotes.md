@@ -40,6 +40,7 @@ information.
 - Changed **Playlist** to not automatically start playback when add to playlist of empty project.
 - Finished converting **Timeline**, **Filters**, & **Keyframes** to Qt Quick Controls 2 API.
 - Changed keyframe interpolation **Discrete** to **Hold**.
+- Changed the default option in the **Convert to Edit-friendly** dialog to MP4 and reduce its output size (crf).
 - Improved multi-threaded performance of video track blending and video filters:
   - **Alpha Channel: View**
   - **Chroma Key: Advanced**
