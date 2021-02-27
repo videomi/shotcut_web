@@ -43,9 +43,9 @@ information.
 - Fixed **Timeline > Merge with next clip** may move other clips on the track.
 - Fixed undo a trim in point on **Timeline** may shift other clips on the track.
 - Fixed undo after trim in point to create a 1 frame transition may delete the clip.
-- Fixed right-click in **Playlist** icons view mode on breaks multiple selection on Windows.
+- Fixed right-click in **Playlist** icons view mode breaks multiple selection on Windows.
 - Fixed **Properties > Convert** after **Timeline > Detach Audio** makes video black.
-- Fixed some keyboard shortcuts may be broken when not using English (United States) language.
+- Fixed some keyboard shortcuts may be broken when not using **Settings > Language > English (United States)**.
 - Upgraded JACK audio library on Windows to version 1.9.17.
 - Fixed possible crash on Windows due to not loading the packaged DLL over one in a system folder or in `%PATH%`.
 - Fixed a crash when selecting a missing video clip.
