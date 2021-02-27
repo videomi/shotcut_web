@@ -20,6 +20,40 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 20.02.27
+
+- Added a file naming dialog for **Export > From > Each Playlist Item > Export File**.
+- Fixed a possible crash using a PNG with alpha channel (transparency) especially with a **Size, Position & Rotate** filter (broke in version 20.06).
+- Fixed seeking video in some files particularly AVCHD (broke in v21.01).
+- Fixed changing **Properties > Video > Color Range** does not work (broke in v21.01).
+- Fixed selecting text with the mouse in various filter numeric fields (broke in v21.01).
+- Fixed difficult to enter some numbers in various filter numeric fields (broke in v21.01).
+- Fixed unable to make tracks as short as before (broke in v21.01).
+- Fixed time bar in **Timeline** &amp; **Keyframes** hidden on vertical scroll and not clickable (broke in v21.01).
+- Fixed scroll bars in **Timeline** &amp; **Keyframes** may clash with clips or keyframes making them difficult to use (regression in v21.01).
+- Fixed keyframes disappear when changing selected clips on various filters (broke in v21.01): 
+  - **Gain/Volume**
+  - **Pan**
+  - **Pitch**
+  - **Saturation**
+- Fixed appending to the timeline may change the current track.
+- Fixed **Properties > Extract sub-clip** on a file with cover art.
+- Fixed **File > Export Frame** on a clip with a **Text: Rich** filter.
+- Fixed toggle **Properties > Image sequence** may deadlock on high frame rate video mode or break playback.
+- Fixed **Timeline > Merge with next clip** may move other clips on the track.
+- Fixed undo a trim in point on **Timeline** may shift other clips on the track.
+- Fixed undo after trim in point to create a 1 frame transition may delete the clip.
+- Fixed right-click in **Playlist** icons view mode on breaks multiple selection on Windows.
+- Fixed **Properties > Convert** after **Timeline > Detach Audio** makes video black.
+- Fixed some keyboard shortcuts may be broken when not using English (United States) language.
+- Upgraded JACK audio library on Windows to version 1.9.17.
+- Fixed possible crash on Windows due to not loading the packaged DLL over one in a system folder or in `%PATH%`.
+- Fixed a crash when selecting a missing video clip.
+- Fixed unicode in **Text: Rich > Save As** followed by **Open**.
+- Added the ability to repair a near future version project file.
+- Added an error dialog when trying to open a far future version project file.
+
+
 ##### Release 20.01.29
 
 - Fixed image skewed with odd width when using certain combinations of filters and transitions (broken in v20.11).
