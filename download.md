@@ -37,7 +37,7 @@ to download.
 
 <div class="win" style='float: right; text-align: center'>
 To avoid ads and get automatic updates:<br>
-<a href='//www.microsoft.com/store/apps/9plnffl3p6lr?ocid=badge'><img src='https://assets.windowsphone.com/85864462-9c82-451e-9355-a3d5f874397a/English_get-it-from-MS_InvariantCulture_Default.png' alt='Get it from Microsoft Store' style='width: 186px; height: 68px'/></a>
+<a href='//www.microsoft.com/store/apps/9PLNFFL3P6LR?cid=storebadge&ocid=badge'><img src='https://developer.microsoft.com/store/badges/images/English_get-it-from-MS.png' alt='Get it from Microsoft Store' style='width: 284px; height: 104px;'/></a>
 </div>
 
 {:.win}
