@@ -20,6 +20,20 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 20.03.21
+
+- Fixed writing a raw flac file does not set its duration.
+- Improved sound quality with small changes in **Speed** with **Pitch Compensation** or **Pitch** audio filter
+  (broke in v20.11).
+- Fixed being able to use mouse wheel over **Timeline** and **Keyframes** zoom sliders (broke in v20.01).
+- Fixed `<tractor>` and `blank` considered missing and blocking export (broke in v21.01).
+- Added an **Ignore** button to the missing files error dialog in **Export**.
+- Fixed the **Timeline** clip audio waveform incorrect after adding transition by dragging the clip left.
+- Fixed black frames appearing in **Slideshow Generator** (broke in v20.02).
+- Fixed repairing a project file opened using a UNC path on Windows.
+- Fixed ellided file name in clip **Properties** can become the clip name.
+
+
 ##### Release 20.02.27
 
 - Added a file naming dialog for **Export > From > Each Playlist Item > Export File**.
