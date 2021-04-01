@@ -30,3 +30,7 @@ For Italian users, Diversi Tutti has created some guides:
 - [FAQ](https://diversitutti.wixsite.com/vidint/faq)
 - [Videos](https://diversitutti.wixsite.com/vidint/corso-base-di-montaggio-video)
 - [YouTube Playlist](https://www.youtube.com/playlist?list=PLualQpLgteOCmKCRjnYFOTyaoK3HsgthW)
+
+## 한국어
+
+For Korean users, 제로클릭 has created a [한국어 PDF guide](Shotcut%20한국어.pdf).
