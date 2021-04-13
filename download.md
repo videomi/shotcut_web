@@ -111,19 +111,6 @@ the portable tar.
 ---
 {:.linux}
 
-<div style="background-color: #ddd; padding: 6px; text-align: center">
-<span>advertisement</span>
-<!-- Shotcut Responsive -->
-<ins class="adsbygoogle"
-    style="display:block"
-    data-ad-client="ca-pub-1305424236533187"
-    data-ad-slot="3403753557"
-    data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-
 ##### Other
 
 File checksums for downloads are available in
