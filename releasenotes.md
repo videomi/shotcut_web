@@ -20,7 +20,7 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
-##### Release 20.03.21
+##### Release 21.03.21
 
 - Fixed writing a raw flac file does not set its duration.
 - Improved sound quality with small changes in **Speed** with **Pitch Compensation** or **Pitch** audio filter
@@ -34,7 +34,7 @@ information.
 - Fixed ellided file name in clip **Properties** can become the clip name.
 
 
-##### Release 20.02.27
+##### Release 21.02.27
 
 - Added a file naming dialog for **Export > From > Each Playlist Item > Export File**.
 - Fixed a possible crash using a PNG with alpha channel (transparency) especially with a **Size, Position & Rotate** filter (broke in version 20.06).
@@ -68,7 +68,7 @@ information.
 - Added an error dialog when trying to open a far future version project file.
 
 
-##### Release 20.01.29
+##### Release 21.01.29
 
 - Fixed image skewed with odd width when using certain combinations of filters and transitions (broken in v20.11).
 - Fixed being unable to pick transparent black in filters with color pickers (broken in v20.11).
