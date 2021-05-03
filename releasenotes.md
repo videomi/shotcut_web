@@ -20,6 +20,64 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+
+##### Release 21.05.01
+
+- Added a new filter **Time Remap** in the new **Time** category that affects both audio and video.
+- Added an Apple Silicon build.
+- Added an option to **Ignore** missing files in **Export > Export File** (blocking dialog added in v21.01).
+- Added a suggested file name to **File > Export Frame...** and remembers the last chosen format. These changes make
+  this feature more convenient.
+- Added a button in the **Keyframes** parameter track header to vertically zoom in to the minimum and maximumn values.
+- Added a **Use Sub-clip** checkbox to the **Convert to Edit-friendly** dialog, under **Advanced**. This will convert
+  only the trimmed portion of a clip plus up to 15 seconds before the in point and after the out point for a timeline
+  clip. When this is on, only the selected clip is replaced and not every clip based on the same source. This option
+  is especially convenient for use with **Time Remap** in which case it defaults to on if the clip has been trimmed.
+- Added a **Keep Advanced open** checkbox to the **Convert to Edit-friendly** dialog that remembers your choice between
+  sessions.
+- Added a status message tip about useful keyboard modifiers to use when dragging keyframes.
+- Added the display of minimum, maximum, and midpoint values to the vertical axis of curved parameters in **Keyframes**.
+- Improved the sound quality for **Properties > Pitch Compensation** when **Speed** is between 0.5 and 2.0.
+- Changed **Keyframes** when trimming a clip or filter to move, delete, or disable full keyframes.
+- Upgraded FFmpeg to version 4.3.2
+- Upgraded Rubberband (pitch) to version 1.9.1
+- Upgraded MLT (engine) to pre-release version 7.0.0
+- Improved the color accuracy of the video preview.
+- Converted all numeric text fields in filters to spinners.
+- Reduced memory in audio resampler per clip.
+- Fixed black frames in slideshow (broken in v21.02).
+- Fixed **Export Frame** dialog reappears (broken in v21.02).
+- Fixed **Opacity** filter may misbehave when using all smooth keyframes.
+- Fixed **Export > Format** = `flac` does not write a file with a duration.
+- Fixed using the mouse wheel over zoom sliders in **Timeline** and **Keyframes**.
+- Fixed an incorrect path to a file in proxy mode when the path starts with the name of a sibling folder.
+- Fixed converting non-animated **Text: HTML** to **Text: Rich**.
+- Fixed filter values do not update when moving keyframes.
+- Fixed waveform after adding a transition by drag a clip to the left.
+- Fixed showing `<tractor>` or `blank` as a missing file.
+- Fixed a possible crash on setting **Properties > Speed** higher than 23x.
+- Fixed a possible infinite loop in **Pitch** audio filter or **Properties > Pitch Compensation**.
+- Fixed disabling **Keyframes** toolbar buttons for trim and simple keyframes if they are not supported.
+- Fixed a custom export preset may not include attributes of the video mode
+- Fixed video glitches using multiple **Text: Rich** filters with **Export > Video > Parallel processing**.
+- Fixed **Undo** after using the ripple trim in shortcut (broken in v21.03).
+- Fixed applying a custom preset for the **Contrast** video filter.
+- Fixed the **Timeline** ruler may be incorrect after starting a new project in the same session.
+- Fixed some filters may get lost after **Undo** a **Split** operation.
+- Added a context menu to **Text: Simple** and all numeric spinners (broken in v21.02).
+- Fixed changing **Properties** on a timeline clip moved to another track overwrites **Playlist** items.
+- Fixed **Properties > Repeat** for an image sequence.
+- Fixed a crash changing the **Size, Position & Rotate** after applying a shake preset.
+- Fixed a possible deadlock changing **Properties > Speed** when **Video Mode** is NOT **Automatic**.
+- Fixed disabling keyboard shortcuts for disabled filter trimming and simple keyframe actions.
+- Do not let a keyframe be placed beyond the end of a clip.
+- Fixed PNG and GIF as album art in music or poster image (previously only JPEG).
+- Fixed **Detach Audio** might go to a hidden video track.
+- Fixed updating the clip name in **Playlist** and **Timeline** with its speed when changing **Properties > Speed**.
+- Fixed a rounding error in aspect ratio of a custom video mode that could cause problems on certain resolutions. 
+- Fixed showing a non-functional keyboard shortcut <kbd>X</kbd> in the context menu for a blank region of the **Timeline**.
+
+
 ##### Release 21.03.21
 
 - Fixed writing a raw flac file does not set its duration.
