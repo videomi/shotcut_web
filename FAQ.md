@@ -144,30 +144,19 @@ again to see if export goes further.
 
 ## How do I add text? Is there a titler?
 
-You must apply a filter to your clip or track. There are 3 suitable
-filters at this time: **3D Text**, **Overlay HTML**, and **Text**. If
-you just want to use a simple background, you can use an image file, or
-to use a solid color choose **File > Open Other > Color**.
+There are 2 text filters at this time: **Text: Simple** and **Text: Rich**. You can apply the text filters to a video
+clip, an image file or a whole track. You can also apply a text filter to a transparent clip to act as its own text clip
+by choosing **File > Open Other > Text** from the menu or **Open Other > Text** from the main toolbar. The default
+background color in **Open Other > Text** is transparent which as well can be changed to a solid color by clicking on
+the **Background color** button.
 
-See the [video tutorials]( {{ "/tutorials/" | prepend: site.baseurl }} ) for more information about the
-Overlay HTML filter. Shotcut includes a simply WYSIWYG (i.e. visual)
-HTML editor accessible through the **Edit** button on this filter's
-control panel.
-
-You can also create text with an external program as an image with an
-alpha channel and composite it. To composite, you add a video track to
-the Timeline to use as a layer. Make sure the **C** button in the new
-track's header is "on" to enable compositing. Finally, you open an
-image, set its Properties to adjust duration or enable an image
-sequence, add it to the new video track, and further adjust its position
-and duration as-needed. You might also want to apply the **Size &
-Position** filter to the image clip. The image file formats that support
-an alpha channel are PNG, SVG, and TGA. You can also use Quicktime
-Animation format. There are many tools that can create images with alpha
-channels for this purpose. Some of them include GIMP, Inkscape, Krita,
-Paint.NET, Photoshop, etc. For animation, consider Blender and Synfig.
-
-* * *
+You can also create text with an external program as an image with an alpha channel and composite it. To composite, you
+add a video track to the Timeline to use as a layer. Then, you open an image, set its Properties to adjust duration or
+enable an image sequence, add it to the new video track, and further adjust its position and duration as-needed. You
+might also want to apply the **Size, Position & Rotate** filter to the image clip. The image file formats that
+support an alpha channel are PNG, SVG, and TGA. You can also use Quicktime Animation format. There are many tools that
+can create images with alpha channels for this purpose. Some of them include GIMP, Inkscape, Krita, Paint.NET, etc. For
+animation, consider Blender and Synfig. * * *
 
 ## Why is seeking so slow?
 
