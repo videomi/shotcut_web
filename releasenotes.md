@@ -20,6 +20,29 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 21.05.18
+
+- Fixed a "requires newer version" dialog appears when opening a corrupt project.
+- Fixed some systems unable to load video clips by downgrading FFmpeg to version 4.2.
+- Fixed crash with **File > Open MLT XML as Clip**.
+- Fixed "INVALID" appears in export after **Copy Timeline to Source** or with old project that includes MLT XML as Clip.
+- Fixed many extra keyframes are created as video plays for any filter with on-video controls: Text: Simple, Text: Rich,
+  Timer, Audio Visualization, Size Position & Rotate, Crop: Rectangle or Cirle, Spot Remover, etc.
+- Fixed **Settings > Use JACK Audio**.
+- Changed export jobs to use `melt-7` on Linux.
+- Added changing a **Keyframes** parameter's vertical zoom range when its value is changed.
+- Fixed **Time Remap > Image mode** reverts to **Nearest** when reloading the filter.
+- Fixed being unable to enter numeric values larger than 999 in some filters.
+- Fixed **Crop: Source > Center bias** not working with media lower resolution than the video mode.
+- Fixed presets with many keyframes not loading all keyframes.
+- Fixed **Properties > Image sequence** does not turn off an image's proxy resulting in a broken sequence.
+- Fixed the initial state of **View > Full Screen** on Windows.
+- Fixed adding a custom **Export** preset does not reload correctly.
+- Fixed the **About Shotcut** window title missing shows "%1" instead of "Shotcut".
+- Added shortcut <kbd>Ctrl</kbd>+<kbd>T</kbd> to focus the timecode field below the player.
+- Added **Romanian** to **Settings > Language**.
+- Added a restart dialog to **Settings > Theme**.
+
 
 ##### Release 21.05.01
 
