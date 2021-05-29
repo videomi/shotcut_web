@@ -11,7 +11,7 @@ unrelated to Shotcut such as browser toolbars or download managers.
 However, we can only provide that guarantee if you come to this website
 to download.
 
-#### Recommeded Stable Version: 21.03.21
+#### Recommended Stable Version: 21.03.21
 
 <div class="OSTEST">
   <p>
