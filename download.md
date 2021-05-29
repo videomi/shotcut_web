@@ -11,7 +11,7 @@ unrelated to Shotcut such as browser toolbars or download managers.
 However, we can only provide that guarantee if you come to this website
 to download.
 
-#### Current Version: 21.05.18
+#### Recommeded Stable Version: 21.03.21
 
 <div class="OSTEST">
   <p>
@@ -43,8 +43,8 @@ To avoid ads and get automatic updates:<br>
 {:.win}
 | Site 1 (FossHub)     | Site 2 (GitHub)
 |-----------------------|-------------------
-| [Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-210518.exe) | [Windows installer](https://github.com/mltframework/shotcut/releases/download/v21.05.18/shotcut-win64-210518.exe)
-| [Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-210518.zip) | [Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v21.05.18/shotcut-win64-210518.zip)
+| [Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-210321.exe) | [Windows installer](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-win64-210321.exe)
+| [Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-210321.zip) | [Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-win64-210321.zip)
 {:.withborders}
 
 ---
@@ -57,13 +57,13 @@ To avoid ads and get automatic updates:<br>
 {:.mac}
 | Site 1 (FossHub) &nbsp; &nbsp; | Site 2 (GitHub)
 |-----------------------|-----------------------------
-| [**Intel macOS**](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-signed-210518.dmg) | [**Intel macOS**](https://github.com/mltframework/shotcut/releases/download/v21.05.18/shotcut-macos-signed-210518.dmg)
+| [**Intel macOS**](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-signed-210321.dmg) | [**Intel macOS**](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-macos-signed-210321.dmg)
 | [ARM64 macOS](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-ARM64-210518.dmg) | [ARM64 macOS](https://github.com/mltframework/shotcut/releases/download/v21.05.18/shotcut-macos-ARM64-210518.dmg)
 {:.withborders}
 
 {:.mac}
 An [unsigned app bundle is available on
-GitHub](https://github.com/mltframework/shotcut/releases/download/v21.05.18/shotcut-macos-unsigned-210518.dmg) so that you
+GitHub](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-macos-unsigned-210321.dmg) so that you
 can modify the build per the Free Software license agreement.
 
 ---
@@ -88,8 +88,8 @@ src='https://raw.githubusercontent.com/snapcore/snap-store-badges/master/EN/%5BE
 {:.linux}
 | Site 1 (FossHub)      | Site 2 (GitHub)
 |-----------------------|-------------------
-| [Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-210518.txz) | [Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v21.05.18/shotcut-linux-x86_64-210518.txz)  
-| [Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-210518.AppImage) | [Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v21.05.18/shotcut-linux-x86_64-210518.AppImage)
+| [Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-210321.txz) | [Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-linux-x86_64-210321.txz)  
+| [Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-210321.AppImage) | [Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-linux-x86_64-210321.AppImage)
 {:.withborders}
 
 {:.linux}
@@ -115,11 +115,11 @@ the portable tar.
 ##### Other
 
 File checksums for downloads are available in
-[md5sum](https://github.com/mltframework/shotcut/releases/download/v21.05.18/md5sums.txt)
-or [sha256sum](https://github.com/mltframework/shotcut/releases/download/v21.05.18/sha256sums.txt) format.
+[md5sum](https://github.com/mltframework/shotcut/releases/download/v21.03.21/md5sums.txt)
+or [sha256sum](https://github.com/mltframework/shotcut/releases/download/v21.03.21/sha256sums.txt) format.
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v21.05.18/shotcut-src-210518.txz)
+archive](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-src-210321.txz)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Older versions](https://github.com/mltframework/shotcut/releases/) are
