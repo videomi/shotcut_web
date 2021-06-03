@@ -524,3 +524,15 @@ background CPU cores/threads for:
 3. the engine itself (see above)
 4. sending video to OpenGL for display
 5. exporting
+
+* * *
+
+## How can I scale the GUI on my high DPI monitor?
+
+Use the QT_SCALE_FACTOR
+[command line options](https://shotcut.org/notes/command-line-options/).
+
+
+On Windows, you can also create a shortcut to shotcut.exe. Then, edit the
+shortcut and modify the target field in the shortcut to include the
+QT_SCALE_FACTOR. E.g. `C:\Program Files\Shotcut\shotcut.exe --QT_SCALE_FACTOR 2`
