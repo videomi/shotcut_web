@@ -412,11 +412,13 @@ free, open source, cross-platform subtitle editor
 [Aegisub](http://www.aegisub.org/).
 
 However, if you are just asking about the ability to put/overlay text in
-your video, use the **Text**, **3D Text**, or **Overlay HTML** filter.
+your video, use the **Text: Simple** or **Text: Rich** filter.
 Since it is a filter, that means you need something to which to apply
 it. If you just want a solid color, choose **File > Open Other >
 Color**. You can also use a picture/photograph just like a video clip by
-opening it and adding it to your playlist or timeline.
+opening it and adding it to your playlist or timeline. If you just want a
+text clip (transparent background) choose **Open Other > Text** and add it
+to your playlist or timeline.
 
 * * *
 
