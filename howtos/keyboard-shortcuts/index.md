@@ -30,6 +30,12 @@ category: help
 | Edit > Undo           | Ctrl+Z                               | command+Z
 | Edit > Redo           | Ctrl+Y / Ctrl+Shift+Z                | shift+command+Z
 | View > Fullscreen     | F11 / Ctrl+Shift+F                   | control+command+F / F11
+| View > Layout > Logging | Alt+1                              | option+1
+| View > Layout > Editing | Alt+2                              | option+2
+| View > Layout > FX      | Alt+3                              | option+3
+| View > Layout > Color   | Alt+4                              | option+4
+| View > Layout > Audio   | Alt+5                              | option+5
+| View > Layout > Player  | Alt+6                              | option+6
 | View > Audio Peak Meter | Ctrl+1                             | command+1
 | View > Properties       | Ctrl+2                             | command+2
 | View > Recent           | Ctrl+3                             | command+3
