@@ -20,6 +20,49 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 21.06
+
+- Added **Speed** parameter to the **Timer** video filter.
+- Added keyboard shortcuts to switch between the stock layouts: <kbd>Alt</kbd>+<kbd>1</kbd> through <kbd>6</kbd>.
+- Added **Import** button to **Playlist**. (Thanks, @hbtalha!)
+- Added an **Apply** button next to **Properties > Speed** to improve workflow when using mouse wheel.
+- Fixed playback may hang when playing different **Playlist** items (broke in v21.05.01).
+- Fixed **alpha** presets in **Export** (broke in v21.05.01).
+- Fixed a possible crash when changing **Settings > Preview Scaling** (broke in v21.05.01).
+- Fixed a possible crash when using **Crop: Source** and **Size, Position & Rotate** filters on the same clip (broke
+  in v21.05.01).
+- Fixed **Size, Position & Rotate** filters not reloading (broke in v21.05.01).
+- Fixed reloading **Keyframes** for a filter on **Output** (broke in v21.05.01).
+- Fixed changing **Properties > Color Range** for a clip in the **Source** player (broke in v21.05.01).
+- Fixed playhead moves to the beginning of the **Timeline** when dragging an image from **Source** (broke in v21.05.01).
+- Fixed a proxy may used instead of the original when dropping from file manager to **Timeline** (broke in v21.05.01).
+- Fixed **Fade In/Out** on **Timeline** may add filters in wrong order (broke in v21.05.01).
+- Fixed a crash trying to make thumbnail for an invalid playlist item when loading a project (broke in v21.05.01).
+- Fixed **Playlist > Play After Open** not working (broke in v21.05.01).
+- Fixed missing proxies not generated for an opened project when **Settings > Proxy > Use Proxy** turned on (broke in v21.05.01).
+- Fixed **File > Export EDL** creates empty file (broke in v21.05.01).
+- Fixed **Center bias** in **Crop: Source** filter.
+- Fixed a crash using **Mask: From File** and **Size, Position & Rotate** filters on the same color clip.
+- Fixed the **Export > H.264 High Profile** preset was producing main profile on NVIDIA.
+- Fixed a crash when using **Paste** after a **File > Close** or **File > New**.
+- Fixed a **Project name** with a slash is accepted but fails.
+- Fixed a possible crash when changing **Settings > Theme**.
+- Fixed **Mask: Simple Shape** moves when deleting all keyframes: no longer allowed to delete the last keyframe; use
+  the keyframe toggle button in the parameters area of **Filters**.
+- Fixed maintaining the image center when reset **Size, Position & Rotate > Zoom**.
+- Improved using the mouse wheel to zoom in **Size, Position & Rotate** filter.
+- Improved the range of the new **Zoom keyframe values** when keyframes are changed or removed.
+- Fixed custom **Export** preset may load with incorrect frame rate.
+- Fixed **Playlist > Replace** may replaced with timeline and appear as `<tractor>` and cause a crash if the **Project**
+  player it active.
+- Fixed inconsistent handling of keyframes when splitting a trimming a clip.
+- Fixed high CPU usage and a long wait after multiple **Stabilize** analysis jobs.
+- Fixed a crash when a **Stabilize** analysis (.stab) file fails to open.
+- Fixed a crash when **Stabilize > Accuracy** is 9 or higher.
+- Fixed remembering the last-opened folder when choosing **Properties > Video > Custom...** for a transition with video
+  filter **Mask: From File > File > Custom...**.
+
+
 ##### Release 21.05.18
 
 - Fixed a "requires newer version" dialog appears when opening a corrupt project.
