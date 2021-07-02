@@ -340,6 +340,17 @@ which includes:
 
 * * *
 
+## What is your privacy policy?
+
+The Shotcut software does not collect, store, or share any personal information.
+It does not even collect any usage activity to send to our server.
+The exception to that is the Microsoft Store version,
+and you can read the [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement).
+
+The Shotcut forum has a [privacy policy](https://forum.shotcut.org/privacy).
+
+* * *
+
 ## Where are the log, presets, database, and settings stored?
 
 Currently, the database is used to store thumbnail and waveform data,
