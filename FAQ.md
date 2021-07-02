@@ -344,8 +344,11 @@ which includes:
 
 The Shotcut software does not collect, store, or share any personal information.
 It does not even collect any usage activity to send to our server.
-The exception to that is the Microsoft Store version,
-and you can read the [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement).
+The exception to that is the Microsoft Store, and you can read the
+[Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement).
+Of course, there might be other app stores and distribution systems, as permitted
+by the license, with their own personal information collection that is not
+under our control.
 
 The Shotcut forum has a [privacy policy](https://forum.shotcut.org/privacy).
 
