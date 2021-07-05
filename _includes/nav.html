@@ -1,0 +1,25 @@
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}"></a>
+    </div>
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
+        <li {% if page.title == "News" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">NEWS</a></li>
+        <li {% if page.title == "Download" %}class="active"{% endif %}><a href="{{"/download/" | prepend: site.baseurl }}">DOWNLOAD</a></li>
+        <li {% if page.title == "Tutorial Videos" %}class="active"{% endif %}><a href="{{"/tutorials/" | prepend: site.baseurl }}">TUTORIALS</a></li>
+        <li {% if page.title == "Frequently Asked Questions" %}class="active"{% endif %}><a href="{{"/FAQ/" | prepend: site.baseurl }}">FAQ</a></li>
+        <li {% if page.title == "Full List of Features" %}class="active"{% endif %}><a href="{{"/features/" | prepend: site.baseurl }}">FEATURES</a></li>
+        <li {% if page.title == "Discussion Forum" %}class="active"{% endif %}><a href="{{"/discussionforum/" | prepend: site.baseurl }}">FORUM</a></li>
+        <li {% if page.title == "Site Map" %}class="active"{% endif %}><a href="{{"/siteindex/" | prepend: site.baseurl }}">SITEMAP</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>

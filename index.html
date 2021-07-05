@@ -1,0 +1,91 @@
+---
+layout: index
+title: Home
+permalink: /
+category: other
+---
+
+<div id="service">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-md-4">
+                <i class="fa fa-video-camera"></i>
+                <h4>Wide Format Support</h4>
+                <p>Supports hundreds of audio and video formats and codecs thanks to <a href="http://www.ffmpeg.org/general.html">FFmpeg.</a> No import required which means native editing, plus multi-format timelines, resolutions and frame-rates within a project. Frame accurate seeking supported for many video formats.</p>
+                <p><br><a href="{{ "/features/#format support" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-exchange"></i>
+                <h4>Device and Transport Options</h4>
+                <p>Blackmagic Design SDI and HDMI for input and preview monitoring. Screen, webcam and audio capture. Network stream playback. Supports resolutions up to 4k and capture from SDI, HDMI, webcam, JACK &amp; Pulse audio, IP stream, X11 screen and Windows DirectShow devices.</p>
+                 <p><br><a href="{{ "/features/#device support" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-desktop"></i>
+                <h4>Sleek, Intuitive Interface</h4>
+                <p>Multiple dockable and undockable panels, including detailed media properties, recent files with search, playlist with thumbnail view, filter panel, history view, encoding panel, jobs queue, and melted server and playlist. Also supports drag-n-drop of assets from file manager.</p>
+                <p><br><a href="{{ "/features/#interface" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
+            </div>
+        </div>
+    </div><!-- /container -->
+</div><!-- /service -->
+
+
+
+<div class="container mtb">
+    <div class="row">
+        
+        <div class="col-md-4">
+            <h4>Latest News</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['blog'] limit:9 %} 
+                <p style="line-height: 1.5em;"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            {% endfor %} 
+        </div>
+
+        <div class="col-md-4">
+            <h4>Quickstart</h4>
+            <div class="hline"></div>
+            <p>{{ site.tutorials }}<ul><li>You open files by drag-n-drop in addition to the usual menu and
+    toolbar methods.</li>
+<li>Tap J, K, L to control playback speed and direction. Tap J or L
+    repeatedly to go faster.</li>
+<li>Tap I or O to set the in and out points.</li>
+<li>Press left or right cursor keys to step frame-by-frame.</li>
+<li>Press page up or down to step one second at-a-time.</li>
+<li>Press alt+left or alt+right to jump between start, in, out, and end.</li>
+<li>Version is based on date. You can choose to update whenever you like
+    and keep multiple versions (new versions are available every two months).</li></ul></p>
+            <p><a href="{{ "/tutorials/" | prepend: site.baseurl }}" class="btn btn-theme">Video Tutorials</a></p>
+        </div>
+
+        <div class="col-md-4">
+            <h4>Search</h4>
+            <div class="hline"></div>
+            <script>
+            (function() {
+                var cx = '003207220831093949205:kynivc83vxk';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                    '//cse.google.com/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+            })();
+            </script>
+            <gcse:search></gcse:search>
+
+            <!-- Shotcut Responsive -->
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-1305424236533187"
+                data-ad-slot="3403753557"
+                data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+    </div><!-- /row -->
+</div><!-- /container -->

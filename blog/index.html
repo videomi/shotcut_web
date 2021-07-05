@@ -1,9 +1,49 @@
 ---
 layout: blog
-title: "Blog of Feeling Responsive"
-teaser: "This is the Feeling Responsive Blog Template."
-header:
-    image_fullwidth: "header-bus.jpg"
-    permalink: /blog/
+title: News
 ---
 
+<div class="container mtb">
+    <div class="row">
+
+        <!-- BLOG POSTS LIST -->
+        <div class="col-md-8">
+
+            <!-- Shotcut Responsive -->
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-1305424236533187"
+                data-ad-slot="3403753557"
+                data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+
+            {% for post in paginator.posts %}
+                <!--  Blog Post -->
+                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}</csmall></p>
+                {{ post.excerpt }}
+                <div class="hline"></div>
+                <div class="spacing"></div>
+            {% endfor %}
+
+            <!-- Pagination links -->
+            <div class="pagination">
+              {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">Previous</a>
+                &nbsp;
+              {% endif %}
+              <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+              {% if paginator.next_page %}
+                &nbsp;
+                <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">Next</a>
+              {% endif %}
+            </div>
+            
+        </div><!-- /col-md-8 -->
+
+        {% include sidebar.html %}
+
+    </div><!-- /row -->
+</div><!-- /container -->

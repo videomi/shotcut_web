@@ -1,23 +1,14 @@
----
-layout: compress
----
-<!doctype html>
-<html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
-<head>
-	{% include _head.html %}
-</head>
-<body id="top-of-page" class="{{ page.format }}">
-	{% unless page.skip_boilerplate %}
-	{% include _navigation.html %}
-	{% endunless %}
+<!DOCTYPE html>
+<html>
 
-	{% include _masthead.html %}
-	{{ content }}
+    {% include head.html %}
 
-	{% unless page.skip_boilerplate %}
-	{% include _footer.html %}
-	{% endunless %}
+    <body>
+        {% include nav_dropdown.html %}
 
-	{% include _footer_scripts.html %}
-</body>
+            {{ content }}
+
+        {% include footer.html %}
+        {% include js.html %}
+    </body>
 </html>
