@@ -102,5 +102,6 @@ See Also
 - [The Shotcut YouTube Channel](https://www.youtube.com/channel/UCjuv-Js1znyvErPy9vZf37A)
 - [Ein Video-Tutorial Serie auf
     Deutsch](https://www.youtube.com/playlist?list=PLFwM71NcKmpCyI1rXGrQVYa8tw8zuRYkp)
+- [A Full Starter Guide in Filipino language](https://www.youtube.com/watch?v=a-40yAeJVjs)
 - [Non-English Getting Started Guides]({{ "/howtos/getting-started/" | prepend: site.baseurl }})
 - [Our How To Articles]({{ "/howtos/" | prepend: site.baseurl }})
