@@ -43,8 +43,8 @@ To avoid ads and get automatic updates:<br>
 {:.win}
 | Site 1 (FossHub)     | Site 2 (GitHub)
 |-----------------------|-------------------
-| [Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-210321.exe) | [Windows installer](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-win64-210321.exe)
-| [Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-210321.zip) | [Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-win64-210321.zip)
+| [Windows installer](https://www.fosshub.com/Shotcut-old.html?dwl=shotcut-win64-210321.exe) | [Windows installer](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-win64-210321.exe)
+| [Windows portable zip](https://www.fosshub.com/Shotcut-old.html?dwl=shotcut-win64-210321.zip) | [Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-win64-210321.zip)
 {:.withborders}
 
 ---
@@ -58,7 +58,7 @@ MOST PEOPLE SHOULD GET THE **INTEL** BUILD. ARM64 IS FOR THE NEW APPLE SILICON C
 {:.mac}
 | Site 1 (FossHub) &nbsp; &nbsp; | Site 2 (GitHub)
 |-----------------------|-----------------------------
-| [**Intel** macOS](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-signed-210321.dmg) | [**Intel** macOS](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-macos-signed-210321.dmg)
+| [**Intel** macOS](https://www.fosshub.com/Shotcut-old.html?dwl=shotcut-macos-signed-210321.dmg) | [**Intel** macOS](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-macos-signed-210321.dmg)
 | [ARM64 macOS](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-ARM64-210629.dmg) | [ARM64 macOS](https://github.com/mltframework/shotcut/releases/download/v21.06.29/shotcut-macos-ARM64-210629.dmg)
 {:.withborders}
 
@@ -89,8 +89,8 @@ src='https://raw.githubusercontent.com/snapcore/snap-store-badges/master/EN/%5BE
 {:.linux}
 | Site 1 (FossHub)      | Site 2 (GitHub)
 |-----------------------|-------------------
-| [Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-210321.txz) | [Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-linux-x86_64-210321.txz)  
-| [Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-210321.AppImage) | [Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-linux-x86_64-210321.AppImage)
+| [Linux portable tar](https://www.fosshub.com/Shotcut-old.html?dwl=shotcut-linux-x86_64-210321.txz) | [Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-linux-x86_64-210321.txz)  
+| [Linux AppImage](https://www.fosshub.com/Shotcut-old.html?dwl=shotcut-linux-x86_64-210321.AppImage) | [Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v21.03.21/shotcut-linux-x86_64-210321.AppImage)
 {:.withborders}
 
 {:.linux}
