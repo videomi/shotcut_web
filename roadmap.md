@@ -17,7 +17,6 @@ category: other
 
 1.  undo/redo support for filters
 2.  support multi-selection in cut/copy/paste
-3.  use system clipboard
 4.  markers
 5.  clip and playlist tags
 6.  more convenient voice-over recording
