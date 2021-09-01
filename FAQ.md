@@ -354,14 +354,13 @@ The Shotcut forum has a [privacy policy](https://forum.shotcut.org/privacy).
 
 * * *
 
-## Where are the log, presets, database, and settings stored?
+## Where are the log, presets, cache, and settings stored?
 
-Currently, the database is used to store thumbnail and waveform data,
-but it will likely grow to include more things over time.
+Currently, the cache is used to store thumbnail and waveform data.
 
 **Windows**
 
-The log, database, and presets are stored in
+The log, cache, and presets are stored in
 %LOCALAPPDATA%\\Meltytech\\Shotcut\\. In the Explorer location bar, enter
 "%LOCALAPPDATA%" and press Enter. Then look for Meltytech\\Shotcut.
 
@@ -371,7 +370,7 @@ HKEY\_CURRENT\_USER\\Software\\Meltytech\\Shotcut\\.
 
 **Linux**
 
-The log, database, and presets are stored in
+The log, cache, and presets are stored in
 \~/.local/share/Meltytech/Shotcut/ where '\~' is your home directory, of
 course.
 
@@ -380,7 +379,7 @@ text file in INI format.
 
 **macOS**
 
-The log, database, and presets are stored in \~/Library/Application
+The log, cache, and presets are stored in \~/Library/Application
 Support/Meltytech/Shotcut/, where '\~' is your home directory, of
 course.
 
