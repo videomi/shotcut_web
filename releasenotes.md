@@ -20,6 +20,20 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 21.09.13
+
+- Fixed dragging to **Timeline** broken if there is MLT XML on the clipboard (broke v21.08.29).
+- Fixed seeking backwards after seeking to the end (broke in v21.08.29).
+- Fixed **File > Save** immediately after **File > Close** can corrupt a saved project.
+- Fixed **Add Custom Video Mode > Frames/sec** was not accepting some legitimate values.
+- Fixed encoding HEVC without hardware encoder (x265) would always output 10-bit instead of 8 (broke in v20.11.28).
+- Changed **Copy the filters** to only copy enabled filters.
+- Changed fading on the Timeline to automatically fade the opacity when it is not the bottom video track.
+- Added **360: Equirectangular to Stereographic** video filter.
+- Expire old QML cache items at startup to reduce app data footprint.
+- Improved performance of **360:** video filters.
+
+
 ##### Release 21.08.29
 
 - Added support for **WebP** export with presets for still sequence and animation.
