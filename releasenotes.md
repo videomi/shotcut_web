@@ -20,7 +20,7 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
-##### Release 21.09.13
+##### Release 21.09.20
 
 - Fixed dragging to **Timeline** broken if there is MLT XML on the clipboard (broke v21.08.29).
 - Fixed seeking backwards after seeking to the end (broke in v21.08.29).
@@ -32,7 +32,7 @@ information.
 - Added **360: Equirectangular to Stereographic** video filter.
 - Expire old QML cache items at startup to reduce app data footprint.
 - Improved performance of **360:** video filters.
-
+- Added direct support for GoPro `.LRV` files as proxy videos. These must be in the same folder as the corresponding MP4 file and proxy mode enabled.
 
 ##### Release 21.08.29
 
