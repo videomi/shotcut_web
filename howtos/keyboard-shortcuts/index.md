@@ -84,6 +84,7 @@ category: help
 | Seek Previous Edit    | Alt+Left                             | option+left
 | Switch Source/Program | Esc                                  | esc
 | Grab Focus            | Shift+Esc                            | shift+esc
+| Enter Timecode        | Ctrl+T                               | cmd+T
 {:.withborders}
 
 ## Timeline
