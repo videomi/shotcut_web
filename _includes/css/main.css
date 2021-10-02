@@ -127,7 +127,7 @@ a:focus {
 
 .navbar-default .navbar-nav > li > a {
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 16px;
 	padding-top: 30px;
 }
 
@@ -243,7 +243,7 @@ a:focus {
 .dropdown-menu > li > a {
 	color: #777;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 16px;
     line-height: 30px;
 }
 
@@ -446,7 +446,7 @@ a:focus {
 
 #twrap p {
 	color: {{ site.colors.secondary }};
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 30px;
 	margin: 0px -10px;
 }
@@ -541,7 +541,7 @@ a:focus {
 }
 
 csmall {
-	font-size: 12px;
+	font-size: 14px;
 	color: #b3b3b3;
 }
 
@@ -600,7 +600,7 @@ csmall {
 	
 .popular-posts li em {
 	font-family: 'Lato', sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	color: #b3b3b3
 	}
 
