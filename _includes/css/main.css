@@ -106,7 +106,7 @@ a:focus {
 	font-family: 'Noto Sans', sans-serif;
 	font-weight: 900;
 	background: url(../img/shotcut-logo2.png) no-repeat;
-  background-size: 100%;
+    background-size: 100%;
 	padding: 38px 15px;
 }
 
@@ -115,7 +115,7 @@ a:focus {
 	width: 335px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
     .navbar-header .navbar-brand {
         width: 250px;
     }
@@ -154,7 +154,7 @@ a:focus {
 }
 
 /*Change Navbar collapse break-point*/
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
     .navbar-header {
         float: none;
     }
@@ -208,7 +208,7 @@ a:focus {
 
 /*Force Collasped Navbar to show dropdowns */
 
-@media only screen and (max-width:737px) {
+@media only screen and (max-width:1200px) {
     .dropdown-menu{
         display: block;
         position: static;
@@ -621,7 +621,7 @@ a.anchor{
     visibility: hidden;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 826px) {
     #headerwrap h3, h5 {
         padding-top: 30px;
     }
@@ -632,7 +632,7 @@ a.anchor{
     }
 }
     
-@media (min-width: 768px) {
+@media (min-width: 827px) {
     .navbar-right .dropdown-menu {
         left: 0px;
     }
