@@ -15,52 +15,103 @@ category: other
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+In Progress
+-----------
+
 1.  undo/redo support for filters
-2.  support multi-selection in cut/copy/paste
-4.  markers
-5.  clip and playlist tags
-6.  more convenient voice-over recording
-7.  reorder tracks
-8.  groups in timeline
-9.  looping playback - project, selection, around
-10. Rec. 2020 wide color gamut
-21. improved support for high bit depth video
-11. HDR/SMPTE 2084
-12. better support for foreign MLT XML (e.g. Kdenlive)
-13. fullscreen playback on current/single screen
-14. audio noise reduction
-15. project media management
-16. set metadata (artist, title, etc.) in encode
-17. archive project
-18. additional editing modes/operations (slip, slide, roll)
-19. audio mixer console (one strip per track plus master)
-20. surround panning
-22. raw video processing - e.g. CinemaDNG
-23. subtitles
-24. multi-camera editing features
+1.  support multi-selection in cut/copy/paste
+1.  markers
 
-Other Tasks To Do
------------------
+More
+----
+In no particular order or estimated delivery time:
 
-- Add a reset all settings option
-- Convert producer UIs to QML
-- Add partik0l producer
-- Circle VUI control for Vignette and Crop: Circle
-- Add multi-track transitions feature
-- Add generic filter
-- Add generic transition
-- Add CMX EDL import
-- Add Kdenlive XML export
-- Add OpenTimelineIO import/export
-- Add search media type queries to Playlists
-- Rework filter browser with icon and nice description.
-- Add Parametric Equalizer audio filter
-- Add option to view timeline waveform per channel
-- Add transitions to Playlist
-- Make it easy to add 0.5 or 1 second transition on timeline.
-- Turn off VUI via user toggle
-- Add speed param to Export > Codec
-- Add option to reduce number of encode threads for Convert, Reverse, and Proxy jobs
-- Improve the appearance of audio-only clips with an icon or waveform
-- Improve the appearance of video-with-alpha clips by showing with checkered background in source player
-  
+- auto-scroll timeline by pages instead of continuously
+- add rectangle control to Mask: Simple Shape
+- add drag-move of corner pin's shape
+- export range of timeline using new range markers
+- clip and playlist tags
+- more convenient voice-over recording
+- reorder tracks
+- groups in timeline
+- looping playback - project, selection, around
+- ITU-R BT.2020 wide color gamut
+- improved support for high bit depth video
+- HDR/SMPTE 2084
+- fullscreen playback on current/single screen with on-screen controls
+- audio noise reduction
+- project media management (automatically copy or move to project folder, automatically convert)
+- set metadata (artist, title, etc.) in encode
+- archive project
+- additional editing modes/operations (slip, slide, roll)
+- audio mixer console (one strip per track plus master)
+- surround panning
+- raw video processing - e.g. CinemaDNG
+- subtitles
+- multi-camera editing features
+- all a reset for all settings
+- convert producer UIs to QML
+- add partik0l producer
+- circle VUI control for Vignette and Crop: Circle
+- multi-track transitions feature
+- generic filter (MLT service name and table of parameters)
+- generic transition
+- add CMX EDL import
+- add Kdenlive XML export
+- add OpenTimelineIO import/export
+- add search media type queries to Playlists
+- rework Filters chooser with icon and nice description
+- add keywords, description, and presets to Filters search
+- add Parametric Equalizer audio filter
+- add Mask: Rotoscope video filter
+- add motion tracking via OpenCV
+- add option to view timeline waveform per channel
+- add transitions to Playlist
+- make it easy to add 0.5 or 1 second transition on timeline
+- add VUI toggle
+- add speed param to Export > Codec
+- add option to reduce number of encode threads for Convert, Reverse, and Proxy jobs
+- improve the appearance of audio-only clips with an icon or waveform
+- improve the appearance of video-with-alpha clips by showing with checkered background in source player
+- editable keyboard shortcuts
+- support Glaxnimate animation file
+- integration for external editor (e.g. Audacity, Glaxnimate, Inkscape, etc. via configurable launcher and file watcher)
+- tile-based accellerated image processing system via [SYCL](https://www.khronos.org/api/index_2017/sycl)
+- linear color processing, possibly through OpenColorIO
+- support for Qt 6 with direct support for Direct3D, Meta, and Vulkan
+- hardware accellerated decoding
+- background removal
+- action search
+- universal search
+- read Kyno XML for name, comments, tags
+- simple screen capture through libobs
+- move generators from Open Other to submenu in New, leave network and devices in Open Other
+- add a base VUI that adds indicators for in and out points and a toolbar to invoke filters:
+  Text, Size/Position/Rotate, Crop, Color, Chroma Key: Simple
+- improved support for nested projects
+- integrated file browser and manager
+- multi-select support for Properties
+- multi-select support for Filters
+- option to include intermediate thumbnails in timeline
+- ability to set the poster frame for a clip
+- synchronize audio and video with matching audio track
+- add Recent and Most Used tabs to Filters chooser
+- typewriter effect for Text: Simple and Text: Rich
+- more columns and sorting in Playlist
+- clip markers or flags
+- turn off all effects switch
+- data-driven graphics such as telemetry, especially with GPX or GPMF (GoPro)
+- aspect ratio lock for VUI rectangle control - e.g. when used with Crop: Rectangle
+- configurable time format with a non-timecode default
+- motion blur for motion-animated things like Text and Size/Position/Rotate
+- 2.7K and 8K Video Modes
+- reorganize Video Modes UI
+- outline for Text: Rich
+- shadow for Text: Simple and Text: Rich
+- face detection
+- curves UI for color
+- convert icons to SVG
+- easing functions for keyframes
+- context-sensitive online help
+
+See also the [Suggestion category in the Forum](https://forum.shotcut.org/c/suggestion/7).
