@@ -43,8 +43,8 @@ To avoid ads and get automatic updates:<br>
 {:.win}
 | Site 1 (FossHub)     | Site 2 (GitHub)
 |-----------------------|-------------------
-| [Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-210920.exe) | [Windows installer](https://github.com/mltframework/shotcut/releases/download/v21.09.20/shotcut-win64-210920.exe)
-| [Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-210920.zip) | [Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v21.09.20/shotcut-win64-210920.zip)
+| [Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-210922.exe) | [Windows installer](https://github.com/mltframework/shotcut/releases/download/v21.09.20/shotcut-win64-210922.exe)
+| [Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-210922.zip) | [Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v21.09.20/shotcut-win64-210922.zip)
 {:.withborders}
 
 ---
