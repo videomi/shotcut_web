@@ -11,7 +11,13 @@ unrelated to Shotcut such as browser toolbars or download managers.
 However, we can only provide that guarantee if you come to this website
 to download.
 
+#### Recommended Stable Version: 21.09.22
+{:.win}
 #### Recommended Stable Version: 21.09.20
+{:.mac}
+#### Recommended Stable Version: 21.09.20
+{:.linux}
+
 
 <div class="OSTEST">
   <p>
