@@ -19,8 +19,6 @@ In Progress
 -----------
 
 1.  undo/redo support for filters
-1.  support multi-selection in cut/copy/paste
-1.  markers
 
 More
 ----

@@ -69,7 +69,8 @@ Windows registry, a bool is stored as a string: true or false.
 | projectsFolder   | string      | the file system path in which project folders are created
 | undoLimit        | integer     | the maximum number of undo commands in View > History (default 1000)
 | exportFrameSuffix | string     | the last used format for File > Export Frame (default `.png`)
-| convertAdvanced  | bool        | whether to keep the Advanced section of the Convert dialog open (Default false)
+| convertAdvanced  | bool        | whether to keep the Advanced section of the Convert dialog open (default false)
+| markerColor      | string      | the color to use for a new marker (default green)
 | ***proxy***
 | enabled          | bool        | for Settings > Proxy > Use Proxy (default false)
 | folder           | string      | for Settings > Proxy > Storage > Set.... (default a sub-folder "proxies" of the App Data Directory)

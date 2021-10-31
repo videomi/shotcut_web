@@ -20,6 +20,39 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+
+##### Release 21.10.31
+
+- Fixed export to MP4 or MOV may not give constant frame rate (broke in v21.09.20).
+- Fixed **Properties > Speed** with GoPro `.LRV` proxy file (broke in v21.09.20).
+- Fixed **Export > Reset** did not deselect a preset.
+- Changed <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd> in **Text: Simple** to paste.
+- Changed the color of an alert vs. the proxy/preview-scaling status messages.
+- Increased the time for some messages, and added the ability to click a message to dismiss it.
+- Upgraded FFmpeg to version 4.4.1.
+- Added help message boxes to the **Mask: Simple Shape**, **Mask: From File**, and **Text: Rich** filters.
+- Added **Properties > Comments** for color clips.
+- Added a **Mask: Chroma Key** filter for convenience, for example secondary color correction.
+- Added support for multiple selected clips to the timeline **Cut**, **Copy**, **Paste**, **Overwrite**, and **Append**
+  operations.  
+  **Copy** exclusively uses the system clipboard in this mode and does not show in the **Source** player.
+- Added **Markers** to the **Timeline**!  
+  - Click toolbar button or press <kbd>M</kbd> the first time to add a marker at the playhead (current position) with no dialog.
+  - Markers appear in the time ruler/track/row at the top of the **Timeline**.
+  - A marker shows a tool tip with its name and time when you hover the mouse over it.
+  - Click a marker to seek to it.
+  - Click toolbar button or press <kbd>M</kbd> when the playhead is on the exact start time of a marker to open the **Edit** dialog where you can change the name, color, start, and end times.
+  - A color change is remembered for all new markers until changed.
+  - Right-click a marker to open its context menu to **Edit** or **Delete** a marker.
+  - Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>M</kbd> when the playhead is on the exact start time of a marker to **Delete** it.
+  - Drag a marker to move it.
+  - <kbd>Ctrl</kbd>+drag (<kbd>command</kbd> on macOS) a marker to changes its duration (a marker with a duration longer than one
+    frame is also called a **Range**).
+  - **Export > From** lists all **Range**s.
+  - Markers are saved to the project file and reloaded with the project XML in a `<properties name="shotcut:markers">` element.
+  - Marker operations support **Undo** and **Redo**.
+
+
 ##### Release 21.09.20
 
 - Fixed dragging to **Timeline** broken if there is MLT XML on the clipboard (broke v21.08.29).

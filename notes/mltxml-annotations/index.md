@@ -13,6 +13,7 @@ Also, currently it needs many of these to properly map MLT objects into the Shot
 | tractor | shotcut:virtual | /mlt/tractor/property[@name = 'shotcut:virtual'] | Set to 1 to force Shotcut to load this XML as a virtual clip. |
 | tractor | shotcut:trackHeight | /mlt/tractor/property[@name = 'shotcut:trackHeight'] | Stores the track height in pixel units. |
 | tractor | shotcut:scaleFactor | /mlt/tractor/property[@name = 'shotcut:scaleFactor'] | Stores the timeline zoom level as a real number. |
+| tractor | shotcut:markers | /mlt/tractor/property[@name = 'shotcut:markers'] | Stores the timeline markers using a child `properties` element. |
 | playlist | shotcut:name | //playlist/property[@name = 'shotcut:name'] | The name of the track in the multitrack timeline. |
 | playlist | shotcut:audio | //playlist/property[@name = 'shotcut:audio'] | Set to 1 to indicate this is an audio-only track. |
 | playlist | shotcut:video | //playlist/property[@name = 'shotcut:video'] | Set to 1 to indicate this is an audio/video track. |
