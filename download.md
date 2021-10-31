@@ -60,7 +60,7 @@ MOST PEOPLE SHOULD GET THE **INTEL** BUILD. ARM64 IS FOR THE NEW APPLE SILICON M
 | Site 1 (FossHub) &nbsp; &nbsp; | Site 2 (GitHub)
 |-----------------------|-----------------------------
 | [**Intel** macOS](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-211031.dmg) | [**Intel** macOS](https://github.com/mltframework/shotcut/releases/download/v21.10.31/shotcut-macos-211031.dmg)
-| [ARM64 macOS](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-ARM64-210930.dmg) | [ARM64 macOS](https://github.com/mltframework/shotcut/releases/download/v21.10.31/shotcut-macos-ARM64-210930.dmg)
+| [ARM64 macOS](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-ARM64-211031.dmg) | [ARM64 macOS](https://github.com/mltframework/shotcut/releases/download/v21.10.31/shotcut-macos-ARM64-211031.dmg)
 {:.withborders}
 
 {:.mac}
