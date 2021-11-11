@@ -108,6 +108,8 @@ category: help
 | Ripple trim clip in   | Shift+I                              | shift+I
 | Trim clip out         | O                                    | O
 | Ripple trim clip out  | Shift+O                              | shift+O
+| Add/Edit Marker       | M                                    | M
+| Delete Marker         | Ctrl+Shift+M                         | shift+control+M
 | Select Track Below    | Down                                 | down
 | Select Track Above    | Up                                   | up
 | Zoom In               | =                                    | =
@@ -226,6 +228,8 @@ position of the mouse cursor without clicking and dragging.
 - Press and hold <kbd>Shift</kbd>+<kbd>Alt</kbd> to **skim** - scrub/seek using the horizontal
   position of the mouse cursor without clicking and dragging.
 - Double-click a fade in/out control (circle) to toggle it between one second and none.
+- Hold <kbd>Ctrl</kbd> (<kbd>command</kbd> on macOS) while dragging one side of a marker to
+  change its duration.
 
 ### Multiple Selection in Playlist and Timeline
 
