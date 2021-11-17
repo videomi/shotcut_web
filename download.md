@@ -52,7 +52,7 @@ To avoid ads and get automatic updates:<br>
 
 {:.mac}
 ##### macOS
-<small>(64-bit macOS 10.12+)</small>
+<small>(64-bit macOS 10.12+)</small>  
 MOST PEOPLE SHOULD GET THE **INTEL** BUILD. ARM64 IS FOR THE NEW APPLE SILICON M1 CHIPS.
 {:.mac}
 

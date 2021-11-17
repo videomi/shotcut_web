@@ -18,7 +18,11 @@ category: other
 In Progress
 -----------
 
-1.  undo/redo support for filters
+2. Markers panel
+3. Seek previous/next marker
+4. keyframes for FFmpeg-based filters such as Hue/Lightness/Saturation
+5. export markers as YouTube chapters
+6. undo/redo support for filters
 
 More
 ----
@@ -27,12 +31,14 @@ In no particular order or estimated delivery time:
 - auto-scroll timeline by pages instead of continuously
 - add rectangle control to Mask: Simple Shape
 - add drag-move of corner pin's shape
-- export range of timeline using new range markers
 - clip and playlist tags
 - more convenient voice-over recording
 - reorder tracks
 - groups in timeline
 - looping playback - project, selection, around
+- open HEIC images
+- open AVIF images
+- open WebP images and animations
 - ITU-R BT.2020 wide color gamut
 - improved support for high bit depth video
 - HDR/SMPTE 2084
