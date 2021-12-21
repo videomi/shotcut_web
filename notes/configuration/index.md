@@ -70,7 +70,15 @@ Windows registry, a bool is stored as a string: true or false.
 | undoLimit        | integer     | the maximum number of undo commands in View > History (default 1000)
 | exportFrameSuffix | string     | the last used format for File > Export Frame (default `.png`)
 | convertAdvanced  | bool        | whether to keep the Advanced section of the Convert dialog open (default false)
-| markerColor      | string      | the color to use for a new marker (default green)
+| ***markers***
+| color            | string      | the color to use for a new marker (default green)
+| columns/color    | bool        | whether to show the Color column (default true)
+| columns/text     | bool        | whether to show the Text column (default true)
+| columns/start    | bool        | whether to show the Start column (default true)
+| columns/end      | bool        | whether to show the End column (default true)
+| columns/duration | bool        | whether to show the Duration column (default true)
+| sortColumn       | integer     | the column on which to sort (default -1, unsorted or natural order)
+| sortOrder        | integer     | whether to sort ascending (0, default) or descending (1)
 | ***proxy***
 | enabled          | bool        | for Settings > Proxy > Use Proxy (default false)
 | folder           | string      | for Settings > Proxy > Storage > Set.... (default a sub-folder "proxies" of the App Data Directory)
@@ -111,6 +119,7 @@ Windows registry, a bool is stored as a string: true or false.
 | waveforms        | bool        | Timeline > menu > Show Audio Waveforms
 | ripple           | bool        | Timeline > Ripple trim and drop
 | rippleAllTracks  | bool        | Timeline > menu > Ripple All Tracks
+| rippleMarkers    | bool        | Timeline > toolbar > Ripple timeline markers with edits (default false)
 | scrollZoom       | bool        | Timeline > menu > Scroll to Playhead on Zoom
 | snap             | bool        | Timeline > Toggle snapping
 | trackHeight      | integer     | Timeline > menu > Make Tracks Shorter/Taller

@@ -21,6 +21,48 @@ log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
 
+##### Release 21.12.21
+
+- Fixed **Timeline > menu > Track Operations > Insert Track** breaks video track blending (broke in v21.10).
+- Fixed copy and paste multiple clips from another project can change the video mode (broke in v21.10).
+- Fixed **Open Other > Audio/Video Device** capture (broke in v21.10).
+- Fixed a crash when changing **Properties** of **Audio/Video Device**.
+- Fixed a crash in **Old Film: Projector** video filter with 360p preview scaling.
+- Fixed a possible crash in the **Mosaic** video filter when width or height is 0.
+- Fixed the output alpha channel of **Timeline** with more than one video track (thanks @andre-caldas!).
+- Fixed the **Time Remap** video distorts audio when the speed is zero and resampling.
+- Fixed color range of **LUT (3D)** video filter on transitons with full range clips.
+- Fixed a possible crash in **Audio Loudness** scope.
+- Fixed window is initially all white on Windows.
+- Fixed a small white window appears on startup on Windows.
+- Fixed delete marker keyboard shortcut may delete wrong marker.
+- Fixed unwanted keyframes appear in **Corner Pin** video filter when trimming in.
+- Fixed ugly pink video, not black background after undo a remove/ripple-delete.
+- Fixed **Export > From > Marker** may export from wrong region marker.
+- Fixed keyframes can sometimes be dragged before previous or after next.
+- Fixed double-clicking a keyframe does not delete it (broke in v20.11.28).
+- Fixed incorrect filter parameter values after the last keyframe after a **Split** operation.
+- Fixed a crash pasting from the clipboard to an empty timeline.
+- Fixed inaccurate frame rate override with many decimal places in **Properties > Convert**.
+- Fixed incorrect colors when reloading the **Audio Spectrum Visualization** filter UI.
+- Fixed being able to select the last filter when there are many **Filters** applied.
+- Removed some harmless error messages in logs.
+- Changed **Properties > Audio > Sync** to hide when it is not applicable (no video track in the clip).
+- Change the units of the **Hue** parameter in the **Hue/Lightness/Saturation** video filter to degrees.
+- Improved accuracy of bubble help when trimming in **Timeline** and **Keyframes**.
+- Improved the accuracy and snap reliability of the 10 and 20-pixel grid player overlays.
+- Improved various mouse and keyboard operations in **Timeline** and **Keyframes**.
+- Improved the VMAF speed and accuracy of the **Properties > Measure Video Quality...**.
+- Added **Properties > Rotation** for video clips.
+- Added support for keyframes to the **Hue/Lightness/Saturation** and **Chroma Hold** video filters.
+- Added **View > Markers** panel with search, seeking, and editing.
+- Added previously used colors to the marker context menu.
+- Added keyboard shortcuts <kbd>&lt;</kbd> and <kbd>&gt;</kbd> to seek between markers.
+- Added **File > Export > Markers as Chapters...**.
+- Added a file save dialog upon repairing a project file to prevent overwriting a previous repair.
+- Added a **Ripple markers with edits** button to the **Timeline** toolbar.
+
+
 ##### Release 21.10.31
 
 - Fixed export to MP4 or MOV may not give constant frame rate (broke in v21.09.20).

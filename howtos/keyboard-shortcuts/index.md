@@ -42,6 +42,7 @@ category: help
 | View > Playlist         | Ctrl+4                             | command+4
 | View > Timeline         | Ctrl+5                             | command+5
 | View > Filters          | Ctrl+6                             | command+6
+| View > Markers          | Ctrl+Shift+6                       | shift+command+6
 | View > Keyframes        | Ctrl+7                             | command+7
 | View > History          | Ctrl+8                             | command+8
 | View > Export           | Ctrl+9                             | command+9

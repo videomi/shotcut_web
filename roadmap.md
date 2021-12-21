@@ -18,11 +18,7 @@ category: other
 In Progress
 -----------
 
-2. Markers panel
-3. Seek previous/next marker
-4. keyframes for FFmpeg-based filters such as Hue/Lightness/Saturation
-5. export markers as YouTube chapters
-6. undo/redo support for filters
+1. undo/redo support for filters
 
 More
 ----
