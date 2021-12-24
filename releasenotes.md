@@ -20,6 +20,15 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 21.12.24
+
+- Fixed a bug that was found in version 21.12.21 that affected the **video blending** between two non-opaque image/video sources. 
+- Added video filter **Audio Level Visualization**.
+- Added segmented bar type of display to the **Audio Spectrum Visualization** filter.
+- Added snapping for markers - dragging clips or their edges snaps to markers and dragging markers snaps to clip edges or playhead.
+- Changed **Detach Audio** to separate the audio and video filters.
+- Fixed audio was muted after changing view layout or window size when playback speed is fast forward or rewind.
+
 
 ##### Release 21.12.21
 
