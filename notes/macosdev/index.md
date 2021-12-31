@@ -44,13 +44,13 @@ You still might need to get some dependencies from MacPorts (or Homebrew, untest
 You can use the following command to revise all of the pkg-config files to
 your installation path:
 
-`for f in Shotcut/Contents/Frameworks/lib/pkgconfig/*.pc; do sed -i .bak -e "s,/Users/ddennedy/BuildAgent/work/ef55b932ce3c3e94/shotcut/build,$HOME/Projects/Shotcut/Contents/Frameworks," -e 's,Frameworks/lib,Frameworks,' -e 's,${exec_prefix}/lib,${exec_prefix},' $f ; done`
+`for f in ~/Projects/Shotcut/Contents/Frameworks/lib/pkgconfig/*.pc; do sed -i .bak -e "s,/Users/ddennedy/shotcut-sdk/shotcut/build,$HOME/Projects/Shotcut/Contents/Frameworks," -e 's,Frameworks/lib,Frameworks,' -e 's,${exec_prefix}/lib,${exec_prefix},' $f ; done`
 
 You might want to put the following into ~/.profile or a setup script:
 
 ```
 export PATH="$HOME/Projects/Shotcut/Contents/MacOS:$PATH"
-export QTDIR="$HOME/Qt/5.8.7/clang_64"
+export QTDIR="$HOME/Qt/5.12.9/clang_64"
 export PKG_CONFIG_PATH="$HOME/Projects/Shotcut/Contents/Frameworks/lib/pkgconfig"
 export CFLAGS="-I/opt/local/include -DRELOCATABLE"
 export CXXFLAGS="$CFLAGS"
