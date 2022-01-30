@@ -70,6 +70,7 @@ Windows registry, a bool is stored as a string: true or false.
 | undoLimit        | integer     | the maximum number of undo commands in View > History (default 1000)
 | exportFrameSuffix | string     | the last used format for File > Export Frame (default `.png`)
 | convertAdvanced  | bool        | whether to keep the Advanced section of the Convert dialog open (default false)
+| jobPriority      | string      | the priority of background melt and ffmpeg jobs such as export and proxy: `low` (default) or `normal`
 | ***markers***
 | color            | string      | the color to use for a new marker (default green)
 | columns/color    | bool        | whether to show the Color column (default true)

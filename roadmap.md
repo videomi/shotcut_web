@@ -62,7 +62,6 @@ In no particular order or estimated delivery time:
 - add search media type queries to Playlists
 - rework Filters chooser with icon and nice description
 - add keywords, description, and presets to Filters search
-- add Parametric Equalizer audio filter
 - add Mask: Rotoscope video filter
 - add motion tracking via OpenCV
 - add option to view timeline waveform per channel
