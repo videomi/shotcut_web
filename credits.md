@@ -112,3 +112,4 @@ exception](https://doc.qt.io/qt-5.9/qtnetwork-index.html#licenses-and-attributio
     License](http://www.gnu.org/licenses/gpl-2.0.html)
 -   [Spatial Media](https://github.com/VarolOkan/spatial-media), a C++ port of [Google's Spatial
     Media](https://github.com/google/spatial-media), under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0)
+-   [VMAF](https://github.com/Netflix/vmaf), a visual quality measurement tool by Netflix under the [BSD-2-Clause-Patent license](https://raw.githubusercontent.com/Netflix/vmaf/master/LICENSE)
