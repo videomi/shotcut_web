@@ -18,7 +18,28 @@ category: other
 In Progress
 -----------
 
-1. undo/redo support for filters
+- reorder tracks
+- notes panel
+- voice-over recording
+
+
+Next
+----
+No estimated delivery time:
+
+- new Windows installer that registers the .mlt file name extension
+- undo/redo support for filters
+- add a reset for all settings
+- configurable time format with a non-timecode default
+- looping playback - project, selection, around
+- editable keyboard shortcuts
+- action search
+- groups in timeline
+- clip and playlist tags
+- rework Filters chooser with icon and nice description
+- add preview to transition properties
+- improve the appearance of audio-only clips with an icon or waveform
+
 
 More
 ----
@@ -27,14 +48,10 @@ In no particular order or estimated delivery time:
 - auto-scroll timeline by pages instead of continuously
 - add rectangle control to Mask: Simple Shape
 - add drag-move of corner pin's shape
-- clip and playlist tags
-- more convenient voice-over recording
-- reorder tracks
-- groups in timeline
-- looping playback - project, selection, around
 - open HEIC images
 - open AVIF images
-- open WebP images and animations
+- open WebP animations (glaxnimate?)
+- improved support for full color range video
 - ITU-R BT.2020 wide color gamut
 - improved support for high bit depth video
 - HDR/SMPTE 2084
@@ -49,7 +66,6 @@ In no particular order or estimated delivery time:
 - raw video processing - e.g. CinemaDNG
 - subtitles
 - multi-camera editing features
-- all a reset for all settings
 - convert producer UIs to QML
 - add partik0l producer
 - circle VUI control for Vignette and Crop: Circle
@@ -60,7 +76,6 @@ In no particular order or estimated delivery time:
 - add Kdenlive XML export
 - add OpenTimelineIO import/export
 - add search media type queries to Playlists
-- rework Filters chooser with icon and nice description
 - add keywords, description, and presets to Filters search
 - add Mask: Rotoscope video filter
 - add motion tracking via OpenCV
@@ -70,9 +85,7 @@ In no particular order or estimated delivery time:
 - add VUI toggle
 - add speed param to Export > Codec
 - add option to reduce number of encode threads for Convert, Reverse, and Proxy jobs
-- improve the appearance of audio-only clips with an icon or waveform
 - improve the appearance of video-with-alpha clips by showing with checkered background in source player
-- editable keyboard shortcuts
 - support Glaxnimate animation file
 - integration for external editor (e.g. Audacity, Glaxnimate, Inkscape, etc. via configurable launcher and file watcher)
 - tile-based accellerated image processing system via [SYCL](https://www.khronos.org/api/index_2017/sycl)
@@ -80,7 +93,6 @@ In no particular order or estimated delivery time:
 - support for Qt 6 with direct support for Direct3D, Meta, and Vulkan
 - hardware accellerated decoding
 - background removal
-- action search
 - universal search
 - read Kyno XML for name, comments, tags
 - simple screen capture through libobs
@@ -101,7 +113,6 @@ In no particular order or estimated delivery time:
 - turn off all effects switch
 - data-driven graphics such as telemetry, especially with GPX or GPMF (GoPro)
 - aspect ratio lock for VUI rectangle control - e.g. when used with Crop: Rectangle
-- configurable time format with a non-timecode default
 - motion blur for motion-animated things like Text and Size/Position/Rotate
 - 2.7K and 8K Video Modes
 - reorganize Video Modes UI
