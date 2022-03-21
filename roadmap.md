@@ -39,6 +39,7 @@ No estimated delivery time:
 - rework Filters chooser with icon and nice description
 - add preview to transition properties
 - improve the appearance of audio-only clips with an icon or waveform
+- synchronize audio and video with matching audio track
 
 
 More
@@ -105,7 +106,6 @@ In no particular order or estimated delivery time:
 - multi-select support for Filters
 - option to include intermediate thumbnails in timeline
 - ability to set the poster frame for a clip
-- synchronize audio and video with matching audio track
 - add Recent and Most Used tabs to Filters chooser
 - typewriter effect for Text: Simple and Text: Rich
 - more columns and sorting in Playlist
@@ -123,5 +123,6 @@ In no particular order or estimated delivery time:
 - convert icons to SVG
 - easing functions for keyframes
 - context-sensitive online help
+- automatic silence detection/removal
 
 See also the [Suggestion category in the Forum](https://forum.shotcut.org/c/suggestion/7).
