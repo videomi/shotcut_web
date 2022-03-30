@@ -71,6 +71,8 @@ Windows registry, a bool is stored as a string: true or false.
 | exportFrameSuffix | string     | the last used format for File > Export Frame (default `.png`)
 | convertAdvanced  | bool        | whether to keep the Advanced section of the Convert dialog open (default false)
 | jobPriority      | string      | the priority of background melt and ffmpeg jobs such as export and proxy: `low` (default) or `normal`
+| audioInput       | string      | the most recently chosen audio device in Open Other > Audio/Video Device (default first input)
+| videoInput       | string      | the most recently chosen video device in Open Other > Audio/Video Device (default first input)
 | ***markers***
 | color            | string      | the color to use for a new marker (default green)
 | columns/color    | bool        | whether to show the Color column (default true)

@@ -27,7 +27,7 @@ category: help
 
 ## What are the minimum system requirements?
 
-Operating system: 64-bit Windows 7 - 10, Apple macOS 10.10 - 10.15, or
+Operating system: 64-bit Windows 7 - 11, Apple macOS 10.14 - 12., or
 64-bit Linux with at least glibc 2.27.
 
 CPU: x86-64 Intel or AMD; at least one 2 GHz core for SD, 4 cores for

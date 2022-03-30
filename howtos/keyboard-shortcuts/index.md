@@ -39,6 +39,7 @@ category: help
 | View > Audio Peak Meter | Ctrl+1                             | command+1
 | View > Properties       | Ctrl+2                             | command+2
 | View > Recent           | Ctrl+3                             | command+3
+| View > Notes            | Ctrl+Shift+3                       | shift+command+3
 | View > Playlist         | Ctrl+4                             | command+4
 | View > Timeline         | Ctrl+5                             | command+5
 | View > Filters          | Ctrl+6                             | command+6

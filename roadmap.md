@@ -18,17 +18,13 @@ category: other
 In Progress
 -----------
 
-- reorder tracks
-- notes panel
-- voice-over recording
+- undo/redo support for filters
 
 
 Next
 ----
 No estimated delivery time:
 
-- new Windows installer that registers the .mlt file name extension
-- undo/redo support for filters
 - add a reset for all settings
 - configurable time format with a non-timecode default
 - looping playback - project, selection, around

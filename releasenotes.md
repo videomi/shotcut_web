@@ -20,7 +20,77 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
-##### Release 21.01.30
+
+##### Release 21.03.30
+
+- Fixed converting full color range 10-bit video to limited MPEG range.
+- Fixed very choppy playback with certain weird or /unreduced-fraction framerates.
+- Fixed **Video Mode > Automatic** when using a webcam/video-device input.
+- Fixed **Position** and **Size** in **Crop: Rectangle** video filter may become read-only.
+- Fixed **Gradient** video filter when a color alpha value is not fully opaque.
+- Fixed marker duration may change when dragging to change its starting time.
+- Fixed **Size, Position & Rotate > Zoom** may change when changing the player zoom level.
+- Fixed accidentally changing an unmodified clip-only project by opening a new media file.
+- Fixed changing **Properties > Speed** may overwrite and does not honor **Ripple** mode.
+- Fixed a transition may show "INVALID" after you undo removing it.
+- Fixed **Presets** for the **Equalizer: 3-Band** audio filter not working.
+- Fixed **Blur: Box** filter creates darker edges.
+- Fixed **Reduce Noise: Quantization** video filter overwrites alpha chnanel.
+- Fixed **Properties > Audio > Sync** not showing change after reloading properties (broke in v22.01).
+- Restored the **Use Higher Performance Waveforms** option in the **Timeline** menu.
+- Changed `melt` command line tool to no longer be locale-sensitive by default.
+- Changed **Q** in **Equalizer: Parametric** to **Bandwidth** in octaves.
+- Changed background capture jobs to use a high process priority.
+- Changed **Paste Filters** to not paste a clip-only filter onto a track.
+- Changed **Paste Filters** to not paste a filter that can only be added once.
+- Removed **Timeline > Copy Timeline to Source** (use Markers instead).
+- Stop showing the **Convert to Edit-Friendly** dialog when opening a HLG HDR video.
+- Upgraded libraries:
+  - FFmpeg 5.0
+  - MLT 7.6.0
+  - frei0r 1.8.0
+  - Rubberband 2.0.2
+  - VMAF 2.3.0
+  - Qt 5.15.2 for Intel macOS - **macOS 10.14 is now the minimum macOS version.**
+- Improved A/V synchronization in **Properties > Reverse**.
+- Improved webcam/video-device capture on macOS.
+- Improved the accuracy of **View > Scopes > Audio Peak Meter**.
+- Improved speed of **Old Film: Projector** video filter.
+- Added **Export > Advanced >> Video > Color range**.
+- Added multi-threading for all implicit video scaling including **Settings > Preview Scaling**.
+- Added multi-threading to some video filters:
+  - **Blur: Box**
+  - **Blur: Gaussian**
+  - **Color Grading**
+  - **Invert Colors**
+  - **Mask: From File**
+  - **Old Film: Grain**
+  - **Old Film: Scratches**
+  - **Old Film: Technocolor**
+  - **Reflect**
+  - **Sepia**
+  - **Sketch**
+  - **Spot Remover**
+  - **Threshold**
+  - **Vignette**
+  - **Wave**
+- Added track reordering by drag-n-drop a track header and the **Timeline** menu:
+  - **Move Track Up**: Alt+Shift+Up (shift+option+up on macOS)
+  - **Move Track Down**: Alt+shift+Down (shift+option+down on macOS)
+- Added **View > Notes** panel with keyboard shortcut Ctrl+Shift+3 (shift+command+3 on macOS).
+- Added **Convert to Edit-friendly** when opening a HDV video file.
+- Added a **Record Audio** button to the **Timeline** toolbar:
+  - It chooses an audio device based on either first found or last used in **Audio/Video Device**.
+  - It uses the current track if it is audio and not empty at the playhead and beyond.
+    Otherwise, it adds an audio track.
+  - It does not prompt for a save file name when a project folder has been established.
+- Added audio filter **Stereo Enhancer**.
+- Added tooltips to **Timeline** clips.
+- Added **Markers > menu > Add Markers Around Selected Clips** with keyboard shortcut Alt+M (option+M on macOS).
+- Added an option to the Windows installer to register the `.mlt` filename extension to open with Shotcut.
+
+
+##### Release 22.01.30
 
 - Fixed **File > Export > Markers as Chapters** if project contains transitions.
 - Fixed a possible crash moving clip inside blank on same track.
