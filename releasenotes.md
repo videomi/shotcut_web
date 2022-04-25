@@ -21,24 +21,7 @@ log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
 
-##### Release 22.04.22
-
-- Fixed **Open Other > Audio/Video Device** and **Timeline > Record Audio** not working on macOS.
-- Fixed **Open Other > Color Bars** not appearing on macOS.
-- Fixed **Filters > Paste filters** for some filters (broke in v22.03.30):
-  * Normalize: Two Pass
-  * Chroma Key: Simple
-  * Crop: Source
-  * Mask: Apply
-  * Time Remap
-- Fixed **Export > Color range > Full** if resolution or frame rate were changed.
-- Fixed **Export > Codec > Rate contol > Quality-based VBR** with videotoolbox_hevc on macOS.
-- Fixed changing **Export > Format** does not suggest a file name extension.
-- Fixed keyframes for **Corner Pin** video filter.
-- Fixed keyframes for **Rotate** parameter of the **Size, Position & Rotate** video filter after trimming the clip.
-
-
-##### Release 22.03.30
+##### Release 21.03.30
 
 - Fixed converting full color range 10-bit video to limited MPEG range.
 - Fixed very choppy playback with certain weird or /unreduced-fraction framerates.
