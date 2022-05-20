@@ -35,6 +35,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
+/* This makes anchor links handle the fixed position navbar */
+h2 {
+	padding-top:  77px !important;
+	margin-top: -40px !important;
+}
+
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
