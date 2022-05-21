@@ -127,6 +127,7 @@ category: help
 | Select and seek clip  | double left-click mouse              | double-click mouse
 | Select under playhead | Ctrl+Space                           | command+space
 | Select All            | Ctrl+A                               | command+A
+| Select all on current track | Ctrl+Alt+A                     | option+command+A
 | Select None           | Ctrl+D                               | command+D
 | Move selection left   | Ctrl+Left                            | command+left
 | Move selection right  | Ctrl+Right                           | command+right
