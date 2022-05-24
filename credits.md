@@ -13,8 +13,9 @@ projects:
 -   [Qt](http://qt-project.org/) application and UI framework under the
     [GPL v3 License](http://www.gnu.org/licenses/gpl-3.0.html)
 -   [FFmpeg](http://www.ffmpeg.org/) multimedia format and codec
-    libraries under the [GPL v3
-    License](http://www.gnu.org/licenses/gpl-3.0.html)
+    libraries under the [GPL v3 License](http://www.gnu.org/licenses/gpl-3.0.html)
+-   [Glaxnimate](https://glaxnimate.mattbas.org/) Glaxnimate vector animation program under the
+    [GPL v3 License](http://www.gnu.org/licenses/gpl-3.0.html)
 -   [x264](http://www.videolan.org/developers/x264.html) H.264 encoder
     under the [GPL v2 License](http://www.gnu.org/licenses/gpl-2.0.html)
 -   [x265](http://x265.org/) H.265/HEVC encoder under the [GPL v2
