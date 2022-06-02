@@ -18,6 +18,10 @@ category: other
 In Progress
 -----------
 
+- synchronize audio and video with matching audio track
+- support Glaxnimate animation file
+- integration for external editor (e.g. Audacity, Glaxnimate, Inkscape, etc. via configurable launcher and file watcher)
+- add Mask: Rotoscope video filter
 - undo/redo support for filters
 
 
@@ -35,7 +39,6 @@ No estimated delivery time:
 - rework Filters chooser with icon and nice description
 - add preview to transition properties
 - improve the appearance of audio-only clips with an icon or waveform
-- synchronize audio and video with matching audio track
 
 
 More
@@ -48,7 +51,6 @@ In no particular order or estimated delivery time:
 - open HEIC images
 - open AVIF images
 - open WebP animations (glaxnimate?)
-- improved support for full color range video
 - ITU-R BT.2020 wide color gamut
 - improved support for high bit depth video
 - HDR/SMPTE 2084
@@ -74,7 +76,6 @@ In no particular order or estimated delivery time:
 - add OpenTimelineIO import/export
 - add search media type queries to Playlists
 - add keywords, description, and presets to Filters search
-- add Mask: Rotoscope video filter
 - add motion tracking via OpenCV
 - add option to view timeline waveform per channel
 - add transitions to Playlist
@@ -83,8 +84,6 @@ In no particular order or estimated delivery time:
 - add speed param to Export > Codec
 - add option to reduce number of encode threads for Convert, Reverse, and Proxy jobs
 - improve the appearance of video-with-alpha clips by showing with checkered background in source player
-- support Glaxnimate animation file
-- integration for external editor (e.g. Audacity, Glaxnimate, Inkscape, etc. via configurable launcher and file watcher)
 - tile-based accellerated image processing system via [SYCL](https://www.khronos.org/api/index_2017/sycl)
 - linear color processing, possibly through OpenColorIO
 - support for Qt 6 with direct support for Direct3D, Meta, and Vulkan
