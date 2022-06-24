@@ -6,21 +6,26 @@ category: notes
 
 1. Download and install the following:
   - Qt Creator from the [Qt project](https://www.qt.io/download-open-source/) or your distribution packages.
-  - Qt SDK version 5.12 or later
-  - [Shotcut SDK (1.2 GB, current version 22.03.30, Intel build)](https://s3.amazonaws.com/builds.us.meltytech/shotcut/shotcut-macos-sdk-220330.txz)  
+  - Qt SDK version 5.15
+  - [Shotcut SDK (1.6 GB, current version 22.06.23, Intel build)](https://s3.amazonaws.com/builds.us.meltytech/shotcut/shotcut-macos-sdk-220623.txz)  
     Extract it to $HOME/Projects
 
-2. Extract the Shotcut SDK .txz file to a new folder in $HOME called "Projects".
-3. In Qt Creator open shotcut.pro from $HOME/Projects/Shotcut/src/shotcut.
-4. In the Shotcut project configuration screen find **Build Settings**.  
-   Under **Build steps &gt; qmake &gt; Additional arguments** enter  
-   `PREFIX=../../.. QMAKE_RPATHDIR=@executable_path/../Frameworks`
+2. Extract the Shotcut SDK `.txz` file from the folder `$HOME/Projects`.
+2. Edit the `includedir` and `libdir` keys in the `mltframework-7.pc` and `mlt++-7.pc` files in `$HOME/Projects/Shotcut/Contents/Frameworks/lib/pkgconfig` to have the proper prefix: `$HOME/Projects/Shotcut/Contents/Frameworks/` (you need to expand `$HOME` yourself).
+3. Create a symbolic link `$HOME/Projects/Shotcut.app` pointing to `$HOME/Projects/Shotcut`.
+3. In Qt Creator open `$HOME/Projects/Shotcut/src/shotcut/CMakeLists.txt`.
+4. In the Shotcut project configuration screen find **Build Settings**.
+4. Under **Build Environment**, add or edit the key/value pairs:
+   - `PKG_CONFIG_PATH` = `${HOME}/Projects/Shotcut/Contents/Frameworks/lib/pkgconfig`
+4. Under **CMake &gt; Current Configuration** add or edit the key/value pairs:
+   - `CMAKE_INSTALL_PREFIX` = `~/Projects`
+   - `CMAKE_INSTALL_RPATH` = `@executable_path/../Frameworks`
+   - `CMAKE_INSTALL_RPATH_USE_LINK_PATH` = ON
+
+   Alternatively, in **Addtional CMake options** enter `-DCMAKE_INSTALL_PREFIX=~/Projects -DCMAKE_INSTALL_RPATH=@executable_path/../Frameworks -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON` and click **Run CMake**.
+
 5. In the Shotcut project configuration screen find **Run Settings**.  
-   - Under **Deployment** click **Add Deploy Step &gt; Make**, and in **Make arguments** add "install".  
-   - Under **Deployment** click **Add Deploy Step &gt; Custom Process Step**,
-     in **Command** enter "cp", and in **Arguments** enter  
-     `-p src/Shotcut.app/Contents/MacOS/Shotcut ../../Contents/MacOS`
-   - Under **Run &gt; Run configuration** click **Add &gt; Custom Executable &gt; Executable** add   `$HOME/Projects/Shotcut/Contents/MacOS/Shotcut`
+   - Under **Run &gt; Run configuration** click **Add &gt; Custom Executable &gt; Executable** add `$HOME/Projects/Shotcut/Contents/MacOS/Shotcut`
    - Under **Run Environment &gt; Details** add the following environment variables:
    - Set `QML2_IMPORT_PATH` to `${QTDIR}/qml`
    - Set `QT_PLUGIN_PATH` to `${QTDIR}/plugins`
@@ -50,7 +55,7 @@ You might want to put the following into ~/.profile or a setup script:
 
 ```
 export PATH="$HOME/Projects/Shotcut/Contents/MacOS:$PATH"
-export QTDIR="$HOME/Qt/5.12.9/clang_64"
+export QTDIR="$HOME/Qt/5.15.2/clang_64"
 export PKG_CONFIG_PATH="$HOME/Projects/Shotcut/Contents/Frameworks/lib/pkgconfig"
 export CFLAGS="-I/opt/local/include -DRELOCATABLE"
 export CXXFLAGS="$CFLAGS"

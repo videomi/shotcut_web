@@ -8,22 +8,26 @@ category: notes
 
   - [Qt Creator](https://www.qt.io/download-open-source/)
   - Qt SDK version 5.15 MinGW
-  - [Shotcut SDK (1.5 GB current version 22.03.30)](https://s3.amazonaws.com/builds.us.meltytech/shotcut/shotcut-win64-sdk-220330.zip)  
-    Extract it to C:\Projects
+  - [Shotcut SDK (2.1 GB current version 22.06.23)](https://s3.amazonaws.com/builds.us.meltytech/shotcut/shotcut-win64-sdk-220623.zip)  
+    Extract it to `C:\Projects`
 
 2. Extract the Shotcut SDK .zip file to a new folder in `C:\` named "Projects" (`C:\Projects`).
-3. In Qt Creator open `shotcut.pro` from `C:\Projects\Shotcut\src\shotcut`.
+3. In Qt Creator open `C:\Projects\Shotcut\src\shotcut\CMakeLists.txt`.
 4. In the **Configure Project** screen, select your previously configured Kit
    and click **Configure Project**:
    ![Configure Project](configure_project.png)
 
 5. Click **Projects** in the navigation bar on the left side of the Qt Creator window.  
-   In the left column of the Shotcut project configuration screen click **Run**
+  - In the left column of the Shotcut project configuration click **Build**
+    to show the **Build Settings**:
+  - In **Build Environment** add environment variable `PKG_CONFIG_PATH` and set it to `C:\Projects\Shotcut\lib\pkgconfig`.
+  - Prepend msys2 binary folders to environment variable `Path`: `C:\msys64\usr\local\bin;C:\msys64\mingw64\bin;`
+  - In **CMake gt; Current Configuration** find `CMAKE INSTALL_PREFIX` and change its value to `C:\Projects\Shotcut` and click **Run CMake**.
+
+5. In the left column of the Shotcut project configuration click **Run**
    to show the **Run Settings**:
     ![Run Settings](run_settings.png)
 
-  - In **Deployment** click **Add Deploy Step &gt; Make**.
-  - In **Make arguments:** enter "install".
   - In **Run** click **Add... &gt; Custom Executable**;  
     in **Executable:** enter "C:\Projects\Shotcut\shotcut.exe":
     ![Run Settings](run_settings2.png)
