@@ -73,6 +73,8 @@ Windows registry, a bool is stored as a string: true or false.
 | jobPriority      | string      | the priority of background melt and ffmpeg jobs such as export and proxy: `low` (default) or `normal`
 | audioInput       | string      | the most recently chosen audio device in Open Other > Audio/Video Device (default first input)
 | videoInput       | string      | the most recently chosen video device in Open Other > Audio/Video Device (default first input)
+| glaxnimatePath   | string      | the path to the glaxnimate executable if glaxnimate (default "glaxnimate" in same dir as shotcut executable)
+| exportRangeMarkers | bool      | File > Export > Markers as Chapters > Include ranges
 | ***markers***
 | color            | string      | the color to use for a new marker (default green)
 | columns/color    | bool        | whether to show the Color column (default true)
@@ -126,6 +128,8 @@ Windows registry, a bool is stored as a string: true or false.
 | scrollZoom       | bool        | Timeline > menu > Scroll to Playhead on Zoom
 | snap             | bool        | Timeline > Toggle snapping
 | trackHeight      | integer     | Timeline > menu > Make Tracks Shorter/Taller
+| audioReferenceTrack | integer  | Timeline > menu > Align To Reference Track > Reference audio track (last used)
+| audioReferenceSpeedRange|real number|Timeline > menu > Align To Reference Track > Speed adjustment range (default 0)
 | ***filter***
 | favorite/&lt;filterId&gt; | string | whether a filter is chosen as favorite, one of: yes or no. See all the meta.qml files in share/shotcut/qml/filters for the filter IDs.
 | askOutput        | bool        | whether to show warning dialog about adding filters to Timeline Output
