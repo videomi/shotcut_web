@@ -20,7 +20,44 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 22.06.23
 
+- Added **Edit...** to **Timeline > Output > Properties**.
+- Added **Timeline > menu > More > Align To Reference Track** to synchronize clips based on similar audio.
+  See its [documentation](https://forum.shotcut.org/t/align-to-reference-track/33893).
+- Added support for reading Lottie and rawr JSON animation formats.
+- Added **Open Other > Animation**.
+- Added a **Mask: Draw (Glaxnimate)** video filter.
+- Added **Glaxnimate** vector animation tool with a video preview of Shotcut. Known issues:
+  - Preview on macOS may stop working due to out-of-resources until reboot.
+  - Some Lottie animations make export fail. The one that I have a problem with shows warnings upon opening in Glaxnimate.
+  - Glaxnimate python not working in AppImage and currently require some external dependencies on Linux and macOS.
+- Added support for **Keyframes** to the following audio filters:
+  - **Low Pass**
+  - **High Pass**
+  - **Reverb**
+- Added keyboard shortcut <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>A</kbd> to select all clips on the current track.
+  (<kbd>option</kbd>+<kbd>command</kbd>+<kbd>A</kbd> on macOS)
+- Added an options dialog to **File > Export > Markers as Chapters** to exclude colors or include range markers.
+- Added support for fractional display scale (125%, 150%, 175%) on Windows.
+- Fixed **Text: Rich** does not export the same as preview on system with fractional display scale on Windows.
+- Fixed **Record Audio** and **Open Other > Audio/Video Device** crashing on macOS due to insufficient entitlements.
+- Fixed **Time Remap > Image mode > Blend** not working.
+- Fixed a crash combining two **Size, Position & Rotate** filters with a mask filter on a square video mode.
+- Fixed a possible crash with an odd width video.
+- Fixed dragging a clip leftward beyond other clips with **Timeline > Ripple** turned on.
+- Fixed changing the color of a color clip resets a custom name.
+- Fixed changing **Properties > Speed** drops a **Crop: Source** filter if added.
+- Fixed prompting for a duration and possibly a crash when dragging non-seekable files to **Playlist**.
+- Fixed filters on a clip are removed when **Undo** after a change to **Properties**.
+- Fixed **File > Export > Markers as Chapters** incorrect text encoding resulting in corrupt unicode characters.
+- Fixed video track blending may be broken after moving a track.
+- Fixed repairing a project with **Settings > Proxy > Use Proxy** on saves proxy file paths into repaired project file.
+- Fixed **Ripple Markers** not working with ripple trimming.
+- Fixed trimming a clip on timeline may change the length of a neighboring clip.
+- Converted the build system from qmake to CMake (qmake is removed).
+
+  
 ##### Release 22.04.25
 
 - Fixed **Open Other > Audio/Video Device** and **Timeline > Record Audio** not working on macOS.
