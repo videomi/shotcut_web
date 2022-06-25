@@ -95,7 +95,7 @@ Other Video Tutorials
 - [Simple Sub-clip Export](https://youtu.be/I9uJYO0HmYY)
 - [Official Shotcut YouTube channel](https://www.youtube.com/channel/UCjuv-Js1znyvErPy9vZf37A)
 - [YouTube Playlist of Advanced Transition Techniques](https://www.youtube.com/playlist?list=PLpO3ttBDkV5ttZrLKQDFRo0UAmS5fH0uW)
-- [Including 2D Animations](https://youtu.be/CDBCqhmbA4Y)
+- [Including 2D Animations](https://youtu.be/Z2mRSpS3WWs)
 - [Open Other > Animation](https://youtu.be/CaN98ub9vfg)
 - [Mask: Draw (Glaxnimate)](https://youtu.be/N4SQlOceFbI)
 - [Shotcut-Glaxnimate Workflow](https://youtu.be/KUSY5nIeVHI)
