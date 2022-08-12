@@ -18,11 +18,12 @@ category: other
 In Progress
 -----------
 
-- synchronize audio and video with matching audio track
-- support Glaxnimate animation file
-- integration for external editor (e.g. Audacity, Glaxnimate, Inkscape, etc. via configurable launcher and file watcher)
-- add Mask: Rotoscope video filter
 - undo/redo support for filters
+- editable keyboard shortcuts
+- action search
+- add preview to transition properties
+- open WebP animations
+- data-driven graphics such as telemetry, especially with GPX or GPMF (GoPro)
 
 
 Next
@@ -32,13 +33,11 @@ No estimated delivery time:
 - add a reset for all settings
 - configurable time format with a non-timecode default
 - looping playback - project, selection, around
-- editable keyboard shortcuts
-- action search
 - groups in timeline
 - clip and playlist tags
 - rework Filters chooser with icon and nice description
-- add preview to transition properties
 - improve the appearance of audio-only clips with an icon or waveform
+- integration for external editor (e.g. Audacity, Glaxnimate, Inkscape, etc. via configurable launcher and file watcher)
 
 
 More
@@ -50,7 +49,6 @@ In no particular order or estimated delivery time:
 - add drag-move of corner pin's shape
 - open HEIC images
 - open AVIF images
-- open WebP animations (glaxnimate?)
 - ITU-R BT.2020 wide color gamut
 - improved support for high bit depth video
 - HDR/SMPTE 2084
@@ -91,7 +89,7 @@ In no particular order or estimated delivery time:
 - background removal
 - universal search
 - read Kyno XML for name, comments, tags
-- simple screen capture through libobs
+- simple screen capture through libobs or ffmpeg
 - move generators from Open Other to submenu in New, leave network and devices in Open Other
 - add a base VUI that adds indicators for in and out points and a toolbar to invoke filters:
   Text, Size/Position/Rotate, Crop, Color, Chroma Key: Simple
@@ -106,7 +104,6 @@ In no particular order or estimated delivery time:
 - more columns and sorting in Playlist
 - clip markers or flags
 - turn off all effects switch
-- data-driven graphics such as telemetry, especially with GPX or GPMF (GoPro)
 - aspect ratio lock for VUI rectangle control - e.g. when used with Crop: Rectangle
 - motion blur for motion-animated things like Text and Size/Position/Rotate
 - 2.7K and 8K Video Modes
