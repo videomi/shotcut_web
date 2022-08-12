@@ -19,6 +19,8 @@ free royalty-free music to all Shotcut users. These are free to use in commercia
 works as well as uploads to web video sharing services such as YouTube. No
 attribution or credit is required.
 
+**Note: Amphibious Zoo exclusively monetizes videos made with these on YouTube and possibly other popular social media services.**
+
 They are available in both a good quality
 (48 KHz 320 kbps) MP3 and higher quality (24-bit 48 KHz uncompressed) AIFF formats.
 The MP3 can be previewed in your web browser.
