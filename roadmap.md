@@ -24,20 +24,20 @@ In Progress
 - add preview to transition properties
 - open WebP animations
 - data-driven graphics such as telemetry, especially with GPX or GPMF (GoPro)
+- improve the appearance of audio-only clips with a checkerboard for transparent
+- rework Filters chooser with icon and keywords
+- add a reset for all settings
 
 
 Next
 ----
 No estimated delivery time:
 
-- add a reset for all settings
-- configurable time format with a non-timecode default
 - looping playback - project, selection, around
-- groups in timeline
 - clip and playlist tags
-- rework Filters chooser with icon and nice description
-- improve the appearance of audio-only clips with an icon or waveform
+- configurable time format with a non-timecode default
 - integration for external editor (e.g. Audacity, Glaxnimate, Inkscape, etc. via configurable launcher and file watcher)
+- groups in timeline
 
 
 More

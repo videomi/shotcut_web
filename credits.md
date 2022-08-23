@@ -43,10 +43,6 @@ projects:
 -   [Oxygen](http://www.oxygen-icons.org/) icon collection under the
     [Creative Commons Attribution-NonCommercial
     License](http://creativecommons.org/licenses/by-nc/2.5/legalcode)
--   [jQuery](http://jquery.org/) under a [MIT
-    License](https://raw.githubusercontent.com/jquery/jquery/master/LICENSE.txt)
--   [Rangy](http://code.google.com/p/rangy/) under the [MIT
-    License](http://opensource.org/licenses/mit-license.php)
 -   [libepoxy](https://github.com/anholt/libepoxy) under a [MIT
     License](https://raw.githubusercontent.com/anholt/libepoxy/master/COPYING)
 -   [libexif](http://libexif.sourceforge.net/) under the [LGPL v2.1
@@ -93,10 +89,6 @@ projects:
     under the [GPL v2 License](http://www.gnu.org/licenses/gpl-2.0.html)
 -   [Opus Audio Codec](http://www.opus-codec.org/) under a [BSD
     license](http://www.opus-codec.org/license/)
--   [three.js](http://threejs.org/) under the [MIT
-    License](http://opensource.org/licenses/mit-license.php)
--   [typeface.js](http://typeface.neocracy.org/) under the [MIT
-    License](http://opensource.org/licenses/mit-license.php)
 -   [GPUOpen AMF SDK](https://github.com/GPUOpen-LibrariesAndSDKs/AMF) under the [MIT
     License](http://opensource.org/licenses/mit-license.php)
 -   [Intel Media SDK dispatcher](https://github.com/lu-zero/mfx_dispatch) under the [BSD-3-Clause license](https://raw.githubusercontent.com/lu-zero/mfx_dispatch/master/LICENSE)
@@ -114,3 +106,5 @@ exception](https://doc.qt.io/qt-5.9/qtnetwork-index.html#licenses-and-attributio
 -   [Spatial Media](https://github.com/VarolOkan/spatial-media), a C++ port of [Google's Spatial
     Media](https://github.com/google/spatial-media), under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0)
 -   [VMAF](https://github.com/Netflix/vmaf), a visual quality measurement tool by Netflix under the [BSD-2-Clause-Patent license](https://raw.githubusercontent.com/Netflix/vmaf/master/LICENSE)
+-   [gopro2gpx](https://github.com/NetworkAndSoftware/gopro2gpx) and [gpmf-parser](https://github.com/gopro/gpmf-parser)
+    under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0)
