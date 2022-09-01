@@ -21,7 +21,7 @@ troublesome for new or casual contributors. So, we have added a [Linux SDK
 as well with setup instructions for Qt Creator.
 
 Lastly, I want to remind readers of the [video instruction course by James Woo
-](https://courses.jameswoo.net/courses/video-editing-made-easy-with-shotcut-video-editor?affiliate=WrMMTH).
+](https://gumroad.com/a/864284499/tixrdc).
 Yeah, there are quite a few YouTube videos now including our own, but they are
 so-so. James' series is clear, concise, comprehensive, and a good value. There
 are now over 40 tutorials for only $29!

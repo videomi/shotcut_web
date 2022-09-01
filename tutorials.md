@@ -102,7 +102,7 @@ Other Video Tutorials
 
 See Also
 --------
-- [James Woo has created an excellent 50+ video course on how to use Shotcut](https://courses.jameswoo.net/courses/video-editing-made-easy-with-shotcut-video-editor?affiliate=WrMMTH)
+- [James Woo has created an excellent 50+ video course on how to use Shotcut](https://gumroad.com/a/864284499/tixrdc)
 - [The Shotcut YouTube Channel](https://www.youtube.com/channel/UCjuv-Js1znyvErPy9vZf37A)
 - [Ein Video-Tutorial Serie auf
     Deutsch](https://www.youtube.com/playlist?list=PLFwM71NcKmpCyI1rXGrQVYa8tw8zuRYkp)
