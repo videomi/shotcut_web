@@ -130,6 +130,7 @@ Windows registry, a bool is stored as a string: true or false.
 | trackHeight      | integer     | Timeline > menu > Make Tracks Shorter/Taller
 | audioReferenceTrack | integer  | Timeline > menu > Align To Reference Track > Reference audio track (last used)
 | audioReferenceSpeedRange|real number|Timeline > menu > Align To Reference Track > Speed adjustment range (default 0)
+| previewTransition| bool        | transition Properties > Preview (default true)
 | ***filter***
 | favorite/&lt;filterId&gt; | string | whether a filter is chosen as favorite, one of: yes or no. See all the meta.qml files in share/shotcut/qml/filters for the filter IDs.
 | askOutput        | bool        | whether to show warning dialog about adding filters to Timeline Output
@@ -149,4 +150,6 @@ Windows registry, a bool is stored as a string: true or false.
 | mode             | integer    | which of the layout modes is selected: 0 = custom, 1 = Logging, 2 = Editing, 3 = FX, 4 = Color, 5 = Audio, 6 = Player 
 | &lt;custom layout name&gt;_geometry | binary | the size and position of the windows
 | &lt;custom layout name&gt;_state | binary | the layout of the UI panels
+| ***shortcuts***
+| * | string | These store the custom keyboard shortcuts. There can be many of these keyed roughly on their English name. The value is one or two "||"-separated key sequences.
 {:.withborders}

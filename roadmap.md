@@ -19,14 +19,7 @@ In Progress
 -----------
 
 - undo/redo support for filters
-- editable keyboard shortcuts
-- action search
-- add preview to transition properties
-- open WebP animations
-- data-driven graphics such as telemetry, especially with GPX or GPMF (GoPro)
-- improve the appearance of audio-only clips with a checkerboard for transparent
-- rework Filters chooser with icon and keywords
-- add a reset for all settings
+- support for Qt 6 with direct support for Direct3D, Meta, and Vulkan
 
 
 Next
@@ -34,9 +27,9 @@ Next
 No estimated delivery time:
 
 - looping playback - project, selection, around
-- clip and playlist tags
+- playlist folders
 - configurable time format with a non-timecode default
-- integration for external editor (e.g. Audacity, Glaxnimate, Inkscape, etc. via configurable launcher and file watcher)
+- rectangle selection in timeline
 - groups in timeline
 
 
@@ -45,6 +38,7 @@ More
 In no particular order or estimated delivery time:
 
 - auto-scroll timeline by pages instead of continuously
+- integration for external editor (e.g. Audacity, Glaxnimate, GIMP, etc. via configurable launcher and file watcher)
 - add rectangle control to Mask: Simple Shape
 - add drag-move of corner pin's shape
 - open HEIC images
@@ -84,17 +78,16 @@ In no particular order or estimated delivery time:
 - improve the appearance of video-with-alpha clips by showing with checkered background in source player
 - tile-based accellerated image processing system via [SYCL](https://www.khronos.org/api/index_2017/sycl)
 - linear color processing, possibly through OpenColorIO
-- support for Qt 6 with direct support for Direct3D, Meta, and Vulkan
 - hardware accellerated decoding
 - background removal
 - universal search
+- file browser and media library
 - read Kyno XML for name, comments, tags
 - simple screen capture through libobs or ffmpeg
 - move generators from Open Other to submenu in New, leave network and devices in Open Other
 - add a base VUI that adds indicators for in and out points and a toolbar to invoke filters:
   Text, Size/Position/Rotate, Crop, Color, Chroma Key: Simple
 - improved support for nested projects
-- integrated file browser and manager
 - multi-select support for Properties
 - multi-select support for Filters
 - option to include intermediate thumbnails in timeline

@@ -20,6 +20,78 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+
+##### Release 22.09.23
+
+- Added limited support for reading WebP Animation.
+- Show audio-clips without album art as a checkboard for transparent instead of white.
+- Added the **GPS Graphic** video filter (see its presets).
+- Added the `gopro2gpx` utility to let you export a GPX file from a GoPro video using
+  **Properties > menu > Export GPX**. This saves the `.gpx` in the same folder as the video file with the same name
+  but different exension.
+- Added **Fisheye** video filter (see its presets).
+- Fixed opening files with a `%` in their path or name.
+- Added snapping to the playhead to **Keyframes**.
+- Added **Help > Actions and Shortcuts**:
+  - Provides a unified action search and shortcut editor.
+  - Replaces the old **Keyboard Shortcuts...** item in the **Help** menu and takes its keyboard shortcut <kbd>?</kbd>.
+  - <kbd>/</kbd> is also a default shortcut, and either shortcut can be changed.
+  - Searches both action name and shortcut.
+  - Press <kbd>Return</kbd>/<kbd>Enter</kbd> within search to move focus to the list of actions.
+  - Press <kbd>Return</kbd>/<kbd>Enter</kbd> on a selected action to trigger it and close the dialog.
+  - <kbd>Shift</kbd>, <kbd>Ctrl</kbd>, or <kbd>Alt</kbd> + <kbd>Return</kbd>/<kbd>Enter</kbd> on a selected action to
+    trigger it and NOT close the dialog.
+  - Double-click an action to trigger it but NOT close the dialog.
+  - The dialog is not modal so you can leave it open and to the side while working.
+  - Press <kbd>Esc</kbd> when the dialog has focus to close it.
+  - Press <kbd>F2</kbd> when an action is selected to edit its first shortcut.
+  - Single-click a selected shortcut to enter edit mouse using the mouse. This means you typically need two single
+    clicks: one to select, the second to enter into edit mode.
+  - You can <kbd>Tab</kbd> out of edit mode to navigate focus to the apply button and press <kbd>Space</kbd> to
+    trigger the apply. It is intentional that you cannot assign <kbd>Tab</kbd> as a keyboard shortcut to an action.
+  - There are some keyboard buttons such as J/K/L that are reserved and cannot be used in a shortcut.
+    You will see an error message when you try to apply it.
+  - You can define up to 2 shortcuts per action! You may want to leave the default as well as add your preferred shortcut.
+  - A big portion of the UI had to be rewritten to support this. As a result:
+    - All panel (hamburger) menus are consistently on the left/first.
+    - Panel-specific Options sub-menus were moved to **Settings** main menu.
+    - The keyboard shortcut to switch the player between **Source** and **Project** is now <kbd>P</kbd>.
+    - Various hidden or under-exposed actions now have a menu item somewhere including a new **Player** main menu.
+    - Many translations will be lost.
+    - The default shortcuts to change the current track now require <kbd>Ctrl</kbd>+<kbd>Alt</kbd> in addition to
+      cursor up and down.
+- Improved support for custom video transitions:
+  - There is a folder now in the App Data Directory named `transitions` where you can store these.
+  - All files in the `transitions` folder are listed in transition **Properties**, the **Mask: From File** video filter,
+    and the **Slideshow Generator** dialog.
+  - Added a favorite button in transition **Properties** and **Mask: From File** that copies your chosen custom file to
+    the `transitions` folder.
+  - Added a quick preview to transition properties.
+- Added the ability to drag-scroll/pan using the middle mouse button (press mouse wheel) to **Timeline**,
+  **Keyframes**, and the player when zoomed in.
+- Improved the **Filters** picker:
+  - Added translatable keywords to facilitate search. For example, "transform" includes **Size, Position & Rotate**.
+  - Added the English filter name in an untranslatable manner to the keywords so people using a translation can more
+    more easily find things based on proliferic English advice.
+  - Added support for a small animated icon.
+- Added the alpha **Operation**, **Reverse**, and **Invert** parameters to the **Mask: Draw** video filter.
+- Added **Settings > Reset...** to reset _all_ settings including hidden ones.
+- Fixed **Move Track Up** or **Move Track Down** breaks the order of blending/compositing.
+- Fixed sometimes a date does not appear in **Playlist**.
+- Fixed **Old Film: Scratches** video filter not working (broke in version 22.04).
+- Fixed **Stabilize** video filter uses invalid analysis data after pasted.
+- Fixed **File > Open MLT XML as Clip...** changes the current Video Mode.
+- Fixed audio artifacts introduced after splitting a clip that has been converted or reversed using
+  the **better/large/DNxHR** option.
+- Fixed **Text: Rich** filter's toolbar may not reflect the current text color.
+- Upgraded FFmpeg to v5.1.0
+- Upgraded dav1d AV1 decoder v1.0
+- Upgraded AOM AV1 encoder to v3.4.0
+- Upgraded libvpx VP8/9 encoder to v1.12.0
+- Upgraded VMAF to v2.3.1
+- Upgraded Glaxnimate to v0.5.1
+
+
 ##### Release 22.06.23
 
 - Added **Edit...** to **Timeline > Output > Properties**.

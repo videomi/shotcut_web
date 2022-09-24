@@ -7,7 +7,7 @@ category: notes
 1. Download and install the following:
   - Qt Creator from the [Qt project](https://www.qt.io/download-open-source/) or your distribution packages.
   - Qt SDK version 5.15
-  - [Shotcut SDK (1.6 GB, current version 22.06.23, Intel build)](https://s3.amazonaws.com/builds.us.meltytech/shotcut/shotcut-macos-sdk-220623.txz)  
+  - [Shotcut SDK (1.6 GB, current version 22.09.23, Intel build)](https://s3.amazonaws.com/builds.us.meltytech/shotcut/shotcut-macos-sdk-220923.txz)  
     Extract it to $HOME/Projects
 
 2. Extract the Shotcut SDK `.txz` file from the folder `$HOME/Projects`.

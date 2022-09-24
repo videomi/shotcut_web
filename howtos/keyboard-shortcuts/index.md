@@ -48,7 +48,7 @@ category: help
 | View > History          | Ctrl+8                             | command+8
 | View > Export           | Ctrl+9                             | command+9
 | View > Jobs             | Ctrl+0                             | command+0
-| Help > Keyboard Shortcuts         | ?                        | ?
+| Help > Keyboard Shortcuts         | ? or /                   | ? or /
 | Help > Topic                      | F1                       | F1
 | Rename clip (Properties)          | F2                       | F2
 | Find (Recent)                     | F3                       | F3
@@ -84,7 +84,7 @@ category: help
 | Seek End              | End                                  | end
 | Seek Next Edit        | Alt+Right                            | option+right
 | Seek Previous Edit    | Alt+Left                             | option+left
-| Switch Source/Program | Esc                                  | esc
+| Switch Source/Project | P                                    | P
 | Grab Focus            | Shift+Esc                            | shift+esc
 | Enter Timecode        | Ctrl+T                               | cmd+T
 {:.withborders}
@@ -115,8 +115,8 @@ category: help
 | Delete Marker         | Ctrl+Shift+M                         | shift+control+M
 | Seek to previous marker | <                                  | <
 | Seek to next marker   | >                                    | >
-| Select Track Below    | Down                                 | down
-| Select Track Above    | Up                                   | up
+| Set Current Track Below | Ctrl+Alt+Down                      | option+command+down
+| Set Current Track Above | Ctrl+Alt+Up                        | option+command+up
 | Zoom In               | =                                    | =
 | Zoom Out              | -                                    | -
 | Zoom Fit              | 0                                    | 0
