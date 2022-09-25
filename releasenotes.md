@@ -84,6 +84,7 @@ information.
 - Fixed audio artifacts introduced after splitting a clip that has been converted or reversed using
   the **better/large/DNxHR** option.
 - Fixed **Text: Rich** filter's toolbar may not reflect the current text color.
+- Deprecate and hide the **Lens Correction** video filter since it is low quality (no interpolation) and now there is **Fisheye**.
 - Upgraded FFmpeg to v5.1.0
 - Upgraded dav1d AV1 decoder v1.0
 - Upgraded AOM AV1 encoder to v3.4.0
