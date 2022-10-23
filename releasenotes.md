@@ -21,6 +21,33 @@ log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
 
+##### Release 22.10.11
+
+- Fixed translations not updated (broke in v22.09).
+- Fixed crash in **Size, Position & Rotate** filter when size approaches zero, for example when editing a size numeric
+  field (broke in v22.09).
+- Fixed bitrate in some **Export** presets such as VP8, VP9, D10, and XDCAM (broke in v22.09).
+- Fixed **Timeline > Lift** and **Delete** not working with no clip selected (broke in v22.09).
+- Fixed **Transition > Properties** resets the **Invert** and **Softness** options (broke in v22.09).
+- Fixed an incorrect timecode appears at 2 minutes in 24 or 23.98 fps.
+- Fixed **Timeline > Select Clip Above** and **Select Clip Below** not working with no clip selected.
+- Fixed incorrect resulting aspect ratio when changing **Export > Video > Resolution** and pixel aspect ratio is not square.
+- Fixed **Properties > Measure Video Quality** on Windows.
+- Fixed **Fade Out Video** filter not working after trimming the in point.
+- Fixed updating an animation **Properties > Duration** after changed in Glaxnimate.
+- Fixed ripple trim on the in point of a clip that is at the very beginning (00:00:00:00) of the **Timeline**.
+- Fixed adjusting keyframes of the second clip when a trimming the in point of a transition.
+- Fixed **Keyframes** UI when using **Timeline > Trim Clip In** menu-item/action/shortcut (not interactive trim).
+- Fixed opening a MLT XML file with a `%` in its path or name.
+- Fixed keyframes after an undo and redo upon making a transition while trimming the in point of a clip.
+- Finished the menu technology updates (marker context, rich text editor) that were mostly done in v22.09.23.
+- Added icons for the 360 video filters. 
+- Performance improvement in **Timeline** for when there is opaque clip on a track above another clip.
+- Disallow allow adding **Filters** to a device or live input since this is not working and could interfere with integrity of capture.
+- Increased the maximum values in the **Mask: Simple Shape > Horizontal** and **Vertical** video filter.
+- Changing **Timeline > Zoom** no longer pauses playback.
+
+
 ##### Release 22.09.23
 
 - Added limited support for reading WebP Animation.
