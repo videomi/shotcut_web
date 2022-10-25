@@ -21,7 +21,7 @@ log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
 
-##### Release 22.10.11
+##### Release 22.10.25
 
 - Fixed translations not updated (broke in v22.09).
 - Fixed crash in **Size, Position & Rotate** filter when size approaches zero, for example when editing a size numeric
@@ -42,7 +42,6 @@ information.
 - Fixed keyframes after an undo and redo upon making a transition while trimming the in point of a clip.
 - Finished the menu technology updates (marker context, rich text editor) that were mostly done in v22.09.23.
 - Added icons for the 360 video filters. 
-- Performance improvement in **Timeline** for when there is opaque clip on a track above another clip.
 - Disallow allow adding **Filters** to a device or live input since this is not working and could interfere with integrity of capture.
 - Increased the maximum values in the **Mask: Simple Shape > Horizontal** and **Vertical** video filter.
 - Changing **Timeline > Zoom** no longer pauses playback.
