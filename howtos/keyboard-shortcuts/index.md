@@ -232,7 +232,7 @@ position of the mouse cursor without clicking and dragging.
 
 ### Timeline
 
-- While dragging shot or trimming, press and hold <kbd>Alt</kbd> to temporarily
+- While dragging shot or trimming, press and hold <kbd>Alt</kbd> (<kbd>option</kbd> on macOS) to temporarily
   **suspend snapping**. On Linux, pressing Alt before dragging will
   usually move the app window; so, press Alt after you start dragging.
 - Press and hold <kbd>Shift</kbd>+<kbd>Alt</kbd> to **skim** - scrub/seek using the horizontal

@@ -20,6 +20,19 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 22.11.25
+
+- Fixed including sub-project with **Open MLT XML as Clip** breaks the project (broke in v22.10).
+- Fixed custom transition preview in **Properties** degrades quality and accuracy of the transition preview in the player (bug in v22.09).
+- Fixed memory leak in the transition **Properties** and **Slideshow Generator** previews (bug in v22.09).
+- Fixed crash when using the `--appdata` command line option (broke in v22.09).
+- Fixed dragging multiple selection in **Timeline** does not show all selected clips (broke in v22.09).
+- Fixed huge memory consumption when using certain filters before keyframes on the **Size, Position & Rotate** filter: **Corner Pin**, **Mask: Simple Shape**.
+- Fixed <kbd>Alt</kbd> (<kbd>option</kbd> on macOS) not suspending snapping in filter rectangle controls.
+- Fixed updating the filter UI value when deleting a keyframe.
+- Improved sound quality of **Pitch compensation** and **Pitch** audio filter.
+- Added **Reset on discontinuity** option to the **Normalize: One Pass** audio filter.
+
 
 ##### Release 22.10.25
 
