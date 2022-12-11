@@ -30,13 +30,15 @@ No estimated delivery time:
 - playlist folders
 - configurable time format with a non-timecode default
 - rectangle selection in timeline
-- groups in timeline
 
 
 More
 ----
 In no particular order or estimated delivery time:
 
+- groups in timeline
+- quick effects VUI
+- automatically add tracks
 - auto-scroll timeline by pages instead of continuously
 - integration for external editor (e.g. Audacity, Glaxnimate, GIMP, etc. via configurable launcher and file watcher)
 - add rectangle control to Mask: Simple Shape
