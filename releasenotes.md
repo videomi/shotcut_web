@@ -22,6 +22,34 @@ information.
 
 ##### Release 22.11.25
 
+- Fixed the keyframes button sets size and position parameters to all zeroes in the following filters (broke in v22.11):
+  * **Blur: Pad**
+  * **Crop: Rectangle**
+  * **Size, Position & Rotate**
+  * **Spot Remover**
+  * **Text: Rich**
+  * **Text: Simple**
+- Fixed a crash when changing a parameter in the **Pitch** audio filter (broke in v22.11).
+- Fixed a crash on **File > New** or **File > Close** while also playing (bug in v22.09).
+- Fixed a memory leak in slideshow dialog and transition properties preview (bug in v22.09).
+- Fixed **Time Remap** video filter disables a **Crop: Source** filter.
+- Fixed making a gradient stop transparent (alpha value 0) in various filters:
+  * **Audio Level Visualization**
+  * **Audio Light Visualization**
+  * **Audio Spectrum Visualization**
+  * **Audio Waveform Visualization**
+  * **GPS Graphic**
+  * **Gradient**
+- Added new seek actions to the **Player** menu:
+  * Forward Jump <kbd>Alt</kbd>+<kbd>Page Down</kbd> (<kbd>option</kbd>+<kbd>page down</kbd> on macOS)
+  * Backward Jump <kbd>Alt</kbd>+<kbd>Page Up</kbd> (<kbd>option</kbd>+<kbd>page up</kbd> on macOS)
+  * Set Jump Time <kbd>Ctrl</kbd>+<kbd>J</kbd> (<kbd>command</kbd>+<kbd>J</kbd> on macOS)
+- Added **Cycle Marker Color** with default keyboard shortcut <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>M</kbd> (<kbd>option</kbd>+<kbd>command</kbd>+<kbd>M</kbd> on macOS).
+- Added **Advanced > Sample rate** to the **Properties > Convert** dialog.
+
+
+##### Release 22.11.25
+
 - Fixed including sub-project with **Open MLT XML as Clip** breaks the project (broke in v22.10).
 - Fixed custom transition preview in **Properties** degrades quality and accuracy of the transition preview in the player (bug in v22.09).
 - Fixed memory leak in the transition **Properties** and **Slideshow Generator** previews (bug in v22.09).

@@ -80,6 +80,9 @@ category: help
 | Backward 5 Seconds    | Ctrl+Page Up                         | command+Page up
 | Forward 10 Seconds    | Ctrl+Shift+Page Down                 | shift+command+page down
 | Backward 10 Seconds   | Ctrl+Shift+Page Up                   | shift+command+page up
+| Forward Jump          | Alt+Page Down                        | option+page down
+| Backward Jump         | Alt+Page Up                          | option+page up
+| Set Jump Time         | Ctrl+J                               | command+J
 | Seek Start            | Home                                 | home
 | Seek End              | End                                  | end
 | Seek Next Edit        | Alt+Right                            | option+right
@@ -112,6 +115,7 @@ category: help
 | Ripple trim clip out  | Shift+O                              | shift+O
 | Add/Edit marker at cursor        | M                         | M
 | Add/Edit marker around selected clips | Alt+M                | option+M
+| Cycle Marker Color    | Ctrl+Alt+M                           | option+command+M
 | Delete Marker         | Ctrl+Shift+M                         | shift+control+M
 | Seek to previous marker | <                                  | <
 | Seek to next marker   | >                                    | >
