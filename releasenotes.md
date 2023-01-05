@@ -20,7 +20,7 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
-##### Release 22.11.25
+##### Release 22.12.21
 
 - Fixed the keyframes button sets size and position parameters to all zeroes in the following filters (broke in v22.11):
   * **Blur: Pad**
