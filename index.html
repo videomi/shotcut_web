@@ -38,8 +38,10 @@ category: other
         <div class="col-md-4">
             <h4>Latest News</h4>
             <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:9 %} 
+            {% for post in site.categories['blog'] limit:9 %}
+              {% if post.hidden == null or post.hidden == false %}
                 <p style="line-height: 1.5em;"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+              {% endif %}
             {% endfor %} 
         </div>
 
