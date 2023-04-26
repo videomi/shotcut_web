@@ -8,3 +8,5 @@ shotcut_web.includes
 .jekyll-metadata
 Gemfile.lock
 .markdownlint.json
+vendor
+.bundle

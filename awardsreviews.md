@@ -7,10 +7,10 @@ category: about
 Awards
 ======
 
-<div style="display:grid;grid-template-columns: 100px 100px 200px;align-items: start">
-<div><a target="_blank" href="http://www.giga.de/downloads/shotcut/#utm_source=PS&utm_medium=BL&utm_campaign=Badge"><img width="100" alt="GIGA Badge" src="//www.giga.de/static/badges/img/2375875_software.png" height="100"><br>Shotcut - 5 stars @ GIGA</a></div>
-&nbsp;
+<div style="display:grid;grid-template-columns: 200px 200px 200px;align-items: start">
+<div><a target="_blank" href="https://www.infoworld.com/article/3637038/the-best-open-source-software-of-2021.html#slide9"><img style="width:180px" src="//images.idgesg.net/images/article/2021/10/bos-2021-intro-100907343-large.jpg?auto=webp&quality=85,70" alt="InfoWorld BOSSIE 2021 Award"></a></div>
 <div><a target="_blank" href="https://www.goodfirms.co/software/shotcut"><img style="width:180px" src="//goodfirms.s3.amazonaws.com/badges/blue-button/app-development-software.svg" alt="GoodFirms Badge"></a></div>
+<div><a target="_blank" href="https://www.giga.de/downloads/shotcut/#utm_source=PS&utm_medium=BL&utm_campaign=Badge">Shotcut - 5 stars @ GIGA</a></div>
 </div>
 
 Articles
@@ -18,10 +18,10 @@ Articles
 
 -   [Our Favorite FREE Video Enhancer Software to Improve Video
 Quality](https://thesweetbits.com/best-free-video-enhancer-software/) by TheSweetBits
--   [Introducing Shotcut](http://libregraphicsworld.org/blog/entry/introducing-shotcut-a-new-free-video-editor)
+-   [Introducing Shotcut](https://librearts.org/2012/08/introducing-shotcut-a-new-free-video-editor/)
     by Alexandre Prokoudine, Libre Graphics World
 -   [Shotcut video editor gets hardware accelerated color
-    grading](http://libregraphicsworld.org/blog/entry/shotcut-gets-hardware-accelerated-color-grading)
+    grading](https://librearts.org/2013/03/shotcut-gets-hardware-accelerated-color-grading/)
     by Alexandre Prokoudine, Libre Graphics World
 -   [Fast Cut](http://www.linux-magazine.com/Issues/2014/159/Shotcut-Video-Editor)
     by Tim Schürmann, Linux Magazine
