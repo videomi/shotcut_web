@@ -6,8 +6,8 @@ category: notes
 
 1. Download and install the following:
   - Qt Creator from the [Qt project](https://www.qt.io/download-open-source/) or your distribution packages.
-  - Qt SDK version 5.15
-  - [Shotcut SDK (1.6 GB, current version 22.12.21, Intel build)](https://s3.amazonaws.com/builds.us.meltytech/shotcut/shotcut-macos-sdk-221221.txz)  
+  - Qt SDK version 6.4
+  - [Shotcut SDK (2.18 GB, current version 23.05.07, universal build)](https://s3.amazonaws.com/builds.us.meltytech/shotcut/shotcut-macos-sdk-230507.txz)  
     Extract it to $HOME/Projects
 
 2. Extract the Shotcut SDK `.txz` file from the folder `$HOME/Projects`.
@@ -55,13 +55,12 @@ You might want to put the following into ~/.profile or a setup script:
 
 ```
 export PATH="$HOME/Projects/Shotcut/Contents/MacOS:$PATH"
-export QTDIR="$HOME/Qt/5.15.2/clang_64"
+export QTDIR="$HOME/Qt/6.4.2/macos"
 export PKG_CONFIG_PATH="$HOME/Projects/Shotcut/Contents/Frameworks/lib/pkgconfig"
 export CFLAGS="-I/opt/local/include -DRELOCATABLE"
 export CXXFLAGS="$CFLAGS"
 export LDFLAGS="-L/opt/local/lib/libomp"
 ```
 
-Sometimes, you need to `make distclean` and re-run `configure` to make a clean
-in-tree (non-shadow) build. MLT has a `./reconfigure` script that invokes the
-configure with the same arguments as the previous run.
+You should make separate build directories instead of trying to reuse the
+in-tree build.
