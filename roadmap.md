@@ -19,7 +19,6 @@ In Progress
 -----------
 
 - undo/redo support for filters
-- support for Qt 6 with direct support for Direct3D, Meta, and Vulkan
 
 
 Next
@@ -41,12 +40,9 @@ In no particular order or estimated delivery time:
 - automatically add tracks
 - auto-scroll timeline by pages instead of continuously
 - integration for external editor (e.g. Audacity, Glaxnimate, GIMP, etc. via configurable launcher and file watcher)
-- add rectangle control to Mask: Simple Shape
-- add drag-move of corner pin's shape
 - open HEIC images
 - open AVIF images
 - ITU-R BT.2020 wide color gamut
-- improved support for high bit depth video
 - HDR/SMPTE 2084
 - fullscreen playback on current/single screen with on-screen controls
 - audio noise reduction
@@ -70,7 +66,6 @@ In no particular order or estimated delivery time:
 - add OpenTimelineIO import/export
 - add search media type queries to Playlists
 - add keywords, description, and presets to Filters search
-- add motion tracking via OpenCV
 - add option to view timeline waveform per channel
 - add transitions to Playlist
 - make it easy to add 0.5 or 1 second transition on timeline
@@ -78,8 +73,6 @@ In no particular order or estimated delivery time:
 - add speed param to Export > Codec
 - add option to reduce number of encode threads for Convert, Reverse, and Proxy jobs
 - improve the appearance of video-with-alpha clips by showing with checkered background in source player
-- tile-based accellerated image processing system via [SYCL](https://www.khronos.org/api/index_2017/sycl)
-- linear color processing, possibly through OpenColorIO
 - hardware accellerated decoding
 - background removal
 - universal search

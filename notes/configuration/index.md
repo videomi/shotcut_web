@@ -52,16 +52,20 @@ Windows registry, a bool is stored as a string: true or false.
 | openPath         | string      | the file system path for the file-open dialog
 | savePath         | string      | the file system path for the file-save dialog
 | recent           | string list | list of recent media and XML files with full path: comma-separated in Linux or Windows INI, multi-string in Windows registry, and array of strings in macOS plist (View > Recent)
+|                  |             | This is no longer saved here as of version 23.05.07 and moved to a separate `recent.ini` text file.
 | clearRecent      | bool        | Setting > Clear Recent on Exit
 | theme            | string      | UI theme, one of: dark, light, or system (Settings > Theme)
 | titleBars        | bool        | whether to show the title bar for UI panels (View > Show Title Bars)
 | toolBar          | bool        | whether to show the main tool bar at the top of the main window (View > Show Toolbar)
-| geometry         | binary      | the size and position of the windows
+| geometry         | binary      | before version 23.05.07, the size and position of the windows
+| geometry2        | binary      | as of version 23.05.07, the size and position of the windows
 | geometryDefault  | binary      | used to save View > Layout > Restore Default Layout
-| windowState      | binary      | the current layout of the UI panels
+| windowState      | binary      | before version 23.05.07, the current layout of the UI panels
+| windowState2     | binary      | as of 23.05.07, the current layout of the UI panels
 | windowStateDefault | binary    | used to save View > Layout > Restore Default Layout
 | showConvertClipDialog | bool   | whether to continue to show the Convert to Edit-friendly dialog for variable frame rate or non-seekable files
 | opengl           | integer     | Settings > Display Method, in decimal: 0 (Automatic), 15 (OpenGL), 16 (DirectX, Windows only), or 17 (Software)
+|                  |             | This is no longer used on Windows and macOS as of version 23.05.07.
 | noupgrade        | bool        | whether to show the prompt to check for upgrade upon app launch
 | appdatadir       | string      | the file system path where to load configuration. If this is set, then all the remaining configuration keys are read from shotcut.ini instead of the registry (Windows), plist (macOS), or ~/.config (Linux).
 | checkUpgradeAutomatic |  bool  | whether to check for an update automatically at startup (default false)
@@ -75,6 +79,7 @@ Windows registry, a bool is stored as a string: true or false.
 | videoInput       | string      | the most recently chosen video device in Open Other > Audio/Video Device (default first input)
 | glaxnimatePath   | string      | the path to the glaxnimate executable if glaxnimate (default "glaxnimate" in same dir as shotcut executable)
 | exportRangeMarkers | bool      | File > Export > Markers as Chapters > Include ranges
+| warnLowMemory      | bool      | whether to check for low CPU RAM memory and show a warning dialog (default true)
 | ***markers***
 | color            | string      | the color to use for a new marker (default green)
 | columns/color    | bool        | whether to show the Color column (default true)
@@ -104,9 +109,9 @@ Windows registry, a bool is stored as a string: true or false.
 | audioChannels    | integer     | the number of audio channels to use (Settings > Audio Channels)
 | deinterlacer     | string      | one of: onefield, linearblend, yadif-nospatial, or yadif (Settings > Deinterlacer)
 | external         | string      | for Settings > External Monitor, one of: sdi (Linsys card), decklink:&lt;N&gt; (Blackmagic Design peripheral), or &lt;N&gt; (screen)
-| gamma            | string      | for Settings > Gamma (GPU Effects only), one of: iec61966_2_1 (sRGB) or bt709 (Rec. 709)
-| gpu              | bool        | whether Settings > GPU Effects is on (default false)
-| warnGPU          | bool        | whether to show warning dialog when GPU Effects is on (default true)
+| gpu              | bool        | before version 23.05.07, whether Settings > GPU Effects is on (default false)
+| gpu2             | bool        | as of v23.05.07, whether Settings > GPU Effects is on (default false)
+| warnGPU          | bool        | before version 23.05.07, whether to show warning dialog when GPU Effects is on (default true)
 | jack             | bool        | whether Settings > Use JACK Audio is on
 | interpolation    | string      | for Settings > Interpolation, one of: nearest, bilinear, bicubic, or hyper (Lanczos)
 | keyer            | integer     | for Settings > External Monitor > Decklink Keyer, one of: 0 (Off), 1 (Internal), 2 (External)

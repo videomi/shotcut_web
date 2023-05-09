@@ -20,6 +20,49 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 23.05.07
+
+- Restored **Settings > GPU Effects**.
+- Restored **Lens Correction** video filter.
+- Added **Motion Tracker** video filter.
+- Added **Speed: Forward Only** and **Speed: Forward & Reverse** filters.
+- Added saving and loading filter sets: **Filters > + > Sets**.
+- Added an **Add To Timeline** button to many things in **Open Other**.
+- Added a visual rectangle control to the **Mask: Simple Shape** filter.
+- Holding <kbd>Shift</kbd> while dragging a point in the **Corner Pin** filter moves all corners together.
+- Added faster and better quality YADIF deinterlacer plus addition of BWDIF deinterlacer.
+- Added 10-bit export presets under the "ten_bit" category.
+- Added support for Intel ("qsv") AV1 and VP9 hardware encoders on Windows including 10-bit for AV1.
+- Less audio crackling in exports when audio source is not 48000 Hz sample rate.
+- Less audio crackling upon start of playback in preview.
+- Upgraded *Qt* to version 6.4.
+- Upgraded *Glaxnimate* to version 0.5.3, which fixes some bugs and can animate motion along a drawn path.
+- Upgraded *FFmpeg* to latest version 6.
+- Upgraded *MLT* to latest version 7.16.0.
+- Upgrade *AV1* codecs to latest versions.
+- **Stabilize** and **Normalize: Two Pass** on a timeline clip is faster.
+- The **Lens Correction** video filter is back.
+- Added **Settings > Language > Hebrew**.
+- **Open Other > Text** now has a **Rich** option.
+- Changed **File > Export > Video** and its shortcut to be the same as clicking **Export > Export File**.
+- Fixed seeking on raw FLAC audio files.
+- Fixed **Record Audio** breaks the state of the player's mute toggle when you unmute the Shotcut audio during recording.
+- Fixed using the mouse wheel to scroll the timeline horizontally on macOS and Linux.
+- Fixed image padding not transparent during a transition.
+- Added low disk space warnings to the Properties > Convert and Reverse actions.
+- Fixed loading projects made with version before 19.06 using comma for decimal symbol.
+- Fixed chroma bleeding for interlaced YUV 4:2:0 video sources.
+- Fixed Shotcut became very slow if something wrong and very large was saved to **Recent**.
+- Removed **Settings > Theme**.
+- Removed **Settings > Player > External Monitor** with a system monitor.
+- Removed **Settings > Player > Gamma** with GPU effects on.
+- Removed **Settings > Display Method** on Windows and macOS.
+- Removed export progress on the Windows taskbar icon.
+- The minimum version for Windows is now Windows 10.
+- The minimum version of our non-Flatpak Linux binaries is now based on Ubuntu 20.04 LTS, which uses glibc 2.31.
+- The macOS app is now universal and runs on either Intel or Apple Silicon without Rosetta.
+
+
 ##### Release 22.12.21
 
 - Fixed the keyframes button sets size and position parameters to all zeroes in the following filters (broke in v22.11):

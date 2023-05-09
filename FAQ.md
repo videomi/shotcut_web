@@ -27,15 +27,13 @@ category: help
 
 ## What are the minimum system requirements?
 
-Operating system: 64-bit Windows 7 - 11, Apple macOS 10.14 - 12., or
-64-bit Linux with at least glibc 2.27.
+Operating system: 64-bit Windows 10 - 11, Apple macOS 10.14 - 13., or
+64-bit Linux with at least glibc 2.31.
 
 CPU: x86-64 Intel or AMD; at least one 2 GHz core for SD, 4 cores for
 HD, and 8 cores for 4K.
 
-GPU: OpenGL 2.0 that works correctly and is compatible. On Windows, you
-can also use a card with good, compatible DirectX 9 or 11 drivers. We do
-not have a list.
+GPU: OpenGL 2.0 that works correctly and is compatible on Linux, DirectX 11 on Windows.
 
 RAM: At least 4 GB for SD, 8 GB for HD, and 16 GB for 4K.
 
@@ -65,29 +63,6 @@ the Compatibility tab of the Properties for the Shotcut icon/exe: Run in
 compatibility mode for "Windows XP (Service Pack 2)", and "Run this
 program as administrator." However, not every one needs to do that, and
 we are not sure why he needed it.
-
-* * *
-
-## Why does it frequently crash on Windows?
-
-While some systems have a video adapter driver with at least version 2.1
-OpenGL, there may be some incompatibility between the OpenGL code in
-Shotcut or Qt and the driver that causes a crash. You can try to upgrade to
-the latest driver for your hardware.
-Versions 15.09 and higher can also use **DirectX** when GPU processing is not
-enabled, and that should improve compatibility. Try the different options under
-**Settings > Display Method: OpenGL or DirectX**.
-
-If you are using the 32-bit version of Shotcut on 64-bit Windows (it may appear
-in "Program Files (x86)"), try using
-the 64-bit version of Shotcut instead. You may be experiencing issues with
-drivers or running into memory limitations.
-
-Of course, there can still be other reasons we have not yet discovered.
-If you believe none of the reasons above applies to you, then you can
-locate your shotcut-log.txt file in AppData (see other question below
-for more information) and paste it into a [bug
-report](https://github.com/mltframework/shotcut/issues).
 
 * * *
 
@@ -269,11 +244,9 @@ First, use **Properties** to see if the **Video** tab is disabled. If it
 is disabled, then Shotcut is not compatible with this format or codec.
 If the video tab is enabled, more than likely OpenGL (or also DirectX on
 Windows) is not working on your system, or it is too old. First, make
-sure **GPU Processing** is disabled in **Settings**. GPU processing
+sure **GPU Effect** is disabled in **Settings**. GPU effects
 requires OpenGL version 3.2. When it is disabled, you only need OpenGL
-version 2.0 (or also DirectX on Windows). If you are on Windows, after
-ensuring GPU processing is disabled, try forcing the usage of DirectX by
-choosing **Settings > Display Method > DirectX (ANGLE)**.
+version 2.0 on Linux, DirectX on Windows, or Metal on macOS.
 
 * * *
 
@@ -460,9 +433,9 @@ source, cross-platform tool [Audacity](http://audacityteam.org/).
 
 Shotcut uses the GPU in three ways:
 
-1. OpenGL for drawing parts of the user interface and showing video
+1. For drawing parts of the user interface and showing video: Direct3D on Windows, Metal on Linux, and OpenGL on Linux.
 2. hardware encoding (where available and enabled)
-3. OpenGL for the hidden GPU Effects (filters and transitions) mode
+3. OpenGL for GPU Effects (filters and transitions) mode
 
 Shotcut does NOT use the GPU or hardware acceleration for the following:
 

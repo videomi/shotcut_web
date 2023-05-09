@@ -31,6 +31,7 @@ Also, currently it needs many of these to properly map MLT objects into the Shot
 | producer | shotcut:skipConvert | //producer/property[@name = 'shotcut:skipConvert'] | If set 1, then Shotcut will not prompt to convert the file if it believes it to be variable frame rate or unseekable. |
 | various | shotcut:projectAudioChannels | //property[@name = 'shotcut:skipConvert'] | Sets the number of audio channels to use for this project. 2 is used if not specified. |
 | various | shotcut:projectFolder | //property[@name = 'shotcut:projectFolder'] | Set to 1 to indicate this project uses a project folder. |
+| various | shotcut:projectNote | //property[@name = 'shotcut:projectNotes'] | The text contents of the **Notes** panel. |
 | producer | shotcut:resource | //producer/property[@name = 'shotcut:resource'] | A copy of the resource property used by the proxy manager. |
 | producer | shotcut:disableProxy | //producer/property[@name = 'shotcut:disableProxy'] | Set to 1 to indicate that proxy should not be generated for this producer. |
 | producer | shotcut:originalResource | //producer[property/@name ='mlt_service' and property/text() = 'avformat']/property[@name = 'shotcut:originalResource'] | A copy of the `resource` property used by the Reverse action to restore original when reversing a reversed. |
@@ -39,6 +40,7 @@ Also, currently it needs many of these to properly map MLT objects into the Shot
 | producer | shotcut:defaultAudioIndex | //producer[property/@name ='mlt_service' and property/text() = 'avformat']/property[@name = 'shotcut:originalOut'] | A copy of the `audio_index` property used by the audio levels/waveform generator. |
 | filter | shotcut:animIn | //filter/property[@name = 'shotcut:animIn'] | The duration in frames for the simple keyframes' starting animation. |
 | filter | shotcut:animOut | //filter/property[@name = 'shotcut:animOut'] | The duration in frames for the simple keyframes' ending animation. |
+| filter | shotcut:backup | //filter/property[@name = 'shotcut:backup'] | Motion tracking uses this to save the property value of whatever parameter is affected before applying tracking results. It uses it to restore the state when re-apply tracking (different operation or tracker) or choosing to reset. |
 {:.withborders}
 
 **Warning**: All of these are subject to change as Shotcut is still in development.

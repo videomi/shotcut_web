@@ -40,7 +40,7 @@ category: about
                     within a project</li>
                 <li>Webcam capture</li>
                 <li>Audio capture</li>
-                <li>Support for 4K resolutions</li>
+                <li>Support for 4K &amp; 8K resolutions</li>
                 <li>Network stream playback (HTTP, HLS, RTMP, RTSP, MMS, UDP)</li>
                 <li><a href="https://frei0r.dyne.org/">Frei0r</a> video generator plugins (e.g. color bars and plasma)</li>
                 <li>Color, text, noise, and counter generators</li>
@@ -49,6 +49,7 @@ category: about
                 <li>Videos files with alpha channel - both reading and writing</li>
                 <li>Tone mapping HDR to SDR</li>
                 <li>Optional full range video input, processing, and export</li>
+                <li>10-bit video end-to-end when using only GPU effects</li>
             </ul>
         </div>
     </div><!-- /row -->
@@ -125,14 +126,15 @@ category: about
                   Crop: Circle, Crop: Rectangle, Deband, Distort, Dither, Elastic Scale,
                   Flip, Fisheye, Glitch, Glow, GPS Graphic, GPS Text, Gradient, Grid, Halftone,
                   Hue/Lightness/Saturation, Invert Colors, Key Spill: Advanced, Key Spill: Simple,
-                  Levels, 3D LUT, Mask: Apply, Mask: Chroma Key, Mask: From File, Mask: Simple Shape,
-                  Mirror, Mosaic, Nervous, No Sync, Noise: Fast, Noise: Keyframes,
+                  Lens Correction, Levels, 3D LUT, Mask: Apply, Mask: Chroma Key, Mask: From File, Mask: Simple Shape,
+                  Mirror, Mosaic, Motion Tracker, Nervous, No Sync, Noise: Fast, Noise: Keyframes,
                   Old Film: Dust, Old Film: Grain, Old
                   Film: Projector, Old Film: Scratches, Old Film: Technocolor,
                   Opacity, Posterize, Reduce Noise: HQ3DN, Reduce Noise: Quantization,
                   Reduce Noise: Smart Blur, Reduce Noise: Wavelet, Reflect,
                   RGB Shift, Rotate and Scale, Saturation, Scan Lines,
-                  Sepia Tone, Sharpen, Size and Position, Sketch, Spot Remover,
+                  Sepia Tone, Sharpen, Size and Position, Sketch, Speed: Forward Only,
+                  Speed: Forward &amp; Reverse, Spot Remover,
                   Stabilize, Text: Rich, Text: Simple, Threshold, Time Remap,
                   Timer, Trails, Vertigo, Vignette, Unpremultiply Alpha, Wave,
                   White Balance</li>
@@ -143,9 +145,10 @@ category: about
                   360: Rectilinear to Equirectangular,
                   360: Stabilize,
                   360: Transform
-                <li>Speed effect for audio/video clips</li>
+                <li>Speed ramping for audio/video clips</li>
                 <li>Reverse a clip</li>
                 <li>Video scopes: Histogram, RGB Parade, RGB Waveform, Waveform, Vectorscope and Zoom</li>
+                <li>Object motion tracking</li>
             </ul>
         </div>
     </div><!-- /row -->
@@ -209,11 +212,11 @@ category: about
             <li>Codec independent so does not rely on system codecs</li>
             <li>Can run as a portable app from external drive</li>
             <li>UI translations: Arabic, Catalan, Chinese, Czech, Danish, Dutch, English, Estonian,
-                Finnish, French, Gaelic, Galician, German, Greek, Hungarian, Italian, Japanese, Korean,
-                Nepali, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Polish, Portugese, Romanian,
+                Finnish, French, Gaelic, Galician, German, Greek, Hebrew, Hungarian, Italian, Japanese,
+                Korean, Nepali, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Polish, Portugese, Romanian,
                 Russian, Slovak, Slovenian, Spanish, Swedish, Taiwanese, Thai, Turkish,
                 Ukranian (not all 100%, but you can
-                <a href="https://www.transifex.com/projects/p/shotcut/">help</a></li>
+                <a href="https://www.transifex.com/projects/p/shotcut/">help</a>)</li>
             <li>Batch encoding with job control</li>
             <li>Encode/transcode to a variety of formats and codecs thanks to FFmpeg</li>
             <li>Stream (encode to IP) files and any capture source</li>
@@ -234,8 +237,8 @@ category: about
             <h3 style="margin-top: -5px;">Display and Monitoring</h3>
             <ul>
                 <li>External monitoring via Blackmagic Decklink card on NTSC monitor</li>
-                <li>External monitoring on an extra system display/monitor</li>
-                <li>UI themes/skins: native-OS look and custom dark and light</li>
+                <!-- <li>External monitoring on an extra system display/monitor</li> -->
+                <!-- <li>UI themes/skins: native-OS look and custom dark and light</li> -->
                 <li>Control video zoom in the player: fit viewable area (default),
                     10%, 25%, 50%, original (100%), and 200%</li>
                 <li>Flexible UI through dock-able panels</li>
@@ -271,8 +274,7 @@ category: about
             <h3>Hardware Support</h3>
             <ul>
                 <li>Blackmagic Design SDI and HDMI for input and preview monitoring</li>
-                <li><a href="http://www.leapmotion.com">Leap Motion</a> and
-                    <a href="{{ "/howtos/contour-shuttle/" | prepend: site.baseurl }}">Contour Design Shuttle PRO</a>
+                <li><a href="{{ "/howtos/contour-shuttle/" | prepend: site.baseurl }}">Contour Design Shuttle PRO</a>
                     for jog/shuttle control</li>
                 <li>Webcam capture</li>
                 <li>Audio capture from system device (microphone, line in)</li>
