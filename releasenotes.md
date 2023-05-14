@@ -20,6 +20,22 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 23.05.14
+
+- Restored **Settings > Theme**.
+- Fixed a crash in **Stabilize** video filter during preview.
+- Fixed bold fonts not working correct in text filters.
+- Fixed some audio and export issues with video clips with no audio.
+- Fixed **Spot Remover** video filter during preview.
+- Fixed filter UI not working after changing **Settings > Audio Channels**.
+- Fixed translations (**Settings > Language**) not loading completely.
+- Fixed the order of **Recent** revered when migrated from previous version.
+- Fixed saving a filter set with the same name.
+- Fixed a crash when adding a filter to **Output** of an empty **Timeline**.
+- Added a **GPU** category to the filter chooser.
+- Allow adding any non-GPU video filter with **GPU Effects** on.
+
+
 ##### Release 23.05.07
 
 - Restored **Settings > GPU Effects**.
