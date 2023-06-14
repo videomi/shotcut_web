@@ -38,7 +38,6 @@ In no particular order or estimated delivery time:
 - groups in timeline
 - quick effects VUI
 - automatically add tracks
-- auto-scroll timeline by pages instead of continuously
 - integration for external editor (e.g. Audacity, Glaxnimate, GIMP, etc. via configurable launcher and file watcher)
 - open HEIC images
 - open AVIF images

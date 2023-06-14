@@ -33,7 +33,7 @@ Operating system: 64-bit Windows 10 - 11, Apple macOS 10.14 - 13., or
 CPU: x86-64 Intel or AMD; at least one 2 GHz core for SD, 4 cores for
 HD, and 8 cores for 4K.
 
-GPU: OpenGL 2.0 that works correctly and is compatible on Linux, DirectX 11 on Windows.
+GPU: OpenGL 2.0 that works correctly and is compatible on Linux, Direct3D 11 on Windows.
 
 RAM: At least 4 GB for SD, 8 GB for HD, and 16 GB for 4K.
 
@@ -242,11 +242,11 @@ libraries could not be loaded.
 
 First, use **Properties** to see if the **Video** tab is disabled. If it
 is disabled, then Shotcut is not compatible with this format or codec.
-If the video tab is enabled, more than likely OpenGL (or also DirectX on
+If the video tab is enabled, more than likely OpenGL (or also Direct3D on
 Windows) is not working on your system, or it is too old. First, make
 sure **GPU Effect** is disabled in **Settings**. GPU effects
 requires OpenGL version 3.2. When it is disabled, you only need OpenGL
-version 2.0 on Linux, DirectX on Windows, or Metal on macOS.
+version 2.0 on Linux, Direct3D on Windows, or Metal on macOS.
 
 * * *
 
