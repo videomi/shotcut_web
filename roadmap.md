@@ -38,7 +38,7 @@ In no particular order or estimated delivery time:
 - groups in timeline
 - quick effects VUI
 - automatically add tracks
-- integration for external editor (e.g. Audacity, Glaxnimate, GIMP, etc. via configurable launcher and file watcher)
+- integration for external editor (e.g. Audacity, GIMP, etc. via configurable launcher and file watcher)
 - open HEIC images
 - open AVIF images
 - ITU-R BT.2020 wide color gamut
@@ -72,7 +72,7 @@ In no particular order or estimated delivery time:
 - add speed param to Export > Codec
 - add option to reduce number of encode threads for Convert, Reverse, and Proxy jobs
 - improve the appearance of video-with-alpha clips by showing with checkered background in source player
-- hardware accellerated decoding
+- hardware accelerated decoding
 - background removal
 - universal search
 - file browser and media library

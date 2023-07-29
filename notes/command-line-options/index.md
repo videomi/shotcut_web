@@ -29,6 +29,9 @@ Options:
   --QT_SCREEN_SCALE_FACTORS <list>  A semicolon-separated list of scale factors for each screen
   --QT_SCALE_FACTOR_ROUNDING_POLICY <string> How to handle a fractional display scale:
                                     Round, Ceil, Floor, RoundPreferFloor, PassThrough
+  --SDL_AUDIODRIVER <string>        Which operating system audio API
+                                    to use: directsound, wasapi, winmm (Windows)
+                                    alsa, arts, dsp, esd, jack, pipewire, pulseaudio (Linux)
 
 Arguments:
   [FILE]...                         Zero or more files or folders to open
