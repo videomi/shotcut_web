@@ -156,53 +156,11 @@ of seeking to make the responsiveness of the video player faster.
 
 ## Are there keyboard shortcuts for editing?
 
-There is now a [page with all of the keyboard shortcuts]( {{ "/howtos/keyboard-shortcuts/" | prepend: site.baseurl }} ).\\
-These shortcuts are available without holding Ctrl, Alt, or Command (macOS)
-unless otherwise noted:
+The best way to see the shortcuts is in the Actions and Shortcuts dialog.
+This dialog appears by navigating "Help->Actions and Shortcuts..." or by
+pressing the "?" key.
 
--   **i** and **o** set the in and out points respectively (when a clip
-    is open in the player)
--   **Esc** switches the player between the player between the
-    source (clip) and program (playlist or timeline) views
-
-**Playlist**
-
--   **Shift+X**, **del** or **backspace** removes the selected item
--   **Shift+C** appends a clip to the playlist
--   **Shift+V** inserts a clip before the selected playlist item; appends
-    if no item is selected
--   **Shift+B** updates the selected item with the clip in the player
--   **Enter** opens the playlist in the player and seeks to the selected
-    cut
--   **Up** and D**own** changes the current/selected item
--   **Ctrl+Up** and **Ctrl+Down** moves the selected item up or down
--   **1** through **0** selects the Nth item ( **0** is ten)
-
-**Timeline**
-
--   **z**, **Del** or **Backspace** *lifts* the selected shot from the
-    timeline without affecting the positions of the other shots on the
-    track
--   **x**, **Shift+Del** or **Shift+Backspace** removes the selected
-    shot in a ripple fashion such that following shots on the track
-    shift to the left
--   **c** appends a clip to the current track
--   **v** <span style="background-color: transparent;"> inserts a
-    clip at the playhead position on the current track, splitting the
-    shot under the playhead if necessary, and acts in a ripple fashion
-    shifting all shots following the play head to shift to the
-    right</span>
--   **b** <span style="background-color: transparent;">
-    over-writes on the current track with the clip in the player without
-    affecting the positions of any shots following the duration of the
-    clip</span>
--   **Up** <span style="background-color: transparent;"> and
-    </span> **Down** <span style="background-color:
-    transparent;"> changes the current track</span>
--   **0, -, =**<span style="background-color:
-    transparent;">adjusts the zoom level of the timeline (0 resets to
-    default, center position on slider; = zooms in and is the same key
-    as + without needing to press shift)</span>
+There is also a [page with all of the keyboard shortcuts]( {{ "/howtos/keyboard-shortcuts/" | prepend: site.baseurl }} ).
 
 Just like j, k, and l for playback transport control, the bare i, o, x,
 v, b are very common shortcuts use by other professional video editing
