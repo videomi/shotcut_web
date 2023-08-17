@@ -49,7 +49,7 @@ In no particular order or estimated delivery time:
 - set metadata (artist, title, etc.) in encode
 - archive project
 - additional editing modes/operations (slip, slide, roll)
-- audio mixer console (one strip per track plus master)
+- audio mixer console (one strip per track plus output)
 - surround panning
 - raw video processing - e.g. CinemaDNG
 - subtitles

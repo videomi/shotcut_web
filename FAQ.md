@@ -131,7 +131,9 @@ enable an image sequence, add it to the new video track, and further adjust its 
 might also want to apply the **Size, Position & Rotate** filter to the image clip. The image file formats that
 support an alpha channel are PNG, SVG, and TGA. You can also use Quicktime Animation format. There are many tools that
 can create images with alpha channels for this purpose. Some of them include GIMP, Inkscape, Krita, Paint.NET, etc. For
-animation, consider Blender and Synfig. * * *
+animation, consider Blender and Synfig.
+
+* * *
 
 ## Why is seeking so slow?
 
@@ -245,7 +247,7 @@ We recommend that you use VirtualDub or Avidemux for that.
 ## Why do I not have the \_\_ filter?
 
 -   Some filters are not compatible with GPU Processing.
--   Some filters cannot be applied to a track or the entire timeline (i.e. Master).
+-   Some filters cannot be applied to a track or the entire timeline (i.e. Output).
     Please check what is currently selected. The top of the Filters panel shows
     the name of what is selected.
 -   By design, we do not make all LADSPA and frei0r filters available
