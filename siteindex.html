@@ -24,7 +24,9 @@ permalink: /siteindex/
     <h5>About</h5>
       {% for page in sorted_pages %}
         {% if page.category == 'about' %}
-          <p><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></p>
+          {% if page.hidden != true %}
+            <p><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></p>
+          {% endif %}
         {% endif %}
       {% endfor %}
       <a href="{{ site.baseurl }}/blog/">News (Blog)</a><br>
@@ -35,7 +37,9 @@ permalink: /siteindex/
     <h5>Help</h5>
       {% for page in sorted_pages %}
         {% if page.category == 'help' %}
+          {% if page.hidden != true %}
           <p><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></p>
+          {% endif %}
         {% endif %}
       {% endfor %}
     <div class="spacing"></div>
@@ -47,7 +51,9 @@ permalink: /siteindex/
     <h5>Technical Notes</h5>
       {% for page in sorted_pages %}
         {% if page.category == 'notes' %}
+          {% if page.hidden != true %}
           <p><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></p>
+          {% endif %}
         {% endif %}
       {% endfor %}
     <div class="spacing"></div>
@@ -57,7 +63,9 @@ permalink: /siteindex/
     <h5>Other</h5>
       {% for page in sorted_pages %}
         {% if page.category == 'other' %}
+          {% if page.hidden != true %}
           <p><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></p>
+          {% endif %}
         {% endif %}
       {% endfor %}
     <div class="spacing"></div>

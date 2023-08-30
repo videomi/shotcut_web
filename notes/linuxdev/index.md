@@ -2,6 +2,7 @@
 layout: page
 title: How To Use the Linux SDK
 category: notes
+hidden: true
 ---
 
 ## DISCONTINUED
