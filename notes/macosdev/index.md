@@ -2,6 +2,7 @@
 layout: page
 title: How To Use the macOS SDK
 category: notes
+hidden: true
 ---
 
 1. Download and install the following:
