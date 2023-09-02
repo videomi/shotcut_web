@@ -50,8 +50,8 @@ To avoid ads and get automatic updates:<br>
 &nbsp;
 
 {:.win}
-##### Windows 7
-<small>(The last version to support Windows 7 is 22.12.21)</small>
+##### Windows 7 & 8
+<small>(The last version to support Windows 7 & 8 is 22.12.21)</small>
 {:.win}
 
 {:.win}
