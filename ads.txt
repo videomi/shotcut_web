@@ -22,7 +22,12 @@ adingo.jp, 27254, RESELLER
 yahoo.com, 59768, RESELLER
 
 pubmax.com, 23104, DIRECT
+pubmax.com, 23105, DIRECT
+pubmax.com, 23106, DIRECT
+pubmax.com, 138, DIRECT
 adapex.io, s2984, DIRECT
+adapex.io, s2989, DIRECT
+adapex.io, s3000, DIRECT
 
 
 #33across
