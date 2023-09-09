@@ -1,13 +1,24 @@
 <div class="container mtb">
     <div class="row">
-        <div class="col-md-8">
-            <ins class="adsbygoogle"
+        <div class="col-md-8" id="ads-footer">
+            <!-- <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-format="autorelaxed"
                  data-ad-client="ca-pub-1305424236533187"
-                 data-ad-slot="8964706753"></ins>
+                 data-ad-slot="8964706753"></ins> -->
             <script>
                  (adsbygoogle = window.adsbygoogle || []).push({});
+                 if (location.hostname.endsWith("shotcut.org")) {
+                    let ins = document.createElement("ins");
+                    ins.push({
+                        class: "adsbygoogle",
+                        style: "display:block",
+                        "data-ad-format": "autorelaxed",
+                        "data-ad-client": "ca-pub-1305424236533187",
+                        "data-ad-slot": "8964706753"
+                    });
+                    document.getElementById("ads-footer").appendChild(ins);
+                 }
             </script>
         </div>
     </div>
