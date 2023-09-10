@@ -5,11 +5,11 @@ permalink: /roadmap/
 category: other
 ---
 
-<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Desktop_LargeAd_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Desktop_728_1'></div>
 <div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Mobile_300_1'></div>
-<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Desktop_LargeAd_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Desktop_728_1'></div>
 <div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Mobile_300_1'></div>
-<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Desktop_LargeAd_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Desktop_728_1'></div>
 <div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Mobile_300_1'></div>
 
 In Progress

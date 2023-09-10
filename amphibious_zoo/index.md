@@ -3,11 +3,11 @@ layout: page
 title: Amphibious Zoo Music
 ---
 
-<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Desktop_LargeAd_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Desktop_728_1'></div>
 <div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Mobile_300_1'></div>
-<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Desktop_LargeAd_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Desktop_728_1'></div>
 <div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Mobile_300_1'></div>
-<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Desktop_LargeAd_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Desktop_728_1'></div>
 <div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Mobile_300_1'></div>
 
 [**Amphibious Zoo**](https://www.amphibiouszoo.com) has graciously donated some
@@ -71,11 +71,11 @@ Since the AIFF format is much larger, it takes longer to download and uses more 
 - AZ082_05_Olimar_WM \[[MP3](/stockmedia/amphibious_zoo/dance/AZ082_05_Olimar_WM.mp3)
   | [AIFF](/stockmedia/amphibious_zoo/dance/AZ082_05_Olimar_WM.aif)\]
 
-<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Desktop_LargeAd_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Desktop_728_2'></div>
 <div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Mobile_300_2'></div>
-<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Desktop_LargeAd_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Desktop_728_2'></div>
 <div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Mobile_300_2'></div>
-<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Desktop_LargeAd_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Desktop_728_2'></div>
 <div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Mobile_300_2'></div>
 
 ### Funky
@@ -125,11 +125,11 @@ Since the AIFF format is much larger, it takes longer to download and uses more 
 - AZ0102_02_Like No One Is Watching_WM \[[MP3](/stockmedia/amphibious_zoo/folk/AZ0102_02_Like%20No%20One%20Is%20Watching_WM.mp3)
   | [AIFF](/stockmedia/amphibious_zoo/folk/AZ0102_02_Like%20No%20One%20Is%20Watching_WM.aif)\]
 
-<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Desktop_LargeAd_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Desktop_728_2'></div>
 <div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Mobile_300_2'></div>
-<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Desktop_LargeAd_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Desktop_728_2'></div>
 <div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Mobile_300_2'></div>
-<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Desktop_LargeAd_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Desktop_728_2'></div>
 <div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Mobile_300_2'></div>
 
 ### Indie Rock
