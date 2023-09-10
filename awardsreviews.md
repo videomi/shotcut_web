@@ -37,6 +37,14 @@ GameTechSuperSham
 
 - [techradar pro](https://www.techradar.com/reviews/shotcut)
 
+
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Desktop_LargeAd_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Mobile_300_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Desktop_LargeAd_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Mobile_300_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Desktop_LargeAd_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Mobile_300_2'></div>
+
 Software Collections
 ====================
 
@@ -45,12 +53,3 @@ Software Collections
 -   [Free Software Foundation Directory](http://directory.fsf.org/wiki/Shotcut)
 
 Warning: we do not officially endorse any of these organizations.
-
-<!-- Shotcut leaderboard -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-1305424236533187"
-     data-ad-slot="1157645159"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>

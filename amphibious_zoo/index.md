@@ -3,16 +3,12 @@ layout: page
 title: Amphibious Zoo Music
 ---
 
-
-<!-- Shotcut Responsive -->
-<ins class="adsbygoogle"
-    style="display:block"
-    data-ad-client="ca-pub-1305424236533187"
-    data-ad-slot="3403753557"
-    data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Desktop_LargeAd_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Mobile_300_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Desktop_LargeAd_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Mobile_300_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Desktop_LargeAd_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Mobile_300_1'></div>
 
 [**Amphibious Zoo**](https://www.amphibiouszoo.com) has graciously donated some
 free royalty-free music to all Shotcut users. These are free to use in commercial
@@ -75,15 +71,12 @@ Since the AIFF format is much larger, it takes longer to download and uses more 
 - AZ082_05_Olimar_WM \[[MP3](/stockmedia/amphibious_zoo/dance/AZ082_05_Olimar_WM.mp3)
   | [AIFF](/stockmedia/amphibious_zoo/dance/AZ082_05_Olimar_WM.aif)\]
 
-<!-- Shotcut Responsive -->
-<ins class="adsbygoogle"
-    style="display:block"
-    data-ad-client="ca-pub-1305424236533187"
-    data-ad-slot="3403753557"
-    data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Desktop_LargeAd_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Mobile_300_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Desktop_LargeAd_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Mobile_300_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Desktop_LargeAd_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Mobile_300_2'></div>
 
 ### Funky
 
@@ -132,15 +125,12 @@ Since the AIFF format is much larger, it takes longer to download and uses more 
 - AZ0102_02_Like No One Is Watching_WM \[[MP3](/stockmedia/amphibious_zoo/folk/AZ0102_02_Like%20No%20One%20Is%20Watching_WM.mp3)
   | [AIFF](/stockmedia/amphibious_zoo/folk/AZ0102_02_Like%20No%20One%20Is%20Watching_WM.aif)\]
 
-<!-- Shotcut Responsive -->
-<ins class="adsbygoogle"
-    style="display:block"
-    data-ad-client="ca-pub-1305424236533187"
-    data-ad-slot="3403753557"
-    data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Desktop_LargeAd_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Mobile_300_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Desktop_LargeAd_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Mobile_300_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Desktop_LargeAd_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Mobile_300_2'></div>
 
 ### Indie Rock
 

@@ -5,15 +5,12 @@ permalink: /tutorials/minitutorials/
 category: help
 ---
 
-<!-- Shotcut Responsive -->
-<ins class="adsbygoogle"
-    style="display:block"
-    data-ad-client="ca-pub-1305424236533187"
-    data-ad-slot="3403753557"
-    data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Desktop_LargeAd_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Mobile_300_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Desktop_LargeAd_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Mobile_300_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Desktop_LargeAd_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Mobile_300_1'></div>
 
 <video width="600" height="400" controls="controls">
   <source src="{{ "/assets/videos/addingVideoFilter.mp4" | prepend: site.baseurl }}" type="video/mp4">
