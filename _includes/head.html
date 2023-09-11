@@ -8,14 +8,6 @@
 
     <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-    
-    <script async src="//cdn.adapex.io/hb/aaw.shotcutorg.js" crossorigin="anonymous"></script>
     <script>
       function loadScript(url, async) {
         let script = document.createElement("script");
@@ -40,6 +32,13 @@
       });
     </script>
 
+    <!-- Bootstrap core CSS -->
+    <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    
     <!-- Custom CSS -->
     <!--<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">-->
 
