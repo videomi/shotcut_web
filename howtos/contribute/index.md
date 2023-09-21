@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: howto
 title: How to Contribute
 category: help
 ---

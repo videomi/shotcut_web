@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: howto
 title: How To Articles
 ---
 {% assign sorted_pages = site.pages | sort:"title" %}

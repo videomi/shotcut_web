@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: howto
 title: How To Use the Contour ShuttlePRO with Shotcut
 category: help
 ---

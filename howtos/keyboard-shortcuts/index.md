@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: howto
 title: Keyboard Shortcut Reference
 category: help
 ---
