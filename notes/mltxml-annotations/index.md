@@ -5,7 +5,7 @@ category: notes
 ---
 
 Shotcut adds several XML elements and attributes to the [MLT XML](https://mltframework.org/docs/mltxml/) it generates.
-Also, currently it needs many of these to properly map MLT objects into the Shotcut UI.
+Also, currently it needs many of these to properly map MLT objects into the Shotcut UI. Eveyhw
 
 | **MLT Object** | **MLT Property** | **XPath** | **Description** |
 |--------------|----------------|---------|---------------|
@@ -29,15 +29,16 @@ Also, currently it needs many of these to properly map MLT objects into the Shot
 | producer | shotcut:detail | //producer/property[@name = 'shotcut:detail'] | Used to provide a more detailed description for the producer than the caption. For example if the caption is the file name, the detail could be the full file path |
 | producer | shotcut:hash | //producer/property[@name = 'shotcut:hash'] | A MD5 hash of a media file (whole file if less than 2 MB, or first MB followed by last MB for files larger than 2 MB) |
 | producer | shotcut:skipConvert | //producer/property[@name = 'shotcut:skipConvert'] | If set 1, then Shotcut will not prompt to convert the file if it believes it to be variable frame rate or unseekable. |
-| various | shotcut:projectAudioChannels | //property[@name = 'shotcut:skipConvert'] | Sets the number of audio channels to use for this project. 2 is used if not specified. |
-| various | shotcut:projectFolder | //property[@name = 'shotcut:projectFolder'] | Set to 1 to indicate this project uses a project folder. |
-| various | shotcut:projectNote | //property[@name = 'shotcut:projectNotes'] | The text contents of the **Notes** panel. |
 | producer | shotcut:resource | //producer/property[@name = 'shotcut:resource'] | A copy of the resource property used by the proxy manager. |
 | producer | shotcut:disableProxy | //producer/property[@name = 'shotcut:disableProxy'] | Set to 1 to indicate that proxy should not be generated for this producer. |
 | producer | shotcut:originalResource | //producer[property/@name ='mlt_service' and property/text() = 'avformat']/property[@name = 'shotcut:originalResource'] | A copy of the `resource` property used by the Reverse action to restore original when reversing a reversed. |
 | producer | shotcut:originalIn | //producer[property/@name ='mlt_service' and property/text() = 'avformat']/property[@name = 'shotcut:originalResource'] | A copy of the `in` property used by the Reverse action to restore original when reversing a reversed. |
 | producer | shotcut:originalOut | //producer[property/@name ='mlt_service' and property/text() = 'avformat']/property[@name = 'shotcut:originalOut'] | A copy of the `out` property used by the Reverse action to restore original when reversing a reversed. |
 | producer | shotcut:defaultAudioIndex | //producer[property/@name ='mlt_service' and property/text() = 'avformat']/property[@name = 'shotcut:originalOut'] | A copy of the `audio_index` property used by the audio levels/waveform generator. |
+| producer | shotcut:proxy.meta | //producer[property/@name ='mlt_service' and property/text() = 'avformat']/property[@name = 'shotcut:proxy.meta'] | Indicates whether the MLT properties beginning with "meta." reflect the proxy (`1`) or source media. |
+| various | shotcut:projectAudioChannels | //property[@name = 'shotcut:skipConvert'] | Sets the number of audio channels to use for this project. 2 is used if not specified. |
+| various | shotcut:projectFolder | //property[@name = 'shotcut:projectFolder'] | Set to 1 to indicate this project uses a project folder. |
+| various | shotcut:projectNote | //property[@name = 'shotcut:projectNotes'] | The text contents of the **Notes** panel. |
 | filter | shotcut:animIn | //filter/property[@name = 'shotcut:animIn'] | The duration in frames for the simple keyframes' starting animation. |
 | filter | shotcut:animOut | //filter/property[@name = 'shotcut:animOut'] | The duration in frames for the simple keyframes' ending animation. |
 | filter | shotcut:backup | //filter/property[@name = 'shotcut:backup'] | Motion tracking uses this to save the property value of whatever parameter is affected before applying tracking results. It uses it to restore the state when re-apply tracking (different operation or tracker) or choosing to reset. |

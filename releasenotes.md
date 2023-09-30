@@ -5,20 +5,75 @@ permalink: /download/releasenotes/
 category: other
 ---
 
-<!-- Shotcut Responsive -->
-<ins class="adsbygoogle"
-    style="display:block"
-    data-ad-client="ca-pub-1305424236533187"
-    data-ad-slot="3403753557"
-    data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Desktop_728_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutorg_Mobile_300_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Desktop_728_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutcom_Mobile_300_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Desktop_728_1'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Mobile_300_1'></div>
 
 These are brief notes about known problems and feature additions. See
 [News]({{ "/blog" | prepend:site.baseurl }}) or the [git
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
+
+##### Release 23.09.29
+
+- Added **Grade %, Grade degrees, Cadence, Temperature, Vertical Speed, 3D Speed** to **GPS Text** video filter.
+- Added **Timecode (non-drop frame), Creation date, File base name** to **Text: Simple** video filter.
+- Added **Blur alpha** option to **Blur: Box** and **Blur: Gaussian** video filters.
+- Fixed crash when changing **Properties > Rotation** on interlaced video.
+- Fixed crash when changing **Properties > Video > Track** on video-only file.
+- Added audio **Declick** filter (appears in Time category due to technical reason).
+- Added **View > Resources...** to show all unique and sorted files in the **Playlist** and **Timeline**.
+- Added dialog to convert multiple files as-needed on import.
+- Added **Mode > Reset** to **Alpha Channel: Adjust** video filter.
+- Fixed **Undo** after trimming an out point on **Timeline** with **Ripple All Tracks** enabled.
+- Fixed H.264 **Export > Use hardware encoder** with **Codec > Rate control > Constant Quality** on macOS/ARM.
+- Added **Preferences** to the menu on macOS.
+- Fixed **Export** or turning off **Settings > Proxy > Use Proxy** if the file starts with a data stream such as videos recorded on Google Pixel phones, for example.
+- Fixed memory leak in **Load Keyframes from Motion Tracker** in several video filters:
+  - **Crop: Rectangle**
+  - **GPS Text**
+  - **Size, Position & Rotate**
+  - **Spot Remover**
+  - **Text: Rich**
+  - **Text: Simple**
+  - **Timer**
+- Fixed reordering when there are many filters in **Filters**.
+- Added keyframes to **Band Pass** and **Notch** audio filters.
+- Added simple keyframes to **Speed: Forward & Reverse** and **Speed: Forward Only** time filters.
+- Added keyframes for color parameters in several video filters:
+  - **Crop: Circle**
+  - **Crop: Rectangle**
+  - **GPS Text**
+  - **Text: Rich** (Background only)
+  - **Text: Simple**
+  - **Timer**
+- Improved the the color dialog on GNOME.
+- Fixed **Keyframes** panel not working properly when moved.
+- Fixed **Add Selected to Slideshow** with **Timeline > Ripple All Tracks** misbehaves and should be ignored.
+- Added **File > Backup and Save**.
+- Added **Settings > Timeline > Scrolling** sub-menu with options:
+  - **Center the Playhead**
+  - **No** (new option)
+  - **Page** (v23 default)
+  - **Smooth** (old behavior)
+- Fixed some memory leaks and random crashes due to memory management.
+- Fixed overall speed of loading projects and editing that degraded in 2023 versions. (Existing projects must be saved after opening to upgrade them to benefit loading speed.)
+- Changed **Export > Presets > audio > FLAC** to (raw) flac format instead of Matroska.
+- Upgraded **Glaxnimate** to version 0.5.4 with limited support for After Effects projects (no plugins and no video or audio media - drawing and image animations only).
+- Fixed some usability quirks with drag-n-drop and <kbd>Ctrl</kbd> multiple selection in the **Playist > Icons** view.
+- New and improved installer for Windows.
+- Improved the speed and memory of **Timeline > Append**, **Insert**, and **Overwrite**.
+- Fixed **Filters > + > Time** is sometimes empty when player tab is **Source**.
+- Fixed timeline marker may be incorrectly deleted when **Timeline > Ripple Markers** is on.
+- Fixed unable to save export job **View XML** with `.mlt` file name.
+- Changed **Missing Files > Search** to save the directory chosen.
+- Added `--glaxnimate` command line option to launch Glaxnimate instead (handy for Linux AppImage and Flatpak).
+- Fixed keyboard behavior of **Help > Actions and Shortcuts** on macOS.
+- Improved the quality of **Settings > Proxy > Use Hardware Encoder** on macOS.
+
 
 ##### Release 23.07.29
 

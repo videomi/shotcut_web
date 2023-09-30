@@ -133,6 +133,7 @@ Windows registry, a bool is stored as a string: true or false.
 | audioReferenceTrack | integer  | Timeline > menu > Align To Reference Track > Reference audio track (last used)
 | audioReferenceSpeedRange|real number|Timeline > menu > Align To Reference Track > Speed adjustment range (default 0)
 | previewTransition| bool        | transition Properties > Preview (default true)
+| scrolling        | integer     | Settings > Timeline > Scrolling, one of: 0 (No), 1 (Center), 2 (Page, default), 3 (Smooth)
 | ***filter***
 | favorite/&lt;filterId&gt; | string | whether a filter is chosen as favorite, one of: yes or no. See all the meta.qml files in share/shotcut/qml/filters for the filter IDs.
 | askOutput        | bool        | whether to show warning dialog about adding filters to Timeline Output

@@ -11,7 +11,7 @@ unrelated to Shotcut such as browser toolbars or download managers.
 However, we can only provide that guarantee if you come to this website
 to download.
 
-#### Current Version: 23.07.29
+#### Current Version: 23.09.29
 
 <div class="OSTEST">
   <p>
@@ -42,8 +42,8 @@ To avoid ads and get automatic updates:<br>
 {:.win}
 | <small>Site 1 (FossHub)</small> | <small>Site 2 (GitHub)</small>
 |-----------------------|-------------------
-| [Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-230729.exe) | [Windows installer](https://github.com/mltframework/shotcut/releases/download/v23.07.29/shotcut-win64-230729.exe)
-| [Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-230729.zip) | [Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v23.07.29/shotcut-win64-230729.zip)
+| [Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-230929.exe) | [Windows installer](https://github.com/mltframework/shotcut/releases/download/v23.09.29/shotcut-win64-230929.exe)
+| [Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-230929.zip) | [Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v23.09.29/shotcut-win64-230929.zip)
 {:.withborders}
 
 {:.win}
@@ -71,12 +71,12 @@ To avoid ads and get automatic updates:<br>
 {:.mac}
 | <small>Site 1 (FossHub)</small> | <small>Site 2 (GitHub)</small>
 |-----------------------|-----------------------------
-| [macOS universal](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-230729.dmg) | [macOS universal](https://github.com/mltframework/shotcut/releases/download/v23.07.29/shotcut-macos-230729.dmg)
+| [macOS universal](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-230929.dmg) | [macOS universal](https://github.com/mltframework/shotcut/releases/download/v23.09.29/shotcut-macos-230929.dmg)
 {:.withborders}
 
 {:.mac}
 An [unsigned app bundle is available on
-GitHub](https://github.com/mltframework/shotcut/releases/download/v23.07.29/shotcut-macos-unsigned-230729.dmg) so that you
+GitHub](https://github.com/mltframework/shotcut/releases/download/v23.09.29/shotcut-macos-unsigned-230929.dmg) so that you
 can modify the build per the Free Software license agreement.
 
 ---
@@ -101,8 +101,8 @@ src='https://raw.githubusercontent.com/snapcore/snap-store-badges/master/EN/%5BE
 {:.linux}
 | <small>Site 1 (FossHub)</small> | <small>Site 2 (GitHub)</small>
 |-----------------------|-------------------
-| [Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-230729.txz) | [Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v23.07.29/shotcut-linux-x86_64-230729.txz)  
-| [Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-230729.AppImage) | [Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v23.07.29/shotcut-linux-x86_64-230729.AppImage)
+| [Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-230929.txz) | [Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v23.09.29/shotcut-linux-x86_64-230929.txz)  
+| [Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-230929.AppImage) | [Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v23.09.29/shotcut-linux-x86_64-230929.AppImage)
 {:.withborders}
 
 {:.linux}
@@ -128,11 +128,11 @@ the portable tar.
 ##### Other
 
 File checksums for downloads are available in
-[md5sum](https://github.com/mltframework/shotcut/releases/download/v23.07.29/md5sums.txt)
-or [sha256sum](https://github.com/mltframework/shotcut/releases/download/v23.07.29/sha256sums.txt) format.
+[md5sum](https://github.com/mltframework/shotcut/releases/download/v23.09.29/md5sums.txt)
+or [sha256sum](https://github.com/mltframework/shotcut/releases/download/v23.09.29/sha256sums.txt) format.
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v23.07.29/shotcut-src-230729.txz)
+archive](https://github.com/mltframework/shotcut/releases/download/v23.09.29/shotcut-src-230929.txz)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Older versions](https://github.com/mltframework/shotcut/releases/) are

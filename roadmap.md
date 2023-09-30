@@ -12,27 +12,14 @@ category: other
 <div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Desktop_728_1'></div>
 <div data-aaad='true' data-aa-adunit='/22815767462/shotcutapp_Mobile_300_1'></div>
 
-In Progress
------------
-
-- undo/redo support for filters
-
-
-Next
-----
-No estimated delivery time:
+In no particular order or estimated delivery time:
 
 - looping playback - project, selection, around
 - playlist folders
 - configurable time format with a non-timecode default
 - rectangle selection in timeline
-
-
-More
-----
-In no particular order or estimated delivery time:
-
 - groups in timeline
+- undo/redo support for filters
 - quick effects VUI
 - automatically add tracks
 - integration for external editor (e.g. Audacity, GIMP, etc. via configurable launcher and file watcher)

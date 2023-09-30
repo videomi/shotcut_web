@@ -20,6 +20,7 @@ category: help
 | File > Open Other     | Ctrl+Shift+O                         | shift+command+O
 | File > Save           | Ctrl+S                               | command+S
 | File > Save As        | Ctrl+Shift+S                         | shift+command+S
+| File > Backup and Save| Ctrl+Alt+S                           | option+command+S
 | File > Export Video   | Ctrl+E                               | command+E
 | File > Export Frame   | Ctrl+Shift+E                         | shift+command+E
 | File > Close          | Ctrl+W                               | command+W
