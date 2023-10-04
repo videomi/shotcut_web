@@ -40,10 +40,8 @@ To avoid ads and get automatic updates:<br>
 </div>
 
 {:.win}
-| <small>Site 1 (FossHub)</small> | <small>Site 2 (GitHub)</small>
 |-----------------------|-------------------
-| [Windows installer](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-230929.exe) | [Windows installer](https://github.com/mltframework/shotcut/releases/download/v23.09.29/shotcut-win64-230929.exe)
-| [Windows portable zip](https://www.fosshub.com/Shotcut.html?dwl=shotcut-win64-230929.zip) | [Windows portable zip](https://github.com/mltframework/shotcut/releases/download/v23.09.29/shotcut-win64-230929.zip)
+| [Windows installer](https://sourceforge.net/projects/shotcut/files/v23.09.29/shotcut-win64-230929.exe/download) | [Windows portable zip](https://sourceforge.net/projects/shotcut/files/v23.09.29/shotcut-win64-230929.zip/download)
 {:.withborders}
 
 {:.win}
@@ -55,9 +53,8 @@ To avoid ads and get automatic updates:<br>
 {:.win}
 
 {:.win}
-|-------------------
-| [Windows 7 installer](https://github.com/mltframework/shotcut/releases/download/v22.12.21/shotcut-win64-221221.exe)
-| [Windows 7 portable zip](https://github.com/mltframework/shotcut/releases/download/v22.12.21/shotcut-win64-221221.zip)
+|-------------------|-------------------
+| [Windows 7 installer](https://sourceforge.net/projects/shotcut/files/v22.12.21/shotcut-win64-221221.exe/download) | [Windows 7 portable zip](https://sourceforge.net/projects/shotcut/files/v22.12.21/shotcut-win64-221221.zip/download)
 {:.withborders}
 
 ---
@@ -69,14 +66,12 @@ To avoid ads and get automatic updates:<br>
 {:.mac}
 
 {:.mac}
-| <small>Site 1 (FossHub)</small> | <small>Site 2 (GitHub)</small>
-|-----------------------|-----------------------------
-| [macOS universal](https://www.fosshub.com/Shotcut.html?dwl=shotcut-macos-230929.dmg) | [macOS universal](https://github.com/mltframework/shotcut/releases/download/v23.09.29/shotcut-macos-230929.dmg)
+|-----------------------
+| [macOS universal](https://sourceforge.net/projects/shotcut/files/v23.09.29/shotcut-macos-230929.dmg/download)
 {:.withborders}
 
 {:.mac}
-An [unsigned app bundle is available on
-GitHub](https://github.com/mltframework/shotcut/releases/download/v23.09.29/shotcut-macos-unsigned-230929.dmg) so that you
+An [unsigned app bundle is available](https://sourceforge.net/projects/shotcut/files/v23.09.29/shotcut-macos-unsigned-230929.dmg/download) so that you
 can modify the build per the Free Software license agreement.
 
 ---
@@ -99,10 +94,8 @@ src='https://raw.githubusercontent.com/snapcore/snap-store-badges/master/EN/%5BE
 <small class="linux">(64-bit Mint 20+, Ubuntu/Pop!_OS 20.04+, Debian 11+, Fedora 32+, Manjaro 20.2+, MX Linux 21+, elementary OS 6+)</small>
 
 {:.linux}
-| <small>Site 1 (FossHub)</small> | <small>Site 2 (GitHub)</small>
 |-----------------------|-------------------
-| [Linux portable tar](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-230929.txz) | [Linux portable tar](https://github.com/mltframework/shotcut/releases/download/v23.09.29/shotcut-linux-x86_64-230929.txz)  
-| [Linux AppImage](https://www.fosshub.com/Shotcut.html?dwl=shotcut-linux-x86_64-230929.AppImage) | [Linux AppImage](https://github.com/mltframework/shotcut/releases/download/v23.09.29/shotcut-linux-x86_64-230929.AppImage)
+| [Linux portable tar](https://sourceforge.net/projects/shotcut/files/v23.09.29/shotcut-linux-x86_64-230929.txz/download) | [Linux AppImage](https://sourceforge.net/projects/shotcut/files/v23.09.29/shotcut-linux-x86_64-230929.AppImage/download)
 {:.withborders}
 
 {:.linux}
