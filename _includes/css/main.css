@@ -472,7 +472,7 @@ a:focus {
 /* Footer */
 #footerwrap {
 	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-bottom: 100px;
 	background: {{ site.colors.primary }};
 }
 
