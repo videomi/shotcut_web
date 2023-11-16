@@ -12,6 +12,13 @@ Awards
 <div><a target="_blank" href="https://www.goodfirms.co/software/shotcut"><img style="width:180px" src="//goodfirms.s3.amazonaws.com/badges/blue-button/app-development-software.svg" alt="GoodFirms Badge"></a></div>
 <div><a target="_blank" href="https://www.giga.de/downloads/shotcut/#utm_source=PS&utm_medium=BL&utm_campaign=Badge">Shotcut - 5 stars @ GIGA</a></div>
 </div>
+<!-- Begin SF Tag -->
+<div class="sf-root" data-id="3681194" data-badge="oss-open-source-excellence-white" data-metadata="achievement=oss-open-source-excellence" style="width:125px">
+    <a href="https://sourceforge.net/projects/shotcut/" target="_blank">Shotcut</a>
+</div>
+<script>(function () {var sc=document.createElement('script');sc.async=true;sc.src='https://b.sf-syn.com/badge_js?sf_id=3681194';var p=document.getElementsByTagName('script')[0];p.parentNode.insertBefore(sc, p);})();
+</script>
+<!-- End SF Tag -->
 
 Articles
 ========
