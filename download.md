@@ -6,9 +6,7 @@ category: about
 ---
 
 We pledge that our downloads are always free of
-malware, spyware, and adware. Furthermore, we refuse to bundle any software
-unrelated to Shotcut such as browser toolbars or download managers.
-However, we can only provide that guarantee if you come to this website
+malware, spyware, and adware. However, we can only provide that guarantee if you come to this website
 to download.
 
 #### Current Version: 23.09.29
