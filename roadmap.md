@@ -17,11 +17,9 @@ In no particular order or estimated delivery time:
 - looping playback - project, selection, around
 - playlist folders
 - configurable time format with a non-timecode default
-- rectangle selection in timeline
 - groups in timeline
 - undo/redo support for filters
 - quick effects VUI
-- automatically add tracks
 - integration for external editor (e.g. Audacity, GIMP, etc. via configurable launcher and file watcher)
 - open HEIC images
 - open AVIF images
@@ -84,7 +82,6 @@ In no particular order or estimated delivery time:
 - face detection
 - curves UI for color
 - convert icons to SVG
-- easing functions for keyframes
 - context-sensitive online help
 - automatic silence detection/removal
 
