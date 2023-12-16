@@ -23,11 +23,11 @@ information.
 - Fixed numerous audio filters missing on macOS/Intel (broke in v23.11).
 - Fixed **Equalizer: Parametric > Preset** not loading (broke in v23.09).
 - Fixed **Timeline** waveform is not updated when changing **Properties > Audio > Track**.
-- Fixed `#filename` and `#basename` keywords in **Text: Simple** video filter with non-ASCII filenames on Windows.
+- Fixed `#filename#` and `#basename#` keywords in **Text: Simple** video filter with non-ASCII filenames on Windows.
 - Fixed **Properties > View Bitrate** opens too big on high DPI screen.
 - Fixed **Properties > View Bitrate > Save** image is not anti-aliased.
-- Fixed **Slideshow Generator** padding videos on mismatching aspect ratio (broke in v23.09).
-- Fixed **Properties > Measure Video Quality** with a when **Color range** is **Full**.
+- Fixed **Slideshow Generator** not padding videos on mismatching aspect ratio (broke in v23.09).
+- Fixed **Properties > Measure Video Quality** accuracy when **Color range** is **Full**.
 - Fixed some minor memory leaks.
 - Changed all NVENC hardware encoders in **Export** to use CQ instead of constant QP for VBR rate control.
 - Ugraded FFmpeg to version 6.1
