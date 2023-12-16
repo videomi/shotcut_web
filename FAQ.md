@@ -247,8 +247,11 @@ that is inside of it.
 
 ## How do I cut or trim a clip without encoding or transcoding it?
 
-This is not supported, and there are currently no plans to support it.
-We recommend that you use VirtualDub or Avidemux for that.
+This is available through **Properties > menu > Extract Sub-clip...**; however,
+it is not frame accurate and there are some pitfalls.
+We recommend LosslessCut, VirtualDub, or Avidemux as alternatives for this.
+However, those usually have the same limitations and problems.
+In Shotcut you can try the extract, and instead export if that did not work good enough.
 
 * * *
 

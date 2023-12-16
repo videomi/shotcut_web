@@ -17,6 +17,24 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 23.12.15
+
+- Fixed crash on start on Wayland on Ubuntu 22.04 and 23.10 - may require installing `qt6-waland` (broke in v23.11).
+- Fixed numerous audio filters missing on macOS/Intel (broke in v23.11).
+- Fixed **Equalizer: Parametric > Preset** not loading (broke in v23.09).
+- Fixed **Timeline** waveform is not updated when changing **Properties > Audio > Track**.
+- Fixed `#filename` and `#basename` keywords in **Text: Simple** video filter with non-ASCII filenames on Windows.
+- Fixed **Properties > View Bitrate** opens too big on high DPI screen.
+- Fixed **Properties > View Bitrate > Save** image is not anti-aliased.
+- Fixed **Slideshow Generator** padding videos on mismatching aspect ratio (broke in v23.09).
+- Fixed **Properties > Measure Video Quality** with a when **Color range** is **Full**.
+- Fixed some minor memory leaks.
+- Changed all NVENC hardware encoders in **Export** to use CQ instead of constant QP for VBR rate control.
+- Ugraded FFmpeg to version 6.1
+- Upgraded AV1 decoder `dav1d` to version 1.4 and AV1 encoder `libaom-av1` to version 3.8.0
+- Upgraded `rubberband` audio pitch library to version 3.3.0
+
+
 ##### Release 23.11.29
 
 - Fixed honoring the "Do not show this anymore" checkbox in the **Convert to Edit-friendly** dialog (configuration key `showConvertClipDialog`) (broke in v23.09).
