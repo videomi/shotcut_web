@@ -36,8 +36,8 @@ colors:  #in hex code if not noted else
 social:
   - title: facebook
     url: https://www.facebook.com/shotcutapp/
-  - title: twitter
-    url: https://twitter.com/shotcutapp
+  - title: x-twitter
+    url: https://x.com/shotcutapp
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
@@ -60,8 +60,8 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
+      - title: x-twitter
+        url: http://x.com/handle
     
 # Clients information. Shown on Home and About pages.
 clients:
