@@ -21,6 +21,7 @@ information.
 
 - Fixed crash on start on Wayland on Ubuntu 22.04 and 23.10 - may require installing `qt6-waland` (broke in v23.11).
 - Fixed numerous audio filters missing on macOS/Intel (broke in v23.11).
+- Fixed crash in **No Sync** video filter with new **Ease Back** and **Ease Elastic** keyframes.
 - Fixed **Equalizer: Parametric > Preset** not loading (broke in v23.09).
 - Fixed **Timeline** waveform is not updated when changing **Properties > Audio > Track**.
 - Fixed `#filename#` and `#basename#` keywords in **Text: Simple** video filter with non-ASCII filenames on Windows.
