@@ -410,7 +410,7 @@ source, cross-platform tool [Audacity](http://audacityteam.org/).
 
 Shotcut uses the GPU in three ways:
 
-1. For drawing parts of the user interface and showing video: Direct3D on Windows, Metal on Linux, and OpenGL on Linux.
+1. For drawing parts of the user interface and showing video: Direct3D on Windows, Metal on macOS, and OpenGL on Linux.
 2. hardware encoding (where available and enabled)
 3. OpenGL for GPU Effects (filters and transitions) mode
 
