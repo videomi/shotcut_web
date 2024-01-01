@@ -32,7 +32,7 @@ information.
 - Fixed some minor memory leaks.
 - Changed all NVENC hardware encoders in **Export** to use CQ instead of constant QP for VBR rate control.
 - Ugraded FFmpeg to version 6.1
-- Upgraded AV1 decoder `dav1d` to version 1.4 and AV1 encoder `libaom-av1` to version 3.8.0
+- Upgraded AV1 decoder `dav1d` to version 1.3.0 and AV1 encoder `libaom-av1` to version 3.8.0
 - Upgraded `rubberband` audio pitch library to version 3.3.0
 
 
