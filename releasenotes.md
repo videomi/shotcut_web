@@ -17,6 +17,55 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 24.01.28
+
+- Fixed distort mode in **Size & Position** GPU filter.
+- Fixed zombie values in **Time Remap** filter while working with keyframes.
+- Fixed saving B frames in custom **Export** preset with hardware encoder.
+- Added support for multiple selection to **Split At Playhead**.
+- Added **Timeline > Edit > Split All Tracks At Playhead** <kbd>Shift</kbd>+<kbd>S</kbd>.
+- Added **Edit > Undo** and **Redo** support for adding, removing, changing, and disabling **Filters**.
+- Fixed 10-bit **Export** with NVENC (NVIDIA) encoders.
+- Fixed proxy generation failing with NVENC if **Settings > Proxy > Use Hardware Encoder** is on.
+- Fixed toggling **Export > Use hardware encoder** resets all options to defaults.
+- Fixed **Export > Each Playlist Item > Directory** incorrectly shows a filename.
+- Changed the name of the **Declick** time filter to **Declick Audio**.
+- Fixed intermittent crash moving a clip on the **Timeline**.
+- Fixed **Playlist > Select All** and **Remove All** are disabled until selection changes.
+- Added **Player > Loop** <kbd>\\</kbd> and **Player > Set Loop Range** to the menu and player controls.
+- Changed the player controls to automatically adapt to 2 rows so the **In Point** and **Selected Duration** show more reliably.
+- Fixed some filter parameters' sliders may overflow using new keyframe easings that over- or under-shoot.
+- Added **Timeline > Edit > Nudge Forward** <kbd>.</kbd> and **Nudge Backward** <kbd>,</kbd>.
+- Added **Pause** and **Resume** to the context menu in **Jobs**.
+- Changed the low memory warning dialog to automatically close itself when the free memory becomes high enough.
+- Changed the low memory detection to automatically pause and resume a currently running job as the free memory becomes too low and then high enough again.
+- Added **Settings > Backup** with options for:
+  - **Manually**
+  - **Hourly**
+  - **Daily** (default)
+  - **Weekly**
+  This creates a backup of the current project file in a manner similar to **File > Backup and Save** except it is automatic now unless **Manually** is chosen.
+- Added **File > Other Versions** sub-menu that tries to find similarly-named project files in the same folder create by Shotcut backup or recovery mechanisms.
+- Added **Timeline > Selection > Group/Ungroup** <kbd>Ctrl</kbd>+<kbd>G</kbd>.
+  This is basically a saved multi-selection system. So, the operations it supports are all those available for multiple selection. That does not include trim, **Filters**, or **Properties** at this time.
+- Changed **Timeline > Detach Audio** to automatically create a group.
+- Added **Settings > Player > Audio API** on Linux and Windows.
+  Basically, this makes the `--SDL_AUDIODRIVER` command line option available in the **Settings** menu.
+- Added a **Previous** button to **View > Application Log** dialog that goes to the log file created by the previous app session.
+  Now, on startup, Shotcut makes a backup of `shotcut-log.txt` to `shotcut-log.bak`.
+- Added a **Copy** button to all text viewer dialogs that does the same thing that the non-obvious Select All and Copy actions in the context menu.
+- The **Jobs** log viewer now updates automatically and scrolls to the end if it is left open while a job is running.
+- Fixed a crash in **Playlist > menu > Add Selected to Slidewhow** when something is playing.
+- Changed the **Slideshow Generator** to remember all options.
+- Fixed **Layers > New > Emoji** is disabled in Glaxnimate on Windows.
+- Fixed a possible crash in **Timeline > Split** or trim actions if the clips have certain filters with keyframes.
+- Fixed some bugs in **Undo** after moving clips on the **Timeline**.
+- Fixed proxy generation failing for videos with full range color on macOS with **Settings > Proxy > Use Hardware Encoder** turned on.
+- Made the splitter between UI panels easier to find and grab to drag.
+- Fixed a possible crash when opening project.
+- Fixed sometimes (25 fps) frames are dropped and others repeated in **Export** on macOS.
+
+
 ##### Release 23.12.15
 
 - Fixed crash on start on Wayland on Ubuntu 22.04 and 23.10 - may require installing `qt6-waland` (broke in v23.11).

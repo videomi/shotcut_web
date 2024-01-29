@@ -9,7 +9,7 @@ We pledge that our downloads are always free of
 malware, spyware, and adware. However, we can only provide that guarantee if you come to this website
 to download.
 
-#### Current Version: 23.12.15
+#### Current Version: 24.01.28
 
 <div class="OSTEST">
   <p>
@@ -39,7 +39,7 @@ To avoid ads and get automatic updates:<br>
 
 {:.win}
 |-----------------------|-------------------
-| [Windows installer](https://sourceforge.net/projects/shotcut/files/v23.12.15/shotcut-win64-231215.exe/download) | [Windows portable zip](https://sourceforge.net/projects/shotcut/files/v23.12.15/shotcut-win64-231215.zip/download)
+| [Windows installer](https://sourceforge.net/projects/shotcut/files/v24.01.28/shotcut-win64-240128.exe/download) | [Windows portable zip](https://sourceforge.net/projects/shotcut/files/v24.01.28/shotcut-win64-240128.zip/download)
 {:.withborders}
 
 {:.win}
@@ -65,11 +65,11 @@ To avoid ads and get automatic updates:<br>
 
 {:.mac}
 |-----------------------
-| [macOS universal](https://sourceforge.net/projects/shotcut/files/v23.12.15/shotcut-macos-231215.dmg/download)
+| [macOS universal](https://sourceforge.net/projects/shotcut/files/v24.01.28/shotcut-macos-240128.dmg/download)
 {:.withborders}
 
 {:.mac}
-An [unsigned app bundle is available](https://sourceforge.net/projects/shotcut/files/v23.12.15/shotcut-macos-unsigned-231215.dmg/download) so that you
+An [unsigned app bundle is available](https://sourceforge.net/projects/shotcut/files/v24.01.28/shotcut-macos-unsigned-240128.dmg/download) so that you
 can modify the build per the Free Software license agreement.
 
 ---
@@ -93,7 +93,7 @@ src='https://raw.githubusercontent.com/snapcore/snap-store-badges/master/EN/%5BE
 
 {:.linux}
 |-----------------------|-------------------
-| [Linux portable tar](https://sourceforge.net/projects/shotcut/files/v23.12.15/shotcut-linux-x86_64-231215.txz/download) | [Linux AppImage](https://sourceforge.net/projects/shotcut/files/v23.12.15/shotcut-linux-x86_64-231215.AppImage/download)
+| [Linux portable tar](https://sourceforge.net/projects/shotcut/files/v24.01.28/shotcut-linux-x86_64-240128.txz/download) | [Linux AppImage](https://sourceforge.net/projects/shotcut/files/v24.01.28/shotcut-linux-x86_64-240128.AppImage/download)
 {:.withborders}
 
 {:.linux}
@@ -119,11 +119,11 @@ the portable tar.
 ##### Other
 
 File checksums for downloads are available in
-[md5sum](https://github.com/mltframework/shotcut/releases/download/v23.12.15/md5sums.txt)
-or [sha256sum](https://github.com/mltframework/shotcut/releases/download/v23.12.15/sha256sums.txt) format.
+[md5sum](https://github.com/mltframework/shotcut/releases/download/v24.01.28/md5sums.txt)
+or [sha256sum](https://github.com/mltframework/shotcut/releases/download/v24.01.28/sha256sums.txt) format.
 
 [Source code
-archive](https://github.com/mltframework/shotcut/releases/download/v23.12.15/shotcut-src-231215.txz)
+archive](https://github.com/mltframework/shotcut/releases/download/v24.01.28/shotcut-src-240128.txz)
 / [GitHub repository](https://github.com/mltframework/shotcut)
 
 [Older versions](https://github.com/mltframework/shotcut/releases/) are

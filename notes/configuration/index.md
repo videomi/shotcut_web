@@ -77,6 +77,7 @@ Windows registry, a bool is stored as a string: true or false.
 | glaxnimatePath   | string      | the path to the glaxnimate executable if glaxnimate (default "glaxnimate" in same dir as shotcut executable)
 | exportRangeMarkers | bool      | File > Export > Markers as Chapters > Include ranges
 | warnLowMemory      | bool      | whether to check for low CPU RAM memory and show a warning dialog (default true)
+| backupPeriod     | integer     | how frequently to backup the project file in minutes (default 1440 daily)
 | ***markers***
 | color            | string      | the color to use for a new marker (default green)
 | columns/color    | bool        | whether to show the Color column (default true)
@@ -104,6 +105,7 @@ Windows registry, a bool is stored as a string: true or false.
 | advanced         | bool        | whether to always show the Advanced mode for Export (default false)
 | ***player***
 | audioChannels    | integer     | the number of audio channels to use (Settings > Audio Channels)
+| audioDriver      | string      | Settings > Player > Audio API (only on Linux or Windows)
 | deinterlacer     | string      | one of: onefield, linearblend, yadif-nospatial, or yadif (Settings > Deinterlacer)
 | external         | string      | for Settings > External Monitor, one of: sdi (Linsys card), decklink:&lt;N&gt; (Blackmagic Design peripheral), or &lt;N&gt; (screen)
 | gpu              | bool        | before version 23.05.07, whether Settings > GPU Effects is on (default false)
@@ -157,4 +159,11 @@ Windows registry, a bool is stored as a string: true or false.
 | &lt;custom layout name&gt;_state | binary | the layout of the UI panels
 | ***shortcuts***
 | * | string | These store the custom keyboard shortcuts. There can be many of these keyed roughly on their English name. The value is one or two "||"-separated key sequences.
+| ***slideshow***
+| clipDuration     | real number | Clip duration in seconds, default 10
+| aspectConversion | integer     | Aspect ratio conversion: 0 for pad black, 1 for center crop (default), 2 for crop and pan, 3 for blur pad
+| zoomPercent      | integer     | Zoom effect in %, default 10
+| transitionDuration| real number| Transition duration in seconds, default 2
+| transitionStyle  | integer     | Transition type, default 2 (dissolve)
+| transitionSoftness| real number| Transition softness in %, default 20 
 {:.withborders}

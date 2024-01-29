@@ -14,11 +14,9 @@ category: other
 
 In no particular order or estimated delivery time:
 
-- looping playback - project, selection, around
 - playlist folders
 - configurable time format with a non-timecode default
-- groups in timeline
-- undo/redo support for filters
+- undo/redo support for keyframes
 - quick effects VUI
 - integration for external editor (e.g. Audacity, GIMP, etc. via configurable launcher and file watcher)
 - open HEIC images
@@ -39,7 +37,7 @@ In no particular order or estimated delivery time:
 - convert producer UIs to QML
 - add partik0l producer
 - circle VUI control for Vignette and Crop: Circle
-- multi-track transitions feature
+- multi-track transition feature
 - generic filter (MLT service name and table of parameters)
 - generic transition
 - add CMX EDL import
@@ -60,9 +58,9 @@ In no particular order or estimated delivery time:
 - file browser and media library
 - read Kyno XML for name, comments, tags
 - simple screen capture through libobs or ffmpeg
-- move generators from Open Other to submenu in New, leave network and devices in Open Other
+- move generators from Open Other elsewhere, leave network and devices in Open Other
 - add a base VUI that adds indicators for in and out points and a toolbar to invoke filters:
-  Text, Size/Position/Rotate, Crop, Color, Chroma Key: Simple
+  Text, Size/Position/Rotate, Crop, Color, Chroma Key: Simple, White Balance
 - improved support for nested projects
 - multi-select support for Properties
 - multi-select support for Filters
@@ -78,7 +76,7 @@ In no particular order or estimated delivery time:
 - 2.7K and 8K Video Modes
 - reorganize Video Modes UI
 - outline for Text: Rich
-- shadow for Text: Simple and Text: Rich
+- shadow for Text: Simple and Text: Rich (or general purpose)
 - face detection
 - curves UI for color
 - convert icons to SVG

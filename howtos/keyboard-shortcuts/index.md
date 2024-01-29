@@ -66,6 +66,7 @@ category: help
 | Pause                 | K or Space                           | K or space
 | Rewind                | J                                    | J
 | Fast Forward          | L                                    | L
+| Loop                  | \                                    | \
 | Set In                | I                                    | I
 | Set Out               | O                                    | O
 | Next Frame            | Right or K+L                         | right or K+L
@@ -107,6 +108,7 @@ category: help
 | Overwrite             | B                                    | B
 | Replace               | R                                    | R
 | Split                 | S                                    | S
+| Split All Tracks      | Shift+S                              | shift+S
 | Trim clip in          | I                                    | I
 | Ripple trim clip in   | Shift+I                              | shift+I
 | Trim clip out         | O                                    | O
@@ -152,6 +154,9 @@ category: help
 | Scroll to Playhead on Zoom | Ctrl+Alt+P                      | option+command+P
 | Move Track Up         | Alt+Shift+Up                         | shift+option+up
 | Move Track Down       | Alt+Shift+Down                       | shift+option+down
+| Group/Ungroup         | Ctrl+G                               | command+G
+| Nudge Forward         | .                                    | .
+| Nudge Backward        | ,                                    | ,
 {:.withborders}
 
 ## Playlist

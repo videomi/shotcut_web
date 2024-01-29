@@ -28,6 +28,7 @@ Also, currently it needs many of these to properly map MLT objects into the Shot
 | producer | shotcut:caption | //producer/property[@name = 'shotcut:caption'] | Used to provide a friendly name for a producer to be used for display to the user |
 | producer | shotcut:detail | //producer/property[@name = 'shotcut:detail'] | Used to provide a more detailed description for the producer than the caption. For example if the caption is the file name, the detail could be the full file path |
 | producer | shotcut:hash | //producer/property[@name = 'shotcut:hash'] | A MD5 hash of a media file (whole file if less than 2 MB, or first MB followed by last MB for files larger than 2 MB) |
+| producer | shotcut:group | //producer/property[@name = 'shotcut:group'] | A numeric value for a unique group of clips, start and skipped values are unimportant
 | producer | shotcut:skipConvert | //producer/property[@name = 'shotcut:skipConvert'] | If set 1, then Shotcut will not prompt to convert the file if it believes it to be variable frame rate or unseekable. |
 | producer | shotcut:resource | //producer/property[@name = 'shotcut:resource'] | A copy of the resource property used by the proxy manager. |
 | producer | shotcut:disableProxy | //producer/property[@name = 'shotcut:disableProxy'] | Set to 1 to indicate that proxy should not be generated for this producer. |
