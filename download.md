@@ -65,7 +65,7 @@ To avoid ads and get automatic updates:<br>
 
 {:.mac}
 |-----------------------
-| [macOS universal](https://sourceforge.net/projects/shotcut/files/v24.01.28/shotcut-macos-240128.dmg/download)
+| [macOS universal](https://sourceforge.net/projects/shotcut/files/v24.01.28/shotcut-macos-240131.dmg/download)
 {:.withborders}
 
 {:.mac}
