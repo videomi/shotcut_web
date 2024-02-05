@@ -55,7 +55,7 @@ information.
   Now, on startup, Shotcut makes a backup of `shotcut-log.txt` to `shotcut-log.bak`.
 - Added a **Copy** button to all text viewer dialogs that does the same thing that the non-obvious Select All and Copy actions in the context menu.
 - The **Jobs** log viewer now updates automatically and scrolls to the end if it is left open while a job is running.
-- Fixed a crash in **Playlist > menu > Add Selected to Slidewhow** when something is playing.
+- Fixed a crash in **Playlist > menu > Add Selected to Slideshow** when something is playing.
 - Changed the **Slideshow Generator** to remember all options.
 - Fixed **Layers > New > Emoji** is disabled in Glaxnimate on Windows.
 - Fixed a possible crash in **Timeline > Split** or trim actions if the clips have certain filters with keyframes.
