@@ -109,3 +109,5 @@ exception](https://doc.qt.io/qt-5.9/qtnetwork-index.html#licenses-and-attributio
 -   [gopro2gpx](https://github.com/NetworkAndSoftware/gopro2gpx) and [gpmf-parser](https://github.com/gopro/gpmf-parser)
     under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0)
 -   [OpenCV](https://opencv.org) under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0)
+-   [libspatialaudio](https://github.com/videolabs/libspatialaudio) under the [LGPL v2.1
+    License](http://www.gnu.org/licenses/lgpl-2.1.html)
