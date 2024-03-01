@@ -17,6 +17,34 @@ These are brief notes about known problems and feature additions. See
 log](https://github.com/mltframework/shotcut/commits/master) for more
 information.
 
+##### Release 24.02.29
+
+- Fixed distortion caused by **Mixdown** audio filter.
+- Fixed **Normalize: One Pass** audio filter maximizing levels at start of playback.
+- Fixed old custom presets in text and timer video filters load with 0% opacity.
+- Stop automatically grouping audio/video clips when **Detach Audio**.
+- Fixed **Loop Selection** on the last clip of **Timeline** not looping.
+- Fixed **Enter Full Screen** and **Preferences** shortcuts on macOS.
+- Fixed **Properties > Convert** HLG HDR to to Rec. 709 SDR is not tone-mapping.
+- Fixed problematic filename characters in **Settings > Video Mode > Custom Add**.
+- Fixed disabling the last audio or video filter when there is a time filter in **Filters**.
+- Fixed **File > Exit** is slow or hangs if a job in **Jobs** is paused.
+- Fixed **Filters > + > Sets** adds audio filters in reverse order.
+- Fixed **Wave** video filter distorts if **Settings > Preview Scaling** is on.
+- Fixed incorrect gamma in preview player and **File > Export > Frame** when **GPU Effects** is on.
+- Improved selection in **Timeline** after various operations.
+- Improved behavior changing **Properties > Speed** with **Timeline > Ripple** on.
+- Improved the speed of opening a timeline project.
+- Upgraded macOS and Windows to Qt version 6.5.3, which changes the mininum macOS version to 11.
+- Added support for AMD AV1 hardware encoder on Windows (`av1_amf`) and Linux (`av1_vaapi`).
+- Added automatic vertical scrolling to **Timeline** when moving a track.
+- Added **Settings > Audio Channels > 4 (quad/Ambisonics)**.
+- Added **Ambisonic Decoder** audio filter that converts to binaural, stereo, quad, Ambisonic, or 5.1 surround. When Ambisonic mode is chosen, it is an Ambisonic panner.
+- Added Ambisonic metadata to **Set Equirectangular** if there is a track with 4 audio channels.
+- Added **Copy Parameters** to 360 video filters to use with **Ambisonic Decoder > Paste Parameters**.
+- Added changing **Properties > Duration** on image clips on the **Timeline** (behavior depends on **Ripple** similar to changing **Properties > Speed** on an audio/video clip).
+
+
 ##### Release 24.01.28
 
 - Fixed distort mode in **Size & Position** GPU filter.

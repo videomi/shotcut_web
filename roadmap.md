@@ -19,10 +19,10 @@ In no particular order or estimated delivery time:
 - undo/redo support for keyframes
 - quick effects VUI
 - integration for external editor (e.g. Audacity, GIMP, etc. via configurable launcher and file watcher)
-- open HEIC images
+- open HEIC images (already works on macOS)
 - open AVIF images
 - ITU-R BT.2020 wide color gamut
-- HDR/SMPTE 2084
+- HDR: SMPTE 2084 (PQ) and ITU-R BT.2100 (HLG)
 - fullscreen playback on current/single screen with on-screen controls
 - audio noise reduction
 - project media management (automatically copy or move to project folder, automatically convert)
@@ -44,7 +44,7 @@ In no particular order or estimated delivery time:
 - add Kdenlive XML export
 - add OpenTimelineIO import/export
 - add search media type queries to Playlists
-- add keywords, description, and presets to Filters search
+- add presets to Filters search
 - add option to view timeline waveform per channel
 - add transitions to Playlist
 - make it easy to add 0.5 or 1 second transition on timeline
